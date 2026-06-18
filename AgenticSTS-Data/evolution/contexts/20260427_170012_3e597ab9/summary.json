@@ -1,0 +1,164 @@
+{
+  "run_id": "20260427_170012_3e597ab9",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 7604,
+      "estimated_tokens": 1901
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 7260,
+      "estimated_tokens": 1815
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 36225,
+      "estimated_tokens": 9057
+    },
+    {
+      "name": "replay_package",
+      "chars": 8099,
+      "estimated_tokens": 2025
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1526,
+      "estimated_tokens": 382
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 12773,
+    "non_combat_decisions": 122,
+    "combat_episodes": 13,
+    "encountered_enemy_keys": [
+      "Ceremonial Beast",
+      "Fuzzy Wurm Crawler",
+      "Infested Prism",
+      "Louse Progenitor",
+      "Nibbit",
+      "Ovicopter",
+      "Tunneler",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Chomper+Chomper",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flyconid+Snapping Jaxfruit",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)"
+    ],
+    "final_deck_cards": [
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ricochet",
+      "Deflect",
+      "Cloak and Dagger",
+      "Dagger Throw",
+      "Memento Mori",
+      "Prepared",
+      "Cloak and Dagger",
+      "Backflip",
+      "Backflip",
+      "Poisoned Stab",
+      "Pinpoint",
+      "Byrd Swoop",
+      "Abrasive",
+      "Reflex+",
+      "Strangle+",
+      "Haze+",
+      "Well-Laid Plans+",
+      "Escape Plan",
+      "Deadly Poison+",
+      "Dodge and Roll+",
+      "Prepared",
+      "Bouncing Flask"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1973,
+    "entries": [
+      {
+        "enemy_key": "Ceremonial Beast",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=22 vs historical avg=27.6+/-13.9 (z=-0.4, TYPICAL, n=31)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.4,
+        "comparator": {
+          "enemy_key": "Ceremonial Beast",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 25,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=6 vs historical avg=19.2+/-14.1 (z=-0.9, TYPICAL, n=22)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 24,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 61570,
+  "context_estimated_tokens": 15384,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 64991,
+    "total_output_tokens": 12656,
+    "round_input_tokens": [
+      19619,
+      21999,
+      23373
+    ],
+    "round_output_tokens": [
+      678,
+      5573,
+      6405
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "author_tool"
+    ],
+    "model": "gpt-5.4-thinking",
+    "fallbacks_used": 0,
+    "duration_ms": 242889,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

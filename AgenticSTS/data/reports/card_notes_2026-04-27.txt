@@ -1,0 +1,20 @@
+Card note check  (game: v0.103.1, play_threshold: 3)
+  Total tracked: 196  |  With note: 100
+  High-play missing note: 51  |  Stale notes: 0
+
+Top missing (play >= 3, non-generated):
+  [the silent] defend: 7720 plays
+  [the silent] strike: 6432 plays
+  [the silent] ultimate strike: 133 plays
+  [the silent] finesse: 72 plays
+  [the silent] flash of steel: 64 plays
+  [the silent] neow's fury: 52 plays
+  [the silent] byrd swoop: 48 plays
+  [the silent] alchemize: 46 plays
+  [the silent] prowess: 37 plays
+  [the silent] omnislice: 33 plays
+  [the silent] brightest flame: 33 plays
+  [the silent] blade of ink: 32 plays
+  [the silent] shockwave: 31 plays
+  [the silent] hand of greed: 28 plays
+  [the silent] luminesce: 26 plays

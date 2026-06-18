@@ -1,0 +1,169 @@
+{
+  "run_id": "20260426_113850_11bbcb94",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 5131,
+      "estimated_tokens": 1283
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 4120,
+      "estimated_tokens": 1030
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 23144,
+      "estimated_tokens": 5786
+    },
+    {
+      "name": "replay_package",
+      "chars": 10204,
+      "estimated_tokens": 2551
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1051,
+      "estimated_tokens": 263
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 8099,
+    "non_combat_decisions": 73,
+    "combat_episodes": 7,
+    "encountered_enemy_keys": [
+      "Bygone Effigy",
+      "Nibbit",
+      "Shrinker Beetle",
+      "multi:Flyconid+Snapping Jaxfruit",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Slithering Strangler+Twig Slime (M)"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Untouchable",
+      "Dagger Spray",
+      "Memento Mori",
+      "Blade Dance+",
+      "Blade Dance",
+      "Leg Sweep",
+      "Finisher",
+      "Expertise",
+      "Piercing Wail",
+      "Backflip",
+      "Dagger Throw"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 2458,
+    "entries": [
+      {
+        "enemy_key": "Bygone Effigy",
+        "floor": 11,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=22 vs historical avg=16.2+/-16.0 (z=0.4, TYPICAL, n=20)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.4,
+        "comparator": {
+          "enemy_key": "Bygone Effigy",
+          "floor": 15,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Slithering Strangler+Twig Slime (M)",
+        "floor": 14,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=10.3+/-9.4 (z=-1.1, BETTER_THAN_USUAL, n=7)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "multi:Slithering Strangler+Twig Slime (M)",
+          "floor": 7,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=51 vs historical avg=32.9+/-18.8 (z=1.0, TYPICAL, n=39)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.0,
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 44503,
+  "context_estimated_tokens": 11116,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 52257,
+    "total_output_tokens": 2622,
+    "round_input_tokens": [
+      16299,
+      17397,
+      18561
+    ],
+    "round_output_tokens": [
+      649,
+      209,
+      1764
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 56572,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

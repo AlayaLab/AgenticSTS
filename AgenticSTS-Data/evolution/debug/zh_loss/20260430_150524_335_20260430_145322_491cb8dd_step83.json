@@ -1,0 +1,28 @@
+{
+  "ts": "20260430_150524_335",
+  "run_id": "20260430_145322_491cb8dd",
+  "step": 83,
+  "floor": 17,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Venerate+",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "With 21 incoming damage, I prioritize blocking as much as possible to preserve HP. Venerate+ generates 3 stars. I use 1 star for Cloak of Stars to gain 7 Block, leaving 2 stars. Defend adds 5 more Block, and Plating provides 3, totaling 15 Block against 21 damage. Omnislice deals a bit of free damage. Astral Pulse is held because playing it would consume all stars and prevent playing Cloak of Stars.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

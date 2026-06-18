@@ -1,0 +1,162 @@
+{
+  "run_id": "20260506_092534_93f31e64",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 5388,
+      "estimated_tokens": 1347
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 7180,
+      "estimated_tokens": 1795
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 22245,
+      "estimated_tokens": 5562
+    },
+    {
+      "name": "replay_package",
+      "chars": 20056,
+      "estimated_tokens": 5014
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 328,
+      "estimated_tokens": 82
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 8704,
+    "non_combat_decisions": 69,
+    "combat_episodes": 9,
+    "encountered_enemy_keys": [
+      "Bygone Effigy",
+      "Fuzzy Wurm Crawler",
+      "Nibbit",
+      "Phrog Parasite",
+      "multi:Flyconid+Snapping Jaxfruit",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Leaf Slime (S)+Slithering Strangler+Twig Slime (S)"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Strike",
+      "Defend",
+      "Poisoned Stab",
+      "Blade Dance+",
+      "Blade Dance",
+      "Accuracy",
+      "Acrobatics",
+      "Spoils Map",
+      "Expose",
+      "Dodge and Roll"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 4942,
+    "entries": [
+      {
+        "enemy_key": "Bygone Effigy",
+        "floor": 9,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Bygone Effigy",
+          "floor": 12,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 13,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Phrog Parasite",
+          "floor": 8,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ]
+      }
+    ]
+  },
+  "context_chars": 55706,
+  "context_estimated_tokens": 13917,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 107384,
+    "total_output_tokens": 6492,
+    "round_input_tokens": [
+      20615,
+      20963,
+      21951,
+      22005,
+      21850
+    ],
+    "round_output_tokens": [
+      2682,
+      713,
+      598,
+      845,
+      1654
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "author_tool",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 244830,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

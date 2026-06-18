@@ -1,0 +1,80 @@
+[
+  {
+    "skill_id": "seed_silent_a10_map",
+    "name": "Silent - Route Priorities",
+    "category": "map",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "map"
+      ],
+      "character": [
+        "the silent"
+      ]
+    },
+    "content": "Treat route quality as part of deck power. For Silent: opening reward priority is remove > transform > gold > upgrade first 3 cards. At the start of an act, inspect the boss first, then plan backward from campfires and prefer paths with more good fires. Default node priority is Shop > Rest > Event > Hallway > Elite. Floors 1-3 are weak fights: preserve HP with clean block-first lines, then attack. Delay elites unless HP is above about 40 and the deck already has 2-3 real damage cards plus at least one good block or draw card.",
+    "lessons": "Silent falls behind fast when the route forces early elites, misses shops, or spends early HP on sloppy hallway fights.",
+    "examples": [
+      "Two fires plus one late elite is usually better than one early elite with no fire support.",
+      "If the act boss rewards multi-hit damage, route toward upgrades and draft those cards before forcing elites."
+    ],
+    "priority": 95,
+    "source": "seed",
+    "confidence": 0.9,
+    "verified": true
+  },
+  {
+    "skill_id": "seed_silent_a10_deck",
+    "name": "Silent - Draft and Shop Rules",
+    "category": "deck_building",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "card_select",
+        "shop",
+        "relic_select",
+        "treasure"
+      ],
+      "character": [
+        "the silent"
+      ]
+    },
+    "content": "Early rewards must solve damage first, then block, draw, and energy. Premium Silent pickups when offered are Backstab, Pinpoint, Pounce, Backflip, Footwork, Acrobatics, Escape Plan, Calculated Gamble (usually one copy), Adrenaline, and Tactician. Hidden Daggers and Corrosive Wave are core shiv/poison cards but are must-picks even outside those archetypes. Expose is a free exhaust card — take one copy. Haze, Accuracy, Burst, Shadowmeld, Storm of Steel, Knife Trap, Accelerant, Afterimage, and Tools of the Trade are strong picks when they fit your current deck building direction. Prepared is strong only after upgrade; Reflex is only good when discard outlets are already plentiful. If you already have Pounce, expensive skills get better because the next skill can be free. In shops, try to arrive with 200+ gold when possible; buy order is exceptional colorless cards > Silent cards that fit the plan > powerful relics that fit the deck building > card removal.",
+    "lessons": "Silent loses Act 1 when early picks are cute but low-impact, or when shops spend gold on filler instead of real power and removals.",
+    "examples": [
+      "Take a strong 0-1 cost damage card over a speculative combo piece in the first few rewards.",
+      "Take Reflex only after Acrobatics, Prepared, Survivor, or other discard outlets are already reliable."
+    ],
+    "priority": 95,
+    "source": "seed",
+    "confidence": 0.9,
+    "verified": true
+  },
+  {
+    "skill_id": "seed_silent_a10_combat",
+    "name": "Silent - Combat Sequencing",
+    "category": "combat",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "monster",
+        "elite",
+        "boss"
+      ],
+      "character": [
+        "the silent"
+      ]
+    },
+    "content": "Silent wins by converting discard and free cards into tempo; count playable cards, not just energy. Sequence zero-cost and setup cards first: Pinpoint after skills, Pounce before an expensive skill, and discard Sly cards or other trick cards when that gives a free play. In the first three hallway fights, default to no-damage lines: if full block is available, take it before racing. From the fourth hallway fight onward, protect HP aggressively and spend potions when needed. Once defense is stable in a long fight, prefer poison over fair attacks; keep stacking poison and block instead of taking weak damage trades.",
+    "lessons": "The common Silent failure pattern is playing too few cards, taking avoidable hallway damage, and trying to win long fights with bad attack trades instead of poison or free-card tempo.",
+    "examples": [
+      "Play skills before Pinpoint so it discounts to 0 whenever possible.",
+      "If Pounce is available, use it before a costly defense skill or payoff skill to bank the free skill."
+    ],
+    "priority": 96,
+    "source": "seed",
+    "confidence": 0.92,
+    "verified": true
+  }
+]

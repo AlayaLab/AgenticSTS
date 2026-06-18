@@ -1,0 +1,285 @@
+{
+  "run_id": "20260506_101141_39ab55bd",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 17254,
+      "estimated_tokens": 4314
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 19240,
+      "estimated_tokens": 4810
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 63964,
+      "estimated_tokens": 15991
+    },
+    {
+      "name": "replay_package",
+      "chars": 85611,
+      "estimated_tokens": 21403
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 640,
+      "estimated_tokens": 160
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 25115,
+    "non_combat_decisions": 183,
+    "combat_episodes": 22,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Fossil Stalker",
+      "Hunter Killer",
+      "Lagavulin Matriarch",
+      "Mecha Knight",
+      "Ovicopter",
+      "Owl Magistrate",
+      "Seapunk",
+      "Sewer Clam",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Spiny Toad",
+      "The Insatiable",
+      "Thieving Hopper",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Myte+Myte",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Toadpole+Toadpole",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Fisticuffs+",
+      "Predator+",
+      "Dagger Throw",
+      "Blade Dance+",
+      "Predator",
+      "Blade Dance",
+      "Dagger Spray",
+      "Expose",
+      "Envenom+",
+      "Well-Laid Plans+",
+      "Leg Sweep+",
+      "Dagger Spray",
+      "Leading Strike",
+      "Backflip",
+      "Accuracy",
+      "Abrasive",
+      "Adrenaline+",
+      "Piercing Wail",
+      "Footwork",
+      "Decay",
+      "Prepared+",
+      "Calculated Gamble+",
+      "Blade Dance",
+      "Untouchable"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 21194,
+    "entries": [
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 11,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=23 vs historical avg=7.8+/-5.1 (z=3.0, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.0,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 8,
+          "combat_type": "elite",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=25 vs historical avg=27.0+/-14.1 (z=-0.1, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.1,
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Thieving Hopper",
+        "floor": 19,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=12 vs historical avg=3.5+/-2.6 (z=3.2, WORSE_THAN_USUAL, n=6)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.2,
+        "comparator": {
+          "enemy_key": "Thieving Hopper",
+          "floor": 20,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Myte+Myte",
+        "floor": 25,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=8.5+/-8.3 (z=-1.0, BETTER_THAN_USUAL, n=4)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "multi:Myte+Myte",
+          "floor": 21,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Spiny Toad",
+        "floor": 31,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=11 vs historical avg=3.8+/-4.8 (z=1.5, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.5,
+        "comparator": {
+          "enemy_key": "Spiny Toad",
+          "floor": 23,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=41 vs historical avg=17.7+/-10.9 (z=2.1, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 2.1,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 44,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=28 vs historical avg=4.3+/-3.3 (z=7.2, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 7.2,
+        "comparator": {
+          "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+          "floor": 40,
+          "combat_type": "elite",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Mecha Knight",
+        "floor": 46,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "Mecha Knight",
+          "floor": 45,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 187221,
+  "context_estimated_tokens": 46796,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 327954,
+    "total_output_tokens": 27546,
+    "round_input_tokens": [
+      64828,
+      64994,
+      65983,
+      66117,
+      66032
+    ],
+    "round_output_tokens": [
+      502,
+      2627,
+      9645,
+      7918,
+      6854
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 287865,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

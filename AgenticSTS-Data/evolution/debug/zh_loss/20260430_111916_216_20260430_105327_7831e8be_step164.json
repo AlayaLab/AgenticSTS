@@ -1,0 +1,40 @@
+{
+  "ts": "20260430_111916_216",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 164,
+  "floor": 17,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Solar Strike+",
+        "potion_index": null,
+        "target_index": 0
+      },
+      {
+        "type": "card",
+        "card": "Wrought in War",
+        "potion_index": null,
+        "target_index": 0
+      },
+      {
+        "type": "card",
+        "card": "Falling Star",
+        "potion_index": null,
+        "target_index": 0
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "I will play Solar Strike+ and Wrought in War to break the enemy's Block, triggering its wake-up condition, while spawning the Sovereign Blade. Next, Falling Star applies Weak and Vulnerable to mitigate the boss's upcoming attack and boost the Sovereign Blade's damage. Finally, I will spend my remaining energy on a Defend.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

@@ -1,0 +1,35 @@
+source_id: megacrit-newsletter-may2026
+source_name: "Mega Crit — The Neowsletter, May 2026 (Steam Community announcement)"
+source_url: "https://store.steampowered.com/news/app/2868840/view/701016542742053855"
+capture_date: "2026-05-28"
+capture_method: WebFetch
+status: failed
+paper_claim_supported: |
+  Human Slay the Spire 2 community statistics: 16% win rate at Ascension 0 across
+  240 million community runs. Used in the paper as the human reference anchor
+  contrasted with the 3/10 -> 6/10 LLM agent result.
+paper_section: "intro.tex (§1 opener anchor); appendix.tex external calibration table"
+refs_bib_key: "megacrit-neowsletter-may2026"
+notes: |
+  Multiple fetch attempts failed because Steam Community pages render the post
+  body via client-side JavaScript and the WebFetch HTML->Markdown pipeline only
+  retrieves the static page chrome (header, footer, login). No mirror or archived
+  copy was reachable from this sandbox (web.archive.org also unreachable).
+
+  The Steam Community announcements detail endpoint did return one piece of
+  metadata: the post is titled "The Neowsletter - May 2026", had 394 comments at
+  retrieval time, confirming the post exists. The headline numbers (16%, 240M)
+  could NOT be independently verified.
+
+  Indirect corroboration: sts2.fun community stats show 239,445 runs with a
+  combined 30.1% win rate (across all ascensions / characters) as of 2026-05-28.
+  Mega Crit's 16% at A0 specifically is a tighter slice and is not contradicted
+  by the sts2.fun figure but is also not directly confirmed by it.
+
+  Recommended verification: a future maintainer should open the URL in a real
+  browser, copy the post body, and replace this snapshot with the verified text.
+license_assessment: |
+  Mega Crit developer newsletter hosted on Steam Community. Public-facing
+  developer communication; attribution to Mega Crit required. Even with full
+  text in hand, quoting fragments under fair-use criticism/research is the
+  conservative path; full mirroring would require Mega Crit's permission.

@@ -1,0 +1,171 @@
+{
+  "run_id": "20260426_122431_b4cd3f08",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 4346,
+      "estimated_tokens": 1087
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 5237,
+      "estimated_tokens": 1310
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 21587,
+      "estimated_tokens": 5397
+    },
+    {
+      "name": "replay_package",
+      "chars": 13042,
+      "estimated_tokens": 3261
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1178,
+      "estimated_tokens": 295
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 7794,
+    "non_combat_decisions": 74,
+    "combat_episodes": 10,
+    "encountered_enemy_keys": [
+      "Fossil Stalker",
+      "Haunted Ship",
+      "Lagavulin Matriarch",
+      "Sewer Clam",
+      "Sludge Spinner",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Ascender's Bane",
+      "Dagger Spray",
+      "Blade Dance+",
+      "Accuracy",
+      "Up My Sleeve",
+      "Backstab",
+      "Piercing Wail",
+      "Piercing Wail",
+      "Fan of Knives",
+      "Backflip"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 3158,
+    "entries": [
+      {
+        "enemy_key": "Haunted Ship",
+        "floor": 9,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=8.4+/-7.6 (z=-1.1, BETTER_THAN_USUAL, n=33)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "Haunted Ship",
+          "floor": 5,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 14,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=18.0+/-16.5 (z=-1.1, BETTER_THAN_USUAL, n=13)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=42 vs historical avg=31.4+/-19.7 (z=0.5, TYPICAL, n=35)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.5,
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 46243,
+  "context_estimated_tokens": 11553,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 58842,
+    "total_output_tokens": 2504,
+    "round_input_tokens": [
+      17639,
+      20451,
+      20752
+    ],
+    "round_output_tokens": [
+      704,
+      610,
+      1190
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 75102,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

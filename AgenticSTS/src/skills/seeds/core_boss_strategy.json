@@ -1,0 +1,21 @@
+[
+  {
+    "skill_id": "seed_core_boss_strategy",
+    "name": "Boss and Elite Fight Strategy",
+    "category": "boss",
+    "tier": "general",
+    "trigger": {
+      "state_types": ["boss", "elite"]
+    },
+    "content": "Boss fights are the make-or-break moments. (1) USE ALL POTIONS — potions exist for these fights. Dying with unused potions is the worst outcome. (2) Bosses scale over time — they gain Strength, add curses. End fights QUICKLY. Front-load damage in the first 3-4 turns. (3) After beating a Boss, HP fully restores between Acts. You CAN play more aggressively — but first verify you survive the next enemy turn. Never go all-in if incoming damage would kill you. (4) For specific boss/elite mechanics, use lookup_enemy or recall_encounter tools to learn their attack patterns before the fight. (5) Consider playing Power cards that boost your damage or block capacity early in boss fights — sometimes sacrificing one turn of offense or defense to play a scaling Power wins the long fight.",
+    "lessons": "",
+    "examples": [
+      "Turn 1 of boss fight: use Strength Potion + Flex Potion before playing attacks",
+      "Boss at 30 HP, you at 40 HP, 12 incoming: offense-heavy, accept some damage. Boss at 30 HP, you at 15 HP, 20 incoming: block first, kill next turn"
+    ],
+    "priority": 85,
+    "source": "seed",
+    "confidence": 0.85,
+    "verified": true
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "run_id": "20260504_033703_bfd3191c",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 15153,
+      "estimated_tokens": 3789
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 20782,
+      "estimated_tokens": 5196
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 59116,
+      "estimated_tokens": 14779
+    },
+    {
+      "name": "replay_package",
+      "chars": 43394,
+      "estimated_tokens": 10849
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 954,
+      "estimated_tokens": 239
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 23764,
+    "non_combat_decisions": 170,
+    "combat_episodes": 17,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Louse Progenitor",
+      "Nibbit",
+      "Ovicopter",
+      "Shrinker Beetle",
+      "Spiny Toad",
+      "The Insatiable",
+      "Thieving Hopper",
+      "Vantom",
+      "Vine Shambler",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Chomper+Chomper",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Myte+Myte",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Survivor+",
+      "Cloak and Dagger+",
+      "Sucker Punch+",
+      "Leading Strike",
+      "Footwork+",
+      "Dodge and Roll",
+      "Afterimage",
+      "Noxious Fumes+",
+      "Burst",
+      "Suppress+",
+      "Escape Plan",
+      "Piercing Wail",
+      "Footwork+",
+      "Acrobatics+",
+      "Acrobatics+",
+      "Afterimage",
+      "Escape Plan+",
+      "Snakebite",
+      "Dodge and Roll",
+      "Burst",
+      "Well-Laid Plans+",
+      "Calculated Gamble",
+      "Deflect",
+      "Prepared+",
+      "Backflip+",
+      "Corrosive Wave",
+      "Folly",
+      "Escape Plan+",
+      "Tactician"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 10741,
+    "entries": [
+      {
+        "enemy_key": "Vantom",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Vantom",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Devoted Sculptor",
+        "floor": 35,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=62 vs historical avg=6.0+/-7.2 (z=7.8, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 7.8,
+        "comparator": {
+          "enemy_key": "Devoted Sculptor",
+          "floor": 35,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+        "floor": 37,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "death"
+        ],
+        "historical_line": "loss=4 vs historical avg=9.8+/-11.1 (z=-0.5, TYPICAL, n=4)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+          "floor": 38,
+          "combat_type": "monster",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 139911,
+  "context_estimated_tokens": 34970,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 245643,
+    "total_output_tokens": 16460,
+    "round_input_tokens": [
+      48107,
+      48239,
+      49716,
+      49848,
+      49733
+    ],
+    "round_output_tokens": [
+      3241,
+      760,
+      3480,
+      3402,
+      5577
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 177183,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

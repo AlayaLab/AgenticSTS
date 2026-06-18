@@ -1,0 +1,236 @@
+{
+  "run_id": "20260424_183520_e5bc39e7",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 140,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 6261,
+      "estimated_tokens": 1566
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 7719,
+      "estimated_tokens": 1930
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 32045,
+      "estimated_tokens": 8012
+    },
+    {
+      "name": "replay_package",
+      "chars": 12923,
+      "estimated_tokens": 3231
+    },
+    {
+      "name": "combat_guides",
+      "chars": 15160,
+      "estimated_tokens": 3790
+    },
+    {
+      "name": "deck_guides",
+      "chars": 889,
+      "estimated_tokens": 223
+    },
+    {
+      "name": "card_notes",
+      "chars": 3823,
+      "estimated_tokens": 956
+    },
+    {
+      "name": "card_stats",
+      "chars": 2155,
+      "estimated_tokens": 539
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1438,
+      "estimated_tokens": 360
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 11508,
+    "non_combat_decisions": 113,
+    "combat_episodes": 15,
+    "encountered_enemy_keys": [
+      "Fossil Stalker",
+      "Gremlin Merc",
+      "Louse Progenitor",
+      "Sewer Clam",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Soul Fysh",
+      "Spiny Toad",
+      "Thieving Hopper",
+      "Tunneler",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Toadpole+Toadpole",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Strike",
+      "Defend",
+      "Deadly Poison",
+      "Acrobatics",
+      "Accelerant",
+      "Backflip",
+      "Ricochet",
+      "Expose",
+      "Ultimate Defend",
+      "Prepared",
+      "Follow Through",
+      "Tools of the Trade",
+      "Bouncing Flask",
+      "Flick-Flack+",
+      "Well-Laid Plans",
+      "Piercing Wail",
+      "Prepared"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 3113,
+    "entries": [
+      {
+        "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat",
+        "floor": 8,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=18 vs historical avg=6.6+/-6.3 (z=1.8, WORSE_THAN_USUAL, n=36)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.8,
+        "comparator": {
+          "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat",
+          "floor": 8,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=5 vs historical avg=16.0+/-12.8 (z=-0.9, TYPICAL, n=25)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 13,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Soul Fysh",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=30 vs historical avg=20.8+/-10.2 (z=0.9, TYPICAL, n=26)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.9,
+        "comparator": {
+          "enemy_key": "Soul Fysh",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+        "floor": 24,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "death"
+        ],
+        "historical_line": "loss=29 vs historical avg=9.5+/-11.3 (z=1.7, WORSE_THAN_USUAL, n=32)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.7,
+        "comparator": {
+          "enemy_key": "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+          "floor": 30,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 15,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 15,
+    "stats": 18
+  },
+  "context_chars": 83241,
+  "context_estimated_tokens": 20802,
+  "session": {
+    "total_rounds": 6,
+    "total_input_tokens": 186330,
+    "total_output_tokens": 18303,
+    "round_input_tokens": [
+      28634,
+      28730,
+      31258,
+      31964,
+      32739,
+      33005
+    ],
+    "round_output_tokens": [
+      1667,
+      2190,
+      1523,
+      9974,
+      2446,
+      503
+    ],
+    "actions_taken": 4,
+    "action_types": [
+      "update_card_note",
+      "update_guide",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 341582,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

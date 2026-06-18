@@ -1,0 +1,28 @@
+{
+  "ts": "20260430_110932_858",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 106,
+  "floor": 11,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Solar Strike+",
+        "potion_index": null,
+        "target_index": 0
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Solar Strike+ will deal 12 damage (reduced by 1 from Skittish to 11), leaving the enemy at 2 HP, and generate 2 Stars. These Stars make Falling Star playable, which will deal 10+ damage and finish off the enemy.",
+    "reasoning_zh": "",
+    "note_to_future_self": "Combat ends."
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

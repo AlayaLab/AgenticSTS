@@ -1,0 +1,467 @@
+[
+  {
+    "file": "run_20260406_163013_601866af.jsonl",
+    "step": 111,
+    "floor": 48,
+    "hp": 35,
+    "hp_max": 57,
+    "min_select": 0,
+    "max_select": 1,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Defend",
+        "rules_text": "Gain 8 Block."
+      },
+      {
+        "index": 1,
+        "name": "Leading Strike",
+        "rules_text": "Deal 9 damage. Add 1 Shiv into your Hand."
+      },
+      {
+        "index": 2,
+        "name": "Defend",
+        "rules_text": "Gain 8 Block."
+      },
+      {
+        "index": 3,
+        "name": "Tools of the Trade",
+        "rules_text": "At the start of your turn, draw 1 card and discard 1 card."
+      },
+      {
+        "index": 4,
+        "name": "Finisher",
+        "rules_text": "Deal 8 damage for each Attack already played this turn. (Hits 1 time)"
+      },
+      {
+        "index": 5,
+        "name": "Dagger Spray",
+        "rules_text": "Deal 8 damage to ALL enemies twice. Lose 2 HP."
+      },
+      {
+        "index": 6,
+        "name": "Poisoned Stab",
+        "rules_text": "Deal 8 damage. Apply 3 Poison."
+      },
+      {
+        "index": 7,
+        "name": "Pounce",
+        "rules_text": "Deal 14 damage. The next Skill you play costs 0 1 energy ."
+      },
+      {
+        "index": 8,
+        "name": "Defend",
+        "rules_text": "Gain 8 Block."
+      }
+    ],
+    "summary": "[boss/final_boss] | F48 | The Silent | HP:35/57 E:0 Hand:9 | vs [Test Subject #C10(185)]",
+    "has_sly": false,
+    "has_harmful": true,
+    "num_cards": 9
+  },
+  {
+    "file": "run_20260406_163013_601866af.jsonl",
+    "step": 187,
+    "floor": 48,
+    "hp": 17,
+    "hp_max": 57,
+    "min_select": 0,
+    "max_select": 1,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Dagger Spray",
+        "rules_text": "Deal 8 damage to ALL enemies twice. Lose 2 HP."
+      },
+      {
+        "index": 1,
+        "name": "Pounce+",
+        "rules_text": "Deal 20 damage. The next Skill you play costs 0 1 energy ."
+      }
+    ],
+    "summary": "[boss/final_boss] | F48 | The Silent | HP:17/57 E:0 Hand:2 | vs [Test Subject #C10(117)]",
+    "has_sly": false,
+    "has_harmful": true,
+    "num_cards": 2
+  },
+  {
+    "file": "run_20260406_133603_8f35c1f9.jsonl",
+    "step": 335,
+    "floor": 40,
+    "hp": 20,
+    "hp_max": 61,
+    "min_select": 0,
+    "max_select": 2,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Dagger Spray",
+        "rules_text": "Deal 7 damage to ALL enemies twice. Lose 2 HP."
+      },
+      {
+        "index": 1,
+        "name": "Pounce",
+        "rules_text": "Deal 13 damage. The next Skill you play costs 0 1 energy ."
+      },
+      {
+        "index": 2,
+        "name": "Predator+",
+        "rules_text": "Deal 21 damage. Next turn, draw 2 cards."
+      }
+    ],
+    "summary": "[hand_select] | F40 | The Silent | HP:20/61 E:0 Hand:3 | vs [Fabricator(73)]",
+    "has_sly": false,
+    "has_harmful": true,
+    "num_cards": 3
+  },
+  {
+    "file": "run_89050fb73a8f.jsonl",
+    "step": 453,
+    "floor": 17,
+    "hp": 24,
+    "hp_max": 57,
+    "min_select": 0,
+    "max_select": 1,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Defend",
+        "rules_text": "Gain 5 Block."
+      },
+      {
+        "index": 1,
+        "name": "Greed",
+        "rules_text": "Unplayable. Eternal."
+      },
+      {
+        "index": 2,
+        "name": "Haze+",
+        "rules_text": "Sly. Apply 6 Poison to ALL enemies."
+      },
+      {
+        "index": 3,
+        "name": "Strike",
+        "rules_text": "Deal 6 damage."
+      },
+      {
+        "index": 4,
+        "name": "Follow Through+",
+        "rules_text": "Deal 8 damage to ALL enemies. If the last card you played this turn was a Skill, apply 2 Weak to ALL enemies."
+      },
+      {
+        "index": 5,
+        "name": "Strike",
+        "rules_text": "Deal 6 damage."
+      }
+    ],
+    "summary": "[boss/act1_boss] | F17 | The Silent | HP:24/57 E:0 Hand:6 | vs [Soul Fysh(74)]",
+    "has_sly": true,
+    "has_harmful": false,
+    "num_cards": 6
+  },
+  {
+    "file": "run_89050fb73a8f.jsonl",
+    "step": 984,
+    "floor": 28,
+    "hp": 47,
+    "hp_max": 64,
+    "min_select": 0,
+    "max_select": 2,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Haze+",
+        "rules_text": "Sly. Apply 6 Poison to ALL enemies."
+      },
+      {
+        "index": 1,
+        "name": "Defend",
+        "rules_text": "Gain 5 Block."
+      },
+      {
+        "index": 2,
+        "name": "Leg Sweep",
+        "rules_text": "Apply 2 Weak. Gain 13 Block."
+      },
+      {
+        "index": 3,
+        "name": "Strike",
+        "rules_text": "Deal 6 damage."
+      },
+      {
+        "index": 4,
+        "name": "Up My Sleeve",
+        "rules_text": "Add 3 Shivs into your Hand. Reduce this card's cost by 1."
+      }
+    ],
+    "summary": "[elite] | F28 | The Silent | HP:47/64 E:0 Hand:5 | vs [Entomancer(111)]",
+    "has_sly": true,
+    "has_harmful": false,
+    "num_cards": 5
+  },
+  {
+    "file": "run_89050fb73a8f.jsonl",
+    "step": 1228,
+    "floor": 33,
+    "hp": 44,
+    "hp_max": 64,
+    "min_select": 0,
+    "max_select": 2,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Up My Sleeve",
+        "rules_text": "Add 3 Shivs into your Hand. Reduce this card's cost by 1."
+      },
+      {
+        "index": 1,
+        "name": "Blade of Ink",
+        "rules_text": "This turn, whenever you play an Attack, gain 2 Strength this turn."
+      },
+      {
+        "index": 2,
+        "name": "Flick-Flack",
+        "rules_text": "Sly. Deal 7 damage to ALL enemies."
+      },
+      {
+        "index": 3,
+        "name": "Leg Sweep",
+        "rules_text": "Apply 2 Weak. Gain 13 Block."
+      },
+      {
+        "index": 4,
+        "name": "Hand of Greed",
+        "rules_text": "Deal 20 damage. If Fatal, gain 20 Gold."
+      }
+    ],
+    "summary": "[boss/act2_boss] | F33 | The Silent | HP:44/64 E:0 Hand:5 | vs [The Insatiable(149)]",
+    "has_sly": true,
+    "has_harmful": false,
+    "num_cards": 5
+  },
+  {
+    "file": "run_20260404_021545_5875d9a0.jsonl",
+    "step": 986,
+    "floor": 39,
+    "hp": 51,
+    "hp_max": 75,
+    "min_select": 0,
+    "max_select": 1,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Bubble Bubble+",
+        "rules_text": "If the enemy has Poison, apply 12 Poison."
+      },
+      {
+        "index": 1,
+        "name": "Dagger Throw",
+        "rules_text": "Deal 9 damage. Draw 1 card. Discard 1 card."
+      },
+      {
+        "index": 2,
+        "name": "Bullet Time",
+        "rules_text": "You cannot draw additional cards this turn. ALL cards in your Hand are free to play this turn."
+      },
+      {
+        "index": 3,
+        "name": "Strangle",
+        "rules_text": "Deal 8 damage. Whenever you play a card this turn, the enemy loses 2 HP."
+      },
+      {
+        "index": 4,
+        "name": "Defend",
+        "rules_text": "Gain 4 Block."
+      },
+      {
+        "index": 5,
+        "name": "Survivor",
+        "rules_text": "Gain 6 Block. Discard 1 card."
+      },
+      {
+        "index": 6,
+        "name": "Defend",
+        "rules_text": "Gain 4 Block."
+      },
+      {
+        "index": 7,
+        "name": "Defend+",
+        "rules_text": "Gain 6 Block."
+      },
+      {
+        "index": 8,
+        "name": "Strike",
+        "rules_text": "Deal 6 damage."
+      }
+    ],
+    "summary": "[hand_select] | F39 | The Silent | HP:51/75 E:0 Hand:9 | vs [Frog Knight(106)]",
+    "has_sly": false,
+    "has_harmful": false,
+    "num_cards": 9
+  },
+  {
+    "file": "run_20260406_064247_4ccabbc1.jsonl",
+    "step": 1153,
+    "floor": 48,
+    "hp": 47,
+    "hp_max": 59,
+    "min_select": 0,
+    "max_select": 2,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Bouncing Flask",
+        "rules_text": "Apply 3 Poison to a random enemy 3 times."
+      },
+      {
+        "index": 1,
+        "name": "Strike",
+        "rules_text": "Deal 6 damage."
+      },
+      {
+        "index": 2,
+        "name": "Defend",
+        "rules_text": "Gain 11 Block."
+      },
+      {
+        "index": 3,
+        "name": "Knife Trap",
+        "rules_text": "Play every Shiv in your Exhaust Pile on the enemy. (Plays 0 Shivs)"
+      },
+      {
+        "index": 4,
+        "name": "Serpent Form",
+        "rules_text": "Whenever you play a card, deal 4 damage to a random enemy."
+      },
+      {
+        "index": 5,
+        "name": "Outbreak",
+        "rules_text": "Every 3 times you apply Poison, deal 11 damage to ALL enemies."
+      },
+      {
+        "index": 6,
+        "name": "Cloak and Dagger",
+        "rules_text": "Gain 12 Block. Add 1 Shiv into your Hand."
+      },
+      {
+        "index": 7,
+        "name": "Backflip+",
+        "rules_text": "Gain 14 Block. Draw 2 cards."
+      }
+    ],
+    "summary": "[hand_select] | F48 | The Silent | HP:47/59 E:0 Hand:8 | vs [Door(117)]",
+    "has_sly": false,
+    "has_harmful": false,
+    "num_cards": 8
+  },
+  {
+    "file": "run_20260406_051742_c6e1b0cf.jsonl",
+    "step": 1438,
+    "floor": 31,
+    "hp": 45,
+    "hp_max": 70,
+    "min_select": 0,
+    "max_select": 1,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Defend",
+        "rules_text": "Gain 11 Block."
+      },
+      {
+        "index": 1,
+        "name": "Deadly Poison",
+        "rules_text": "Apply 5 Poison."
+      },
+      {
+        "index": 2,
+        "name": "Cloak and Dagger",
+        "rules_text": "Gain 12 Block. Add 1 Shiv into your Hand."
+      },
+      {
+        "index": 3,
+        "name": "Cloak and Dagger",
+        "rules_text": "Gain 12 Block. Add 1 Shiv into your Hand."
+      },
+      {
+        "index": 4,
+        "name": "Survivor",
+        "rules_text": "Gain 14 Block. Discard 1 card."
+      },
+      {
+        "index": 5,
+        "name": "Bouncing Flask+",
+        "rules_text": "Apply 3 Poison to a random enemy 4 times."
+      },
+      {
+        "index": 6,
+        "name": "Strike",
+        "rules_text": "Deal 6 damage."
+      },
+      {
+        "index": 7,
+        "name": "Defend",
+        "rules_text": "Gain 11 Block."
+      }
+    ],
+    "summary": "[hand_select] | F31 | The Silent | HP:45/70 E:0 Hand:8 | vs [Exoskeleton(15), Exoskeleton(12), Exoskeleton(13), Exoskeleton(16)]",
+    "has_sly": false,
+    "has_harmful": false,
+    "num_cards": 8
+  },
+  {
+    "file": "run_20260404_021545_5875d9a0.jsonl",
+    "step": 720,
+    "floor": 33,
+    "hp": 53,
+    "hp_max": 77,
+    "min_select": 0,
+    "max_select": 1,
+    "cards": [
+      {
+        "index": 0,
+        "name": "Dagger Throw",
+        "rules_text": "Deal 6 damage. Draw 1 card. Discard 1 card."
+      },
+      {
+        "index": 1,
+        "name": "Survivor",
+        "rules_text": "Gain 8 Block. Discard 1 card."
+      },
+      {
+        "index": 2,
+        "name": "Defend",
+        "rules_text": "Gain 6 Block."
+      },
+      {
+        "index": 3,
+        "name": "Predator",
+        "rules_text": "Deal 11 damage. Next turn, draw 2 cards."
+      },
+      {
+        "index": 4,
+        "name": "Defend+",
+        "rules_text": "Gain 8 Block."
+      },
+      {
+        "index": 5,
+        "name": "Dagger Spray+",
+        "rules_text": "Deal 4 damage to ALL enemies twice."
+      },
+      {
+        "index": 6,
+        "name": "Leading Strike",
+        "rules_text": "Deal 5 damage. Add 1 Shiv into your Hand."
+      },
+      {
+        "index": 7,
+        "name": "Defend",
+        "rules_text": "Gain 6 Block."
+      }
+    ],
+    "summary": "[hand_select] | F33 | The Silent | HP:53/77 E:0 Hand:8 | vs [Crusher(113), Rocket(136)]",
+    "has_sly": false,
+    "has_harmful": false,
+    "num_cards": 8
+  }
+]

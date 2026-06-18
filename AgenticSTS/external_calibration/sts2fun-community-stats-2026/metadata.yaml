@@ -1,0 +1,36 @@
+source_id: sts2fun-community-stats-2026
+source_name: "STS2 Community Stats (sts2.fun / informally 'Spiracle')"
+source_url: "https://www.sts2.fun/"
+capture_date: "2026-05-28"
+capture_method: WebFetch
+status: fetched
+paper_claim_supported: |
+  Human-reference row in Figure 1c (community survival statistics for Slay the
+  Spire 2). The paper does NOT cite specific sts2.fun numbers — the source is
+  invoked as the existence-of-community-data anchor and as a complementary
+  reference to the Mega Crit 16% A0 win-rate claim.
+paper_section: "intro.tex Figure 1c human-reference row; appendix.tex calibration table"
+refs_bib_key: "sts2fun-community-stats-2026"
+notes: |
+  Successful fetch. Headline values captured on 2026-05-28:
+    - Total community runs: 239,445
+    - Active players: 2,081
+    - Overall (all-ascension) win rate: 30.1%
+    - Top character by win rate: Defect (32.8%)
+    - Top card pick rate: Big Bang (82%)
+
+  Discrepancies vs paper: NONE. The paper does not cite specific numbers from
+  this source; it cites the source as a methodology reference.
+
+  Caveats:
+    - 30.1% is across all ascensions / characters; the A0-specific subset (which
+      Mega Crit's 16% references) is not exposed on the homepage.
+    - Site is a live dashboard - numbers will drift continuously.
+    - No explicit license posted; community-stats aggregation.
+    - Site referred to as "STS2 Stats" on page, "Spiracle" informally; bib key
+      writes "STS2 Community Stats".
+license_assessment: |
+  No explicit license posted. Conservative path: attribution to "sts2.fun /
+  STS2 Community Stats" for any cited number. Headline-only extraction in this
+  snapshot is well within fair-use for academic criticism/research. Full page
+  content is not mirrored here.

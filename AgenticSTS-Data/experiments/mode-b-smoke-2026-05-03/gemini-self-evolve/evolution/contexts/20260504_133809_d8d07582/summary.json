@@ -1,0 +1,232 @@
+{
+  "run_id": "20260504_133809_d8d07582",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 16515,
+      "estimated_tokens": 4129
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 23359,
+      "estimated_tokens": 5840
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 66125,
+      "estimated_tokens": 16532
+    },
+    {
+      "name": "replay_package",
+      "chars": 61134,
+      "estimated_tokens": 15284
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1077,
+      "estimated_tokens": 270
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 26501,
+    "non_combat_decisions": 195,
+    "combat_episodes": 22,
+    "encountered_enemy_keys": [
+      "Byrdonis",
+      "Devoted Sculptor",
+      "Door",
+      "Fogmog",
+      "Globe Head",
+      "Hunter Killer",
+      "Knowledge Demon",
+      "Louse Progenitor",
+      "Mawler",
+      "Nibbit",
+      "Phrog Parasite",
+      "Shrinker Beetle",
+      "Slimed Berserker",
+      "Thieving Hopper",
+      "Vantom",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flyconid+Leaf Slime (M)",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Blade Dance+",
+      "Phantom Blades",
+      "Cloak and Dagger",
+      "Blur",
+      "Footwork",
+      "Leading Strike",
+      "Deflect",
+      "Backflip",
+      "Afterimage",
+      "Brightest Flame+",
+      "Strangle+",
+      "Expertise",
+      "Accuracy",
+      "Blade Dance",
+      "Cloak and Dagger",
+      "Storm of Steel",
+      "Piercing Wail",
+      "Acrobatics"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 15154,
+    "entries": [
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=4.2+/-4.6 (z=-0.9, TYPICAL, n=4)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "Phrog Parasite",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Byrdonis",
+        "floor": 14,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Vantom",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=0 vs historical avg=23.2+/-17.5 (z=-1.3, BETTER_THAN_USUAL, n=4)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.3,
+        "comparator": {
+          "enemy_key": "Vantom",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Hunter Killer",
+        "floor": 23,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=17 vs historical avg=6.8+/-3.9 (z=2.6, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 2.6,
+        "comparator": {
+          "enemy_key": "Hunter Killer",
+          "floor": 22,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=0 vs historical avg=55.0+/-8.5 (z=-6.5, BETTER_THAN_USUAL, n=3)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -6.5,
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Door",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 168711,
+  "context_estimated_tokens": 42170,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 294169,
+    "total_output_tokens": 13356,
+    "round_input_tokens": [
+      57660,
+      58294,
+      59229,
+      59268,
+      59718
+    ],
+    "round_output_tokens": [
+      922,
+      1306,
+      2964,
+      4580,
+      3584
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 158703,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

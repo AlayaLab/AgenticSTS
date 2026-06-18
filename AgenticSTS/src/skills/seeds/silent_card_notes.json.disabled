@@ -1,0 +1,437 @@
+[
+  {
+    "character": "the silent",
+    "card_name": "Abrasive",
+    "note": "Sly: plays for free when discarded. 3-cost applies Thorns + Dexterity. Effective cost is 0 energy with discard outlets (Acrobatics, Survivor, Dagger Throw). High combined stat value when triggered via Sly."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Accelerant",
+    "note": "Power: Poison damage triggers an extra time at end of turn. Example: enemy has 20 Poison → normally takes 20 damage, with Accelerant takes 20+19=39 damage. Doubles effective Poison damage that turn. Stacks with more Poison sources (Noxious Fumes, Deadly Poison, Bubble Bubble) for higher burst."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Accuracy",
+    "note": "Power: +4 damage to all Shivs per copy. Base Shiv = 4 dmg → 8 with 1 copy, 12 with 2 copies. ONLY buffs Shiv cards — does NOT affect Ricochet, Dagger Spray, or other multi-hit attacks. Stacks: multiple copies multiply value linearly with Shiv generators (Blade Dance, Up My Sleeve, Infinite Blades, Fan of Knives)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Acrobatics",
+    "note": "1-cost: draw 3 discard 1. The discard is a card effect, triggering Sly cards (Reflex, Tactician, Untouchable) for free plays. Cycles through deck while generating discard synergy value. Functions well without upgrade. Multiple copies improve cycle speed."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Adrenaline",
+    "note": "0-cost: draw 2 + gain 2 energy. Net +2 energy and +2 cards for 0 cost — effectively free. Exhaust after use. No build requirements — universally functional in any deck."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Afterimage",
+    "note": "Power: gain 1 Block per card played. Scales with cards-per-turn — Shiv generators (Blade Dance = 3 Shivs = 3 Block), 0-cost cards, and draw engines increase its output. Provides passive Block without spending energy on Block cards."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Anticipate",
+    "note": "0-cost: gain 3 Dexterity this turn only. Temporary — expires at end of turn (unlike Footwork which is permanent). Each Block card played this turn gains +3 Block. Best when multiple Block cards are played in the same turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Assassinate",
+    "note": "0-cost: 10 damage + 1 Vulnerable. Exhaust. Applies Vulnerable (50% more Attack damage) at zero energy, enabling follow-up attacks to hit harder this turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Backflip",
+    "note": "1-cost: block + draw 2. Defends and cycles simultaneously. The draw does not trigger Sly (draw is not discard). Pairs with Dexterity (Footwork) for scaled Block."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Backstab",
+    "note": "0-cost Innate: 11 damage. Guaranteed in opening hand every combat. Exhaust after use. Provides free first-turn damage with no energy cost."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Blade Dance",
+    "note": "1-cost: generates 3 Shivs into hand (each Shiv = 0-cost 4 damage, Exhaust). Total output: 12 damage for 1 energy. Combos: Accuracy (+4 per Shiv), Knife Trap (replays exhausted Shivs), Afterimage (3 Block from 3 Shivs played)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Blur",
+    "note": "Block carries over between turns instead of resetting to 0. Enables accumulating Block walls over multiple turns. Pairs with consistent Block generation (Footwork, Backflip, Afterimage)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Bouncing Flask",
+    "note": "2-cost: applies 9 total Poison (3 hits × 3 Poison). Splits across enemies in multi-enemy fights (random targeting). Compare: Bubble Bubble (1-cost, 9 Poison, single target) is more efficient per energy."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Bubble Bubble",
+    "note": "1-cost: applies 9 Poison to a single target. Best when you already have poison support; treat it as poison density/payoff, not a reason to enter poison by itself."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Bullet Time",
+    "note": "Reduces all card costs to 0 for the turn but prevents drawing more cards. Requires a full hand to maximize value. Less effective with small hands or when draw is needed."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Burst",
+    "note": "1-cost: doubles the next Skill played this turn. The doubled Skill plays twice for free. Combo targets: Noxious Fumes (double Poison application), Backflip (double draw + Block), Acrobatics (double cycle + discard triggers)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Calculated Gamble",
+    "note": "0-cost: discard entire hand, draw same number of cards. Full hand refresh for free. Triggers Sly on ALL discarded Sly cards simultaneously. Diminishing returns from 2nd copy (only 1 refresh per turn is useful)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Cloak and Dagger",
+    "note": "1-cost: Block + generates Shivs. Combines defense and Shiv generation in one card. Combos with Accuracy (+4 per Shiv) and Knife Trap (replays exhausted Shivs)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Corrosive Wave",
+    "note": "Rare Skill: after playing Corrosive Wave, each card drawn THIS TURN applies Poison to ALL enemies. Pairs with draw cards (Prepared, Acrobatics, Backflip) — more draws in the same turn = more Poison stacks on all enemies. Best with high draw density in the turn it is played."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Dagger Spray",
+    "note": "1-cost: multi-hit attack to ALL enemies. Each hit is a separate damage instance. Combos: Envenom (each hit applies Poison to all targets), Strength (added per hit). Does NOT benefit from Accuracy (not a Shiv)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Dagger Throw",
+    "note": "1-cost: 9 damage + draw 1 + discard 1. The discard is a card effect, triggering Sly cards (Reflex, Tactician, Untouchable) for free plays. Cycles deck while dealing damage. Flat 9 damage — does not scale with build progression."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Dash",
+    "note": "2-cost: 10 damage + 10 Block in one card. Fills both offense and defense in a single play. Scales with Strength (damage) and Dexterity (Block) simultaneously."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Deadly Poison",
+    "note": "1-cost: applies 5 Poison to single target. Core Poison source. Multiple copies stack well. Combos with Accelerant (makes the Poison infinitely scaling) and Envenom (attacks also apply Poison)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Deflect",
+    "note": "0-cost: gain Block for no energy. Value increases with Dexterity (Footwork adds flat Block). Better in decks with more draw — you see it more often per cycle."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Dodge and Roll",
+    "note": "1-cost: gain Block this turn and next turn. Provides Block over 2 turns, unlike Defend which is 1 turn only. Scales with Dexterity for both applications."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Echoing Slash",
+    "note": "1-cost: 10 damage to ALL enemies. AoE attack. Scales with Strength."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Envenom",
+    "note": "Power: every unblocked Attack damage applies 1 Poison. Turns all attacks into Poison applicators. Multi-hit attacks (Dagger Spray, Ricochet, Shivs) apply Poison per hit. Requires attack cards to function — does nothing alone."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Escape Plan",
+    "note": "0-cost: draw 1 card + gain Block if drawn card is a Skill. Net positive — replaces itself with a draw for 0 energy. Thin decks with high Skill ratio maximize the Block trigger."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Expertise",
+    "note": "1-cost: draw up to 6 cards (fills hand to 6). Massive hand refill in one action. Less effective if hand is already near full. Enables combo turns by providing many card options at once."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Expose",
+    "note": "0-cost: removes ALL Artifact stacks from enemy and applies 2 Vulnerable. You lose current Block as downside. Essential for stripping Artifact before applying debuffs (Weak, Poison, Vulnerable). Play before debuff cards."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Fan of Knives",
+    "note": "Power: causes all Shivs to deal AoE damage (hit ALL enemies instead of single target). Also generates 3 Shivs into hand this turn when played. Accuracy buffs each Shiv's AoE damage. Transforms Shiv builds from single-target to AoE output."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Finisher",
+    "note": "1-cost: damage scales with number of Attacks already played this turn. Payoff card — must be played LAST after other attacks. Shiv cycling (play 5+ Shivs first) maximizes its damage. Does nothing if played first."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Flanking",
+    "note": "Applies FlankingPower. Synergizes with evasion/Sly mechanics. Stronger when multiple Sly triggers occur per turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Flechettes",
+    "note": "1-cost: deals 5 damage per Skill card currently IN HAND. Play Flechettes BEFORE playing Skills — damage is based on Skills remaining in hand at time of play, not Skills played this turn. Upgrade doubles to 10 per Skill in hand."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Flick-Flack",
+    "note": "Sly: plays for free when discarded by a card effect. 1-cost 7 damage to ALL enemies. Effective cost is 0 energy via discard outlets (Acrobatics, Survivor, Prepared). AoE damage for free in discard builds."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Follow Through",
+    "note": "1-cost: 6 damage + 1 Weak. Compare: Sucker Punch (1-cost, 8 damage + 1 Weak) deals more damage for same cost and Weak."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Footwork",
+    "note": "Power: permanent +2 Dexterity (upgraded: +3). All Block cards gain +2/+3 Block for rest of combat. Stacks with multiple copies. Unlike Anticipate, this is permanent. Upgrade from +2 to +3 is a significant boost."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Grand Finale",
+    "note": "0-cost: deals 50+ damage but ONLY playable when draw pile is empty. Requires thin deck and/or heavy draw to consistently reach empty draw pile. Build-around card — deck removal + draw cards enable it."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Hand Trick",
+    "note": "Sly: plays for free when discarded by a card effect. 1-cost 7 Block + adds Sly to a Skill in hand. Gives free Block via discard outlets. The 'add Sly to a Skill' effect can chain into more Sly triggers."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Haze",
+    "note": "Sly: plays for free when discarded by a card effect. 3-cost applies 4 AoE Poison to ALL enemies. Do NOT evaluate at face cost of 3 — effective cost is 0 energy with any discard outlet (Acrobatics, Survivor, Dagger Throw). Upgraded: 6 AoE Poison. Multi-enemy Poison setup for free."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Hidden Daggers",
+    "note": "0-cost: 8 damage playable from hand normally. If discarded by a card effect (Acrobatics, Survivor, Dagger Throw), Sly triggers — plays for free and generates Shivs. Can be played even when no discard outlet is available. Sly synergy is a bonus, not a requirement."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Infinite Blades",
+    "note": "Power: creates 1 Shiv at start of each turn. Slow ramp — needs 3+ turns to accumulate meaningful value. Scales with Accuracy (+4 per Shiv per Accuracy copy). Compare: Fan of Knives generates more Shivs per turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Knife Trap",
+    "note": "Replays EVERY Shiv in Exhaust Pile for free. Burst finisher after Blade Dance or Cloak and Dagger exhaust Shivs. With Accuracy, each replayed Shiv deals 4+N×4 damage. Upgrade is significant. Requires Shiv generators to have value — does nothing without exhausted Shivs."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Leading Strike",
+    "note": "1-cost: 7 damage + generates 1 Shiv. Combines attack damage with Shiv output. The Shiv benefits from Accuracy (+4 damage). Compare: Blade Dance (1-cost, 3 Shivs) generates more Shivs per energy."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Leg Sweep",
+    "note": "2-cost: high Block + applies Weak. Scales with Dexterity for the Block portion. Pounce reduces the next Skill cost to 0 — play Pounce before Leg Sweep to play it for free."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Malaise",
+    "note": "X-cost: X = remaining energy when played. Reduces enemy Strength by X and applies Weak. More energy spent = more Strength reduction. Counters enemies that scale Strength over time. Play late in turn when leftover energy would be wasted."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Master Planner",
+    "note": "Power: each Skill you PLAY this combat permanently gains Sly — when that card is reshuffled and drawn in future turns, it triggers Sly when discarded. Long-term scaling: more Skills played = more Sly cards accumulating in deck over combat. Value grows as the run progresses."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Memento Mori",
+    "note": "1-cost: 8 base damage + 4 extra damage per card discarded THIS turn. Requires heavy discard support (Acrobatics, Prepared, Survivor, Dagger Throw, Calculated Gamble) to deal meaningful damage. Without discard outlets, deals only 8 damage for 1 energy — below average."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Mirage",
+    "note": "1-cost: Block equal to Poison stacks on the target enemy. Effective only in Poison builds with high stack counts. Useless without Poison on the enemy."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Murder",
+    "note": "3-cost: conditional high-damage attack. Expensive baseline — needs its condition met to justify the 3 energy cost. Evaluate whether the trigger condition is reliably met in current deck."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Neutralize",
+    "note": "Starter: 0-cost 3 damage + 1 Weak. Upgrade gives 2 Weak — significant improvement (50% more Attack damage reduction on enemy). Upgrade priority: 1 Weak → 2 Weak is one of the biggest percentage jumps among upgrades."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Nightmare",
+    "note": "3-cost Rare: copies a card from hand and shuffles copies into deck. Creates multiple copies of high-value cards. Combo targets: Adrenaline (free energy + draw copies), Tactician (free energy on discard), Envenom (stacking Poison-on-attack)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Noxious Fumes",
+    "note": "Power: applies 2 Poison to ALL enemies at start of each turn passively. Scales linearly over time (turn 5 = 10 total Poison applied). AoE — affects all enemies simultaneously. Upgrade from 2 → 3 per turn is significant for long fights."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Outbreak",
+    "note": "1-cost Power: every 3 Poison stacks applied to any enemy triggers 11 AoE damage to ALL enemies. Excellent with AoE Poison cards (Corrosive Wave, Haze, Noxious Fumes) that apply Poison to multiple enemies simultaneously — each enemy's Poison counts separately toward the trigger. Mediocre against single targets where Poison is applied one card at a time."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Phantom Blades",
+    "note": "Power: the first Shiv played each turn deals bonus damage. Shivs also Retain at end of turn instead of being discarded. In Shiv builds, provides +6 damage per turn from the first Shiv alone, and prevents Shivs accumulating in discard pile."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Piercing Wail",
+    "note": "1-cost: ALL enemies lose 6 Strength this turn. Exhaust. Temporary debuff — resets next turn. Effectively reduces each enemy attack by 6 damage this turn. Multi-enemy fights: reduces total incoming damage by 6 × number of enemies."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Pinpoint",
+    "note": "17 damage, cost reduces by 1 per Skill played this turn. After playing 2+ Skills, cost reaches 0 = free 17 damage. Skill-heavy decks and Sly builds (many free Skill plays) reduce its cost fastest."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Poisoned Stab",
+    "note": "1-cost: 6 damage + 3 Poison. Hybrid card — contributes to both Attack damage and Poison stacking simultaneously. Fits both Poison and general builds without committing to either."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Pounce",
+    "note": "1-cost: 12 damage + reduces cost of next Skill played to 0. The cost reduction persists until a Skill is played. Combo: play Pounce → expensive Skills (Leg Sweep, Noxious Fumes) become free."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Precise Cut",
+    "note": "0-cost: deals 13 damage minus 2 per other card in hand. Strongest in small hands (1-2 other cards = 9-11 damage for 0 energy). Empty hand = 13 free damage. Pair with hand-emptying effects (Restlessness, Calculated Gamble)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Predator",
+    "note": "2-cost: 15 damage + draw 2 next turn. Front-loaded damage now, card advantage delayed to next turn. The delayed draw makes next turn stronger at the cost of 2 energy this turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Prepared",
+    "note": "0-cost: draw 2 discard 2. Free deck cycling — replaces hand cards without spending energy. The 2 discards are card effects, triggering Sly cards (Reflex, Tactician, Untouchable) for free plays. Silent core card; 2-3 copies are reasonable, especially once upgraded."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Reflex",
+    "note": "Sly: plays for free when discarded by a card effect, drawing 2 cards (upgraded: 3). Unplayable from hand — ONLY activates via discard. Dead card without discard outlets (Acrobatics, Prepared, Survivor, Dagger Throw, Tools of the Trade)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Restlessness",
+    "note": "0-cost Retain. PLAY IT LAST — when it's the only card in hand, playing it triggers the bonus: draw 2 + gain 2 energy. Sequencing rule: play ALL other cards first, THEN Restlessness. Even at 0 energy with only Restlessness in hand, play it — you get 2 energy back. Retain means it carries across turns. Pairs with 0-cost cards and thin decks that empty hand quickly."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Ricochet",
+    "note": "Sly: plays for free when discarded by a card effect. 2-cost: 4 hits × 3 damage = 12 base (upgraded: 4 × 4 = 16). Does NOT benefit from Accuracy — Accuracy only boosts Shivs, and Ricochet is not a Shiv. Effective cost is 0 energy via discard outlets. Each hit benefits from Strength."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Serpent Form",
+    "note": "Rare Power: 3-cost — difficult to play without energy support. Only consider with energy-generating relics or cards (Tactician, Adrenaline). Skip if energy generation is not available."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Shadowmeld",
+    "note": "Power: applies ShadowmeldPower. Pairs with high-Block cards — play alongside heavy Block generation to maximize its effect."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Shadow Step",
+    "note": "Useful in extended fights. Upgraded version chains well with cycling decks. Scales with fight length — more valuable against bosses with high HP."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Skewer",
+    "note": "X-cost: deals 7 damage × energy spent. Scales with available energy — spending 3 energy = 21 damage. Pairs with energy generation (Adrenaline, Tactician) for higher output."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Slice",
+    "note": "0-cost: 6 damage. Free damage with no energy cost. Acceptable as a transitional damage source when lacking offense early in the run."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Snakebite",
+    "note": "2-cost Retain: applies 7 Poison. Higher energy cost than alternatives (Bubble Bubble 1-cost/9 Poison, Deadly Poison 1-cost/5 Poison). Retain allows holding it across turns and playing when energy is available or defense is not needed that turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Sneaky",
+    "note": "2-cost Rare Power: applies SneakyPower for passive combat benefits. Evaluate its specific effect against current build needs when offered."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Speedster",
+    "note": "Turn-start draw does NOT trigger Speedster. Only draw effects from played cards (Backflip, Acrobatics, etc.) count. Without draw cards in deck, Speedster deals 0 damage/turn."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Storm of Steel",
+    "note": "1-cost Rare: discards entire hand and replaces it with the same number of Shivs. The hand discard triggers Sly on ALL discarded Sly cards simultaneously. Core Shiv build card — converts any hand into a full hand of Shivs."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Strangle",
+    "note": "1-cost: 8 damage + Strangle debuff (reduces enemy power generation, stacks). Both offensive damage and debuff utility. Stacking multiple Strangles compounds the debuff."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Sucker Punch",
+    "note": "1-cost: 8 damage + 1 Weak. Acceptable as a transitional damage + debuff card early in the run. Skip if better options are available."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Suppress",
+    "note": "Ancient: 0-cost 11 damage + 3 Weak. Free offense + significant debuff at zero energy. 3 Weak substantially reduces enemy Attack damage for 3 turns."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Survivor",
+    "note": "Starter: Block + discard 1. The discard is a card effect, triggering Sly cards (Reflex, Tactician, Untouchable). Foundational discard outlet that's available from the start of every run."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Tactician",
+    "note": "Sly: plays for free when discarded by a card effect. Gains 1 energy on Sly trigger. One of Silent's few energy generation sources. Unplayable from hand — ONLY activates via discard outlets (same as Reflex). Strong when paired with draw and discard cards — upgrade is recommended."
+  },
+  {
+    "character": "the silent",
+    "card_name": "The Hunt",
+    "note": "1-cost: if the killing blow on an enemy comes from this card, gain an extra card reward at end of the fight. Useful early in the run to quickly acquire key cards. Value is higher in multi-enemy encounters where last-hit opportunities are more frequent."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Tools of the Trade",
+    "note": "Rare Power: draw 1 + discard 1 at start of each turn. The turn-start discard is a card effect, triggering Sly cards every turn automatically. Passive Sly engine — generates discard triggers without spending cards or energy."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Tracking",
+    "note": "Scaling effect for extended fights. Requires reliable Weak application to function well — upgraded Neutralize (2 Weak) is the key enabler. Without consistent Weak sources, effectiveness is limited."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Untouchable",
+    "note": "Sly: plays for free when discarded by a card effect. Provides Block for 0 energy when triggered via discard outlets (Acrobatics, Prepared, Tools of the Trade). Free defense in Sly builds."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Up My Sleeve",
+    "note": "2-cost: generates 3 Shivs (12 base damage). Core mechanic: cost reduces by 1 each play → 2→1→0 permanently. At 0-cost, same 3 Shivs as Blade Dance but free. Combos: Accuracy (+4 per Shiv), Knife Trap (replays exhausted Shivs), Afterimage (Block per card played)."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Well-Laid Plans",
+    "note": "Power: retain 1 card per turn per copy. Keeps a chosen card in hand instead of discarding at end of turn. Enables saving key cards (win conditions, defensive answers) for the right moment. Stacks: 2 copies = retain 2 cards."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Wraith Form",
+    "note": "Ancient: applies Intangible for 2+ turns. Intangible reduces ALL damage taken to 1 per hit. Downside: lose 1 Dexterity each turn permanently after Intangible ends. Temporary near-invincibility with long-term defensive cost."
+  },
+  {
+    "character": "the silent",
+    "card_name": "Metamorphosis",
+    "note": "2-cost Exhaust: adds 3 random Attack cards into draw pile, all permanently 0-cost for this combat. Growth card — play when energy allows. The 0-cost Attacks may include high-damage cards that are normally expensive. Stronger in decks with draw (Backflip, Acrobatics) that cycle to the new cards faster. Play early in long fights for maximum value."
+  }
+]

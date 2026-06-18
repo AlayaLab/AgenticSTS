@@ -1,0 +1,280 @@
+{
+  "_disclaimer": "MOCK/DEMO data — not the paper's results. See the paper and dataset for real numbers.",
+  "schema_version": "1.0",
+  "built_at": "2026-04-17T12:00:00Z",
+  "submissions": [
+    {
+      "id": "hcm-gemini-3-1-pro-silent",
+      "method": {
+        "name": "HCM-Agent",
+        "version": "v0.3",
+        "authors": ["Team Sneko"],
+        "description_short": "Training-free hierarchical memory + skill retrieval + self-evolution.",
+        "relics": [
+          { "id": "memory-store", "label": "Memory Store", "description": "Hierarchical categorical episodic memory." },
+          { "id": "skill-library", "label": "Skill Library", "description": "Retrieval-augmented strategy skills." },
+          { "id": "evolution-engine", "label": "Evolution Engine", "description": "Post-run LLM self-evolution." }
+        ]
+      },
+      "model": { "provider": "google", "name": "Gemini 3.1 Pro", "id": "gemini-3.1-pro-preview" },
+      "character": "Silent",
+      "runs": [
+        { "run_index": 1,  "ascension": 0, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 480, "per_run_score": 50 },
+        { "run_index": 2,  "ascension": 1, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 510, "per_run_score": 150 },
+        { "run_index": 3,  "ascension": 2, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 520, "per_run_score": 250 },
+        { "run_index": 4,  "ascension": 3, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 540, "per_run_score": 350 },
+        { "run_index": 5,  "ascension": 4, "outcome": "defeat",  "final_floor": 38, "final_act": 3, "death_cause": "Time Eater", "duration_seconds": 410, "per_run_score": 438 },
+        { "run_index": 6,  "ascension": 4, "outcome": "defeat",  "final_floor": 42, "final_act": 3, "death_cause": "Awakened One", "duration_seconds": 430, "per_run_score": 442 },
+        { "run_index": 7,  "ascension": 4, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 560, "per_run_score": 450 },
+        { "run_index": 8,  "ascension": 5, "outcome": "defeat",  "final_floor": 8,  "final_act": 1, "death_cause": "Reptomancer (Elite)", "duration_seconds": 120, "per_run_score": 508 },
+        { "run_index": 9,  "ascension": 5, "outcome": "defeat",  "final_floor": 12, "final_act": 1, "death_cause": "Sentry Trio", "duration_seconds": 180, "per_run_score": 512 },
+        { "run_index": 10, "ascension": 5, "outcome": "defeat",  "final_floor": 6,  "final_act": 1, "death_cause": "Gremlin Nob (Elite)", "duration_seconds": 95, "per_run_score": 506 }
+      ],
+      "aggregate": {
+        "ceiling": 4,
+        "ceiling_consistency": 0.33,
+        "progress_score_mean": 365.6,
+        "progress_score_max": 512,
+        "avg_final_floor": 35.6,
+        "max_final_floor": 50,
+        "total_runs": 10,
+        "total_victories": 5
+      },
+      "cost": {
+        "total_usd": 12.40,
+        "total_input_tokens": 1800000,
+        "total_output_tokens": 600000,
+        "cost_per_run_usd": 1.24,
+        "cost_per_ascension_unlocked_usd": 3.10
+      },
+      "submitted_at": "2026-04-16T20:00:00Z",
+      "verified": true
+    },
+    {
+      "id": "hcm-gpt-5-4-thinking-silent",
+      "method": {
+        "name": "HCM-Agent",
+        "version": "v0.3",
+        "authors": ["Team Sneko"],
+        "description_short": "Same HCM pipeline, different model.",
+        "relics": [
+          { "id": "memory-store", "label": "Memory Store", "description": "Hierarchical categorical episodic memory." },
+          { "id": "skill-library", "label": "Skill Library", "description": "Retrieval-augmented strategy skills." },
+          { "id": "evolution-engine", "label": "Evolution Engine", "description": "Post-run LLM self-evolution." }
+        ]
+      },
+      "model": { "provider": "openai", "name": "GPT-5.4 Thinking", "id": "gpt-5.4-thinking" },
+      "character": "Silent",
+      "runs": [
+        { "run_index": 1,  "ascension": 0, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 700, "per_run_score": 50 },
+        { "run_index": 2,  "ascension": 1, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 720, "per_run_score": 150 },
+        { "run_index": 3,  "ascension": 2, "outcome": "defeat",  "final_floor": 28, "final_act": 2, "death_cause": "Slavers", "duration_seconds": 380, "per_run_score": 228 },
+        { "run_index": 4,  "ascension": 2, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 760, "per_run_score": 250 },
+        { "run_index": 5,  "ascension": 3, "outcome": "defeat",  "final_floor": 22, "final_act": 2, "death_cause": "Champion", "duration_seconds": 320, "per_run_score": 322 },
+        { "run_index": 6,  "ascension": 3, "outcome": "defeat",  "final_floor": 18, "final_act": 2, "death_cause": "Hexaghost", "duration_seconds": 280, "per_run_score": 318 },
+        { "run_index": 7,  "ascension": 3, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 810, "per_run_score": 350 },
+        { "run_index": 8,  "ascension": 4, "outcome": "defeat",  "final_floor": 15, "final_act": 1, "death_cause": "Lagavulin (Elite)", "duration_seconds": 220, "per_run_score": 415 },
+        { "run_index": 9,  "ascension": 4, "outcome": "defeat",  "final_floor": 9,  "final_act": 1, "death_cause": "Louse pack", "duration_seconds": 140, "per_run_score": 409 },
+        { "run_index": 10, "ascension": 4, "outcome": "defeat",  "final_floor": 5,  "final_act": 1, "death_cause": "Gremlin Gang", "duration_seconds": 80,  "per_run_score": 405 }
+      ],
+      "aggregate": {
+        "ceiling": 3,
+        "ceiling_consistency": 0.33,
+        "progress_score_mean": 289.7,
+        "progress_score_max": 415,
+        "avg_final_floor": 32.7,
+        "max_final_floor": 50,
+        "total_runs": 10,
+        "total_victories": 4
+      },
+      "cost": {
+        "total_usd": 38.10,
+        "total_input_tokens": 900000,
+        "total_output_tokens": 400000,
+        "cost_per_run_usd": 3.81,
+        "cost_per_ascension_unlocked_usd": 12.70
+      },
+      "submitted_at": "2026-04-15T18:00:00Z",
+      "verified": true
+    },
+    {
+      "id": "hcm-qwen-3-5-silent",
+      "method": {
+        "name": "HCM-Agent",
+        "version": "v0.3",
+        "authors": ["Team Sneko"],
+        "description_short": "Budget-tier run — same HCM on Qwen.",
+        "relics": [
+          { "id": "memory-store", "label": "Memory Store", "description": "Hierarchical categorical episodic memory." },
+          { "id": "skill-library", "label": "Skill Library", "description": "Retrieval-augmented strategy skills." }
+        ]
+      },
+      "model": { "provider": "qwen", "name": "Qwen 3.5 Max", "id": "qwen-3.5-max" },
+      "character": "Silent",
+      "runs": [
+        { "run_index": 1,  "ascension": 0, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 360, "per_run_score": 50 },
+        { "run_index": 2,  "ascension": 1, "outcome": "defeat",  "final_floor": 34, "final_act": 2, "death_cause": "Collector", "duration_seconds": 290, "per_run_score": 134 },
+        { "run_index": 3,  "ascension": 1, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 380, "per_run_score": 150 },
+        { "run_index": 4,  "ascension": 2, "outcome": "defeat",  "final_floor": 20, "final_act": 2, "death_cause": "Book of Stabbing", "duration_seconds": 230, "per_run_score": 220 },
+        { "run_index": 5,  "ascension": 2, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 410, "per_run_score": 250 },
+        { "run_index": 6,  "ascension": 3, "outcome": "defeat",  "final_floor": 11, "final_act": 1, "death_cause": "Looter", "duration_seconds": 160, "per_run_score": 311 },
+        { "run_index": 7,  "ascension": 3, "outcome": "defeat",  "final_floor": 8,  "final_act": 1, "death_cause": "Jaw Worm", "duration_seconds": 100, "per_run_score": 308 },
+        { "run_index": 8,  "ascension": 3, "outcome": "defeat",  "final_floor": 14, "final_act": 1, "death_cause": "Exordium Thugs", "duration_seconds": 180, "per_run_score": 314 },
+        { "run_index": 9,  "ascension": 3, "outcome": "defeat",  "final_floor": 7,  "final_act": 1, "death_cause": "Cultist", "duration_seconds": 90,  "per_run_score": 307 },
+        { "run_index": 10, "ascension": 3, "outcome": "defeat",  "final_floor": 10, "final_act": 1, "death_cause": "Sentry Pair", "duration_seconds": 120, "per_run_score": 310 }
+      ],
+      "aggregate": {
+        "ceiling": 2,
+        "ceiling_consistency": 0.50,
+        "progress_score_mean": 235.4,
+        "progress_score_max": 314,
+        "avg_final_floor": 25.4,
+        "max_final_floor": 50,
+        "total_runs": 10,
+        "total_victories": 3
+      },
+      "cost": {
+        "total_usd": 4.20,
+        "total_input_tokens": 2100000,
+        "total_output_tokens": 700000,
+        "cost_per_run_usd": 0.42,
+        "cost_per_ascension_unlocked_usd": 2.10
+      },
+      "submitted_at": "2026-04-14T12:00:00Z",
+      "verified": true
+    },
+    {
+      "id": "voyager-sts-gpt-silent",
+      "method": {
+        "name": "Voyager-STS",
+        "version": "v0.1",
+        "authors": ["Anonymous Baseline"],
+        "description_short": "Adapted Voyager architecture with code-based skill library.",
+        "relics": [
+          { "id": "skill-library", "label": "Skill Library", "description": "Code-based iterative skill bank." }
+        ]
+      },
+      "model": { "provider": "openai", "name": "GPT-5.4", "id": "gpt-5.4" },
+      "character": "Silent",
+      "runs": [
+        { "run_index": 1,  "ascension": 0, "outcome": "defeat",  "final_floor": 34, "final_act": 2, "death_cause": "Collector", "duration_seconds": 420, "per_run_score": 34 },
+        { "run_index": 2,  "ascension": 0, "outcome": "defeat",  "final_floor": 12, "final_act": 1, "death_cause": "Jaw Worm", "duration_seconds": 160, "per_run_score": 12 },
+        { "run_index": 3,  "ascension": 0, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 780, "per_run_score": 50 },
+        { "run_index": 4,  "ascension": 1, "outcome": "defeat",  "final_floor": 8,  "final_act": 1, "death_cause": "Louses", "duration_seconds": 110, "per_run_score": 108 },
+        { "run_index": 5,  "ascension": 1, "outcome": "defeat",  "final_floor": 24, "final_act": 2, "death_cause": "Slavers", "duration_seconds": 330, "per_run_score": 124 },
+        { "run_index": 6,  "ascension": 1, "outcome": "defeat",  "final_floor": 15, "final_act": 1, "death_cause": "Sentry Trio", "duration_seconds": 210, "per_run_score": 115 },
+        { "run_index": 7,  "ascension": 1, "outcome": "defeat",  "final_floor": 12, "final_act": 1, "death_cause": "Gremlin Nob (Elite)", "duration_seconds": 170, "per_run_score": 112 },
+        { "run_index": 8,  "ascension": 1, "outcome": "defeat",  "final_floor": 5,  "final_act": 1, "death_cause": "Exordium Wildlife", "duration_seconds": 60,  "per_run_score": 105 },
+        { "run_index": 9,  "ascension": 1, "outcome": "defeat",  "final_floor": 3,  "final_act": 1, "death_cause": "Cultist", "duration_seconds": 45,  "per_run_score": 103 },
+        { "run_index": 10, "ascension": 1, "outcome": "defeat",  "final_floor": 7,  "final_act": 1, "death_cause": "Fungi Beasts", "duration_seconds": 90,  "per_run_score": 107 }
+      ],
+      "aggregate": {
+        "ceiling": 0,
+        "ceiling_consistency": 0.33,
+        "progress_score_mean": 87.0,
+        "progress_score_max": 124,
+        "avg_final_floor": 17.0,
+        "max_final_floor": 50,
+        "total_runs": 10,
+        "total_victories": 1
+      },
+      "cost": {
+        "total_usd": 21.20,
+        "total_input_tokens": 800000,
+        "total_output_tokens": 300000,
+        "cost_per_run_usd": 2.12,
+        "cost_per_ascension_unlocked_usd": 21.20
+      },
+      "submitted_at": "2026-04-10T09:00:00Z",
+      "verified": true
+    },
+    {
+      "id": "react-rag-claude-silent",
+      "method": {
+        "name": "ReAct+RAG",
+        "version": "v1.0",
+        "authors": ["Anonymous Baseline"],
+        "description_short": "Vanilla ReAct agent with RAG over game wiki.",
+        "relics": [
+          { "id": "web-search", "label": "Wiki RAG", "description": "Retrieves from STS wiki." }
+        ]
+      },
+      "model": { "provider": "anthropic", "name": "Claude 4.6 Sonnet", "id": "claude-4.6-sonnet" },
+      "character": "Silent",
+      "runs": [
+        { "run_index": 1,  "ascension": 0, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 540, "per_run_score": 50 },
+        { "run_index": 2,  "ascension": 1, "outcome": "defeat",  "final_floor": 30, "final_act": 2, "death_cause": "Reptomancer", "duration_seconds": 380, "per_run_score": 130 },
+        { "run_index": 3,  "ascension": 1, "outcome": "defeat",  "final_floor": 22, "final_act": 2, "death_cause": "Champion", "duration_seconds": 290, "per_run_score": 122 },
+        { "run_index": 4,  "ascension": 1, "outcome": "victory", "final_floor": 50, "final_act": 3, "duration_seconds": 610, "per_run_score": 150 },
+        { "run_index": 5,  "ascension": 2, "outcome": "defeat",  "final_floor": 14, "final_act": 1, "death_cause": "Lagavulin (Elite)", "duration_seconds": 200, "per_run_score": 214 },
+        { "run_index": 6,  "ascension": 2, "outcome": "defeat",  "final_floor": 19, "final_act": 2, "death_cause": "Book of Stabbing", "duration_seconds": 260, "per_run_score": 219 },
+        { "run_index": 7,  "ascension": 2, "outcome": "defeat",  "final_floor": 11, "final_act": 1, "death_cause": "Fungi Beasts", "duration_seconds": 150, "per_run_score": 211 },
+        { "run_index": 8,  "ascension": 2, "outcome": "defeat",  "final_floor": 7,  "final_act": 1, "death_cause": "Cultist", "duration_seconds": 100, "per_run_score": 207 },
+        { "run_index": 9,  "ascension": 2, "outcome": "defeat",  "final_floor": 13, "final_act": 1, "death_cause": "Sentry Trio", "duration_seconds": 180, "per_run_score": 213 },
+        { "run_index": 10, "ascension": 2, "outcome": "defeat",  "final_floor": 6,  "final_act": 1, "death_cause": "Exordium Thugs", "duration_seconds": 85,  "per_run_score": 206 }
+      ],
+      "aggregate": {
+        "ceiling": 1,
+        "ceiling_consistency": 0.33,
+        "progress_score_mean": 172.2,
+        "progress_score_max": 219,
+        "avg_final_floor": 22.2,
+        "max_final_floor": 50,
+        "total_runs": 10,
+        "total_victories": 2
+      },
+      "cost": {
+        "total_usd": 18.50,
+        "total_input_tokens": 600000,
+        "total_output_tokens": 200000,
+        "cost_per_run_usd": 1.85,
+        "cost_per_ascension_unlocked_usd": 18.50
+      },
+      "submitted_at": "2026-04-08T15:00:00Z",
+      "verified": true
+    },
+    {
+      "id": "naive-prompt-gpt-silent",
+      "method": {
+        "name": "Zero-Shot",
+        "version": "v0.1",
+        "authors": ["Anonymous Baseline"],
+        "description_short": "Plain prompt, no memory, no skills, no retrieval.",
+        "relics": []
+      },
+      "model": { "provider": "openai", "name": "GPT-5.4", "id": "gpt-5.4" },
+      "character": "Silent",
+      "runs": [
+        { "run_index": 1,  "ascension": 0, "outcome": "defeat",  "final_floor": 22, "final_act": 2, "death_cause": "Slavers", "duration_seconds": 300, "per_run_score": 22 },
+        { "run_index": 2,  "ascension": 0, "outcome": "defeat",  "final_floor": 10, "final_act": 1, "death_cause": "Gremlin Pack", "duration_seconds": 140, "per_run_score": 10 },
+        { "run_index": 3,  "ascension": 0, "outcome": "defeat",  "final_floor": 8,  "final_act": 1, "death_cause": "Louses", "duration_seconds": 100, "per_run_score": 8 },
+        { "run_index": 4,  "ascension": 0, "outcome": "defeat",  "final_floor": 14, "final_act": 1, "death_cause": "Sentry Trio", "duration_seconds": 180, "per_run_score": 14 },
+        { "run_index": 5,  "ascension": 0, "outcome": "defeat",  "final_floor": 6,  "final_act": 1, "death_cause": "Cultist", "duration_seconds": 80,  "per_run_score": 6 },
+        { "run_index": 6,  "ascension": 0, "outcome": "defeat",  "final_floor": 11, "final_act": 1, "death_cause": "Fungi Beasts", "duration_seconds": 140, "per_run_score": 11 },
+        { "run_index": 7,  "ascension": 0, "outcome": "defeat",  "final_floor": 18, "final_act": 2, "death_cause": "Hexaghost", "duration_seconds": 250, "per_run_score": 18 },
+        { "run_index": 8,  "ascension": 0, "outcome": "defeat",  "final_floor": 9,  "final_act": 1, "death_cause": "Jaw Worm", "duration_seconds": 110, "per_run_score": 9 },
+        { "run_index": 9,  "ascension": 0, "outcome": "defeat",  "final_floor": 13, "final_act": 1, "death_cause": "Exordium Wildlife", "duration_seconds": 170, "per_run_score": 13 },
+        { "run_index": 10, "ascension": 0, "outcome": "defeat",  "final_floor": 7,  "final_act": 1, "death_cause": "Lagavulin (Elite)", "duration_seconds": 95,  "per_run_score": 7 }
+      ],
+      "aggregate": {
+        "ceiling": 0,
+        "ceiling_consistency": 0.0,
+        "progress_score_mean": 11.8,
+        "progress_score_max": 22,
+        "avg_final_floor": 11.8,
+        "max_final_floor": 22,
+        "total_runs": 10,
+        "total_victories": 0
+      },
+      "cost": {
+        "total_usd": 8.60,
+        "total_input_tokens": 400000,
+        "total_output_tokens": 150000,
+        "cost_per_run_usd": 0.86,
+        "cost_per_ascension_unlocked_usd": 999.99
+      },
+      "submitted_at": "2026-04-05T11:00:00Z",
+      "verified": true
+    }
+  ]
+}

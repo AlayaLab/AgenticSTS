@@ -1,0 +1,18 @@
+{
+  "num_decisions": 425,
+  "decision_types": {
+    "map": 5,
+    "event": 2,
+    "monster": 62,
+    "combat_rewards": 7,
+    "card_reward": 2,
+    "treasure": 2,
+    "rest_site": 343,
+    "card_select": 2
+  },
+  "source_distribution": {
+    "llm": 380,
+    "random": 45
+  },
+  "error_count": 0
+}

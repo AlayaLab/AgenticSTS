@@ -1,0 +1,166 @@
+{
+  "run_id": "20260430_154901_dc4a3851",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 139,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 5619,
+      "estimated_tokens": 1405
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 5210,
+      "estimated_tokens": 1303
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 23809,
+      "estimated_tokens": 5953
+    },
+    {
+      "name": "replay_package",
+      "chars": 10074,
+      "estimated_tokens": 2519
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1492,
+      "estimated_tokens": 373
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 8661,
+    "non_combat_decisions": 71,
+    "combat_episodes": 9,
+    "encountered_enemy_keys": [
+      "Gremlin Merc",
+      "Haunted Ship",
+      "Sludge Spinner",
+      "Waterfall Giant",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Falling Star",
+      "Venerate",
+      "Astral Pulse",
+      "Know Thy Place",
+      "Know Thy Place",
+      "Glow",
+      "Wrought in War",
+      "Glow",
+      "Gather Light",
+      "Know Thy Place",
+      "Wrought in War"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 2417,
+    "entries": [
+      {
+        "enemy_key": "multi:Calcified Cultist+Seapunk",
+        "floor": 7,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=40 vs historical avg=2.6+/-5.2 (z=7.2, WORSE_THAN_USUAL, n=8)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 7.2,
+        "comparator": {
+          "enemy_key": "multi:Calcified Cultist+Seapunk",
+          "floor": 12,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=9 vs historical avg=16.7+/-16.6 (z=-0.5, TYPICAL, n=14)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=57 vs historical avg=28.2+/-15.9 (z=1.8, WORSE_THAN_USUAL, n=25)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.8,
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 47058,
+  "context_estimated_tokens": 11756,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 55878,
+    "total_output_tokens": 8717,
+    "round_input_tokens": [
+      16942,
+      18294,
+      20642
+    ],
+    "round_output_tokens": [
+      660,
+      4543,
+      3514
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 92995,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cells": [
+    {
+      "bootstrap95_hi": 87.13,
+      "bootstrap95_lo": 52.8,
+      "cell": "baseline-strict",
+      "experiment_tag": "gemini-pilot-2026-05-08-A0-baseline",
+      "mean_score": 70.4,
+      "n": 10,
+      "wilson95_hi": 60.3,
+      "wilson95_lo": 10.8,
+      "wins": 3
+    },
+    {
+      "bootstrap95_hi": 89.63,
+      "bootstrap95_lo": 48.17,
+      "cell": "prompt-only",
+      "experiment_tag": "gemini-pilot-2026-05-09-A0-prompt-only",
+      "mean_score": 69.6,
+      "n": 10,
+      "wilson95_hi": 68.7,
+      "wilson95_lo": 16.8,
+      "wins": 4
+    },
+    {
+      "bootstrap95_hi": 96.53,
+      "bootstrap95_lo": 71.03,
+      "cell": "mode-a",
+      "experiment_tag": "gemini-pilot-2026-05-09-A0-mode-a-makeup",
+      "mean_score": 85.5,
+      "n": 10,
+      "wilson95_hi": 83.2,
+      "wilson95_lo": 31.3,
+      "wins": 6
+    },
+    {
+      "bootstrap95_hi": 98.27,
+      "bootstrap95_lo": 64.93,
+      "cell": "mode-b-frozen",
+      "experiment_tag": "gemini-pilot-2026-05-12-A0-mode-b-frozen",
+      "mean_score": 83.27,
+      "n": 10,
+      "wilson95_hi": 83.2,
+      "wilson95_lo": 31.3,
+      "wins": 6
+    },
+    {
+      "bootstrap95_hi": 97.67,
+      "bootstrap95_lo": 63.73,
+      "cell": "full-frozen",
+      "experiment_tag": "gemini-pilot-2026-05-08-A0-full-frozen",
+      "mean_score": 82.07,
+      "n": 10,
+      "wilson95_hi": 83.2,
+      "wilson95_lo": 31.3,
+      "wins": 6
+    }
+  ]
+}

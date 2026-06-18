@@ -1,0 +1,242 @@
+{
+  "run_id": "20260505_113525_4c9da583",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 22144,
+      "estimated_tokens": 5536
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 20203,
+      "estimated_tokens": 5051
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 78294,
+      "estimated_tokens": 19574
+    },
+    {
+      "name": "replay_package",
+      "chars": 58666,
+      "estimated_tokens": 14667
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 785,
+      "estimated_tokens": 197
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 30161,
+    "non_combat_decisions": 198,
+    "combat_episodes": 20,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Gremlin Merc",
+      "Haunted Ship",
+      "Hunter Killer",
+      "Lagavulin Matriarch",
+      "Living Fog",
+      "Louse Progenitor",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Spiny Toad",
+      "Tunneler",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Chomper+Chomper",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Crusher+Rocket",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Living Shield+Turret Operator",
+      "multi:Queen+Torch Head Amalgam",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Strike+",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Snakebite",
+      "Predator",
+      "Dagger Throw",
+      "Bullet Time+",
+      "Snakebite+",
+      "Flick-Flack+",
+      "Deadly Poison+",
+      "Afterimage+",
+      "Blade Dance+",
+      "Acrobatics+",
+      "Piercing Wail",
+      "Footwork+",
+      "Bouncing Flask",
+      "Noxious Fumes",
+      "Backflip",
+      "Fan of Knives",
+      "Malaise",
+      "Calculated Gamble+",
+      "Well-Laid Plans+",
+      "Piercing Wail",
+      "Accelerant",
+      "Noxious Fumes"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 14492,
+    "entries": [
+      {
+        "enemy_key": "Sludge Spinner",
+        "floor": 2,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=3 vs historical avg=0.3+/-0.5 (z=5.7, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 5.7,
+        "comparator": {
+          "enemy_key": "Sludge Spinner",
+          "floor": 3,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Corpse Slug+Corpse Slug",
+        "floor": 4,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=10 vs historical avg=1.8+/-1.1 (z=7.6, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 7.6,
+        "comparator": {
+          "enemy_key": "multi:Corpse Slug+Corpse Slug",
+          "floor": 4,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 11,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 15,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Crusher+Rocket",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Crusher+Rocket",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 44,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+          "floor": 43,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Queen+Torch Head Amalgam",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      }
+    ]
+  },
+  "context_chars": 180593,
+  "context_estimated_tokens": 45140,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 303368,
+    "total_output_tokens": 4926,
+    "round_input_tokens": [
+      59774,
+      60219,
+      61138,
+      61175,
+      61062
+    ],
+    "round_output_tokens": [
+      694,
+      982,
+      1038,
+      1168,
+      1044
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 94204,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

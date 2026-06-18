@@ -1,0 +1,375 @@
+[
+  {
+    "skill_id": "stub_the_silent_boss",
+    "name": "The Silent - Boss Strategy",
+    "category": "boss",
+    "trigger": {
+      "state_types": [
+        "boss"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "TBD - filled by Mode B postrun",
+    "lessons": "",
+    "examples": [],
+    "priority": 92,
+    "source": "stub",
+    "source_run_ids": [],
+    "created_at": 1777785996.1378663,
+    "version": 0,
+    "confidence": 0.5,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": true,
+    "status": "pending_fill",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "Strategic approach to boss fights for this character",
+      "scope": "Principles for act-ending boss encounters, where HP fully restores between acts.",
+      "dimensions_to_consider": [
+        "How boss fights differ from hallway fights — what the win condition requires given the longer timeline",
+        "How HP and potion usage compare to hallway combat",
+        "Front-loaded burst vs scaling commitment trade-offs",
+        "When to commit to a Power card vs continue applying pressure",
+        "How to recognize when the current build is insufficient for this boss and what options remain"
+      ],
+      "out_of_scope": [
+        "Per-boss mechanics or specific phase counters -> belongs in combat_guides",
+        "Specific Power-card play orders -> belongs in card_memory",
+        "Specific HP / damage thresholds tied to one boss"
+      ],
+      "format_constraints": {
+        "token_budget": "300-600 tokens",
+        "structure": "4-7 numbered principles. Each = one imperative declarative sentence + one short concrete example.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 6,
+        "max_distinct_enemy_names": 3,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_combat",
+    "name": "The Silent - Combat Principles",
+    "category": "combat",
+    "trigger": {
+      "state_types": [
+        "elite",
+        "hand_select",
+        "monster"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "TBD - filled by Mode B postrun",
+    "lessons": "",
+    "examples": [],
+    "priority": 90,
+    "source": "stub",
+    "source_run_ids": [],
+    "created_at": 1777785996.1379395,
+    "version": 0,
+    "confidence": 0.5,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": true,
+    "status": "pending_fill",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "Strategic approach to non-boss combat for this character",
+      "scope": "Generalizable principles applying to MOST hallway and elite encounters, regardless of the specific enemy.",
+      "dimensions_to_consider": [
+        "How to allocate energy each turn (offense / defense / setup)",
+        "How to read enemy intents and react to multi-enemy boards",
+        "HP loss across the run — when is taking damage acceptable, when should it be avoided, and how does this scale across the act",
+        "Card sequencing within a turn (which card types resolve first)",
+        "When to spend potions in non-boss combat",
+        "How character-specific tempo levers work"
+      ],
+      "out_of_scope": [
+        "Per-enemy mechanics (round triggers, threshold patterns) -> belongs in combat_guides",
+        "Per-card play recipes or specific combos -> belongs in card_memory notes",
+        "Specific numerical thresholds tied to one situation"
+      ],
+      "format_constraints": {
+        "token_budget": "400-700 tokens",
+        "structure": "5-8 numbered principles. Each = one imperative declarative sentence + one short concrete example demonstrating application.",
+        "voice": "Imperative, second-person, not descriptive."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 8,
+        "max_distinct_enemy_names": 3,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_deckbuilding",
+    "name": "The Silent - Deckbuilding Principles",
+    "category": "deck_building",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "card_select",
+        "relic_select",
+        "shop",
+        "treasure"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "TBD - filled by Mode B postrun",
+    "lessons": "",
+    "examples": [],
+    "priority": 88,
+    "source": "stub",
+    "source_run_ids": [],
+    "created_at": 1777785996.1379719,
+    "version": 0,
+    "confidence": 0.5,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": true,
+    "status": "pending_fill",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "How this character evaluates card and deck choices",
+      "scope": "Principles for adding, removing, and upgrading cards across the run; relic and shop decisions.",
+      "dimensions_to_consider": [
+        "What dimensions of card value matter most for this character",
+        "Archetype commitment vs flexibility — when to commit to a build, when to stay open",
+        "Card removal priority and timing",
+        "Shop budgeting and gold allocation",
+        "When to skip rather than pick"
+      ],
+      "out_of_scope": [
+        "Specific card tier lists - belongs in card_memory notes",
+        "Specific archetype recipes - belongs in deck_guides",
+        "Specific gold thresholds tied to one shop visit"
+      ],
+      "format_constraints": {
+        "token_budget": "400-700 tokens",
+        "structure": "5-8 numbered principles, each one imperative sentence + concrete example.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 8,
+        "max_distinct_enemy_names": 2,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_intermission",
+    "name": "The Silent - Rest & Event Decisions",
+    "category": "rest",
+    "trigger": {
+      "state_types": [
+        "event",
+        "rest_site"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "TBD - filled by Mode B postrun",
+    "lessons": "",
+    "examples": [],
+    "priority": 85,
+    "source": "stub",
+    "source_run_ids": [],
+    "created_at": 1777785996.1379929,
+    "version": 0,
+    "confidence": 0.5,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": true,
+    "status": "pending_fill",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "How this character makes trade-off decisions at non-combat nodes",
+      "scope": "Resource investment and trade-off framing at rest sites and events.",
+      "dimensions_to_consider": [
+        "Rest investment trade-offs (smith vs heal vs other)",
+        "Event trade-off framing (HP for relic, deck pollution for gold, etc.)",
+        "Which deck gaps to fill at non-combat nodes"
+      ],
+      "out_of_scope": [
+        "Specific event option tier lists - belongs in event_guides",
+        "Per-card upgrade priorities - belongs in card_memory"
+      ],
+      "format_constraints": {
+        "token_budget": "300-600 tokens",
+        "structure": "4-7 numbered principles + concrete example each.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 6,
+        "max_distinct_enemy_names": 2,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_map",
+    "name": "The Silent - Path Selection",
+    "category": "map",
+    "trigger": {
+      "state_types": [
+        "map"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "TBD - filled by Mode B postrun",
+    "lessons": "",
+    "examples": [],
+    "priority": 85,
+    "source": "stub",
+    "source_run_ids": [],
+    "created_at": 1777785996.1380126,
+    "version": 0,
+    "confidence": 0.5,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": true,
+    "status": "pending_fill",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "How this character selects between map nodes",
+      "scope": "Forward-looking path selection given current run state.",
+      "dimensions_to_consider": [
+        "Node priority hierarchy for this character",
+        "How HP buffer should adjust path choice",
+        "Boss-distance routing (when to start prioritizing rest, removal, or scaling)",
+        "Shop and rest pacing across an act"
+      ],
+      "out_of_scope": [
+        "Per-act specific patterns - belongs in route_guides",
+        "Specific HP thresholds for path choice"
+      ],
+      "format_constraints": {
+        "token_budget": "300-600 tokens",
+        "structure": "4-7 numbered principles + concrete example each.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 4,
+        "max_distinct_enemy_names": 3,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  }
+]

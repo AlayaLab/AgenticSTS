@@ -1,0 +1,109 @@
+{
+  "run_id": "20260428_154304_e6ae13eb",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 9924,
+      "estimated_tokens": 2481
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 2678,
+      "estimated_tokens": 670
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 38786,
+      "estimated_tokens": 9697
+    },
+    {
+      "name": "replay_package",
+      "chars": 4153,
+      "estimated_tokens": 1039
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1296,
+      "estimated_tokens": 324
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 12848,
+    "non_combat_decisions": 84,
+    "combat_episodes": 6,
+    "encountered_enemy_keys": [
+      "Fat Gremlin",
+      "Haunted Ship",
+      "Lagavulin Matriarch",
+      "Thieving Hopper",
+      "Tunneler",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)+Bowlbug (Silk)"
+    ],
+    "final_deck_cards": []
+  },
+  "replay_package": {
+    "estimated_tokens": 1007,
+    "entries": [
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=19 vs historical avg=31.7+/-19.5 (z=-0.7, TYPICAL, n=36)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.7,
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 57690,
+  "context_estimated_tokens": 14414,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 57894,
+    "total_output_tokens": 3872,
+    "round_input_tokens": [
+      18796,
+      18891,
+      20207
+    ],
+    "round_output_tokens": [
+      539,
+      2057,
+      1276
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 169922,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

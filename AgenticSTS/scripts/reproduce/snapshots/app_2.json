@@ -1,0 +1,44 @@
+{
+  "cells": [
+    {
+      "avg_bosses": 1.8,
+      "avg_floor": 39.2,
+      "avg_score": 70.4,
+      "cell": "baseline-strict",
+      "n": 10,
+      "wins": 3
+    },
+    {
+      "avg_bosses": 1.8,
+      "avg_floor": 38.4,
+      "avg_score": 69.6,
+      "cell": "prompt-only",
+      "n": 10,
+      "wins": 4
+    },
+    {
+      "avg_bosses": 2.4,
+      "avg_floor": 43.9,
+      "avg_score": 85.5,
+      "cell": "mode-a",
+      "n": 10,
+      "wins": 6
+    },
+    {
+      "avg_bosses": 2.3,
+      "avg_floor": 43.4,
+      "avg_score": 83.27,
+      "cell": "mode-b-frozen",
+      "n": 10,
+      "wins": 6
+    },
+    {
+      "avg_bosses": 2.3,
+      "avg_floor": 42.2,
+      "avg_score": 82.07,
+      "cell": "full-frozen",
+      "n": 10,
+      "wins": 6
+    }
+  ]
+}

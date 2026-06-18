@@ -1,0 +1,187 @@
+{
+  "run_id": "20260504_060248_74fff8e3",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 14803,
+      "estimated_tokens": 3701
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 13260,
+      "estimated_tokens": 3315
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 52962,
+      "estimated_tokens": 13241
+    },
+    {
+      "name": "replay_package",
+      "chars": 39928,
+      "estimated_tokens": 9982
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 955,
+      "estimated_tokens": 239
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 20257,
+    "non_combat_decisions": 130,
+    "combat_episodes": 13,
+    "encountered_enemy_keys": [
+      "Ceremonial Beast",
+      "Fuzzy Wurm Crawler",
+      "Knowledge Demon",
+      "Phrog Parasite",
+      "Shrinker Beetle",
+      "The Obscura",
+      "Tunneler",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Fuzzy Wurm Crawler+Shrinker Beetle",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Myte+Myte"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Cloak and Dagger+",
+      "Fan of Knives+",
+      "Leading Strike",
+      "Blade Dance",
+      "Malaise",
+      "Infinite Blades",
+      "Expose",
+      "Shadow Step",
+      "Infinite Blades",
+      "Blur+",
+      "Dagger Throw+",
+      "Phantom Blades+",
+      "Backflip"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 9881,
+    "entries": [
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 14,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=5.7+/-4.5 (z=-1.3, BETTER_THAN_USUAL, n=3)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.3,
+        "comparator": {
+          "enemy_key": "Phrog Parasite",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Ceremonial Beast",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+        "floor": 19,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=12 vs historical avg=2.5+/-2.6 (z=3.7, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.7,
+        "comparator": {
+          "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+          "floor": 20,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 122420,
+  "context_estimated_tokens": 30596,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 208636,
+    "total_output_tokens": 9358,
+    "round_input_tokens": [
+      40740,
+      41228,
+      42197,
+      42293,
+      42178
+    ],
+    "round_output_tokens": [
+      891,
+      1511,
+      2252,
+      1418,
+      3286
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 108968,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

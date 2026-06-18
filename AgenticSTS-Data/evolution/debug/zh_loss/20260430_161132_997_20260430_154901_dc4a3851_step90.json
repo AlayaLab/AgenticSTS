@@ -1,0 +1,28 @@
+{
+  "ts": "20260430_161132_997",
+  "run_id": "20260430_154901_dc4a3851",
+  "step": 90,
+  "floor": 7,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Venerate",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Play Venerate to reach 3 Stars, enabling Astral Pulse. Astral Pulse kills the Calcified Cultist (4 HP) without spending energy, saving a Strike. This leaves 2 energy to play Glow, drawing Defend from our 1-card draw pile, and then playing Defend to mitigate the Seapunk's 12 damage attack down to 7.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

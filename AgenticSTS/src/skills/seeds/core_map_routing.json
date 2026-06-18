@@ -1,0 +1,22 @@
+[
+  {
+    "skill_id": "seed_core_map_routing",
+    "name": "Map Routing and Path Planning",
+    "category": "map",
+    "tier": "general",
+    "trigger": {
+      "state_types": ["map"]
+    },
+    "content": "Your route determines how strong you are at the Boss. Plan the full act, not just the next node. (1) General priority: Rest (upgrade cards) > Treasure > Shop (when you have gold) > Event > Monster >>> Elite. Elites are very dangerous — only consider with high HP and a strong deck. (2) Shop at least once per act — card removal is critical, and sometimes you can find key cards for your build. Budget enough gold for purchases. If gold is low, fight Monsters first to earn gold before shop. (3) Rest before Boss — never enter Boss at dangerously low HP. But remember: Smith (upgrade) is usually better than healing at rest sites. (4) Early act (floors 1-3): Monsters to build deck and earn gold. (5) Mid act: Shop (removal) + Rest (upgrade). (6) Pre-boss: Rest > everything. (7) HP fully restores between Acts — Boss fights: play to WIN, not to save HP.",
+    "lessons": "Without routing discipline: walk into Elites at 40% HP and die, skip all shops and never thin the deck, enter Boss with 30% HP and no upgrades.",
+    "examples": [
+      "Comfortable HP buffer: take Elite path for relic, rest before Boss",
+      "Dangerously low HP: avoid Elite, take Event/Rest path even if longer",
+      "Enough gold for removal: route through Shop to remove a Strike before Boss"
+    ],
+    "priority": 80,
+    "source": "seed",
+    "confidence": 0.85,
+    "verified": true
+  }
+]

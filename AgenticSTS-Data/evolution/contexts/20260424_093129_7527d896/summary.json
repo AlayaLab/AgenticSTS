@@ -1,0 +1,258 @@
+{
+  "run_id": "20260424_093129_7527d896",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 10141,
+      "estimated_tokens": 2536
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 8723,
+      "estimated_tokens": 2181
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 48684,
+      "estimated_tokens": 12171
+    },
+    {
+      "name": "replay_package",
+      "chars": 22423,
+      "estimated_tokens": 5606
+    },
+    {
+      "name": "combat_guides",
+      "chars": 15977,
+      "estimated_tokens": 3995
+    },
+    {
+      "name": "deck_guides",
+      "chars": 1000,
+      "estimated_tokens": 250
+    },
+    {
+      "name": "card_notes",
+      "chars": 5079,
+      "estimated_tokens": 1270
+    },
+    {
+      "name": "card_stats",
+      "chars": 2522,
+      "estimated_tokens": 631
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1762,
+      "estimated_tokens": 441
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 16888,
+    "non_combat_decisions": 153,
+    "combat_episodes": 15,
+    "encountered_enemy_keys": [
+      "Hunter Killer",
+      "Infested Prism",
+      "Lagavulin Matriarch",
+      "Living Fog",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Spiny Toad",
+      "The Insatiable",
+      "The Obscura",
+      "Tunneler",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Blade of Ink",
+      "Ricochet",
+      "Cloak and Dagger+",
+      "Leading Strike",
+      "Dagger Throw",
+      "Precise Cut",
+      "Backflip+",
+      "Expose",
+      "Leg Sweep+",
+      "Accuracy+",
+      "Storm of Steel",
+      "Cloak and Dagger",
+      "Leading Strike",
+      "Knife Trap+",
+      "Up My Sleeve",
+      "Footwork+",
+      "Acrobatics+",
+      "Phantom Blades",
+      "Dodge and Roll"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 5449,
+    "entries": [
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 13,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=5 vs historical avg=16.5+/-12.9 (z=-0.9, TYPICAL, n=24)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 8,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+        "floor": 14,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=9.8+/-8.3 (z=-1.2, BETTER_THAN_USUAL, n=25)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+          "floor": 9,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Living Fog",
+        "floor": 15,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=1 vs historical avg=15.8+/-11.6 (z=-1.3, BETTER_THAN_USUAL, n=35)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.3,
+        "comparator": {
+          "enemy_key": "Living Fog",
+          "floor": 14,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=26 vs historical avg=30.7+/-20.1 (z=-0.2, TYPICAL, n=32)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.2,
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 24,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=10 vs historical avg=19.7+/-14.3 (z=-0.7, TYPICAL, n=21)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.7,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 28,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=65 vs historical avg=37.9+/-20.8 (z=1.3, TYPICAL, n=43)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.3,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 15,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 18,
+    "stats": 21
+  },
+  "context_chars": 117140,
+  "context_estimated_tokens": 29277,
+  "session": {
+    "total_rounds": 2,
+    "total_input_tokens": 38776,
+    "total_output_tokens": 68,
+    "round_input_tokens": [
+      38776
+    ],
+    "round_output_tokens": [
+      68
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gpt-5.4-thinking",
+    "fallbacks_used": 4,
+    "duration_ms": 268643,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

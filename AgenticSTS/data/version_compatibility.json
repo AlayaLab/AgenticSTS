@@ -1,0 +1,18 @@
+{
+  "current": {
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "verified_date": "2026-04-17",
+    "snapshot_path": null,
+    "retired_date": null
+  },
+  "history": [
+    {
+      "game_version": "v0.5.3",
+      "mod_version": "v0.5.3-chartyr",
+      "verified_date": "2026-04-17",
+      "snapshot_path": "data.snapshots\\v0.5.3-pre-v0.103.1",
+      "retired_date": "2026-04-17"
+    }
+  ]
+}

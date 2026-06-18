@@ -1,0 +1,5 @@
+Card note check  (game: v0.103.1, play_threshold: 3)
+  Total tracked: 0  |  With note: 0
+  High-play missing note: 0  |  Stale notes: 0
+
+  OK — no gaps or staleness found.

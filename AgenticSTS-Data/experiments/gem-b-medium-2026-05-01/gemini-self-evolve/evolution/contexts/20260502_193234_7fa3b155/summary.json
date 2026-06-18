@@ -1,0 +1,135 @@
+{
+  "run_id": "20260502_193234_7fa3b155",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 6500,
+      "estimated_tokens": 1625
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 4924,
+      "estimated_tokens": 1231
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 25017,
+      "estimated_tokens": 6255
+    },
+    {
+      "name": "replay_package",
+      "chars": 12012,
+      "estimated_tokens": 3003
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 857,
+      "estimated_tokens": 215
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 9111,
+    "non_combat_decisions": 67,
+    "combat_episodes": 7,
+    "encountered_enemy_keys": [
+      "Gremlin Merc",
+      "Haunted Ship",
+      "Lagavulin Matriarch",
+      "Living Fog",
+      "Seapunk",
+      "Sludge Spinner",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Abrasive",
+      "Acrobatics+",
+      "Deadly Poison",
+      "Dagger Throw",
+      "Skewer+",
+      "Cloak and Dagger",
+      "Piercing Wail"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 2970,
+    "entries": [
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 49819,
+  "context_estimated_tokens": 12446,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 95219,
+    "total_output_tokens": 21737,
+    "round_input_tokens": [
+      17878,
+      18505,
+      19462,
+      19517,
+      19857
+    ],
+    "round_output_tokens": [
+      1949,
+      3786,
+      1509,
+      1255,
+      13238
+    ],
+    "actions_taken": 3,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 271618,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ts": "20260430_110539_930",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 89,
+  "floor": 11,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "potion",
+        "card": "",
+        "potion_index": null,
+        "target_index": null
+      },
+      {
+        "type": "card",
+        "card": "Wrought in War",
+        "potion_index": null,
+        "target_index": 2
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Use the Strength Potion for scaling in this long Elite fight. Play Wrought in War on Phantasmal Gardener [2] (highest intent at 7 dmg) to deal damage and spawn the Sovereign Blade. The Sovereign Blade (10 base + 7 Forge + 2 Str = 19 dmg) will finish off Gardener [2]. Play Falling Star on Gardener [1] to apply Weak and reduce its damage from 5 to 3. With Enemy 2 dead and Enemy 1 weakened, total incoming damage drops to 6. Play two Defends to gain 10 Block, fully protecting against the remaining 6 damage and conserving HP.",
+    "reasoning_zh": "",
+    "note_to_future_self": "Sovereign Blade is active and buffed by Strength. Keep generating stars for Stardust+ next turn."
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

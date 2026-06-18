@@ -1,0 +1,172 @@
+{
+  "run_id": "20260425_003314_27cd8c87",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 127,
+      "estimated_tokens": 32
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 445,
+      "estimated_tokens": 112
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 843,
+      "estimated_tokens": 211
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 938,
+      "estimated_tokens": 235
+    },
+    {
+      "name": "replay_package",
+      "chars": 6015,
+      "estimated_tokens": 1504
+    },
+    {
+      "name": "combat_guides",
+      "chars": 1076,
+      "estimated_tokens": 269
+    },
+    {
+      "name": "deck_guides",
+      "chars": 909,
+      "estimated_tokens": 228
+    },
+    {
+      "name": "card_notes",
+      "chars": 5744,
+      "estimated_tokens": 1436
+    },
+    {
+      "name": "card_stats",
+      "chars": 3055,
+      "estimated_tokens": 764
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 299,
+      "estimated_tokens": 75
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 558,
+    "non_combat_decisions": 3,
+    "combat_episodes": 1,
+    "encountered_enemy_keys": [
+      "Door"
+    ],
+    "final_deck_cards": [
+      "Defend+",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Greed",
+      "Noxious Fumes+",
+      "Backstab",
+      "Deadly Poison",
+      "Mirage+",
+      "Leg Sweep",
+      "Deadly Poison",
+      "Calculated Gamble+",
+      "Accelerant+",
+      "Flick-Flack+",
+      "Echoing Slash",
+      "Tactician+",
+      "Dash+",
+      "Anticipate+",
+      "Noxious Fumes",
+      "Backflip+",
+      "Dagger Throw",
+      "Expertise+",
+      "Tools of the Trade+",
+      "Poisoned Stab",
+      "Corrosive Wave+",
+      "Well-Laid Plans+",
+      "Calculated Gamble",
+      "Malaise",
+      "Backflip+",
+      "Bubble Bubble"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1476,
+    "entries": [
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=38 vs historical avg=36.0+/-13.2 (z=0.2, TYPICAL, n=4)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.2,
+        "comparator": {
+          "enemy_key": "Door",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 1,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 24,
+    "stats": 25
+  },
+  "context_chars": 20139,
+  "context_estimated_tokens": 5026,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 51076,
+    "total_output_tokens": 18409,
+    "round_input_tokens": [
+      8578,
+      8785,
+      11317,
+      10187,
+      12209
+    ],
+    "round_output_tokens": [
+      616,
+      666,
+      13524,
+      699,
+      2904
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "update_card_note",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 303148,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "run_id": "20260426_075551_503c376b",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 131,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 15968,
+      "estimated_tokens": 3992
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 13290,
+      "estimated_tokens": 3323
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 72808,
+      "estimated_tokens": 18202
+    },
+    {
+      "name": "replay_package",
+      "chars": 39418,
+      "estimated_tokens": 9855
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2637,
+      "estimated_tokens": 660
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 25517,
+    "non_combat_decisions": 231,
+    "combat_episodes": 21,
+    "encountered_enemy_keys": [
+      "Byrdonis",
+      "Devoted Sculptor",
+      "Entomancer",
+      "Fabricator",
+      "Fuzzy Wurm Crawler",
+      "Globe Head",
+      "Knowledge Demon",
+      "Nibbit",
+      "Owl Magistrate",
+      "Phrog Parasite",
+      "The Obscura",
+      "Thieving Hopper",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Living Shield+Turret Operator",
+      "multi:Nibbit+Nibbit",
+      "multi:Queen+Torch Head Amalgam",
+      "multi:Slithering Strangler+Twig Slime (M)"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Strike",
+      "Strike+",
+      "Defend",
+      "Defend",
+      "Defend+",
+      "Defend",
+      "Defend+",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Storm of Steel",
+      "Dagger Throw",
+      "Acrobatics+",
+      "Flick-Flack+",
+      "Phantom Blades",
+      "Backstab",
+      "Dash",
+      "Piercing Wail",
+      "Shadowmeld+",
+      "Adrenaline+",
+      "Curse of the Bell",
+      "Noxious Fumes",
+      "Well-Laid Plans",
+      "Blade Dance",
+      "Footwork+",
+      "Piercing Wail",
+      "Ultimate Strike",
+      "Backflip+",
+      "Serpent Form+",
+      "Backflip+",
+      "Blade Dance+",
+      "Master of Strategy",
+      "Expertise",
+      "Flick-Flack",
+      "Dodge and Roll",
+      "Up My Sleeve",
+      "Cloak and Dagger+",
+      "Finisher"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 9653,
+    "entries": [
+      {
+        "enemy_key": "Byrdonis",
+        "floor": 9,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=19 vs historical avg=14.7+/-10.1 (z=0.4, TYPICAL, n=15)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.4,
+        "comparator": {
+          "enemy_key": "Byrdonis",
+          "floor": 13,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=3 vs historical avg=18.9+/-19.5 (z=-0.8, TYPICAL, n=17)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.8,
+        "comparator": {
+          "enemy_key": "Phrog Parasite",
+          "floor": 15,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=22 vs historical avg=32.4+/-18.5 (z=-0.6, TYPICAL, n=37)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.6,
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 25,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=17 vs historical avg=22.0+/-13.5 (z=-0.4, TYPICAL, n=24)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.4,
+        "comparator": {
+          "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+          "floor": 31,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 27,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=12 vs historical avg=19.7+/-15.1 (z=-0.5, TYPICAL, n=27)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "Entomancer",
+          "floor": 31,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=50 vs historical avg=34.4+/-16.1 (z=1.0, TYPICAL, n=36)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.0,
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Globe Head",
+        "floor": 46,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=7.1+/-6.4 (z=-1.1, BETTER_THAN_USUAL, n=12)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "Globe Head",
+          "floor": 38,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Queen+Torch Head Amalgam",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=66 vs historical avg=36.6+/-17.4 (z=1.7, WORSE_THAN_USUAL, n=13)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.7,
+        "comparator": {
+          "enemy_key": "multi:Queen+Torch Head Amalgam",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 144967,
+  "context_estimated_tokens": 36233,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 151390,
+    "total_output_tokens": 5944,
+    "round_input_tokens": [
+      49578,
+      49708,
+      52104
+    ],
+    "round_output_tokens": [
+      1602,
+      3241,
+      1101
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 76488,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

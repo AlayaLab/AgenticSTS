@@ -1,0 +1,105 @@
+# ───────── Secrets ─────────
+.env
+.env.*
+!.env.example
+
+# ───────── Python ─────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+/build/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ───────── IDE / OS ─────────
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# ───────── Claude Code / agent tooling ─────────
+.claude/
+.agent-run-report-cursor
+.evolution-review-cursor
+.memory-audit-cursor
+.test-health-cursor
+
+# ───────── data/ ─────────
+# Dynamic data (memory/, skills/, evolution/, runs/) lives in the sibling repo
+# ../AgenticSTS-Data (see CLAUDE.md § "Data Repository Split"). Only these
+# static / per-machine paths stay under data/ in the main repo:
+#   data/knowledge/                    — game knowledge DB, upstream-synced
+#   data/patches/                      — authored patch manifests
+#   data/version_compatibility.json    — authored
+#   data/reports/                      — local audit output
+
+# Ignore the sibling-owned subtrees if they get accidentally recreated locally.
+data/memory/
+data/skills/
+data/evolution/
+data/runs/
+
+# Per-machine operational state — never in sibling, never committed.
+data/batch_pending.json
+data/skill_discovery_counter.json
+data/benchmark/
+data/eval/
+data/hidden_gem_ab_results.json
+data/.postrun.lock
+
+# Patch-pipeline snapshots — write-once, never commit
+data.snapshots/
+
+# ───────── logs/ ─────────
+# Per-run JSONL session logs. Multi-GB, not useful to share raw.
+logs/
+
+# ───────── scratch / build / reflection ─────────
+out/
+scratch/
+_reflect_sts2/
+.tmp_test/
+tests/_tmp_session_logger/
+tools/**/bin/
+tools/**/obj/
+/*.png
+
+# ───────── C# mod ─────────
+# The C# mod lives in the sibling repo ShandaAI/AgenticSTS:AgenticSTS-Mod (../AgenticSTS-Mod/),
+# split from STS2-Agent-Fork/ on 2026-04-29. Build outputs are ignored in that
+# sibling repo's own .gitignore — nothing to ignore here.
+
+# ───────── frontend build output ─────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ───────── GDRE auto-regenerated log ─────────
+# Rewrites a meaningless extraction-time line on every run; pure churn.
+data/knowledge/gdre_export.log
+
+# ───────── Locally-regenerated game content (NOT redistributed) ─────────
+# Verbatim / derived game strings — AGPL-3.0 upstream or extracted from the
+# proprietary game package. Regenerate with scripts.sync_upstream_data /
+# scripts.extract_pck_localization. See data/knowledge/README.md.
+data/knowledge/upstream/
+data/knowledge/*_dll.json
+data/knowledge/afflictions.json
+data/knowledge/powers.json
+data/knowledge/localization/
+
+# ───────── Runtime locks ─────────
+*.postrun.lock
+.postrun.lock
+
+# ───────── paper/ ─────────
+# Cloned competitor repos for comparative analysis (paper/competitors/).
+# External repositories — cite via GitHub URLs and document findings in
+# paper/narrative/competitor_analysis.md. Do not commit their contents.
+paper/competitors/
+paper/reference_papers/

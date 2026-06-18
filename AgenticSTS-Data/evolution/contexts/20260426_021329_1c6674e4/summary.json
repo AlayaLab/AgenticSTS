@@ -1,0 +1,218 @@
+{
+  "run_id": "20260426_021329_1c6674e4",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 7525,
+      "estimated_tokens": 1882
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 9528,
+      "estimated_tokens": 2382
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 33135,
+      "estimated_tokens": 8284
+    },
+    {
+      "name": "replay_package",
+      "chars": 24528,
+      "estimated_tokens": 6132
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1671,
+      "estimated_tokens": 418
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 12548,
+    "non_combat_decisions": 107,
+    "combat_episodes": 11,
+    "encountered_enemy_keys": [
+      "Battle Friend V3.0",
+      "Devoted Sculptor",
+      "Door",
+      "Fabricator",
+      "The Insatiable",
+      "The Obscura",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)+Bowlbug (Silk)",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Living Shield+Turret Operator",
+      "multi:Myte+Myte"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Flick-Flack+",
+      "Hidden Daggers+",
+      "Cloak and Dagger+",
+      "Backstab",
+      "Noxious Fumes+",
+      "Escape Plan",
+      "Backflip+",
+      "Calculated Gamble+",
+      "Dagger Throw",
+      "Backflip+",
+      "Malaise+",
+      "Backflip+",
+      "Footwork+",
+      "Leading Strike+",
+      "Hidden Daggers+",
+      "Piercing Wail+",
+      "Footwork+",
+      "Piercing Wail+",
+      "Cloak and Dagger+",
+      "Finisher+",
+      "Blur+",
+      "Tactician+",
+      "Ricochet",
+      "Memento Mori+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 5986,
+    "entries": [
+      {
+        "enemy_key": "multi:Bowlbug (Egg)+Bowlbug (Rock)+Bowlbug (Silk)",
+        "floor": 30,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=7.1+/-7.0 (z=-1.0, BETTER_THAN_USUAL, n=11)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "multi:Bowlbug (Egg)+Bowlbug (Rock)+Bowlbug (Silk)",
+          "floor": 30,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 31,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=16 vs historical avg=22.3+/-13.8 (z=-0.5, TYPICAL, n=23)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=2 vs historical avg=38.7+/-21.2 (z=-1.7, BETTER_THAN_USUAL, n=46)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.7,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 42,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=6 vs historical avg=11.6+/-14.5 (z=-0.4, TYPICAL, n=12)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.4,
+        "comparator": {
+          "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+          "floor": 46,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=51 vs historical avg=36.4+/-11.9 (z=1.2, TYPICAL, n=5)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.2,
+        "comparator": {
+          "enemy_key": "Door",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 77232,
+  "context_estimated_tokens": 19299,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 85816,
+    "total_output_tokens": 3268,
+    "round_input_tokens": [
+      27709,
+      27839,
+      30268
+    ],
+    "round_output_tokens": [
+      631,
+      1965,
+      672
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 44672,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

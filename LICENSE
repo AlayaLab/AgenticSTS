@@ -1,0 +1,27 @@
+AgenticSTS — monorepo licensing
+================================
+
+This repository is a monorepo with three components under different licenses.
+Each component carries its own full license text; this root file is the map.
+
+  AgenticSTS/        Apache License 2.0          — see AgenticSTS/LICENSE
+                     (the Python agent: decision engine, memory, skills, tooling,
+                      scripts, leaderboard, docs)
+
+  AgenticSTS-Mod/    GNU AGPL v3.0               — see AgenticSTS-Mod/LICENSE
+                     (the C# game mod; a fork of CharTyr/STS2-Agent, whose AGPL
+                      terms are inherited)
+
+  AgenticSTS-Data/   CC BY 4.0                   — see AgenticSTS-Data/LICENSE
+                     (released run archive, frozen L4/L5 store snapshots)
+
+Root-level files (README.md, NOTICE, CITATION.cff, docs at the repository root)
+are licensed under Apache License 2.0, identical to AgenticSTS/LICENSE.
+
+The Apache-2.0 grant on AgenticSTS/ does NOT extend to AgenticSTS-Mod/: if you
+distribute or run a modified mod, AGPL-3.0 obligations apply. Third-party and
+non-redistributed content (verbatim game data, decompiled extracts) is covered
+in NOTICE and AgenticSTS/data/knowledge/README.md and is regenerated locally
+rather than shipped.
+
+A full copy of the Apache License 2.0 text is at AgenticSTS/LICENSE.

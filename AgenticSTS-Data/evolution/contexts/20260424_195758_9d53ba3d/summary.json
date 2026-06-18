@@ -1,0 +1,237 @@
+{
+  "run_id": "20260424_195758_9d53ba3d",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 4749,
+      "estimated_tokens": 1188
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 6715,
+      "estimated_tokens": 1679
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 23009,
+      "estimated_tokens": 5753
+    },
+    {
+      "name": "replay_package",
+      "chars": 18507,
+      "estimated_tokens": 4627
+    },
+    {
+      "name": "combat_guides",
+      "chars": 10223,
+      "estimated_tokens": 2556
+    },
+    {
+      "name": "deck_guides",
+      "chars": 911,
+      "estimated_tokens": 228
+    },
+    {
+      "name": "card_notes",
+      "chars": 2112,
+      "estimated_tokens": 528
+    },
+    {
+      "name": "card_stats",
+      "chars": 1422,
+      "estimated_tokens": 356
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1208,
+      "estimated_tokens": 302
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 8620,
+    "non_combat_decisions": 77,
+    "combat_episodes": 10,
+    "encountered_enemy_keys": [
+      "Gremlin Merc",
+      "Haunted Ship",
+      "Lagavulin Matriarch",
+      "Seapunk",
+      "Skulking Colony",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Toadpole+Toadpole",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Sucker Punch",
+      "Poisoned Stab",
+      "Blade Dance",
+      "Blade of Ink",
+      "Phantom Blades",
+      "Expertise",
+      "Leg Sweep",
+      "Fan of Knives"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 4470,
+    "entries": [
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 9,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=10 vs historical avg=15.6+/-12.8 (z=-0.4, TYPICAL, n=26)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.4,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 12,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=16 vs historical avg=19.7+/-17.1 (z=-0.2, TYPICAL, n=11)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.2,
+        "comparator": {
+          "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+          "floor": 9,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat",
+        "floor": 13,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=6.9+/-6.5 (z=-1.1, BETTER_THAN_USUAL, n=37)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat",
+          "floor": 8,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Haunted Ship",
+        "floor": 15,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=9.3+/-7.4 (z=-1.2, BETTER_THAN_USUAL, n=30)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "Haunted Ship",
+          "floor": 5,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=36 vs historical avg=30.5+/-19.8 (z=0.3, TYPICAL, n=33)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.3,
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 10,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 9,
+    "stats": 12
+  },
+  "context_chars": 69682,
+  "context_estimated_tokens": 17412,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 134101,
+    "total_output_tokens": 20365,
+    "round_input_tokens": [
+      24621,
+      25396,
+      27904,
+      27240,
+      28940
+    ],
+    "round_output_tokens": [
+      685,
+      2259,
+      14702,
+      2000,
+      719
+    ],
+    "actions_taken": 4,
+    "action_types": [
+      "update_card_note",
+      "update_guide",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 254315,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

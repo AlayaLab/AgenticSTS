@@ -1,0 +1,104 @@
+game_version: v0.103.1
+previous_version: v0.100.0
+patch_date: 2026-04-17
+source: "STS2 main branch merge of beta v0.100.0 through v0.103.1"
+summary: |
+  Mid-size patch: Ironclad/Silent/Regent/Necrobinder rebalance,
+  Doormaker rework, 5 new Neow relics, Badges and Leaderboard systems added,
+  Ascension 6 changed from Gloom to Inflation, shop relics cheaper by 25g.
+
+removed_cards:
+  - name: "Grapple"
+    character: "ironclad"
+    replacement_note: "Game auto-replaces with placeholder status card"
+
+reworked_cards:
+  - name: "Blade of Ink"
+    character: "the silent"
+    severity: major
+    change: "Completely reworked — now generates Inky-enchanted Shivs (+2 damage, 1 Weak)"
+  - name: "Arsenal"
+    character: "regent"
+    severity: major
+    change: "Strength from any cards created, not just Colorless"
+  - name: "Borrowed Time"
+    character: "necrobinder"
+    severity: major
+    change: "Cost 0 apply Doom → Cost 1 Skill, gain 4(6) energy, cards cost +1 this turn"
+  - name: "Hidden Gem"
+    category: "colorless"
+    severity: major
+    change: "Reworked (colorless pool)"
+  - name: "Pendulum"
+    severity: major
+    change: "Relic reworked"
+  - name: "Dominate"
+    character: "ironclad"
+    severity: minor
+  - name: "Expect a Fight"
+    character: "ironclad"
+    severity: minor
+  - name: "Spite"
+    character: "ironclad"
+    severity: minor
+  - name: "Stoke"
+    character: "ironclad"
+    severity: minor
+
+rarity_changed_cards:
+  - name: "Acrobatics"
+    character: "the silent"
+    from: common
+    to: uncommon
+
+new_cards:
+  - name: "Not Yet"
+    character: "ironclad"
+    text: "Rare - Cost 2 Skill | Heal 10(13) HP. Exhaust."
+
+reworked_relics:
+  - name: "Regalite"
+    character: "regent"
+    severity: major
+    change: "Block from any card created, not just Colorless"
+
+new_relics:
+  - name: "Hefty Tablet"
+    source: neow
+  - name: "Neow's Talisman"
+    source: neow
+  - name: "Neow's Bones"
+    source: neow
+  - name: "Phial Holster"
+    source: neow
+  - name: "Winged Boots"
+    source: neow
+
+reworked_enemies:
+  - name: "Doormaker"
+    severity: major
+    # Door shares the Doormaker encounter (same boss room); its stored
+    # episodes/guides reflect the pre-rework fight context.
+    related_enemies:
+      - "Door"
+  - name: "Skulking Colony"
+    severity: minor
+
+ascension_changes:
+  - ascension: 6
+    from: "Gloom — Less rest sites"
+    to: "Inflation — Removing cards at Merchant is more expensive"
+
+shop_changes:
+  - "All shop relics cost 25 gold less"
+  - "Gold-generating relics no longer appear in shop"
+
+writing_clarifications:
+  - entity: "Fairy in a Bottle"
+    clarification: "Only triggers at HP=0, not by any death cause"
+
+new_systems:
+  - name: "Badges"
+    scope: "run_end_summary"
+  - name: "Leaderboards (friends-only, win+badges+speed ranked)"
+    scope: "meta"

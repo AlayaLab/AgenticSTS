@@ -1,0 +1,42 @@
+{
+  "skill_id_template": "stub_{character_id}_deckbuilding",
+  "name_template": "{character_name} - Deckbuilding Principles",
+  "category": "deck_building",
+  "tier": "general",
+  "trigger": {
+    "state_types": ["card_reward", "card_select", "shop", "treasure", "relic_select"],
+    "character": ["{character}"]
+  },
+  "source": "stub",
+  "status": "pending_fill",
+  "scaffold": {
+    "topic": "How this character evaluates card and deck choices",
+    "scope": "Principles for adding, removing, and upgrading cards across the run; relic and shop decisions.",
+    "dimensions_to_consider": [
+      "What dimensions of card value matter most for this character",
+      "Archetype commitment vs flexibility — when to commit to a build, when to stay open",
+      "Card removal priority and timing",
+      "Shop budgeting and gold allocation",
+      "When to skip rather than pick"
+    ],
+    "out_of_scope": [
+      "Specific card tier lists - belongs in card_memory notes",
+      "Specific archetype recipes - belongs in deck_guides",
+      "Specific gold thresholds tied to one shop visit"
+    ],
+    "format_constraints": {
+      "token_budget": "400-700 tokens",
+      "structure": "5-8 numbered principles, each one imperative sentence + concrete example.",
+      "voice": "Imperative, second-person."
+    },
+    "leakage_guard": {
+      "max_distinct_card_names": 8,
+      "max_distinct_enemy_names": 2,
+      "no_specific_damage_thresholds": true
+    }
+  },
+  "content": "TBD - filled by Mode B postrun",
+  "version": 0,
+  "confidence": 0.5,
+  "priority": 88
+}

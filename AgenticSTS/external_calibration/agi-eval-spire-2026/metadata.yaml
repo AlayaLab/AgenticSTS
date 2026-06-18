@@ -1,0 +1,28 @@
+source_id: agi-eval-spire-2026
+source_name: "AGI-Eval LLM Leaderboard for Slay the Spire 2 (Chinese community blog)"
+source_url: "https://deepseek.csdn.net/6a01b6b80a2f6a37c5a944ed.html"
+companion_url: "https://www.youtube.com/watch?v=0v94pZmif9Y"
+capture_date: "2026-05-28"
+capture_method: WebFetch
+status: fetched
+paper_claim_supported: |
+  Zero A0 victories across 5 frontier-model configurations (GPT-5.4, Claude-opus
+  4.6, Claude-opus 4.7, Doubao, DeepSeek V4-Flash); maximum defeat floor 33
+  reached by Claude-opus 4.6. Used as a public, independent calibration anchor
+  for the paper's 3/10 -> 6/10 headline.
+paper_section: "intro.tex (§1 opener anchors); appendix.tex external calibration table"
+refs_bib_key: "agi-eval-spire-2026"
+original_publication_date: "2026-05-11"
+notes: |
+  - Chinese-language blog post; paper-cited URL is the primary source.
+  - Companion YouTube video did not yield text via WebFetch (description hidden
+    behind JS / API). Numbers above come from the CSDN article body only.
+  - Article's claims match paper text exactly: 5 models, 0 wins, max floor 33.
+  - Per-model floor depth for GPT-5.4 and Claude-opus 4.7 is qualitative in the
+    article; the paper's "max defeat floor 33" is the Claude-opus 4.6 row.
+license_assessment: |
+  CSDN community blog content. Attribution-only for redistribution. This snapshot
+  extracts only the headline numerical claims directly cited by the paper plus
+  short Chinese-language quotes (fair-use under research / criticism). The full
+  article is NOT mirrored here; readers should consult the source URL for the
+  complete write-up.

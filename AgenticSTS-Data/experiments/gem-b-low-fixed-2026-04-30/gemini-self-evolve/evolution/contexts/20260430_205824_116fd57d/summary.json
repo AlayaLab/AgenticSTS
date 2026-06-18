@@ -1,0 +1,135 @@
+{
+  "run_id": "20260430_205824_116fd57d",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 4557,
+      "estimated_tokens": 1140
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 5123,
+      "estimated_tokens": 1281
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 19789,
+      "estimated_tokens": 4948
+    },
+    {
+      "name": "replay_package",
+      "chars": 8004,
+      "estimated_tokens": 2001
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 909,
+      "estimated_tokens": 228
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 7369,
+    "non_combat_decisions": 64,
+    "combat_episodes": 7,
+    "encountered_enemy_keys": [
+      "Haunted Ship",
+      "Punch Construct",
+      "Seapunk",
+      "Waterfall Giant",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Strike",
+      "Defend",
+      "Flick-Flack",
+      "Predator+",
+      "Burst",
+      "Predator+",
+      "Backflip"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1949,
+    "entries": [
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ]
+      }
+    ]
+  },
+  "context_chars": 38891,
+  "context_estimated_tokens": 9715,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 75178,
+    "total_output_tokens": 11879,
+    "round_input_tokens": [
+      14338,
+      14565,
+      15440,
+      15517,
+      15318
+    ],
+    "round_output_tokens": [
+      982,
+      520,
+      2182,
+      5865,
+      2330
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 151966,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

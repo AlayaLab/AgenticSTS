@@ -1,0 +1,128 @@
+{
+  "run_id": "20260503_172125_6c269782",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 137,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 3127,
+      "estimated_tokens": 782
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 5402,
+      "estimated_tokens": 1351
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 12038,
+      "estimated_tokens": 3010
+    },
+    {
+      "name": "replay_package",
+      "chars": 5140,
+      "estimated_tokens": 1285
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 349,
+      "estimated_tokens": 88
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 5143,
+    "non_combat_decisions": 40,
+    "combat_episodes": 7,
+    "encountered_enemy_keys": [
+      "Fossil Stalker",
+      "Gremlin Merc",
+      "Punch Construct",
+      "Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Punch Construct+Punch Construct",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Sucker Punch",
+      "Snakebite",
+      "Well-Laid Plans",
+      "Predator",
+      "Dagger Spray",
+      "Backflip",
+      "Acrobatics",
+      "Echoing Slash"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1258,
+    "entries": [
+      {
+        "enemy_key": "multi:Punch Construct+Punch Construct",
+        "floor": 9,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "death"
+        ]
+      }
+    ]
+  },
+  "context_chars": 26564,
+  "context_estimated_tokens": 6633,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 56976,
+    "total_output_tokens": 5405,
+    "round_input_tokens": [
+      10540,
+      10651,
+      11935,
+      11999,
+      11851
+    ],
+    "round_output_tokens": [
+      683,
+      384,
+      1522,
+      899,
+      1917
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 72252,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

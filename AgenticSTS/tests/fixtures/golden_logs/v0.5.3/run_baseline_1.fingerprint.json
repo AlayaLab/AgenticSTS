@@ -1,0 +1,11 @@
+{
+  "num_decisions": 42,
+  "decision_types": {
+    "map": 1,
+    "monster": 41
+  },
+  "source_distribution": {
+    "llm": 42
+  },
+  "error_count": 0
+}

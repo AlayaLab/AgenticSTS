@@ -1,0 +1,187 @@
+{
+  "summary": {
+    "n_samples": 8,
+    "n_disagreements": 1,
+    "a_malformed_rate": 0.125,
+    "b_malformed_rate": 0.125,
+    "judge_a_wins": 4,
+    "judge_b_wins": 4,
+    "judge_ties": 0,
+    "judge_a_mean_total": 14.5,
+    "judge_b_mean_total": 14.75,
+    "pass_verdict": "QUALITY-NEUTRAL",
+    "notes": [
+      "A/B agree on 88% of samples — change is essentially silent"
+    ]
+  },
+  "samples": [
+    {
+      "run_id": "20260421_202619_529fbdcb",
+      "log_path": "logs\\run_20260421_202619_529fbdcb.jsonl",
+      "line_index": 364,
+      "a_decisions": [
+        2,
+        2,
+        2
+      ],
+      "b_decisions": [
+        2,
+        2,
+        2
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "B",
+      "judge_score_a_total": 13,
+      "judge_score_b_total": 14,
+      "judge_rationale": "Both options make the same plausible pick in Predator for early Act 1 frontload and future draw, which is sound for Silent when damage is the main deficit. Option 1 edges out on coverage by more explicitly referencing current needs, deck cycle, and strategic trajectory, though neither response meaningfully discusses the opportunity cost versus Cloak and Dagger/Slice or deck bloat risk."
+    },
+    {
+      "run_id": "20260426_131729_d1d116a5",
+      "log_path": "logs\\run_20260426_131729_d1d116a5.jsonl",
+      "line_index": 6861,
+      "a_decisions": [
+        1,
+        1,
+        1
+      ],
+      "b_decisions": [
+        0,
+        1,
+        1
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "B",
+      "judge_score_a_total": 12,
+      "judge_score_b_total": 17,
+      "judge_rationale": "Option 1 better matches the stated shiv trajectory while correctly rejecting off-plan cards and explicitly valuing deck leanness over redundant generation. Option 2 identifies real synergies, but it overstates the need for yet another Leading Strike without adequately addressing deck bloat or the opportunity cost of skipping a common, redundant pickup."
+    },
+    {
+      "run_id": "0c0d9dfd9d55",
+      "log_path": "logs\\run_20260407_081943_0c0d9dfd.jsonl",
+      "line_index": 3062,
+      "a_decisions": [
+        null,
+        null,
+        null
+      ],
+      "b_decisions": [
+        null,
+        null,
+        null
+      ],
+      "a_malformed": 3,
+      "b_malformed": 3,
+      "judge_winner": "A",
+      "judge_score_a_total": 16,
+      "judge_score_b_total": 14,
+      "judge_rationale": "Both responses make a plausible skip case and correctly flag archetype mismatch plus deck-bloat risk. Option 2 is slightly better because it ties the skip more clearly to the deck’s identified scaling engine and future build trajectory, and it gives somewhat broader deck-state coverage by mentioning draw/cycle needs explicitly."
+    },
+    {
+      "run_id": "e305b04b5434",
+      "log_path": "logs\\run_20260406_040017_e305b04b.jsonl",
+      "line_index": 1029,
+      "a_decisions": [
+        2,
+        2,
+        2
+      ],
+      "b_decisions": [
+        2,
+        2,
+        2
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "A",
+      "judge_score_a_total": 17,
+      "judge_score_b_total": 16,
+      "judge_rationale": "Both options make the correct pick in Deadly Poison and align with the emerging poison-defensive trajectory. Option 1 is stronger because it explicitly references the boss-damage shortfall with an estimated DPS figure and quantifies Deadly Poison's scaling, giving better coverage of the decision framework."
+    },
+    {
+      "run_id": "20260421_061611_5221c008",
+      "log_path": "logs\\run_20260421_061611_5221c008.jsonl",
+      "line_index": 11275,
+      "a_decisions": [
+        1,
+        1,
+        1
+      ],
+      "b_decisions": [
+        1,
+        1,
+        1
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "A",
+      "judge_score_a_total": 16,
+      "judge_score_b_total": 15,
+      "judge_rationale": "Both responses correctly identify Accuracy as the premium pick for an established Shiv/Nightmare trajectory and are highly coherent with the strategic thread. Option 2 edges out on coverage by explicitly tying the pick to the stated gap and quantifying the Shiv scaling, though neither response meaningfully discusses opportunity cost, skip considerations, or deck-bloat risk."
+    },
+    {
+      "run_id": "20260417_202307_80bcf020",
+      "log_path": "logs\\run_20260417_202307_80bcf020.jsonl",
+      "line_index": 10942,
+      "a_decisions": [
+        3,
+        3,
+        2
+      ],
+      "b_decisions": [
+        3,
+        3,
+        3
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "B",
+      "judge_score_a_total": 13,
+      "judge_score_b_total": 16,
+      "judge_rationale": "Both options correctly identify Footwork as the best pickup for an Act 3 Silent deck that already has Shiv damage and needs stronger boss-fight defense. Option 2 is more sound and coherent because it ties the pick to existing scaling and concrete block math, while also situating it better within the deck's current trajectory and remaining needs."
+    },
+    {
+      "run_id": "20260408_011715_12ee2542",
+      "log_path": "logs\\run_20260408_011715_12ee2542.jsonl",
+      "line_index": 3340,
+      "a_decisions": [
+        0,
+        0,
+        0
+      ],
+      "b_decisions": [
+        0,
+        0,
+        0
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "B",
+      "judge_score_a_total": 13,
+      "judge_score_b_total": 14,
+      "judge_rationale": "Both responses make the same core case for Acrobatics++ as strong draw in a poison-scaling deck, which is strategically coherent. Option 1 is slightly better because it references more relevant dimensions explicitly—draw, defense, energy constraints, and multiple payoff targets—while option 2 is more abbreviated; neither meaningfully discusses what is being passed up or deck-bloat risk."
+    },
+    {
+      "run_id": "20260417_115929_998c77b9",
+      "log_path": "logs\\run_20260417_115929_998c77b9.jsonl",
+      "line_index": 11478,
+      "a_decisions": [
+        2,
+        2,
+        2
+      ],
+      "b_decisions": [
+        2,
+        2,
+        2
+      ],
+      "a_malformed": 0,
+      "b_malformed": 0,
+      "judge_winner": "A",
+      "judge_score_a_total": 16,
+      "judge_score_b_total": 12,
+      "judge_rationale": "Both responses correctly identify Blade Dance as a strong pickup that fits the deck’s relic synergies and poison/cycle trajectory. Option 2 is stronger because it more clearly covers damage, defense, energy, and deck-thinning implications while aligning tightly with the stated win condition; neither does much to discuss the opportunity cost versus the skipped cards, but option 2 is slightly better on that front."
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{"ts": 1777785534.5483067, "guide_type": "combat", "enemy_key": "Seapunk", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785561.0784893, "guide_type": "combat", "enemy_key": "Sewer Clam", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785582.46155, "guide_type": "combat", "enemy_key": "Skulking Colony", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785603.157292, "guide_type": "combat", "enemy_key": "Waterfall Giant", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 0.0}
+{"ts": 1777785620.6244514, "guide_type": "combat", "enemy_key": "multi:Calcified Cultist+Damp Cultist", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785643.2031446, "guide_type": "combat", "enemy_key": "multi:Calcified Cultist+Seapunk", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785669.589572, "guide_type": "combat", "enemy_key": "multi:Corpse Slug+Corpse Slug", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785696.850567, "guide_type": "combat", "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785724.431575, "guide_type": "combat", "enemy_key": "multi:Toadpole+Toadpole", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777785738.462523, "guide_type": "route", "act": 1, "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777785751.5193665, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 1, "build_count": 1}
+{"ts": 1777785767.2162142, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777785777.0954106, "guide_type": "event", "event_id": "TRASH_HEAP", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777792483.030297, "guide_type": "combat", "enemy_key": "Bygone Effigy", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792501.9148047, "guide_type": "combat", "enemy_key": "Devoted Sculptor", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792526.177954, "guide_type": "combat", "enemy_key": "Entomancer", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792555.2409692, "guide_type": "combat", "enemy_key": "Frog Knight", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792577.7412624, "guide_type": "combat", "enemy_key": "Fuzzy Wurm Crawler", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792601.5334098, "guide_type": "combat", "enemy_key": "Globe Head", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 0.0}
+{"ts": 1777792630.7463872, "guide_type": "combat", "enemy_key": "Infested Prism", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792659.9440382, "guide_type": "combat", "enemy_key": "Knowledge Demon", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792674.427072, "guide_type": "combat", "enemy_key": "Mawler", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792714.7544403, "guide_type": "combat", "enemy_key": "Owl Magistrate", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792731.715929, "guide_type": "combat", "enemy_key": "Shrinker Beetle", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792752.3951268, "guide_type": "combat", "enemy_key": "Spiny Toad", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792777.0201178, "guide_type": "combat", "enemy_key": "Tunneler", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792798.4841182, "guide_type": "combat", "enemy_key": "Vantom", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792821.5131657, "guide_type": "combat", "enemy_key": "multi:Assassin Raider+Axe Raider+Brute Raider", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792837.6949983, "guide_type": "combat", "enemy_key": "multi:Chomper+Chomper", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792864.2704768, "guide_type": "combat", "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792882.6349046, "guide_type": "combat", "enemy_key": "multi:Flyconid+Leaf Slime (M)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792899.8935087, "guide_type": "combat", "enemy_key": "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792929.7688107, "guide_type": "combat", "enemy_key": "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777792946.0020459, "guide_type": "route", "act": 1, "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777792961.6111076, "guide_type": "route", "act": 2, "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777792974.6083584, "guide_type": "route", "act": 3, "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777792989.1318886, "guide_type": "deck", "character": "the silent", "archetype": "shiv", "version": 1, "build_count": 1}
+{"ts": 1777793006.7712646, "guide_type": "event", "event_id": "JUNGLE_MAZE_ADVENTURE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793019.5163267, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777793027.1399724, "guide_type": "event", "event_id": "ROOM_FULL_OF_CHEESE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793042.2124493, "guide_type": "event", "event_id": "SPIRIT_GRAFTER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793059.118508, "guide_type": "event", "event_id": "TEZCATARA", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793069.6787682, "guide_type": "event", "event_id": "THE_FUTURE_OF_POTIONS", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793082.542958, "guide_type": "event", "event_id": "VAKUU", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793097.2831557, "guide_type": "event", "event_id": "WHISPERING_HOLLOW", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777793108.5892394, "guide_type": "event", "event_id": "ZEN_WEAVER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799235.5993183, "guide_type": "combat", "enemy_key": "Battle Friend V2.0", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799250.8790338, "guide_type": "combat", "enemy_key": "Bygone Effigy", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777799264.9262335, "guide_type": "combat", "enemy_key": "Fuzzy Wurm Crawler", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777799290.3918881, "guide_type": "combat", "enemy_key": "Hunter Killer", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799306.3132958, "guide_type": "combat", "enemy_key": "Infested Prism", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777799329.4260526, "guide_type": "combat", "enemy_key": "Ovicopter", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799343.1013768, "guide_type": "combat", "enemy_key": "Owl Magistrate", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777799364.4922895, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799385.3383908, "guide_type": "combat", "enemy_key": "Slimed Berserker", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799406.5421617, "guide_type": "combat", "enemy_key": "The Insatiable", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799432.7594838, "guide_type": "combat", "enemy_key": "Thieving Hopper", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799453.5176961, "guide_type": "combat", "enemy_key": "multi:Axebot+Axebot", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799492.3224845, "guide_type": "combat", "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777799515.38405, "guide_type": "combat", "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799537.474678, "guide_type": "combat", "enemy_key": "multi:Flyconid+Snapping Jaxfruit", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799583.1060867, "guide_type": "combat", "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799608.831585, "guide_type": "combat", "enemy_key": "multi:Leaf Slime (S)+Slithering Strangler+Twig Slime (S)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799633.3926282, "guide_type": "combat", "enemy_key": "multi:Myte+Myte", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777799664.1708403, "guide_type": "combat", "enemy_key": "multi:Queen+Torch Head Amalgam", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 0.0}
+{"ts": 1777799697.869499, "guide_type": "route", "act": 1, "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777799712.9637198, "guide_type": "route", "act": 2, "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777799727.416527, "guide_type": "route", "act": 3, "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777799745.3528702, "guide_type": "deck", "character": "the silent", "archetype": "shiv", "version": 2, "build_count": 2}
+{"ts": 1777799759.7527025, "guide_type": "event", "event_id": "BATTLEWORN_DUMMY", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799772.181211, "guide_type": "event", "event_id": "COLORFUL_PHILOSOPHERS", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799792.1526573, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777799802.1476672, "guide_type": "event", "event_id": "OROBAS", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799815.921375, "guide_type": "event", "event_id": "RANWID_THE_ELDER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799828.347575, "guide_type": "event", "event_id": "SUNKEN_STATUE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799845.2805336, "guide_type": "event", "event_id": "VAKUU", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777799857.7905107, "guide_type": "event", "event_id": "WELLSPRING", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777799868.349456, "guide_type": "event", "event_id": "WHISPERING_HOLLOW", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777801481.704669, "guide_type": "combat", "enemy_key": "Fossil Stalker", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777801508.1489513, "guide_type": "combat", "enemy_key": "Gremlin Merc", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777801523.019192, "guide_type": "combat", "enemy_key": "Punch Construct", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777801541.6428576, "guide_type": "combat", "enemy_key": "multi:Punch Construct+Punch Construct", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 0.0}
+{"ts": 1777801559.8147154, "guide_type": "route", "act": 1, "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777801575.4899166, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777801589.1602085, "guide_type": "event", "event_id": "PUNCH_OFF", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807484.9014943, "guide_type": "combat", "enemy_key": "Door", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807503.179823, "guide_type": "combat", "enemy_key": "Infested Prism", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777807523.9355276, "guide_type": "combat", "enemy_key": "Lagavulin Matriarch", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807550.9870822, "guide_type": "combat", "enemy_key": "Mecha Knight", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807591.962826, "guide_type": "combat", "enemy_key": "Ovicopter", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777807616.8442574, "guide_type": "combat", "enemy_key": "Sludge Spinner", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807649.0693488, "guide_type": "combat", "enemy_key": "Terror Eel", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807669.3204534, "guide_type": "combat", "enemy_key": "multi:Corpse Slug+Corpse Slug", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777807692.6170237, "guide_type": "combat", "enemy_key": "multi:Crusher+Rocket", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807716.80788, "guide_type": "combat", "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777807751.9113755, "guide_type": "combat", "enemy_key": "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777807773.9793723, "guide_type": "combat", "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777807790.6846561, "guide_type": "route", "act": 1, "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777807805.0494063, "guide_type": "route", "act": 2, "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777807820.2338488, "guide_type": "route", "act": 3, "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777807833.281318, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 2, "build_count": 2}
+{"ts": 1777807843.5013993, "guide_type": "event", "event_id": "BUGSLAYER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807856.346088, "guide_type": "event", "event_id": "COLOSSAL_FLOWER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807870.5190766, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777807884.2580247, "guide_type": "event", "event_id": "NONUPEIPE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807894.4822338, "guide_type": "event", "event_id": "OROBAS", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777807912.9849417, "guide_type": "event", "event_id": "RANWID_THE_ELDER", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777807925.1875176, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807940.426827, "guide_type": "event", "event_id": "SLIPPERY_BRIDGE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807955.9716783, "guide_type": "event", "event_id": "TEA_MASTER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807965.3282776, "guide_type": "event", "event_id": "THE_ARCHITECT", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777807979.077755, "guide_type": "event", "event_id": "THE_LEGENDS_WERE_TRUE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777836074.9101825, "guide_type": "combat", "enemy_key": "Infested Prism", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777836093.3371198, "guide_type": "combat", "enemy_key": "Mecha Knight", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777836114.4436831, "guide_type": "combat", "enemy_key": "Nibbit", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836135.7511384, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777836159.1667063, "guide_type": "combat", "enemy_key": "Soul Nexus", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836205.2912974, "guide_type": "combat", "enemy_key": "The Insatiable", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777836222.5673983, "guide_type": "combat", "enemy_key": "Vine Shambler", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836241.8839927, "guide_type": "combat", "enemy_key": "multi:Cubex Construct+Cubex Construct+Punch Construct", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836261.2600002, "guide_type": "combat", "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777836279.8237915, "guide_type": "combat", "enemy_key": "multi:Fuzzy Wurm Crawler+Shrinker Beetle", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836304.7705972, "guide_type": "combat", "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777836333.651106, "guide_type": "combat", "enemy_key": "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836356.395398, "guide_type": "combat", "enemy_key": "multi:Myte+Myte", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777836381.614365, "guide_type": "combat", "enemy_key": "multi:Queen+Torch Head Amalgam", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 0.5}
+{"ts": 1777836424.879771, "guide_type": "combat", "enemy_key": "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting", "character": "the silent", "version": 3, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777836447.8550978, "guide_type": "combat", "enemy_key": "multi:Slithering Strangler+Snapping Jaxfruit", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777836462.5903442, "guide_type": "route", "act": 1, "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777836479.0506682, "guide_type": "route", "act": 2, "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777836492.8134308, "guide_type": "route", "act": 3, "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777836505.758364, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 3, "build_count": 3}
+{"ts": 1777836522.2287245, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777836536.1701486, "guide_type": "event", "event_id": "NONUPEIPE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777836545.9329355, "guide_type": "event", "event_id": "PAEL", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777836553.7937148, "guide_type": "event", "event_id": "POTION_COURIER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777836565.250245, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777836578.2761874, "guide_type": "event", "event_id": "SYMBIOTE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777836586.3256185, "guide_type": "event", "event_id": "THE_ARCHITECT", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777841968.6636372, "guide_type": "combat", "enemy_key": "Devoted Sculptor", "character": "the silent", "version": 2, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777841987.0233767, "guide_type": "combat", "enemy_key": "Louse Progenitor", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777842009.6973736, "guide_type": "combat", "enemy_key": "The Insatiable", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777842028.5266995, "guide_type": "combat", "enemy_key": "Vantom", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777842046.3882406, "guide_type": "combat", "enemy_key": "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777842063.157407, "guide_type": "combat", "enemy_key": "multi:Chomper+Chomper", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777842085.5651124, "guide_type": "combat", "enemy_key": "multi:Inklet+Inklet+Inklet", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777842097.3672535, "guide_type": "combat", "enemy_key": "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)", "character": "the silent", "version": 2, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777842115.1864376, "guide_type": "route", "act": 1, "character": "the silent", "version": 7, "memory_count": 7}
+{"ts": 1777842128.2984586, "guide_type": "route", "act": 2, "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777842142.6245947, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 4, "build_count": 4}
+{"ts": 1777842164.8314288, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 7, "memory_count": 7}
+{"ts": 1777842184.7448602, "guide_type": "event", "event_id": "OROBAS", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777842191.4149733, "guide_type": "event", "event_id": "POTION_COURIER", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777842205.0446122, "guide_type": "event", "event_id": "RANWID_THE_ELDER", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777842215.0895574, "guide_type": "event", "event_id": "THE_FUTURE_OF_POTIONS", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777842225.6084955, "guide_type": "event", "event_id": "THIS_OR_THAT", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777842240.0426183, "guide_type": "event", "event_id": "VAKUU", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777842249.0548499, "guide_type": "event", "event_id": "WHISPERING_HOLLOW", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777842258.0370402, "guide_type": "event", "event_id": "ZEN_WEAVER", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777845154.5846794, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777845172.9910982, "guide_type": "combat", "enemy_key": "Thieving Hopper", "character": "the silent", "version": 2, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777845189.450054, "guide_type": "combat", "enemy_key": "Vantom", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777845208.891796, "guide_type": "combat", "enemy_key": "multi:Brute Raider+Crossbow Raider+Tracker Raider", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777845242.4013102, "guide_type": "combat", "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 0.0}
+{"ts": 1777845268.0908961, "guide_type": "combat", "enemy_key": "multi:Flyconid+Twig Slime (M)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777845285.9790878, "guide_type": "route", "act": 1, "character": "the silent", "version": 8, "memory_count": 8}
+{"ts": 1777845299.1456442, "guide_type": "route", "act": 2, "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777845312.9068298, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 5, "build_count": 5}
+{"ts": 1777845331.7407312, "guide_type": "event", "event_id": "DARV", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777845351.5802693, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 8, "memory_count": 8}
+{"ts": 1777845360.7707717, "guide_type": "event", "event_id": "SAPPHIRE_SEED", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777845373.4741623, "guide_type": "event", "event_id": "SLIPPERY_BRIDGE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777845383.8810177, "guide_type": "event", "event_id": "THE_LEGENDS_WERE_TRUE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777845398.8345652, "guide_type": "event", "event_id": "THIS_OR_THAT", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777849078.8650863, "guide_type": "combat", "enemy_key": "Ceremonial Beast", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777849099.3210278, "guide_type": "combat", "enemy_key": "Knowledge Demon", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 0.5}
+{"ts": 1777849119.0483212, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777849150.841271, "guide_type": "combat", "enemy_key": "The Obscura", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777849173.1948206, "guide_type": "combat", "enemy_key": "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777849193.963802, "guide_type": "combat", "enemy_key": "multi:Fuzzy Wurm Crawler+Shrinker Beetle", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777849213.2136338, "guide_type": "route", "act": 1, "character": "the silent", "version": 9, "memory_count": 9}
+{"ts": 1777849225.8150876, "guide_type": "route", "act": 2, "character": "the silent", "version": 7, "memory_count": 7}
+{"ts": 1777849239.1414871, "guide_type": "deck", "character": "the silent", "archetype": "shiv", "version": 3, "build_count": 3}
+{"ts": 1777849261.0308444, "guide_type": "event", "event_id": "DARV", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777849280.1072998, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 9, "memory_count": 9}
+{"ts": 1777849297.0837772, "guide_type": "event", "event_id": "ROOM_FULL_OF_CHEESE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777849307.48725, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777849318.452524, "guide_type": "event", "event_id": "STONE_OF_ALL_TIME", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777854928.8812683, "guide_type": "combat", "enemy_key": "Frog Knight", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777854945.8706837, "guide_type": "combat", "enemy_key": "Infested Prism", "character": "the silent", "version": 5, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777854963.4538538, "guide_type": "combat", "enemy_key": "Knowledge Demon", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 0.6666666666666666}
+{"ts": 1777854991.1560407, "guide_type": "combat", "enemy_key": "Lagavulin Matriarch", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777855017.438891, "guide_type": "combat", "enemy_key": "Living Fog", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777855035.606806, "guide_type": "combat", "enemy_key": "Mecha Knight", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 0.6666666666666666}
+{"ts": 1777855077.0437496, "guide_type": "combat", "enemy_key": "Terror Eel", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777855091.5307386, "guide_type": "combat", "enemy_key": "multi:Bowlbug (Egg)+Bowlbug (Rock)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777855112.2541895, "guide_type": "combat", "enemy_key": "multi:Calcified Cultist+Seapunk", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777855140.0067937, "guide_type": "combat", "enemy_key": "multi:Chomper+Chomper", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777855160.6673605, "guide_type": "combat", "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777855183.9490786, "guide_type": "combat", "enemy_key": "multi:Living Shield+Turret Operator", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777855208.8192117, "guide_type": "route", "act": 1, "character": "the silent", "version": 10, "memory_count": 10}
+{"ts": 1777855222.678285, "guide_type": "route", "act": 2, "character": "the silent", "version": 8, "memory_count": 8}
+{"ts": 1777855238.9655378, "guide_type": "route", "act": 3, "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777855254.0894084, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 6, "build_count": 6}
+{"ts": 1777855275.8336835, "guide_type": "event", "event_id": "BATTLEWORN_DUMMY", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777855297.431914, "guide_type": "event", "event_id": "DROWNING_BEACON", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777855332.0248523, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 10, "memory_count": 10}
+{"ts": 1777855345.1793668, "guide_type": "event", "event_id": "NONUPEIPE", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777855355.6663954, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777855371.090055, "guide_type": "event", "event_id": "SPIRALING_WHIRLPOOL", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777855381.3148634, "guide_type": "event", "event_id": "SPIRIT_GRAFTER", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777855396.2676046, "guide_type": "event", "event_id": "TEZCATARA", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777855403.8525512, "guide_type": "event", "event_id": "THIS_OR_THAT", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777859881.2798553, "guide_type": "combat", "enemy_key": "Entomancer", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777859904.5016735, "guide_type": "combat", "enemy_key": "Infested Prism", "character": "the silent", "version": 6, "episode_count": 6, "win_rate": 1.0}
+{"ts": 1777859927.3773057, "guide_type": "combat", "enemy_key": "Terror Eel", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777859949.7546625, "guide_type": "combat", "enemy_key": "Waterfall Giant", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 0.5}
+{"ts": 1777859976.4846213, "guide_type": "combat", "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777860004.6181605, "guide_type": "combat", "enemy_key": "multi:Crusher+Rocket", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 0.5}
+{"ts": 1777860043.3071814, "guide_type": "combat", "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton", "character": "the silent", "version": 3, "episode_count": 7, "win_rate": 1.0}
+{"ts": 1777860057.6530313, "guide_type": "combat", "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777860071.9286726, "guide_type": "combat", "enemy_key": "multi:Toadpole+Toadpole", "character": "the silent", "version": 2, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777860090.447865, "guide_type": "route", "act": 1, "character": "the silent", "version": 11, "memory_count": 11}
+{"ts": 1777860104.8515308, "guide_type": "route", "act": 2, "character": "the silent", "version": 9, "memory_count": 9}
+{"ts": 1777860129.2895525, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 11, "memory_count": 11}
+{"ts": 1777860139.8135233, "guide_type": "event", "event_id": "ROOM_FULL_OF_CHEESE", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777860161.37279, "guide_type": "event", "event_id": "SPIRIT_GRAFTER", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777860172.2816322, "guide_type": "event", "event_id": "STONE_OF_ALL_TIME", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777860186.4102604, "guide_type": "event", "event_id": "TEZCATARA", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777860202.6361802, "guide_type": "event", "event_id": "THE_FUTURE_OF_POTIONS", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777860215.0369136, "guide_type": "event", "event_id": "THIS_OR_THAT", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777866526.882122, "guide_type": "combat", "enemy_key": "Entomancer", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777866542.1367676, "guide_type": "combat", "enemy_key": "Fogmog", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777866562.90568, "guide_type": "combat", "enemy_key": "Louse Progenitor", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777866595.8202865, "guide_type": "combat", "enemy_key": "Mawler", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777866617.6833482, "guide_type": "combat", "enemy_key": "Test Subject", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 0.0}
+{"ts": 1777866632.841177, "guide_type": "combat", "enemy_key": "Vantom", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777866658.7128003, "guide_type": "combat", "enemy_key": "multi:Crusher+Rocket", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 0.6666666666666666}
+{"ts": 1777866679.4764118, "guide_type": "combat", "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777866697.345387, "guide_type": "combat", "enemy_key": "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777866711.7274392, "guide_type": "combat", "enemy_key": "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting+Scroll of Biting", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777866731.9795892, "guide_type": "combat", "enemy_key": "multi:The Forgotten+The Lost", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777866749.5308037, "guide_type": "route", "act": 1, "character": "the silent", "version": 12, "memory_count": 12}
+{"ts": 1777866764.6524162, "guide_type": "route", "act": 2, "character": "the silent", "version": 10, "memory_count": 10}
+{"ts": 1777866785.192305, "guide_type": "route", "act": 3, "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777866798.3580391, "guide_type": "deck", "character": "the silent", "archetype": "shiv", "version": 4, "build_count": 4}
+{"ts": 1777866818.7936406, "guide_type": "event", "event_id": "AROMA_OF_CHAOS", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777866837.7433372, "guide_type": "event", "event_id": "COLOSSAL_FLOWER", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777866949.5021963, "guide_type": "event", "event_id": "DOLL_ROOM", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777866963.3456357, "guide_type": "event", "event_id": "INFESTED_AUTOMATON", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777866987.0530388, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 12, "memory_count": 12}
+{"ts": 1777866996.7514763, "guide_type": "event", "event_id": "PAEL", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777867010.7742589, "guide_type": "event", "event_id": "REFLECTIONS", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777867032.4989655, "guide_type": "event", "event_id": "ROOM_FULL_OF_CHEESE", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777867040.0322392, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777867059.7232518, "guide_type": "event", "event_id": "SLIPPERY_BRIDGE", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777867084.480764, "guide_type": "event", "event_id": "TANX", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777872617.0167823, "guide_type": "combat", "enemy_key": "Bygone Effigy", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777872644.5795019, "guide_type": "combat", "enemy_key": "Ceremonial Beast", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777872661.984328, "guide_type": "combat", "enemy_key": "Fuzzy Wurm Crawler", "character": "the silent", "version": 3, "episode_count": 6, "win_rate": 1.0}
+{"ts": 1777872706.9402306, "guide_type": "combat", "enemy_key": "Tunneler", "character": "the silent", "version": 2, "episode_count": 8, "win_rate": 1.0}
+{"ts": 1777872722.708492, "guide_type": "route", "act": 1, "character": "the silent", "version": 13, "memory_count": 13}
+{"ts": 1777872736.3100035, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 7, "build_count": 7}
+{"ts": 1777872762.585685, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 13, "memory_count": 13}
+{"ts": 1777872771.9005122, "guide_type": "event", "event_id": "SUNKEN_STATUE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777872794.6075795, "guide_type": "event", "event_id": "TEZCATARA", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777879068.118234, "guide_type": "combat", "enemy_key": "Byrdonis", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777879096.1670656, "guide_type": "combat", "enemy_key": "Door", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777879125.2782536, "guide_type": "combat", "enemy_key": "Hunter Killer", "character": "the silent", "version": 2, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777879151.8637187, "guide_type": "combat", "enemy_key": "Knowledge Demon", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 0.75}
+{"ts": 1777879172.6190095, "guide_type": "combat", "enemy_key": "Mawler", "character": "the silent", "version": 3, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777879193.6239846, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 5, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777879217.2146857, "guide_type": "combat", "enemy_key": "Slimed Berserker", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777879236.3661966, "guide_type": "combat", "enemy_key": "Vantom", "character": "the silent", "version": 5, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777879258.3663852, "guide_type": "combat", "enemy_key": "multi:Bowlbug (Nectar)+Bowlbug (Rock)", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777879274.169138, "guide_type": "route", "act": 1, "character": "the silent", "version": 14, "memory_count": 14}
+{"ts": 1777879289.81633, "guide_type": "route", "act": 2, "character": "the silent", "version": 11, "memory_count": 11}
+{"ts": 1777879310.5921757, "guide_type": "route", "act": 3, "character": "the silent", "version": 7, "memory_count": 7}
+{"ts": 1777879325.4069262, "guide_type": "deck", "character": "the silent", "archetype": "shiv", "version": 5, "build_count": 5}
+{"ts": 1777879337.825334, "guide_type": "event", "event_id": "DENSE_VEGETATION", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777879359.5573118, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 14, "memory_count": 14}
+{"ts": 1777879376.8658867, "guide_type": "event", "event_id": "RELIC_TRADER", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777879394.5967698, "guide_type": "event", "event_id": "ROUND_TEA_PARTY", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777879406.5386012, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777879421.6104078, "guide_type": "event", "event_id": "SLIPPERY_BRIDGE", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777879438.6693568, "guide_type": "event", "event_id": "TEZCATARA", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777879444.4570615, "guide_type": "event", "event_id": "THE_ARCHITECT", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777879457.2367048, "guide_type": "event", "event_id": "THE_FUTURE_OF_POTIONS", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777879480.1990454, "guide_type": "event", "event_id": "VAKUU", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777885941.8278725, "guide_type": "combat", "enemy_key": "Battle Friend V1.0", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777885964.233622, "guide_type": "combat", "enemy_key": "Fabricator", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777885982.6561387, "guide_type": "combat", "enemy_key": "Knowledge Demon", "character": "the silent", "version": 5, "episode_count": 5, "win_rate": 0.8}
+{"ts": 1777886026.2881615, "guide_type": "combat", "enemy_key": "Ovicopter", "character": "the silent", "version": 3, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777886057.6761472, "guide_type": "combat", "enemy_key": "Soul Fysh", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777886117.99565, "guide_type": "combat", "enemy_key": "Soul Nexus", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777886174.0403767, "guide_type": "combat", "enemy_key": "Terror Eel", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777886198.7198846, "guide_type": "combat", "enemy_key": "Test Subject", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 0.5}
+{"ts": 1777886222.0686557, "guide_type": "combat", "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777886254.7800407, "guide_type": "combat", "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777886272.9154038, "guide_type": "route", "act": 1, "character": "the silent", "version": 15, "memory_count": 15}
+{"ts": 1777886287.323299, "guide_type": "route", "act": 2, "character": "the silent", "version": 12, "memory_count": 12}
+{"ts": 1777886301.4289405, "guide_type": "route", "act": 3, "character": "the silent", "version": 8, "memory_count": 8}
+{"ts": 1777886316.168145, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 8, "build_count": 8}
+{"ts": 1777886328.3126795, "guide_type": "event", "event_id": "AMALGAMATOR", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777886340.3605278, "guide_type": "event", "event_id": "BATTLEWORN_DUMMY", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777886353.9683483, "guide_type": "event", "event_id": "COLOSSAL_FLOWER", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777886368.3331447, "guide_type": "event", "event_id": "CRYSTAL_SPHERE", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777886394.7941637, "guide_type": "event", "event_id": "DOLL_ROOM", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777886429.791196, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 15, "memory_count": 15}
+{"ts": 1777886445.7529225, "guide_type": "event", "event_id": "PAEL", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777886454.5614848, "guide_type": "event", "event_id": "ROOM_FULL_OF_CHEESE", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777886466.679407, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 7, "memory_count": 7}
+{"ts": 1777886477.2438955, "guide_type": "event", "event_id": "SYMBIOTE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777886483.5075798, "guide_type": "event", "event_id": "THE_ARCHITECT", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777886494.5553422, "guide_type": "event", "event_id": "THE_LEGENDS_WERE_TRUE", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777886511.3473473, "guide_type": "event", "event_id": "VAKUU", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777886521.6004083, "guide_type": "event", "event_id": "WATERLOGGED_SCRIPTORIUM", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777892596.652113, "guide_type": "combat", "enemy_key": "Bygone Effigy", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777892623.6839375, "guide_type": "combat", "enemy_key": "Fogmog", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777892642.1851478, "guide_type": "combat", "enemy_key": "Mecha Knight", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 0.75}
+{"ts": 1777892658.8555229, "guide_type": "combat", "enemy_key": "The Insatiable", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777892680.54119, "guide_type": "combat", "enemy_key": "The Obscura", "character": "the silent", "version": 2, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777892700.2324808, "guide_type": "combat", "enemy_key": "multi:Cubex Construct+Cubex Construct+Punch Construct", "character": "the silent", "version": 2, "episode_count": 2, "win_rate": 1.0}
+{"ts": 1777892718.1887443, "guide_type": "combat", "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777892738.6992393, "guide_type": "combat", "enemy_key": "multi:Queen+Torch Head Amalgam", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 0.3333333333333333}
+{"ts": 1777892760.0372434, "guide_type": "route", "act": 1, "character": "the silent", "version": 16, "memory_count": 16}
+{"ts": 1777892793.804257, "guide_type": "route", "act": 2, "character": "the silent", "version": 13, "memory_count": 13}
+{"ts": 1777892810.0661376, "guide_type": "route", "act": 3, "character": "the silent", "version": 9, "memory_count": 9}
+{"ts": 1777892834.3528378, "guide_type": "deck", "character": "the silent", "archetype": "shiv", "version": 6, "build_count": 6}
+{"ts": 1777892842.43945, "guide_type": "event", "event_id": "BRAIN_LEECH", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777892883.1785595, "guide_type": "event", "event_id": "DENSE_VEGETATION", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777892954.1261208, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 16, "memory_count": 16}
+{"ts": 1777892979.6472392, "guide_type": "event", "event_id": "NONUPEIPE", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777892993.7260745, "guide_type": "event", "event_id": "OROBAS", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777893003.0544572, "guide_type": "event", "event_id": "POTION_COURIER", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777893012.5208855, "guide_type": "event", "event_id": "REFLECTIONS", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777893025.5659404, "guide_type": "event", "event_id": "RELIC_TRADER", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777893059.7130609, "guide_type": "event", "event_id": "THE_LANTERN_KEY", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777898020.0630753, "guide_type": "combat", "enemy_key": "Bygone Effigy", "character": "the silent", "version": 5, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777898038.8915699, "guide_type": "combat", "enemy_key": "Globe Head", "character": "the silent", "version": 2, "episode_count": 3, "win_rate": 0.6666666666666666}
+{"ts": 1777898056.22773, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 6, "episode_count": 6, "win_rate": 1.0}
+{"ts": 1777898079.4949381, "guide_type": "combat", "enemy_key": "Test Subject", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 0.3333333333333333}
+{"ts": 1777898093.9512572, "guide_type": "combat", "enemy_key": "The Insatiable", "character": "the silent", "version": 5, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777898112.2288465, "guide_type": "combat", "enemy_key": "multi:Chomper+Chomper", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777898131.718122, "guide_type": "combat", "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777898157.5203493, "guide_type": "combat", "enemy_key": "multi:Nibbit+Nibbit", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777898174.882999, "guide_type": "route", "act": 1, "character": "the silent", "version": 17, "memory_count": 17}
+{"ts": 1777898192.3105943, "guide_type": "route", "act": 2, "character": "the silent", "version": 14, "memory_count": 14}
+{"ts": 1777898205.7141442, "guide_type": "route", "act": 3, "character": "the silent", "version": 10, "memory_count": 10}
+{"ts": 1777898223.572525, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 9, "build_count": 9}
+{"ts": 1777898239.6823306, "guide_type": "event", "event_id": "COLORFUL_PHILOSOPHERS", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777898270.8746476, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 17, "memory_count": 17}
+{"ts": 1777898296.7415702, "guide_type": "event", "event_id": "OROBAS", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777898307.1114492, "guide_type": "event", "event_id": "POTION_COURIER", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777898322.4854467, "guide_type": "event", "event_id": "RANWID_THE_ELDER", "character": "the silent", "version": 4, "memory_count": 4}
+{"ts": 1777898334.9931614, "guide_type": "event", "event_id": "SAPPHIRE_SEED", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777898344.5068307, "guide_type": "event", "event_id": "SELF_HELP_BOOK", "character": "the silent", "version": 8, "memory_count": 8}
+{"ts": 1777898353.630694, "guide_type": "event", "event_id": "SYMBIOTE", "character": "the silent", "version": 3, "memory_count": 3}
+{"ts": 1777898378.678699, "guide_type": "event", "event_id": "VAKUU", "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777898397.368834, "guide_type": "event", "event_id": "WELCOME_TO_WONGOS", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777904432.1065066, "guide_type": "combat", "enemy_key": "Ceremonial Beast", "character": "the silent", "version": 3, "episode_count": 3, "win_rate": 1.0}
+{"ts": 1777904454.7849197, "guide_type": "combat", "enemy_key": "Cubex Construct", "character": "the silent", "version": 1, "episode_count": 1, "win_rate": 1.0}
+{"ts": 1777904507.111491, "guide_type": "combat", "enemy_key": "Ovicopter", "character": "the silent", "version": 4, "episode_count": 5, "win_rate": 1.0}
+{"ts": 1777904531.2162755, "guide_type": "combat", "enemy_key": "Phrog Parasite", "character": "the silent", "version": 7, "episode_count": 7, "win_rate": 1.0}
+{"ts": 1777904560.4158766, "guide_type": "combat", "enemy_key": "multi:Crusher+Rocket", "character": "the silent", "version": 4, "episode_count": 4, "win_rate": 0.5}
+{"ts": 1777904587.2388484, "guide_type": "combat", "enemy_key": "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)", "character": "the silent", "version": 2, "episode_count": 4, "win_rate": 1.0}
+{"ts": 1777904606.6324723, "guide_type": "route", "act": 1, "character": "the silent", "version": 18, "memory_count": 18}
+{"ts": 1777904619.9462674, "guide_type": "route", "act": 2, "character": "the silent", "version": 15, "memory_count": 15}
+{"ts": 1777904644.6569068, "guide_type": "deck", "character": "the silent", "archetype": "poison", "version": 10, "build_count": 10}
+{"ts": 1777904659.4139357, "guide_type": "event", "event_id": "JUNGLE_MAZE_ADVENTURE", "character": "the silent", "version": 2, "memory_count": 2}
+{"ts": 1777904676.3283772, "guide_type": "event", "event_id": "LUMINOUS_CHOIR", "character": "the silent", "version": 1, "memory_count": 1}
+{"ts": 1777904717.6432889, "guide_type": "event", "event_id": "NEOW", "character": "the silent", "version": 18, "memory_count": 18}
+{"ts": 1777904756.376899, "guide_type": "event", "event_id": "OROBAS", "character": "the silent", "version": 6, "memory_count": 6}
+{"ts": 1777904767.7163527, "guide_type": "event", "event_id": "RANWID_THE_ELDER", "character": "the silent", "version": 5, "memory_count": 5}
+{"ts": 1777904801.904284, "guide_type": "event", "event_id": "ROOM_FULL_OF_CHEESE", "character": "the silent", "version": 6, "memory_count": 6}

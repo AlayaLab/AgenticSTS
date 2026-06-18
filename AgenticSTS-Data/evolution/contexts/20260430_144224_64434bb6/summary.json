@@ -1,0 +1,106 @@
+{
+  "run_id": "20260430_144224_64434bb6",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 136,
+      "estimated_tokens": 34
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 773,
+      "estimated_tokens": 194
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 671,
+      "estimated_tokens": 168
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 2813,
+      "estimated_tokens": 704
+    },
+    {
+      "name": "replay_package",
+      "chars": 68,
+      "estimated_tokens": 17
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 309,
+      "estimated_tokens": 78
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 1066,
+    "non_combat_decisions": 8,
+    "combat_episodes": 1,
+    "encountered_enemy_keys": [
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Well-Laid Plans+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 0,
+    "entries": []
+  },
+  "context_chars": 5485,
+  "context_estimated_tokens": 1363,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 22500,
+    "total_output_tokens": 3800,
+    "round_input_tokens": [
+      3446,
+      3910,
+      5103,
+      5206,
+      4835
+    ],
+    "round_output_tokens": [
+      136,
+      85,
+      449,
+      1109,
+      2021
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 134975,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "run_id": "20260504_101212_ff04ae94",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 18498,
+      "estimated_tokens": 4625
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 23216,
+      "estimated_tokens": 5804
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 70021,
+      "estimated_tokens": 17506
+    },
+    {
+      "name": "replay_package",
+      "chars": 50640,
+      "estimated_tokens": 12660
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1078,
+      "estimated_tokens": 270
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 27935,
+    "non_combat_decisions": 197,
+    "combat_episodes": 23,
+    "encountered_enemy_keys": [
+      "Entomancer",
+      "Fogmog",
+      "Fuzzy Wurm Crawler",
+      "Hunter Killer",
+      "Louse Progenitor",
+      "Mawler",
+      "Owl Magistrate",
+      "Shrinker Beetle",
+      "Test Subject",
+      "The Obscura",
+      "Tunneler",
+      "Vantom",
+      "Vine Shambler",
+      "multi:Axebot+Axebot",
+      "multi:Crusher+Rocket",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Fuzzy Wurm Crawler+Shrinker Beetle",
+      "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Living Shield+Turret Operator",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:The Forgotten+The Lost"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend+",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Blade Dance",
+      "Ricochet",
+      "Leading Strike",
+      "Dash",
+      "Noxious Fumes",
+      "Bouncing Flask+",
+      "Backflip+",
+      "Abrasive",
+      "Malaise",
+      "Phantom Blades",
+      "Noxious Fumes",
+      "Well-Laid Plans",
+      "Piercing Wail+",
+      "Strangle+",
+      "Slice+",
+      "Phantom Blades",
+      "Finisher+",
+      "Afterimage",
+      "Footwork",
+      "Footwork+",
+      "Calculated Gamble",
+      "Leading Strike+",
+      "Acrobatics",
+      "Prepared+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 12546,
+    "entries": [
+      {
+        "enemy_key": "Vantom",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=10 vs historical avg=27.7+/-18.1 (z=-1.0, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "Vantom",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 28,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Entomancer",
+          "floor": 31,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Crusher+Rocket",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Crusher+Rocket",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 44,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=12 vs historical avg=5.0+/-5.7 (z=1.2, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.2,
+        "comparator": {
+          "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+          "floor": 43,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Test Subject",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ]
+      }
+    ]
+  },
+  "context_chars": 163965,
+  "context_estimated_tokens": 40983,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 285216,
+    "total_output_tokens": 24921,
+    "round_input_tokens": [
+      56223,
+      56509,
+      57466,
+      57563,
+      57455
+    ],
+    "round_output_tokens": [
+      4434,
+      716,
+      4077,
+      11688,
+      4006
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 435032,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

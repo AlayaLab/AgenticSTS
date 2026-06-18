@@ -1,0 +1,43 @@
+source_id: spirecodex-2026
+source_name: "Spire Codex — Slay the Spire 2 community database"
+source_url: "https://spire-codex.com/"
+source_url_canonical: "https://github.com/ptrlrd/spire-codex"
+capture_date: "2026-05-28"
+capture_method: WebFetch (live site 403; GitHub README retrieved)
+status: partial
+paper_claim_supported: |
+  STS2 content inventory: 576 cards, 293 relics, 115 monsters, 87 encounters,
+  66 events. Used in §3 (Testbed) to characterize STS2's closed-rule discrete
+  decision space.
+paper_section: "testbed.tex (§3) — anchors the 'closed rule space' characterization"
+refs_bib_key: "spirecodex-2026"
+github_repo: "ptrlrd/spire-codex"
+github_last_commit: "2026-05-22 (e1d9e2a)"
+license_source_code: "PolyForm Noncommercial 1.0.0"
+license_game_data: "© Mega Crit Games (fair-use community reference)"
+notes: |
+  CRITICAL: Live spire-codex.com returns HTTP 403 to WebFetch (Cloudflare/WAF).
+  Could not independently verify the paper's specific numerical counts.
+
+  GitHub README counts diverge from paper:
+    - Cards: README 403 vs paper 576 (MISMATCH)
+    - Monsters: README 111 vs paper 115 (MISMATCH +4)
+    - Events: README 66 vs paper 66 (MATCH)
+    - Relics, encounters: README has no number (unverified)
+
+  Likely explanations: (a) README counts have lagged behind live API entries
+  since the last manual refresh; (b) paper counted card base+upgraded variants
+  separately while README counts base cards only (576/403 ~= 1.43, consistent
+  with most cards having a base+upgrade pair); (c) the paper queried the live
+  /api/* endpoints directly and got authoritative counts.
+
+  Verification path: open the live site in a real browser (or use a properly-
+  headered HTTP client) and hit /api/cards, /api/relics, /api/monsters,
+  /api/encounters, /api/events; record exact counts and append them to this
+  snapshot.
+license_assessment: |
+  Spire Codex source code is PolyForm Noncommercial 1.0.0 — non-commercial use
+  / redistribution permitted with attribution. The game-data content is owned
+  by Mega Crit and served under community fair-use; the project's database
+  values (entity counts, etc.) are factual and citable. This snapshot includes
+  only inventory counts and project description; full README is not mirrored.

@@ -1,0 +1,213 @@
+{
+  "run_id": "20260501_021649_4719762e",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 15092,
+      "estimated_tokens": 3773
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 15389,
+      "estimated_tokens": 3848
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 62831,
+      "estimated_tokens": 15708
+    },
+    {
+      "name": "replay_package",
+      "chars": 52671,
+      "estimated_tokens": 13168
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2081,
+      "estimated_tokens": 521
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 23329,
+    "non_combat_decisions": 193,
+    "combat_episodes": 19,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Fossil Stalker",
+      "Globe Head",
+      "Infested Prism",
+      "Mecha Knight",
+      "Seapunk",
+      "Slimed Berserker",
+      "Sludge Spinner",
+      "Soul Fysh",
+      "Test Subject",
+      "The Insatiable",
+      "Tunneler",
+      "multi:Bowlbug (Egg)+Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Myte+Myte",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Neow's Fury+",
+      "Flick-Flack",
+      "Expose",
+      "Leading Strike",
+      "Dagger Throw",
+      "Haze",
+      "Noxious Fumes+",
+      "Malaise+",
+      "Adrenaline+",
+      "Escape Plan",
+      "Bubble Bubble+",
+      "Poisoned Stab+",
+      "Backflip+",
+      "Outbreak+",
+      "Deadly Poison",
+      "Clumsy",
+      "Mad Science",
+      "Deadly Poison+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 13034,
+    "entries": [
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+          "floor": 15,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Soul Fysh",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Soul Fysh",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 30,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 31,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Mecha Knight",
+        "floor": 43,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Test Subject",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ]
+      }
+    ]
+  },
+  "context_chars": 148576,
+  "context_estimated_tokens": 37136,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 261470,
+    "total_output_tokens": 7765,
+    "round_input_tokens": [
+      51397,
+      51680,
+      52784,
+      52863,
+      52746
+    ],
+    "round_output_tokens": [
+      249,
+      751,
+      1218,
+      2475,
+      3072
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 122398,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

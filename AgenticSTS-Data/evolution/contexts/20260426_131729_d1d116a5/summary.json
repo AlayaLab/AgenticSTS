@@ -1,0 +1,209 @@
+{
+  "run_id": "20260426_131729_d1d116a5",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 8417,
+      "estimated_tokens": 2105
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 7061,
+      "estimated_tokens": 1766
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 40387,
+      "estimated_tokens": 10097
+    },
+    {
+      "name": "replay_package",
+      "chars": 19783,
+      "estimated_tokens": 4946
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1614,
+      "estimated_tokens": 404
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 13968,
+    "non_combat_decisions": 132,
+    "combat_episodes": 13,
+    "encountered_enemy_keys": [
+      "Bygone Effigy",
+      "Byrdonis",
+      "Fuzzy Wurm Crawler",
+      "Louse Progenitor",
+      "Nibbit",
+      "The Obscura",
+      "Thieving Hopper",
+      "multi:Axe Raider+Brute Raider+Tracker Raider",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Ascender's Bane",
+      "Leading Strike",
+      "Dagger Throw",
+      "Blade Dance",
+      "Cloak and Dagger",
+      "Footwork+",
+      "Up My Sleeve",
+      "Expose",
+      "Fan of Knives",
+      "Predator+",
+      "Finisher",
+      "Deflect",
+      "Dodge and Roll",
+      "Leading Strike"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 4800,
+    "entries": [
+      {
+        "enemy_key": "multi:Axe Raider+Brute Raider+Tracker Raider",
+        "floor": 9,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=3 vs historical avg=11.0+/-4.5 (z=-1.8, BETTER_THAN_USUAL, n=3)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.8,
+        "comparator": {
+          "enemy_key": "multi:Axe Raider+Brute Raider+Tracker Raider",
+          "floor": 14,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Byrdonis",
+        "floor": 13,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=9 vs historical avg=14.9+/-9.8 (z=-0.6, TYPICAL, n=16)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.6,
+        "comparator": {
+          "enemy_key": "Byrdonis",
+          "floor": 9,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Bygone Effigy",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=16.5+/-15.7 (z=-1.1, BETTER_THAN_USUAL, n=21)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "Bygone Effigy",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=64 vs historical avg=33.4+/-18.8 (z=1.6, WORSE_THAN_USUAL, n=40)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.6,
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 28,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=33 vs historical avg=21.8+/-13.3 (z=0.8, TYPICAL, n=25)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.8,
+        "comparator": {
+          "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+          "floor": 25,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 78118,
+  "context_estimated_tokens": 19522,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 80222,
+    "total_output_tokens": 2002,
+    "round_input_tokens": [
+      25179,
+      26279,
+      28764
+    ],
+    "round_output_tokens": [
+      585,
+      608,
+      809
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gpt-5.4-thinking",
+    "fallbacks_used": 0,
+    "duration_ms": 139110,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

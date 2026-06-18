@@ -1,0 +1,40 @@
+{
+  "skill_id_template": "stub_{character_id}_map",
+  "name_template": "{character_name} - Path Selection",
+  "category": "map",
+  "tier": "general",
+  "trigger": {
+    "state_types": ["map"],
+    "character": ["{character}"]
+  },
+  "source": "stub",
+  "status": "pending_fill",
+  "scaffold": {
+    "topic": "How this character selects between map nodes",
+    "scope": "Forward-looking path selection given current run state.",
+    "dimensions_to_consider": [
+      "Node priority hierarchy for this character",
+      "How HP buffer should adjust path choice",
+      "Boss-distance routing (when to start prioritizing rest, removal, or scaling)",
+      "Shop and rest pacing across an act"
+    ],
+    "out_of_scope": [
+      "Per-act specific patterns - belongs in route_guides",
+      "Specific HP thresholds for path choice"
+    ],
+    "format_constraints": {
+      "token_budget": "300-600 tokens",
+      "structure": "4-7 numbered principles + concrete example each.",
+      "voice": "Imperative, second-person."
+    },
+    "leakage_guard": {
+      "max_distinct_card_names": 4,
+      "max_distinct_enemy_names": 3,
+      "no_specific_damage_thresholds": true
+    }
+  },
+  "content": "TBD - filled by Mode B postrun",
+  "version": 0,
+  "confidence": 0.5,
+  "priority": 85
+}

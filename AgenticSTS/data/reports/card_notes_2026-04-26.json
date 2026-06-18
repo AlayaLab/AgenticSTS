@@ -1,0 +1,14 @@
+{
+  "error": "card_memories.json not found at /home/user/STS2Agent/data/memory/v2/card_memories.json",
+  "current_game_version": "v0.103.1",
+  "play_threshold": 3,
+  "missing_high_play": [],
+  "stale_notes": [],
+  "by_character": {},
+  "summary": {
+    "missing_high_play_count": 0,
+    "stale_notes_count": 0,
+    "total_cards": 0,
+    "cards_with_note": 0
+  }
+}

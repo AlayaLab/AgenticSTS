@@ -1,0 +1,313 @@
+{
+  "run_id": "20260502_220541_6be17230",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 20870,
+      "estimated_tokens": 5218
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 28658,
+      "estimated_tokens": 7165
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 69538,
+      "estimated_tokens": 17385
+    },
+    {
+      "name": "replay_package",
+      "chars": 110605,
+      "estimated_tokens": 27652
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2817,
+      "estimated_tokens": 705
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 29768,
+    "non_combat_decisions": 202,
+    "combat_episodes": 22,
+    "encountered_enemy_keys": [
+      "Byrdonis",
+      "Ceremonial Beast",
+      "Devoted Sculptor",
+      "Entomancer",
+      "Fabricator",
+      "Fuzzy Wurm Crawler",
+      "Knowledge Demon",
+      "Nibbit",
+      "Owl Magistrate",
+      "Phrog Parasite",
+      "Slimed Berserker",
+      "Test Subject",
+      "The Obscura",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Myte+Myte",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Slithering Strangler+Twig Slime (M)"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Strike",
+      "Defend",
+      "Blade Dance",
+      "Peck",
+      "Skewer+",
+      "Noxious Fumes+",
+      "Poisoned Stab",
+      "Well-Laid Plans+",
+      "Footwork+",
+      "Deadly Poison",
+      "Dodge and Roll",
+      "Nightmare+",
+      "Dodge and Roll",
+      "Acrobatics",
+      "Deflect",
+      "Backflip",
+      "Pounce",
+      "Backflip+",
+      "Expertise+",
+      "Footwork+",
+      "Prepared",
+      "Slice",
+      "Tools of the Trade",
+      "Bouncing Flask",
+      "Footwork",
+      "Bubble Bubble"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 27412,
+    "entries": [
+      {
+        "enemy_key": "Byrdonis",
+        "floor": 9,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=7 vs historical avg=5.3+/-5.0 (z=0.3, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.3,
+        "comparator": {
+          "enemy_key": "Byrdonis",
+          "floor": 9,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Ceremonial Beast",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=18 vs historical avg=30.2+/-11.0 (z=-1.1, BETTER_THAN_USUAL, n=4)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "Ceremonial Beast",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Obscura",
+        "floor": 22,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=37 vs historical avg=2.0+/-2.8 (z=12.4, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 12.4,
+        "comparator": {
+          "enemy_key": "The Obscura",
+          "floor": 30,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+        "floor": 25,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=9.6+/-6.2 (z=-1.6, BETTER_THAN_USUAL, n=5)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.6,
+        "comparator": {
+          "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+          "floor": 25,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 28,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=9 vs historical avg=18.0+/-9.4 (z=-1.0, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "Entomancer",
+          "floor": 25,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=29 vs historical avg=29.4+/-17.4 (z=-0.0, TYPICAL, n=5)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.0,
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Devoted Sculptor",
+        "floor": 37,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=36 vs historical avg=6.0+/-9.2 (z=3.3, WORSE_THAN_USUAL, n=6)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.3,
+        "comparator": {
+          "enemy_key": "Devoted Sculptor",
+          "floor": 35,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Slimed Berserker",
+        "floor": 42,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=9.0+/-5.7 (z=-1.6, BETTER_THAN_USUAL, n=3)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.6,
+        "comparator": {
+          "enemy_key": "Slimed Berserker",
+          "floor": 37,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Test Subject",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=42 vs historical avg=24.2+/-21.3 (z=0.8, TYPICAL, n=4)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.8,
+        "comparator": {
+          "enemy_key": "Test Subject",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 232989,
+  "context_estimated_tokens": 58240,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 419393,
+    "total_output_tokens": 18326,
+    "round_input_tokens": [
+      82463,
+      82596,
+      84240,
+      84906,
+      85188
+    ],
+    "round_output_tokens": [
+      1266,
+      2989,
+      5821,
+      7982,
+      268
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 217706,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

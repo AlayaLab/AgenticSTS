@@ -1,0 +1,146 @@
+{
+  "sts2mcp": {
+    "n": 5,
+    "wins": 0,
+    "mean_floor": 17.6,
+    "median_floor": 17,
+    "mean_score": 21.1,
+    "bosses_total": 1,
+    "mean_steps": 625,
+    "total_tokens": 464322803,
+    "runs": [
+      {
+        "run": "a01",
+        "outcome": "defeat",
+        "floor": 28,
+        "score": 45.3,
+        "bosses": 1,
+        "steps": 1103,
+        "calls": 1103,
+        "in_tok": 239888138,
+        "out_tok": 18324,
+        "corrected": false
+      },
+      {
+        "run": "a02",
+        "outcome": "defeat",
+        "floor": 11,
+        "score": 11.0,
+        "bosses": 0,
+        "steps": 468,
+        "calls": 468,
+        "in_tok": 39174512,
+        "out_tok": 8294,
+        "corrected": false
+      },
+      {
+        "run": "a03",
+        "outcome": "defeat",
+        "floor": 15,
+        "score": 15.0,
+        "bosses": 0,
+        "steps": 477,
+        "calls": 477,
+        "in_tok": 58673243,
+        "out_tok": 8943,
+        "corrected": false
+      },
+      {
+        "run": "a04",
+        "outcome": "defeat",
+        "floor": 17,
+        "score": 17.0,
+        "bosses": 0,
+        "steps": 594,
+        "calls": 594,
+        "in_tok": 70710407,
+        "out_tok": 10203,
+        "corrected": false
+      },
+      {
+        "run": "a05",
+        "outcome": "defeat",
+        "floor": 17,
+        "score": 17.0,
+        "bosses": 0,
+        "steps": 483,
+        "calls": 483,
+        "in_tok": 55822439,
+        "out_tok": 8300,
+        "corrected": false
+      }
+    ]
+  },
+  "chartyr": {
+    "n": 5,
+    "wins": 0,
+    "mean_floor": 5.6,
+    "median_floor": 6,
+    "mean_score": 5.6,
+    "bosses_total": 0,
+    "mean_steps": 106,
+    "total_tokens": 83747034,
+    "runs": [
+      {
+        "run": "a01",
+        "outcome": "defeat",
+        "floor": 6,
+        "score": 6.0,
+        "bosses": 0,
+        "steps": 89,
+        "calls": 89,
+        "in_tok": 13999103,
+        "out_tok": 1950,
+        "corrected": true
+      },
+      {
+        "run": "a02",
+        "outcome": "defeat",
+        "floor": 5,
+        "score": 5.0,
+        "bosses": 0,
+        "steps": 130,
+        "calls": 130,
+        "in_tok": 23255475,
+        "out_tok": 2533,
+        "corrected": true
+      },
+      {
+        "run": "a03",
+        "outcome": "defeat",
+        "floor": 6,
+        "score": 6.0,
+        "bosses": 0,
+        "steps": 113,
+        "calls": 113,
+        "in_tok": 17638071,
+        "out_tok": 2334,
+        "corrected": true
+      },
+      {
+        "run": "a04",
+        "outcome": "defeat",
+        "floor": 6,
+        "score": 6.0,
+        "bosses": 0,
+        "steps": 101,
+        "calls": 101,
+        "in_tok": 15529889,
+        "out_tok": 2215,
+        "corrected": true
+      },
+      {
+        "run": "a05",
+        "outcome": "defeat",
+        "floor": 5,
+        "score": 5.0,
+        "bosses": 0,
+        "steps": 95,
+        "calls": 95,
+        "in_tok": 13313711,
+        "out_tok": 1753,
+        "corrected": true
+      }
+    ]
+  }
+}

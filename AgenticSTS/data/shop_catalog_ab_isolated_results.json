@@ -1,0 +1,103 @@
+[
+  {
+    "variant": "A",
+    "i": 1,
+    "ms": 9956,
+    "data": {
+      "parse_error": "```json\n{\n  \"purchases\": [\n    \"Punch Dagger\",\n    \"Card Removal\",\n    \"Leading Strike\"\n  ],\n  \""
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"Punch Dagger\",\n    \"Card Removal\",\n    \"Leading Strike\"\n  ],\n  \""
+  },
+  {
+    "variant": "A",
+    "i": 2,
+    "ms": 17506,
+    "data": {
+      "parse_error": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after\": 8"
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after\": 8"
+  },
+  {
+    "variant": "A",
+    "i": 3,
+    "ms": 11622,
+    "data": {
+      "parse_error": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_"
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_"
+  },
+  {
+    "variant": "A",
+    "i": 4,
+    "ms": 9850,
+    "data": {
+      "parse_error": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after"
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after"
+  },
+  {
+    "variant": "A",
+    "i": 5,
+    "error": "ReadTimeout('')"
+  },
+  {
+    "variant": "B",
+    "i": 1,
+    "ms": 13328,
+    "data": {
+      "purchases": [
+        "White Beast Statue",
+        "Leading Strike"
+      ],
+      "gold_after": 8,
+      "reason": "White Beast Statue is an incredible long-term power spike, providing potions every combat. Leading Strike adds cheap frontload damage for Act 1."
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after\": 8,\n  \"reason\": \"White Beast Statue is an incredible long-term power spike, providing potions every combat. Leading Strike adds cheap frontload damage for Act 1.\"\n}\n```"
+  },
+  {
+    "variant": "B",
+    "i": 2,
+    "ms": 14430,
+    "data": {
+      "purchases": [
+        "White Beast Statue",
+        "Leading Strike"
+      ],
+      "gold_after": 8,
+      "reason": "White Beast Statue provides a massive long-term power spike. Leading Strike is a heavily discounted attack to help push through Act 1."
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after\": 8,\n  \"reason\": \"White Beast Statue provides a massive long-term power spike. Leading Strike is a heavily discounted attack to help push through Act 1.\"\n}\n```"
+  },
+  {
+    "variant": "B",
+    "i": 3,
+    "ms": 103375,
+    "data": {
+      "parse_error": ".\nWhite Beast Statue is generally better than Alchemize because it doesn't cost a card draw and 1 energy.\nHowever, Card Removal is very"
+    },
+    "raw": ".\nWhite Beast Statue is generally better than Alchemize because it doesn't cost a card draw and 1 energy.\nHowever, Card Removal is very"
+  },
+  {
+    "variant": "B",
+    "i": 4,
+    "ms": 13693,
+    "data": {
+      "purchases": [
+        "White Beast Statue",
+        "Leading Strike"
+      ],
+      "gold_after": 8,
+      "reason": "White Beast Statue provides immense long-term value and immediate potion generation. Leading Strike adds efficient damage for Act 1."
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"White Beast Statue\",\n    \"Leading Strike\"\n  ],\n  \"gold_after\": 8,\n  \"reason\": \"White Beast Statue provides immense long-term value and immediate potion generation. Leading Strike adds efficient damage for Act 1.\"\n}\n```"
+  },
+  {
+    "variant": "B",
+    "i": 5,
+    "ms": 9571,
+    "data": {
+      "parse_error": ", or 3 + 8 if upgraded).\nWait, Shivs deal 4 damage in STS2? Base Shiv: 0E, deal"
+    },
+    "raw": ", or 3 + 8 if upgraded).\nWait, Shivs deal 4 damage in STS2? Base Shiv: 0E, deal"
+  }
+]

@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <Sts2DataDir>/absolute/path/to/Slay the Spire 2 data directory</Sts2DataDir>
+  </PropertyGroup>
+</Project>

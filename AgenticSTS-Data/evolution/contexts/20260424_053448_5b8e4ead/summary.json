@@ -1,0 +1,380 @@
+{
+  "run_id": "20260424_053448_5b8e4ead",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 18581,
+      "estimated_tokens": 4646
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 12454,
+      "estimated_tokens": 3114
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 77653,
+      "estimated_tokens": 19414
+    },
+    {
+      "name": "replay_package",
+      "chars": 44512,
+      "estimated_tokens": 11128
+    },
+    {
+      "name": "combat_guides",
+      "chars": 23713,
+      "estimated_tokens": 5929
+    },
+    {
+      "name": "deck_guides",
+      "chars": 1000,
+      "estimated_tokens": 250
+    },
+    {
+      "name": "card_notes",
+      "chars": 7065,
+      "estimated_tokens": 1767
+    },
+    {
+      "name": "card_stats",
+      "chars": 3606,
+      "estimated_tokens": 902
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2684,
+      "estimated_tokens": 671
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 27174,
+    "non_combat_decisions": 236,
+    "combat_episodes": 22,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Entomancer",
+      "Frog Knight",
+      "Gremlin Merc",
+      "Infested Prism",
+      "Living Fog",
+      "Ovicopter",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Terror Eel",
+      "Test Subject",
+      "The Insatiable",
+      "The Obscura",
+      "Waterfall Giant",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Echoing Slash+",
+      "Acrobatics+",
+      "Ricochet+",
+      "Predator+",
+      "Blade Dance+",
+      "Cloak and Dagger+",
+      "Expertise+",
+      "Adrenaline+",
+      "Afterimage+",
+      "Prepared+",
+      "Finisher+",
+      "Acrobatics+",
+      "Blade Dance+",
+      "Piercing Wail+",
+      "Ricochet+",
+      "Cloak and Dagger+",
+      "Burst+",
+      "Hidden Daggers+",
+      "Dagger Throw+",
+      "Leading Strike+",
+      "Flick-Flack+",
+      "Snakebite+",
+      "Haze+",
+      "Footwork+",
+      "Stratagem+",
+      "Alchemize+",
+      "Storm of Steel+",
+      "Leading Strike+",
+      "Finisher+",
+      "Cloak and Dagger+",
+      "Blade Dance+",
+      "Speedster",
+      "Prolong+",
+      "Calamity",
+      "Blade Dance+",
+      "Acrobatics+",
+      "Abrasive",
+      "Phantom Blades+",
+      "Dagger Throw+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 10836,
+    "entries": [
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 8,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=18 vs historical avg=16.4+/-13.2 (z=0.1, TYPICAL, n=23)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.1,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Living Fog",
+        "floor": 12,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=16.2+/-11.5 (z=-1.4, BETTER_THAN_USUAL, n=34)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.4,
+        "comparator": {
+          "enemy_key": "Living Fog",
+          "floor": 14,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Terror Eel",
+        "floor": 14,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=11 vs historical avg=22.0+/-13.5 (z=-0.8, TYPICAL, n=19)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.8,
+        "comparator": {
+          "enemy_key": "Terror Eel",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+        "floor": 15,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=10.2+/-8.3 (z=-1.2, BETTER_THAN_USUAL, n=24)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+          "floor": 9,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=7 vs historical avg=28.7+/-15.8 (z=-1.4, BETTER_THAN_USUAL, n=23)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.4,
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 24,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=12 vs historical avg=23.8+/-13.3 (z=-0.9, TYPICAL, n=21)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 28,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=1 vs historical avg=20.6+/-14.0 (z=-1.4, BETTER_THAN_USUAL, n=20)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.4,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 31,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=20.5+/-14.9 (z=-1.4, BETTER_THAN_USUAL, n=26)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.4,
+        "comparator": {
+          "enemy_key": "Entomancer",
+          "floor": 31,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=0 vs historical avg=38.8+/-20.4 (z=-1.9, BETTER_THAN_USUAL, n=41)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.9,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 40,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=13.8+/-15.6 (z=-0.9, TYPICAL, n=9)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+          "floor": 45,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Test Subject",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=0 vs historical avg=38.7+/-14.7 (z=-2.6, BETTER_THAN_USUAL, n=16)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -2.6,
+        "comparator": {
+          "enemy_key": "Test Subject",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 22,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 26,
+    "stats": 32
+  },
+  "context_chars": 192086,
+  "context_estimated_tokens": 48014,
+  "session": {
+    "total_rounds": 6,
+    "total_input_tokens": 386433,
+    "total_output_tokens": 18045,
+    "round_input_tokens": [
+      62447,
+      62543,
+      65058,
+      65254,
+      65454,
+      65677
+    ],
+    "round_output_tokens": [
+      804,
+      1245,
+      3490,
+      2968,
+      3832,
+      5706
+    ],
+    "actions_taken": 3,
+    "action_types": [
+      "update_card_note"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 230100,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

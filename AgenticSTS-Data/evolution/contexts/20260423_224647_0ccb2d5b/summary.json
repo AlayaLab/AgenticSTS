@@ -1,0 +1,148 @@
+{
+  "run_id": "20260423_224647_0ccb2d5b",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 137,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 547,
+      "estimated_tokens": 137
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 744,
+      "estimated_tokens": 186
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 2162,
+      "estimated_tokens": 541
+    },
+    {
+      "name": "replay_package",
+      "chars": 68,
+      "estimated_tokens": 17
+    },
+    {
+      "name": "combat_guides",
+      "chars": 1085,
+      "estimated_tokens": 272
+    },
+    {
+      "name": "deck_guides",
+      "chars": 901,
+      "estimated_tokens": 226
+    },
+    {
+      "name": "card_notes",
+      "chars": 3293,
+      "estimated_tokens": 824
+    },
+    {
+      "name": "card_stats",
+      "chars": 1779,
+      "estimated_tokens": 445
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 209,
+      "estimated_tokens": 53
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 864,
+    "non_combat_decisions": 7,
+    "combat_episodes": 1,
+    "encountered_enemy_keys": [
+      "multi:Nibbit+Nibbit"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Ascender's Bane",
+      "The Hunt",
+      "Injury",
+      "Hidden Daggers",
+      "Footwork",
+      "Accuracy",
+      "Piercing Wail",
+      "Up My Sleeve",
+      "Haze",
+      "Cloak and Dagger+",
+      "Spoils Map",
+      "Cloak and Dagger+",
+      "Leg Sweep"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 0,
+    "entries": []
+  },
+  "guide_counts": {
+    "combat_guides": 1,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 11,
+    "stats": 16
+  },
+  "context_chars": 11613,
+  "context_estimated_tokens": 2896,
+  "session": {
+    "total_rounds": 6,
+    "total_input_tokens": 44130,
+    "total_output_tokens": 4631,
+    "round_input_tokens": [
+      5557,
+      5643,
+      7530,
+      7833,
+      8006,
+      9561
+    ],
+    "round_output_tokens": [
+      200,
+      492,
+      940,
+      1142,
+      170,
+      1687
+    ],
+    "actions_taken": 4,
+    "action_types": [
+      "update_card_note",
+      "update_guide",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 134582,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

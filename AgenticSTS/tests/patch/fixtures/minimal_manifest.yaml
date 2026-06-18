@@ -1,0 +1,31 @@
+game_version: v0.103.1
+previous_version: v0.100.0
+patch_date: 2026-04-17
+source: "Test patch"
+summary: "Test summary"
+
+removed_cards:
+  - name: "Grapple"
+    character: "ironclad"
+
+reworked_cards:
+  - name: "Blade of Ink"
+    character: "the silent"
+    severity: major
+    change: "Reworked"
+  - name: "Stoke"
+    character: "ironclad"
+    severity: minor
+
+reworked_enemies:
+  - name: "Doormaker"
+    severity: major
+
+reworked_relics: []
+new_cards: []
+new_relics: []
+rarity_changed_cards: []
+ascension_changes: []
+shop_changes: []
+writing_clarifications: []
+new_systems: []

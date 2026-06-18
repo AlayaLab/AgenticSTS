@@ -1,0 +1,223 @@
+{
+  "run_id": "20260504_070806_89340a05",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 14298,
+      "estimated_tokens": 3575
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 20591,
+      "estimated_tokens": 5148
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 64786,
+      "estimated_tokens": 16197
+    },
+    {
+      "name": "replay_package",
+      "chars": 54664,
+      "estimated_tokens": 13666
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1092,
+      "estimated_tokens": 273
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 24920,
+    "non_combat_decisions": 204,
+    "combat_episodes": 21,
+    "encountered_enemy_keys": [
+      "Battle Friend V2.0",
+      "Devoted Sculptor",
+      "Frog Knight",
+      "Infested Prism",
+      "Knowledge Demon",
+      "Lagavulin Matriarch",
+      "Living Fog",
+      "Mecha Knight",
+      "Seapunk",
+      "Terror Eel",
+      "The Obscura",
+      "multi:Axebot+Axebot",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Chomper+Chomper",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Living Shield+Turret Operator",
+      "multi:Myte+Myte",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Neow's Fury",
+      "Dagger Spray",
+      "Deadly Poison",
+      "Corrosive Wave+",
+      "Noxious Fumes+",
+      "Backflip",
+      "Poisoned Stab",
+      "Calculated Gamble+",
+      "Bouncing Flask",
+      "Footwork+",
+      "Malaise+",
+      "Reflex",
+      "Deflect",
+      "Piercing Wail",
+      "Predator",
+      "Cloak and Dagger",
+      "Deadly Poison",
+      "Well-Laid Plans",
+      "Corrosive Wave",
+      "Well-Laid Plans+",
+      "Outbreak",
+      "Piercing Wail",
+      "Piercing Wail+",
+      "Acrobatics"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 13548,
+    "entries": [
+      {
+        "enemy_key": "Terror Eel",
+        "floor": 8,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Terror Eel",
+          "floor": 8,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Lagavulin Matriarch",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 29,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=2.8+/-1.9 (z=-1.4, TYPICAL, n=4)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -1.4,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Mecha Knight",
+        "floor": 45,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "Mecha Knight",
+          "floor": 46,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 155943,
+  "context_estimated_tokens": 38977,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 276734,
+    "total_output_tokens": 16590,
+    "round_input_tokens": [
+      54321,
+      54462,
+      55375,
+      56068,
+      56508
+    ],
+    "round_output_tokens": [
+      1562,
+      4786,
+      2451,
+      4718,
+      3073
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 301954,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

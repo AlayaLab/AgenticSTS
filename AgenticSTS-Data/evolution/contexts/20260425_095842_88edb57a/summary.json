@@ -1,0 +1,268 @@
+{
+  "run_id": "20260425_095842_88edb57a",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 14944,
+      "estimated_tokens": 3736
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 11778,
+      "estimated_tokens": 2945
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 70688,
+      "estimated_tokens": 17672
+    },
+    {
+      "name": "replay_package",
+      "chars": 18759,
+      "estimated_tokens": 4690
+    },
+    {
+      "name": "combat_guides",
+      "chars": 24926,
+      "estimated_tokens": 6232
+    },
+    {
+      "name": "deck_guides",
+      "chars": 932,
+      "estimated_tokens": 233
+    },
+    {
+      "name": "card_notes",
+      "chars": 5384,
+      "estimated_tokens": 1346
+    },
+    {
+      "name": "card_stats",
+      "chars": 2988,
+      "estimated_tokens": 747
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 3179,
+      "estimated_tokens": 795
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 24353,
+    "non_combat_decisions": 224,
+    "combat_episodes": 24,
+    "encountered_enemy_keys": [
+      "Fabricator",
+      "Knowledge Demon",
+      "Ovicopter",
+      "Owl Magistrate",
+      "Punch Construct",
+      "Seapunk",
+      "Sewer Clam",
+      "Slimed Berserker",
+      "Sludge Spinner",
+      "Soul Fysh",
+      "Terror Eel",
+      "The Obscura",
+      "Thieving Hopper",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)+Bowlbug (Silk)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Cubex Construct+Cubex Construct+Punch Construct",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Living Shield+Turret Operator",
+      "multi:Myte+Myte",
+      "multi:Queen+Torch Head Amalgam",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:The Forgotten+The Lost",
+      "multi:Toadpole+Toadpole",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Ascender's Bane",
+      "Finisher",
+      "Slice",
+      "Blade Dance+",
+      "Accuracy+",
+      "Blade Dance",
+      "Dagger Spray",
+      "Backflip",
+      "Blade Dance",
+      "Purity",
+      "Leading Strike",
+      "Backflip",
+      "Adrenaline+",
+      "Calculated Gamble+",
+      "Cloak and Dagger+",
+      "Blur",
+      "Blade Dance",
+      "Escape Plan",
+      "Master of Strategy+",
+      "Footwork+",
+      "Hidden Daggers+",
+      "Cloak and Dagger",
+      "Piercing Wail",
+      "Pinpoint+",
+      "Blade Dance+",
+      "Mad Science",
+      "Footwork",
+      "Phantom Blades"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 4549,
+    "entries": [
+      {
+        "enemy_key": "Terror Eel",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=21.3+/-13.1 (z=-1.6, BETTER_THAN_USUAL, n=21)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.6,
+        "comparator": {
+          "enemy_key": "Terror Eel",
+          "floor": 8,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat",
+        "floor": 13,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=6.8+/-6.5 (z=-1.0, BETTER_THAN_USUAL, n=38)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat",
+          "floor": 8,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Soul Fysh",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=16 vs historical avg=21.1+/-10.0 (z=-0.5, TYPICAL, n=28)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "Soul Fysh",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=17 vs historical avg=34.9+/-16.0 (z=-1.1, BETTER_THAN_USUAL, n=35)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Queen+Torch Head Amalgam",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=18 vs historical avg=38.2+/-17.2 (z=-1.2, BETTER_THAN_USUAL, n=12)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "multi:Queen+Torch Head Amalgam",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 24,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 22,
+    "stats": 25
+  },
+  "context_chars": 154396,
+  "context_estimated_tokens": 38589,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 258687,
+    "total_output_tokens": 13506,
+    "round_input_tokens": [
+      49768,
+      49900,
+      52335,
+      53245,
+      53439
+    ],
+    "round_output_tokens": [
+      1892,
+      135,
+      10818,
+      175,
+      486
+    ],
+    "actions_taken": 4,
+    "action_types": [
+      "update_card_note",
+      "update_guide",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 171676,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

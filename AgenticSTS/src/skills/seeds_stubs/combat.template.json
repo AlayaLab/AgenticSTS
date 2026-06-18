@@ -1,0 +1,43 @@
+{
+  "skill_id_template": "stub_{character_id}_combat",
+  "name_template": "{character_name} - Combat Principles",
+  "category": "combat",
+  "tier": "general",
+  "trigger": {
+    "state_types": ["monster", "elite", "hand_select"],
+    "character": ["{character}"]
+  },
+  "source": "stub",
+  "status": "pending_fill",
+  "scaffold": {
+    "topic": "Strategic approach to non-boss combat for this character",
+    "scope": "Generalizable principles applying to MOST hallway and elite encounters, regardless of the specific enemy.",
+    "dimensions_to_consider": [
+      "How to allocate energy each turn (offense / defense / setup)",
+      "How to read enemy intents and react to multi-enemy boards",
+      "HP loss across the run — when is taking damage acceptable, when should it be avoided, and how does this scale across the act",
+      "Card sequencing within a turn (which card types resolve first)",
+      "When to spend potions in non-boss combat",
+      "How character-specific tempo levers work"
+    ],
+    "out_of_scope": [
+      "Per-enemy mechanics (round triggers, threshold patterns) -> belongs in combat_guides",
+      "Per-card play recipes or specific combos -> belongs in card_memory notes",
+      "Specific numerical thresholds tied to one situation"
+    ],
+    "format_constraints": {
+      "token_budget": "400-700 tokens",
+      "structure": "5-8 numbered principles. Each = one imperative declarative sentence + one short concrete example demonstrating application.",
+      "voice": "Imperative, second-person, not descriptive."
+    },
+    "leakage_guard": {
+      "max_distinct_card_names": 8,
+      "max_distinct_enemy_names": 3,
+      "no_specific_damage_thresholds": true
+    }
+  },
+  "content": "TBD - filled by Mode B postrun",
+  "version": 0,
+  "confidence": 0.5,
+  "priority": 90
+}

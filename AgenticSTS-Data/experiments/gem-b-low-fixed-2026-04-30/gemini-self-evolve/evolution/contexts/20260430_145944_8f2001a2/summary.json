@@ -1,0 +1,194 @@
+{
+  "run_id": "20260430_145944_8f2001a2",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 131,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 19867,
+      "estimated_tokens": 4967
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 28498,
+      "estimated_tokens": 7125
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 76114,
+      "estimated_tokens": 19029
+    },
+    {
+      "name": "replay_package",
+      "chars": 43379,
+      "estimated_tokens": 10845
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2639,
+      "estimated_tokens": 660
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 31121,
+    "non_combat_decisions": 207,
+    "combat_episodes": 23,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Door",
+      "Fabricator",
+      "Fossil Stalker",
+      "Frog Knight",
+      "Gremlin Merc",
+      "Living Fog",
+      "Owl Magistrate",
+      "Punch Construct",
+      "Seapunk",
+      "Sludge Spinner",
+      "Soul Fysh",
+      "Soul Nexus",
+      "Terror Eel",
+      "The Insatiable",
+      "The Obscura",
+      "Thieving Hopper",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Myte+Myte",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Blade Dance+",
+      "Cloak and Dagger+",
+      "Dagger Spray",
+      "Strangle+",
+      "Infinite Blades+",
+      "Up My Sleeve+",
+      "Accuracy+",
+      "Backflip",
+      "Afterimage+",
+      "Backflip",
+      "Footwork+",
+      "Blade of Ink+",
+      "Prepared+",
+      "Fan of Knives",
+      "Blade Dance+",
+      "Footwork+",
+      "Adrenaline+",
+      "Panache",
+      "Afterimage+",
+      "Leading Strike+",
+      "Calculated Gamble+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 10766,
+    "entries": [
+      {
+        "enemy_key": "Terror Eel",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Soul Fysh",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 31,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "Soul Nexus",
+        "floor": 46,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      }
+    ]
+  },
+  "context_chars": 170999,
+  "context_estimated_tokens": 42741,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 293792,
+    "total_output_tokens": 29247,
+    "round_input_tokens": [
+      58200,
+      58255,
+      59117,
+      59207,
+      59013
+    ],
+    "round_output_tokens": [
+      2361,
+      4837,
+      4139,
+      2909,
+      15001
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "author_tool"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 308714,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

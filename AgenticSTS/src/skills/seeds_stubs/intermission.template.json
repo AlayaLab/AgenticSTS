@@ -1,0 +1,39 @@
+{
+  "skill_id_template": "stub_{character_id}_intermission",
+  "name_template": "{character_name} - Rest & Event Decisions",
+  "category": "rest",
+  "tier": "general",
+  "trigger": {
+    "state_types": ["rest_site", "event"],
+    "character": ["{character}"]
+  },
+  "source": "stub",
+  "status": "pending_fill",
+  "scaffold": {
+    "topic": "How this character makes trade-off decisions at non-combat nodes",
+    "scope": "Resource investment and trade-off framing at rest sites and events.",
+    "dimensions_to_consider": [
+      "Rest investment trade-offs (smith vs heal vs other)",
+      "Event trade-off framing (HP for relic, deck pollution for gold, etc.)",
+      "Which deck gaps to fill at non-combat nodes"
+    ],
+    "out_of_scope": [
+      "Specific event option tier lists - belongs in event_guides",
+      "Per-card upgrade priorities - belongs in card_memory"
+    ],
+    "format_constraints": {
+      "token_budget": "300-600 tokens",
+      "structure": "4-7 numbered principles + concrete example each.",
+      "voice": "Imperative, second-person."
+    },
+    "leakage_guard": {
+      "max_distinct_card_names": 6,
+      "max_distinct_enemy_names": 2,
+      "no_specific_damage_thresholds": true
+    }
+  },
+  "content": "TBD - filled by Mode B postrun",
+  "version": 0,
+  "confidence": 0.5,
+  "priority": 85
+}

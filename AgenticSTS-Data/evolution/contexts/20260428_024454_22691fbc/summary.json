@@ -1,0 +1,279 @@
+{
+  "run_id": "20260428_024454_22691fbc",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 132,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 18412,
+      "estimated_tokens": 4603
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 11481,
+      "estimated_tokens": 2871
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 79297,
+      "estimated_tokens": 19825
+    },
+    {
+      "name": "replay_package",
+      "chars": 34920,
+      "estimated_tokens": 8730
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2459,
+      "estimated_tokens": 615
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 27299,
+    "non_combat_decisions": 245,
+    "combat_episodes": 23,
+    "encountered_enemy_keys": [
+      "Door",
+      "Entomancer",
+      "Fabricator",
+      "Fogmog",
+      "Fuzzy Wurm Crawler",
+      "Globe Head",
+      "Infested Prism",
+      "Mysterious Knight",
+      "Nibbit",
+      "Phrog Parasite",
+      "Slimed Berserker",
+      "Thieving Hopper",
+      "Vine Shambler",
+      "multi:Bowlbug (Egg)+Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Crusher+Rocket",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Living Shield+Turret Operator",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Wriggler+Wriggler+Wriggler+Wriggler"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Strike+",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Bash+",
+      "Twin Strike+",
+      "Inferno",
+      "Fight Me!",
+      "Blood Wall",
+      "Unrelenting",
+      "Pyre+",
+      "Whirlwind+",
+      "Breakthrough+",
+      "Demon Form+",
+      "Seeker Strike",
+      "Colossus",
+      "Battle Trance+",
+      "Sword Boomerang+",
+      "True Grit+",
+      "Expertise+",
+      "Burning Pact+",
+      "Dominate+",
+      "Pommel Strike+",
+      "Offering+",
+      "Molten Fist+",
+      "Rupture",
+      "Bloodletting+",
+      "Stone Armor+",
+      "Feel No Pain"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 8530,
+    "entries": [
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=18.0+/-19.3 (z=-0.9, TYPICAL, n=18)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "Phrog Parasite",
+          "floor": 12,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Inklet+Inklet+Inklet",
+        "floor": 14,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=15 vs historical avg=4.6+/-5.9 (z=1.8, WORSE_THAN_USUAL, n=36)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.8,
+        "comparator": {
+          "enemy_key": "multi:Inklet+Inklet+Inklet",
+          "floor": 11,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=25 vs historical avg=34.1+/-19.1 (z=-0.5, TYPICAL, n=41)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Mysterious Knight",
+        "floor": 22,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=11.8+/-11.7 (z=-1.0, BETTER_THAN_USUAL, n=5)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "Mysterious Knight",
+          "floor": 22,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 27,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=28 vs historical avg=18.7+/-14.1 (z=0.7, TYPICAL, n=23)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.7,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 25,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 29,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=25 vs historical avg=19.4+/-14.9 (z=0.4, TYPICAL, n=28)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.4,
+        "comparator": {
+          "enemy_key": "Entomancer",
+          "floor": 27,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Crusher+Rocket",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=47 vs historical avg=35.3+/-16.1 (z=0.7, TYPICAL, n=34)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.7,
+        "comparator": {
+          "enemy_key": "multi:Crusher+Rocket",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=4 vs historical avg=38.8+/-12.1 (z=-2.9, BETTER_THAN_USUAL, n=6)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -2.9,
+        "comparator": {
+          "enemy_key": "Door",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 147416,
+  "context_estimated_tokens": 36845,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 138516,
+    "total_output_tokens": 2700,
+    "round_input_tokens": [
+      45116,
+      45300,
+      48100
+    ],
+    "round_output_tokens": [
+      607,
+      1124,
+      969
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gpt-5.4-thinking",
+    "fallbacks_used": 0,
+    "duration_ms": 74330,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,22 @@
+# Monorepo-wide ignores. Per-subtree ignores live in AgenticSTS/.gitignore.
+# See also .gitattributes (export-ignore) and docs/release/release_exclusions.md.
+
+# Runtime locks / pid files emitted by the agent during postrun (carry a host id + token).
+*.postrun.lock
+.postrun.lock
+*.pid
+
+# Locally-regenerated, non-redistributable game content (AGPL upstream / proprietary
+# extracts). Mirrored here at monorepo scope so they cannot be re-added from any subtree.
+AgenticSTS/data/knowledge/upstream/
+AgenticSTS/data/knowledge/*_dll.json
+AgenticSTS/data/knowledge/afflictions.json
+AgenticSTS/data/knowledge/powers.json
+AgenticSTS/data/knowledge/localization/
+
+# Dev-side staging area (pre-restructure metadata + machine identifiers).
+paper/data_package_2026-05-20/
+
+# Secrets / local env
+.env
+*.key

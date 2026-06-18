@@ -1,0 +1,34 @@
+{
+  "ts": "20260430_153238_513",
+  "run_id": "20260430_145322_491cb8dd",
+  "step": 190,
+  "floor": 21,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Sovereign Blade",
+        "potion_index": null,
+        "target_index": 0
+      },
+      {
+        "type": "card",
+        "card": "Venerate+",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Sovereign Blade deals 42 damage to the Rock Bowlbug, which has 22 HP, killing it instantly. This eliminates all incoming damage since the Silk Bowlbug is only using a Debuff intent. With the remaining 1 energy, playing Venerate+ generates 3 stars, enabling Cloak of Stars to be played for free block and keeping 2 stars for the next turn.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

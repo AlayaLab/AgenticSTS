@@ -1,0 +1,135 @@
+{
+  "run_id": "20260428_143143_39819e62",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 139,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 588,
+      "estimated_tokens": 147
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 1356,
+      "estimated_tokens": 339
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 2570,
+      "estimated_tokens": 643
+    },
+    {
+      "name": "replay_package",
+      "chars": 5562,
+      "estimated_tokens": 1391
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 383,
+      "estimated_tokens": 96
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 1129,
+    "non_combat_decisions": 9,
+    "combat_episodes": 2,
+    "encountered_enemy_keys": [
+      "Chomper",
+      "multi:Crusher+Rocket"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Slice",
+      "Flechettes",
+      "Deflect",
+      "Volley+",
+      "Flick-Flack",
+      "Leading Strike",
+      "Backflip",
+      "Noxious Fumes",
+      "Shadowmeld+",
+      "Backflip",
+      "Assassinate",
+      "Noxious Fumes",
+      "Cloak and Dagger",
+      "Blade of Ink",
+      "Expertise+",
+      "Exterminate",
+      "Piercing Wail"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1355,
+    "entries": [
+      {
+        "enemy_key": "multi:Crusher+Rocket",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=72 vs historical avg=35.7+/-16.0 (z=2.3, WORSE_THAN_USUAL, n=35)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 2.3,
+        "comparator": {
+          "enemy_key": "multi:Crusher+Rocket",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 11313,
+  "context_estimated_tokens": 2819,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 20859,
+    "total_output_tokens": 5315,
+    "round_input_tokens": [
+      5993,
+      6791,
+      8075
+    ],
+    "round_output_tokens": [
+      505,
+      1840,
+      2970
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 100859,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  /* Scholar View (light, default) */
+  --color-bg-base: #faf7f2;
+  --color-bg-raised: #f0ebe0;
+  --color-ink-primary: #1a1625;
+  --color-ink-secondary: #5a4f66;
+  --color-accent-violet: #7c3aed;
+  --color-accent-gold: #d4a017;
+  --color-accent-magenta: #c2185b;
+  --color-success: #2d7a3e;
+  --color-danger: #b33a3a;
+
+  /* STS Rarity (shared between themes) */
+  --color-rarity-common: #b0a89e;
+  --color-rarity-uncommon: #5fa8d3;
+  --color-rarity-rare: #9b59b6;
+  --color-rarity-elite: #e67e22;
+  --color-rarity-legendary-from: #e74c3c;
+  --color-rarity-legendary-to: #f4c430;
+
+  /* Typography */
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Fraunces', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-pixel: 'Press Start 2P', monospace;
+
+  /* Spacing scale (8px base) */
+  --spacing-section-gap: 96px;
+}
+
+/* Spire Mode (dark) overrides */
+:where(.dark) {
+  --color-bg-base: #0d0818;
+  --color-bg-raised: #1a0f2e;
+  --color-ink-primary: #f0e6d2;
+  --color-ink-secondary: #9b8aa3;
+  --color-accent-gold: #f4c430;
+  --color-accent-magenta: #e91e63;
+  --color-accent-violet: #a78bfa;
+  --color-fire-glow: #f97316;
+  --spacing-section-gap: 64px;
+}
+
+:root, :root.dark {
+  color-scheme: light dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-base);
+  color: var(--color-ink-primary);
+  font-family: var(--font-body);
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* Utility classes for fonts (Tailwind v4 reads @theme automatically,
+   but we add explicit classes for clarity) */
+.font-display { font-family: var(--font-display); }
+.font-body    { font-family: var(--font-body); }
+.font-mono    { font-family: var(--font-mono); }
+.font-pixel   { font-family: var(--font-pixel); }

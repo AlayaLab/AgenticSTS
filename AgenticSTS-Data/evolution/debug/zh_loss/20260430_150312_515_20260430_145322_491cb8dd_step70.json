@@ -1,0 +1,34 @@
+{
+  "ts": "20260430_150312_515",
+  "run_id": "20260430_145322_491cb8dd",
+  "step": 70,
+  "floor": 17,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Dramatic Entrance",
+        "potion_index": null,
+        "target_index": 0
+      },
+      {
+        "type": "card",
+        "card": "Venerate+",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Lagavulin Matriarch is attacking for 18 (9x2). By playing Venerate+ to generate 3 stars, we enable Reflect to provide 21 Block (thanks to Dexterity) and bounce the 18 damage back. We weave in Dramatic Entrance for free damage and Wrought in War to stack our Sovereign Blade and use all our energy.",
+    "reasoning_zh": "",
+    "note_to_future_self": "Reflect handles multi-hits exceptionally well."
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

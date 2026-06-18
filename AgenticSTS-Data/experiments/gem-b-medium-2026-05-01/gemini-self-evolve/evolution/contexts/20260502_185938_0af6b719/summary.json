@@ -1,0 +1,155 @@
+{
+  "run_id": "20260502_185938_0af6b719",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 5151,
+      "estimated_tokens": 1288
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 5805,
+      "estimated_tokens": 1452
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 20501,
+      "estimated_tokens": 5126
+    },
+    {
+      "name": "replay_package",
+      "chars": 15531,
+      "estimated_tokens": 3883
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 876,
+      "estimated_tokens": 219
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 7866,
+    "non_combat_decisions": 63,
+    "combat_episodes": 8,
+    "encountered_enemy_keys": [
+      "Byrdonis",
+      "Cubex Construct",
+      "Mawler",
+      "Nibbit",
+      "Shrinker Beetle",
+      "multi:Fuzzy Wurm Crawler+Shrinker Beetle",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Leg Sweep",
+      "Blade Dance+",
+      "Hand of Greed+",
+      "Dagger Throw",
+      "Backflip",
+      "Piercing Wail+",
+      "Dagger Spray",
+      "Strangle",
+      "Tools of the Trade+",
+      "Ricochet",
+      "Spoils Map"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 3823,
+    "entries": [
+      {
+        "enemy_key": "Byrdonis",
+        "floor": 9,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Byrdonis",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 48373,
+  "context_estimated_tokens": 12085,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 96042,
+    "total_output_tokens": 22928,
+    "round_input_tokens": [
+      18091,
+      18732,
+      19697,
+      19838,
+      19684
+    ],
+    "round_output_tokens": [
+      1720,
+      886,
+      1741,
+      5954,
+      12627
+    ],
+    "actions_taken": 3,
+    "action_types": [
+      "author_tool",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 229868,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "skill_id": "seed_regent_starting_deck",
+    "name": "Regent - Starting Deck and Early Cleanup",
+    "category": "deck_building",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "card_select",
+        "shop",
+        "rest_site"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "The Regent's basic deck has roughly 5 Strikes, 4 Defends, 1 Falling Star (free 0-cost chip damage), and 1 Venerate (the basic 1-cost star generator). It's the weakest baseline card-by-card among playable characters — almost nothing carries hallway tempo. Cleanup priorities for early Acts: (1) FIRST removal — a basic Strike. Strikes block the deck from cycling to Forge cards or star generators. (2) SECOND removal — another Strike, NOT a Defend. Defends still pull weight while early defense is shaky. (3) Keep Venerate even after upgrading the deck — it's the cheapest renewable star provider until Hidden Cache or Genesis is drafted. (4) Falling Star is free chip damage; keep one copy through Act 1 even after better attacks are available — it pairs well with Forge tempo because it costs nothing to slot in. (5) Don't remove Defends until at least 2 of {Bulwark, Particle Wall, Glimmer} are in deck. UPGRADE PRIORITY at campfires: Forge cards first (Beat into Shape+, Wrought in War+, Refine Blade+ all noticeably stronger upgraded), then star generators (Glow+, Hidden Cache+), then blade-buff Powers (Seeking Edge+, Sword Sage+). Upgrade basic Strikes only as a last resort — they're removal targets, not investments.",
+    "lessons": "Common starting-deck pitfalls: removing Venerate too early (kills the basic star economy), removing Defends in Act 1 floor 1-3 (deck has no other block), upgrading basic Strikes (low ceiling) before Forge / star cards (high ceiling), or keeping all 5 Strikes by floor 10 (deck never reaches engine speed).",
+    "examples": [
+      "Floor 4 shop with 90 gold: spend on card removal targeting a Strike, NOT on a 50-gold uncommon attack. Removing one Strike + drafting a Forge card later is worth more than another piece of generic damage.",
+      "Floor 7 campfire: upgrade choice between Strike+ (10 dmg) and Refine Blade+ (Forge + energy). Upgrade Refine Blade — the basic Strike is on the chopping block anyway."
+    ],
+    "priority": 92,
+    "source": "seed",
+    "confidence": 0.85,
+    "verified": false
+  }
+]

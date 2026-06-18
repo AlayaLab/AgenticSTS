@@ -1,0 +1,190 @@
+{
+  "run_id": "20260502_115839_ef5e1676",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 10653,
+      "estimated_tokens": 2664
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 12511,
+      "estimated_tokens": 3128
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 42342,
+      "estimated_tokens": 10586
+    },
+    {
+      "name": "replay_package",
+      "chars": 47449,
+      "estimated_tokens": 11863
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1536,
+      "estimated_tokens": 384
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 16378,
+    "non_combat_decisions": 131,
+    "combat_episodes": 15,
+    "encountered_enemy_keys": [
+      "Entomancer",
+      "Fossil Stalker",
+      "Hunter Killer",
+      "Louse Progenitor",
+      "Punch Construct",
+      "Seapunk",
+      "Sludge Spinner",
+      "Soul Fysh",
+      "The Insatiable",
+      "The Obscura",
+      "Thieving Hopper",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Myte+Myte",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Bouncing Flask+",
+      "Flick-Flack",
+      "Cloak and Dagger",
+      "Backflip",
+      "Backstab",
+      "Dagger Spray+",
+      "Tools of the Trade",
+      "Afterimage",
+      "Piercing Wail",
+      "Predator",
+      "Strangle+",
+      "Expertise+",
+      "Calculated Gamble",
+      "Well-Laid Plans",
+      "Leading Strike+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 11764,
+    "entries": [
+      {
+        "enemy_key": "Soul Fysh",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Soul Fysh",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Louse Progenitor",
+        "floor": 22,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=11 vs historical avg=1.7+/-1.2 (z=7.5, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 7.5,
+        "comparator": {
+          "enemy_key": "Louse Progenitor",
+          "floor": 25,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 25,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Entomancer",
+          "floor": 27,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 115003,
+  "context_estimated_tokens": 28743,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 163903,
+    "total_output_tokens": 4363,
+    "round_input_tokens": [
+      40120,
+      40346,
+      41918,
+      41519
+    ],
+    "round_output_tokens": [
+      149,
+      80,
+      1802,
+      2332
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 417108,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

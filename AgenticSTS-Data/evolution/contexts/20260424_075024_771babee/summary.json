@@ -1,0 +1,239 @@
+{
+  "run_id": "20260424_075024_771babee",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 10727,
+      "estimated_tokens": 2682
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 9643,
+      "estimated_tokens": 2411
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 44216,
+      "estimated_tokens": 11054
+    },
+    {
+      "name": "replay_package",
+      "chars": 13863,
+      "estimated_tokens": 3466
+    },
+    {
+      "name": "combat_guides",
+      "chars": 16768,
+      "estimated_tokens": 4192
+    },
+    {
+      "name": "deck_guides",
+      "chars": 1000,
+      "estimated_tokens": 250
+    },
+    {
+      "name": "card_notes",
+      "chars": 5370,
+      "estimated_tokens": 1343
+    },
+    {
+      "name": "card_stats",
+      "chars": 2791,
+      "estimated_tokens": 698
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1568,
+      "estimated_tokens": 392
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 16147,
+    "non_combat_decisions": 144,
+    "combat_episodes": 16,
+    "encountered_enemy_keys": [
+      "Fuzzy Wurm Crawler",
+      "Louse Progenitor",
+      "Nibbit",
+      "Spiny Toad",
+      "The Insatiable",
+      "Vantom",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flyconid+Leaf Slime (M)",
+      "multi:Fuzzy Wurm Crawler+Shrinker Beetle",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Myte+Myte",
+      "multi:Nibbit+Nibbit"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Shadowmeld+",
+      "Flick-Flack",
+      "Acrobatics",
+      "Peck",
+      "Ricochet",
+      "Piercing Wail",
+      "Phantom Blades",
+      "Escape Plan",
+      "Dagger Throw",
+      "Byrd Swoop",
+      "Reflex",
+      "Leading Strike",
+      "Backflip",
+      "Well-Laid Plans",
+      "Shadow Step+",
+      "Blade Dance",
+      "Backflip",
+      "Prepared+",
+      "Nightmare",
+      "Phantom Blades",
+      "Expose+",
+      "Exterminate"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 3342,
+    "entries": [
+      {
+        "enemy_key": "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+        "floor": 12,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=7.4+/-7.3 (z=-1.0, BETTER_THAN_USUAL, n=22)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+          "floor": 12,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flyconid+Leaf Slime (M)",
+        "floor": 15,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=11.1+/-7.2 (z=-1.5, BETTER_THAN_USUAL, n=13)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.5,
+        "comparator": {
+          "enemy_key": "multi:Flyconid+Leaf Slime (M)",
+          "floor": 13,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Vantom",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=12 vs historical avg=26.6+/-11.4 (z=-1.3, BETTER_THAN_USUAL, n=23)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.3,
+        "comparator": {
+          "enemy_key": "Vantom",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=41 vs historical avg=37.8+/-21.0 (z=0.2, TYPICAL, n=42)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.2,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 16,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 20,
+    "stats": 24
+  },
+  "context_chars": 106775,
+  "context_estimated_tokens": 26684,
+  "session": {
+    "total_rounds": 6,
+    "total_input_tokens": 230050,
+    "total_output_tokens": 17628,
+    "round_input_tokens": [
+      35584,
+      36480,
+      39106,
+      39237,
+      39509,
+      40134
+    ],
+    "round_output_tokens": [
+      573,
+      1309,
+      5704,
+      2444,
+      6578,
+      1020
+    ],
+    "actions_taken": 5,
+    "action_types": [
+      "update_card_note",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 301995,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

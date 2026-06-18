@@ -1,0 +1,178 @@
+{
+  "run_id": "20260429_164834_9c0c1c1e",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 15449,
+      "estimated_tokens": 3863
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 10064,
+      "estimated_tokens": 2516
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 65903,
+      "estimated_tokens": 16476
+    },
+    {
+      "name": "replay_package",
+      "chars": 13014,
+      "estimated_tokens": 3254
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2121,
+      "estimated_tokens": 531
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 22855,
+    "non_combat_decisions": 205,
+    "combat_episodes": 19,
+    "encountered_enemy_keys": [
+      "Door",
+      "Entomancer",
+      "Fossil Stalker",
+      "Gremlin Merc",
+      "Haunted Ship",
+      "Knowledge Demon",
+      "Mecha Knight",
+      "Seapunk",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Tunneler",
+      "Waterfall Giant",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)+Bowlbug (Silk)",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Living Shield+Turret Operator",
+      "multi:Myte+Myte",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Defend",
+      "Defend+",
+      "Defend+",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Backstab+",
+      "Noxious Fumes+",
+      "Pounce+",
+      "Backflip+",
+      "Expose",
+      "Bubble Bubble+",
+      "Footwork+",
+      "Deadly Poison+",
+      "Noxious Fumes+",
+      "Deflect",
+      "Footwork+",
+      "Expertise",
+      "Mirage+",
+      "Corrosive Wave+",
+      "Dodge and Roll+",
+      "Adrenaline+",
+      "Impatience",
+      "Noxious Fumes+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 3181,
+    "entries": [
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 11,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 31,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "Mecha Knight",
+        "floor": 40,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      }
+    ]
+  },
+  "context_chars": 107052,
+  "context_estimated_tokens": 26755,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 108012,
+    "total_output_tokens": 4813,
+    "round_input_tokens": [
+      35539,
+      35738,
+      36735
+    ],
+    "round_output_tokens": [
+      797,
+      1399,
+      2617
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 93486,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

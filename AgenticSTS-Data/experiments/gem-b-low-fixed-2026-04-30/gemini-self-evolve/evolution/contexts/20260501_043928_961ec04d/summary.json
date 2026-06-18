@@ -1,0 +1,226 @@
+{
+  "run_id": "20260501_043928_961ec04d",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 20615,
+      "estimated_tokens": 5154
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 18310,
+      "estimated_tokens": 4578
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 73005,
+      "estimated_tokens": 18252
+    },
+    {
+      "name": "replay_package",
+      "chars": 55182,
+      "estimated_tokens": 13796
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2515,
+      "estimated_tokens": 629
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 27984,
+    "non_combat_decisions": 189,
+    "combat_episodes": 22,
+    "encountered_enemy_keys": [
+      "Battle Friend V2.0",
+      "Cubex Construct",
+      "Entomancer",
+      "Fabricator",
+      "Nibbit",
+      "Ovicopter",
+      "Owl Magistrate",
+      "Shrinker Beetle",
+      "Test Subject",
+      "The Insatiable",
+      "The Obscura",
+      "Vantom",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Chomper+Chomper",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Living Shield+Turret Operator",
+      "multi:Nibbit+Nibbit",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Slithering Strangler+Snapping Jaxfruit"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Blade Dance+",
+      "Dagger Spray+",
+      "Expose",
+      "Strangle",
+      "Accuracy+",
+      "Backflip",
+      "Phantom Blades+",
+      "Blur",
+      "Assassinate+",
+      "Cloak and Dagger",
+      "Backflip",
+      "Ultimate Strike",
+      "Malaise",
+      "Predator",
+      "Piercing Wail",
+      "Blade Dance+",
+      "Well-Laid Plans+",
+      "Serpent Form",
+      "Mad Science+",
+      "Deflect+",
+      "Backflip+",
+      "Expertise+",
+      "Panache",
+      "Cloak and Dagger+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 13661,
+    "entries": [
+      {
+        "enemy_key": "Vantom",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Vantom",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+        "floor": 19,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=7.3+/-7.1 (z=-1.0, BETTER_THAN_USUAL, n=3)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.0,
+        "comparator": {
+          "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+          "floor": 21,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Entomancer",
+        "floor": 31,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=31 vs historical avg=27.0+/-11.2 (z=0.4, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.4,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 42,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Test Subject",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "Test Subject",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 170139,
+  "context_estimated_tokens": 42527,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 291453,
+    "total_output_tokens": 6784,
+    "round_input_tokens": [
+      57117,
+      57664,
+      58580,
+      58979,
+      59113
+    ],
+    "round_output_tokens": [
+      710,
+      850,
+      4822,
+      110,
+      292
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 104798,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

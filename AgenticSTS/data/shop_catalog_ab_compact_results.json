@@ -1,0 +1,104 @@
+[
+  {
+    "variant": "A",
+    "i": 1,
+    "ms": 16607,
+    "data": {
+      "purchases": [
+        "Corrosive Wave",
+        "Card Removal",
+        "Leading Strike"
+      ],
+      "gold_after": 36,
+      "reason": "Corrosive Wave is a must-pick to scale the poison engine, Card Removal thins out basic Strikes, and the discounted Leading Strike provides cheap immediate damage for Act 1."
+    },
+    "raw": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Leading Strike\"],\"gold_after\":36,\"reason\":\"Corrosive Wave is a must-pick to scale the poison engine, Card Removal thins out basic Strikes, and the discounted Leading Strike provides cheap immediate damage for Act 1.\"}"
+  },
+  {
+    "variant": "A",
+    "i": 2,
+    "ms": 11012,
+    "data": {
+      "parse_error": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick that scales our poison engine, Card Removal thins out"
+    },
+    "raw": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick that scales our poison engine, Card Removal thins out"
+  },
+  {
+    "variant": "A",
+    "i": 3,
+    "ms": 16712,
+    "data": {
+      "parse_error": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a core must-pick for the poison engine, while card"
+    },
+    "raw": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a core must-pick for the poison engine, while card"
+  },
+  {
+    "variant": "A",
+    "i": 4,
+    "ms": 12410,
+    "data": {
+      "parse_error": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick core poison card that scales incredibly well with your existing"
+    },
+    "raw": "{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick core poison card that scales incredibly well with your existing"
+  },
+  {
+    "variant": "A",
+    "i": 5,
+    "ms": 14801,
+    "data": {
+      "purchases": [
+        "Corrosive Wave",
+        "Cloak and Dagger",
+        "Card Removal"
+      ],
+      "gold_after": 11,
+      "reason": "Corrosive Wave is a must-pick core poison card that synergizes with Bouncing Flask, while Cloak and Dagger and removing a Strike improve defensive consistency and deck cycling."
+    },
+    "raw": "{\"purchases\":[\"Corrosive Wave\",\"Cloak and Dagger\",\"Card Removal\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick core poison card that synergizes with Bouncing Flask, while Cloak and Dagger and removing a Strike improve defensive consistency and deck cycling.\"}"
+  },
+  {
+    "variant": "B",
+    "i": 1,
+    "ms": 23730,
+    "data": {
+      "parse_error": ") = 230g.\nCorrosive Wave (146) + Clarity Extract (79) + Cloak and Dagger (50) = 275g.\nClarity"
+    },
+    "raw": ") = 230g.\nCorrosive Wave (146) + Clarity Extract (79) + Cloak and Dagger (50) = 275g.\nClarity"
+  },
+  {
+    "variant": "B",
+    "i": 2,
+    "ms": 11479,
+    "data": {
+      "parse_error": ") = 271. Remaining 11.\nWait, does Cloak and Dagger fit the plan? The plan is poison. Cloak and Dagger is just a good block card.\nWait, \"Silent"
+    },
+    "raw": ") = 271. Remaining 11.\nWait, does Cloak and Dagger fit the plan? The plan is poison. Cloak and Dagger is just a good block card.\nWait, \"Silent"
+  },
+  {
+    "variant": "B",
+    "i": 3,
+    "ms": 11308,
+    "data": {
+      "parse_error": "```json\n{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick core card that perfectly strengthens your existing Bouncing"
+    },
+    "raw": "```json\n{\"purchases\":[\"Corrosive Wave\",\"Card Removal\",\"Cloak and Dagger\"],\"gold_after\":11,\"reason\":\"Corrosive Wave is a must-pick core card that perfectly strengthens your existing Bouncing"
+  },
+  {
+    "variant": "B",
+    "i": 4,
+    "ms": 11116,
+    "data": {
+      "parse_error": ": 282 - 271 = 11g.\n\nLet's double check the prompt: \"In shops, buy order is exceptional colorless cards > Silent cards that fit the plan > powerful"
+    },
+    "raw": ": 282 - 271 = 11g.\n\nLet's double check the prompt: \"In shops, buy order is exceptional colorless cards > Silent cards that fit the plan > powerful"
+  },
+  {
+    "variant": "B",
+    "i": 5,
+    "ms": 11606,
+    "data": {
+      "parse_error": " Total: 146 + 75 + 50 = 271.\n        *   Gold after: 282 - 271 = 11.\n    *   Is White Beast"
+    },
+    "raw": " Total: 146 + 75 + 50 = 271.\n        *   Gold after: 282 - 271 = 11.\n    *   Is White Beast"
+  }
+]

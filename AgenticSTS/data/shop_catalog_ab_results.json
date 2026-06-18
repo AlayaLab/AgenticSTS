@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "A",
+    "i": 1,
+    "ms": 22928,
+    "purchases": [],
+    "json": null,
+    "raw": " = 61\nCloak and Dagger (50) = 11\n\nCould I buy Vulnerable potion? 52g.\nI have Bouncing Flask and Bubble Bubble, which don't care about Vulnerable. So skip.\n\nWhat if I buy Leading Strike instead of Cloak and Dagger?\n25g is a great price. But Cloak and Dagger is generally better for a deck that wants to play skills (Tuning fork, etc"
+  },
+  {
+    "variant": "A",
+    "i": 2,
+    "ms": 23714,
+    "purchases": [],
+    "json": null,
+    "raw": "```json\n{\n  \"purchases\": [\n    {\n      \"action\": \"buy_card\",\n      \"item_name\": \"Corrosive Wave\",\n      \"price\": 146,\n      \"gold_after\": 136,\n      \"reason\": \"Corrosive Wave is a premium, must-pick card for Silent, especially since we already have a poison engine starting with Bouncing Flask and Bubble Bubble.\"\n"
+  },
+  {
+    "variant": "A",
+    "i": 3,
+    "ms": 24839,
+    "purchases": [],
+    "json": null,
+    "raw": "{\"purchases\":[{\"action\":\"buy_card\",\"item_name\":\"Corrosive Wave\",\"price\":146,\"gold_after\":136,\"reason\":\"Expert knowledge highlights Corrosive Wave as a must-pick core card. It provides incredible AoE poison scaling once we draft some card draw.\"},{\"action\":\"remove_card\",\"item_name\":\"Strike\",\"price\":75,\"gold_after\":61,\"reason\":\"Removing a Strike thins our deck,"
+  },
+  {
+    "variant": "B",
+    "i": 1,
+    "ms": 26507,
+    "purchases": [],
+    "json": null,
+    "raw": "```json\n{\n  \"purchases\": [\n    {\n      \"action\": \"buy_relic\",\n      \"item_name\": \"White Beast Statue\",\n      \"price\": 249,\n      \"gold_after\": 33,\n      \"reason\": \"White Beast Statue is a premium rare relic that provides a potion after every combat. This consistent influx of potions will solve many situational problems (damage, defense, draw) throughout the entire"
+  },
+  {
+    "variant": "B",
+    "i": 2,
+    "ms": 49146,
+    "purchases": [],
+    "json": null,
+    "raw": "```json\n{\n  \"purchases\": [\n    {\n      \"action\": \"buy_card\",\n      \"item_name\": \"Corrosive Wave\",\n      \"price\": 146,\n      \"gold_after\": 136,\n      \"reason\": \"Expert knowledge specifically highlights Corrosive Wave as a must-pick even outside of its core archetypes. With Bouncing Flask and Bubble Bubble already in the deck,"
+  },
+  {
+    "variant": "B",
+    "i": 3,
+    "ms": 24465,
+    "purchases": [],
+    "json": null,
+    "raw": "```json\n{\n  \"purchases\": [\n    {\n      \"action\": \"buy_card\",\n      \"item_name\": \"Corrosive Wave\",\n      \"price\": 146,\n      \"gold_after\": 136,\n      \"reason\": \"Expert knowledge highlights Corrosive Wave as a must-pick premium core card. It provides exceptional AoE poison scaling that perfectly complements our existing Bouncing"
+  }
+]

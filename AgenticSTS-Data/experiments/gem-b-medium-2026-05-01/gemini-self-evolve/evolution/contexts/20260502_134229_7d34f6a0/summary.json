@@ -1,0 +1,193 @@
+{
+  "run_id": "20260502_134229_7d34f6a0",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 11506,
+      "estimated_tokens": 2877
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 12108,
+      "estimated_tokens": 3027
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 43451,
+      "estimated_tokens": 10863
+    },
+    {
+      "name": "replay_package",
+      "chars": 43265,
+      "estimated_tokens": 10817
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1454,
+      "estimated_tokens": 364
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 16767,
+    "non_combat_decisions": 127,
+    "combat_episodes": 11,
+    "encountered_enemy_keys": [
+      "Ceremonial Beast",
+      "Fuzzy Wurm Crawler",
+      "Infested Prism",
+      "Knowledge Demon",
+      "Nibbit",
+      "Vine Shambler",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Myte+Myte"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor+",
+      "Ascender's Bane",
+      "Grand Finale",
+      "Sucker Punch+",
+      "Flick-Flack",
+      "Toric Toughness",
+      "Skewer+",
+      "Pounce",
+      "Malaise",
+      "Blade of Ink",
+      "Escape Plan",
+      "Deflect+",
+      "Escape Plan",
+      "Dagger Throw",
+      "Leading Strike+",
+      "Strangle"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 10708,
+    "entries": [
+      {
+        "enemy_key": "Ceremonial Beast",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=47 vs historical avg=24.7+/-6.1 (z=3.6, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.6,
+        "comparator": {
+          "enemy_key": "Ceremonial Beast",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+        "floor": 19,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=11 vs historical avg=1.4+/-1.9 (z=5.2, WORSE_THAN_USUAL, n=5)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 5.2,
+        "comparator": {
+          "enemy_key": "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+          "floor": 19,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 24,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 27,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=53 vs historical avg=28.0+/-13.7 (z=1.8, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.8,
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 112296,
+  "context_estimated_tokens": 28066,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 197759,
+    "total_output_tokens": 10807,
+    "round_input_tokens": [
+      38443,
+      38557,
+      40047,
+      40182,
+      40530
+    ],
+    "round_output_tokens": [
+      2051,
+      836,
+      2359,
+      3374,
+      2187
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 193601,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

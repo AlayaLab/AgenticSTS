@@ -1,0 +1,21 @@
+[
+  {
+    "skill_id": "seed_core_rest_decision",
+    "name": "Rest Site and Event Decisions",
+    "category": "rest",
+    "tier": "general",
+    "trigger": {
+      "state_types": ["rest_site", "event"]
+    },
+    "content": "REST SITES: Smith (upgrade) is the DEFAULT. An upgraded card improves EVERY remaining combat. Smith unless: HP too low to survive the next fight AND boss is next (then heal). Upgrade priority: prioritize cards you play frequently in boss fights (e.g. cost reduction upgrades or high-frequency attack cards). NEVER upgrade basic Strikes or Defends — remove them instead. EVENTS: Avoid options with strong negative effects (adding curses or losing large amounts of HP). Acceptable to lose a small amount of HP for a relic. Transform basic Strikes or Defends to improve deck quality. When offered cards, pick what the deck lacks most: damage, draw, or energy. 'Leave' is always valid — never force a bad choice.",
+    "lessons": "Without this: healing every rest site instead of upgrading, missing free card removal events.",
+    "examples": [
+      "Rest site at 60% HP: Smith your best card, not rest",
+      "Event offers 'remove a card' for 10 HP: take it (removal is worth 10 HP easily)"
+    ],
+    "priority": 80,
+    "source": "seed",
+    "confidence": 0.85,
+    "verified": true
+  }
+]

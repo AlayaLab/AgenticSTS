@@ -1,0 +1,34 @@
+{
+  "ts": "20260430_105923_780",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 47,
+  "floor": 5,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Wrought in War",
+        "potion_index": null,
+        "target_index": 0
+      },
+      {
+        "type": "card",
+        "card": "Strike",
+        "potion_index": null,
+        "target_index": 0
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Wrought in War deals 5 damage and summons Sovereign Blade, forging it by 7 for a total of 17 base damage. With Weak, Sovereign Blade deals 12 damage. This combines for exactly 17 damage, which is lethal. Adding Strike provides extra damage as a buffer.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

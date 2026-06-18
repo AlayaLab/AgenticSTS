@@ -1,0 +1,141 @@
+{
+  "cells": [
+    {
+      "cell": "baseline-strict",
+      "experiment_tag": "gemini-pilot-2026-05-08-A0-baseline",
+      "mean_llm_calls": 62.5,
+      "n": 2,
+      "ratio": 8.622,
+      "runs": [
+        {
+          "actual_tokens": 220000.0,
+          "counterfactual_tokens": 1237500.0,
+          "llm_calls": 44,
+          "outcome": "defeat",
+          "run_id": "20260508_202346_674e1eb2",
+          "steps": 379
+        },
+        {
+          "actual_tokens": 405000.0,
+          "counterfactual_tokens": 4151250.0,
+          "llm_calls": 81,
+          "outcome": "defeat",
+          "run_id": "20260508_211640_12d2c070",
+          "steps": 461
+        }
+      ],
+      "sum_actual_tokens": 625000.0,
+      "sum_counterfactual_tokens": 5388750.0
+    },
+    {
+      "cell": "prompt-only",
+      "experiment_tag": "gemini-pilot-2026-05-09-A0-prompt-only",
+      "mean_llm_calls": 39.0,
+      "n": 2,
+      "ratio": 6.038461538461538,
+      "runs": [
+        {
+          "actual_tokens": 285000.0,
+          "counterfactual_tokens": 2066250.0,
+          "llm_calls": 57,
+          "outcome": "defeat",
+          "run_id": "20260509_140822_845fdcd4",
+          "steps": 429
+        },
+        {
+          "actual_tokens": 105000.0,
+          "counterfactual_tokens": 288750.0,
+          "llm_calls": 21,
+          "outcome": "defeat",
+          "run_id": "20260509_145548_fbdbfe83",
+          "steps": 337
+        }
+      ],
+      "sum_actual_tokens": 390000.0,
+      "sum_counterfactual_tokens": 2355000.0
+    },
+    {
+      "cell": "mode-a",
+      "experiment_tag": "gemini-pilot-2026-05-09-A0-mode-a-makeup",
+      "mean_llm_calls": 92.0,
+      "n": 2,
+      "ratio": 12.017663043478262,
+      "runs": [
+        {
+          "actual_tokens": 545000.0,
+          "counterfactual_tokens": 7493750.0,
+          "llm_calls": 109,
+          "outcome": "victory",
+          "run_id": "20260510_134606_135b3776",
+          "steps": 1009
+        },
+        {
+          "actual_tokens": 375000.0,
+          "counterfactual_tokens": 3562500.0,
+          "llm_calls": 75,
+          "outcome": "defeat",
+          "run_id": "20260510_135013_0fedb288",
+          "steps": 550
+        }
+      ],
+      "sum_actual_tokens": 920000.0,
+      "sum_counterfactual_tokens": 11056250.0
+    },
+    {
+      "cell": "mode-b-frozen",
+      "experiment_tag": "gemini-pilot-2026-05-12-A0-mode-b-frozen",
+      "mean_llm_calls": 126.5,
+      "n": 2,
+      "ratio": 16.206521739130434,
+      "runs": [
+        {
+          "actual_tokens": 550000.0,
+          "counterfactual_tokens": 7631250.0,
+          "llm_calls": 110,
+          "outcome": "defeat",
+          "run_id": "20260512_113610_fe02a67e",
+          "steps": 894
+        },
+        {
+          "actual_tokens": 715000.0,
+          "counterfactual_tokens": 12870000.0,
+          "llm_calls": 143,
+          "outcome": "victory",
+          "run_id": "20260512_113624_10eb82b9",
+          "steps": 894
+        }
+      ],
+      "sum_actual_tokens": 1265000.0,
+      "sum_counterfactual_tokens": 20501250.0
+    },
+    {
+      "cell": "full-frozen",
+      "experiment_tag": "gemini-pilot-2026-05-08-A0-full-frozen",
+      "mean_llm_calls": 96.5,
+      "n": 2,
+      "ratio": 12.226683937823834,
+      "runs": [
+        {
+          "actual_tokens": 510000.0,
+          "counterfactual_tokens": 6566250.0,
+          "llm_calls": 102,
+          "outcome": "victory",
+          "run_id": "20260508_202358_c95f9405",
+          "steps": 747
+        },
+        {
+          "actual_tokens": 455000.0,
+          "counterfactual_tokens": 5232500.0,
+          "llm_calls": 91,
+          "outcome": "victory",
+          "run_id": "20260508_220039_e5d1e322",
+          "steps": 829
+        }
+      ],
+      "sum_actual_tokens": 965000.0,
+      "sum_counterfactual_tokens": 11798750.0
+    }
+  ],
+  "median_tokens_per_call": 5000,
+  "runs_per_cell": 2
+}

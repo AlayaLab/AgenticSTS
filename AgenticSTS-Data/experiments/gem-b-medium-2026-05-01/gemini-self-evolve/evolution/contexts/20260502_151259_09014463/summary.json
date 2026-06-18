@@ -1,0 +1,293 @@
+{
+  "run_id": "20260502_151259_09014463",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 16087,
+      "estimated_tokens": 4022
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 26824,
+      "estimated_tokens": 6706
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 68349,
+      "estimated_tokens": 17088
+    },
+    {
+      "name": "replay_package",
+      "chars": 116890,
+      "estimated_tokens": 29223
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2412,
+      "estimated_tokens": 603
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 27816,
+    "non_combat_decisions": 197,
+    "combat_episodes": 23,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Fabricator",
+      "Globe Head",
+      "Infested Prism",
+      "Living Fog",
+      "Mecha Knight",
+      "Sewer Clam",
+      "Slimed Berserker",
+      "Sludge Spinner",
+      "The Insatiable",
+      "Thieving Hopper",
+      "Waterfall Giant",
+      "multi:Axebot+Axebot",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Myte+Myte",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Queen+Torch Head Amalgam",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor+",
+      "Ascender's Bane",
+      "Accelerant+",
+      "Leading Strike",
+      "Strangle+",
+      "Leading Strike",
+      "Expose",
+      "Envenom+",
+      "Leg Sweep",
+      "Escape Plan",
+      "Afterimage+",
+      "Finisher",
+      "Backflip",
+      "Well-Laid Plans+",
+      "Hidden Daggers+",
+      "Knife Trap",
+      "Burst",
+      "Apparition",
+      "Apparition",
+      "Apparition",
+      "Leading Strike",
+      "Hidden Daggers+",
+      "Phantom Blades",
+      "Phantom Blades",
+      "Storm of Steel",
+      "Haze",
+      "Bouncing Flask+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 28975,
+    "entries": [
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+          "floor": 15,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Thieving Hopper",
+        "floor": 19,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=2 vs historical avg=9.5+/-4.9 (z=-1.5, BETTER_THAN_USUAL, n=6)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.5,
+        "comparator": {
+          "enemy_key": "Thieving Hopper",
+          "floor": 21,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 29,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=2 vs historical avg=3.3+/-2.5 (z=-0.5, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 24,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+        "floor": 30,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=8.5+/-5.4 (z=-1.6, BETTER_THAN_USUAL, n=4)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.6,
+        "comparator": {
+          "enemy_key": "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+          "floor": 28,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=33 vs historical avg=25.7+/-20.7 (z=0.4, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.4,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Axebot+Axebot",
+        "floor": 39,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=8 vs historical avg=1.3+/-1.9 (z=3.5, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.5,
+        "comparator": {
+          "enemy_key": "multi:Axebot+Axebot",
+          "floor": 37,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Mecha Knight",
+        "floor": 43,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Mecha Knight",
+          "floor": 43,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Queen+Torch Head Amalgam",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Queen+Torch Head Amalgam",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 231063,
+  "context_estimated_tokens": 57757,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 409071,
+    "total_output_tokens": 10261,
+    "round_input_tokens": [
+      81186,
+      81169,
+      81672,
+      82811,
+      82233
+    ],
+    "round_output_tokens": [
+      1360,
+      941,
+      2239,
+      2967,
+      2754
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 187535,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

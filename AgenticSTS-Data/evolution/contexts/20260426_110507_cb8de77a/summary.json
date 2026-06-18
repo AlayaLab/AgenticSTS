@@ -1,0 +1,135 @@
+{
+  "run_id": "20260426_110507_cb8de77a",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 5344,
+      "estimated_tokens": 1336
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 3928,
+      "estimated_tokens": 982
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 23460,
+      "estimated_tokens": 5865
+    },
+    {
+      "name": "replay_package",
+      "chars": 5033,
+      "estimated_tokens": 1259
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1075,
+      "estimated_tokens": 269
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 8183,
+    "non_combat_decisions": 73,
+    "combat_episodes": 7,
+    "encountered_enemy_keys": [
+      "Fuzzy Wurm Crawler",
+      "Shrinker Beetle",
+      "multi:Flyconid+Leaf Slime (M)",
+      "multi:Inklet+Inklet+Inklet",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Nibbit+Nibbit"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Echoing Slash",
+      "Poisoned Stab",
+      "Deadly Poison",
+      "Leg Sweep",
+      "Dagger Spray",
+      "Blade Dance",
+      "Finisher",
+      "Backflip",
+      "Cloak and Dagger",
+      "Dark Shackles"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1218,
+    "entries": [
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=65 vs historical avg=32.1+/-18.3 (z=1.8, WORSE_THAN_USUAL, n=38)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.8,
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 39693,
+  "context_estimated_tokens": 9914,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 47988,
+    "total_output_tokens": 3295,
+    "round_input_tokens": [
+      14572,
+      15523,
+      17893
+    ],
+    "round_output_tokens": [
+      779,
+      1174,
+      1342
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 66603,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

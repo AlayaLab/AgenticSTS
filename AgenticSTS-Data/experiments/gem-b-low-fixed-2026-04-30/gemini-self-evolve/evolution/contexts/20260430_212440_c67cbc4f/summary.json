@@ -1,0 +1,136 @@
+{
+  "run_id": "20260430_212440_c67cbc4f",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 5826,
+      "estimated_tokens": 1457
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 7370,
+      "estimated_tokens": 1843
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 27000,
+      "estimated_tokens": 6750
+    },
+    {
+      "name": "replay_package",
+      "chars": 8767,
+      "estimated_tokens": 2192
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1081,
+      "estimated_tokens": 271
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 10050,
+    "non_combat_decisions": 91,
+    "combat_episodes": 9,
+    "encountered_enemy_keys": [
+      "Bygone Effigy",
+      "Fuzzy Wurm Crawler",
+      "Nibbit",
+      "Tunneler",
+      "Vantom",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flyconid+Twig Slime (M)",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Slithering Strangler+Snapping Jaxfruit"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Deadly Poison",
+      "Flick-Flack",
+      "Blade Dance+",
+      "Piercing Wail",
+      "Accuracy+",
+      "Blade Dance+",
+      "Blade Dance",
+      "Piercing Wail",
+      "Accuracy",
+      "Phantom Blades"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 2163,
+    "entries": [
+      {
+        "enemy_key": "Bygone Effigy",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Vantom",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      }
+    ]
+  },
+  "context_chars": 50553,
+  "context_estimated_tokens": 12630,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 96140,
+    "total_output_tokens": 6136,
+    "round_input_tokens": [
+      18599,
+      18664,
+      19526,
+      19753,
+      19598
+    ],
+    "round_output_tokens": [
+      1206,
+      1052,
+      1547,
+      838,
+      1493
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "author_tool"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 102592,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

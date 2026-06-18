@@ -1,0 +1,855 @@
+[
+  {
+    "verified_count": 48,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "hp:low",
+      "threat:high",
+      "intent:attack"
+    ],
+    "rule_id": "0c6601b09a32",
+    "created_at": 1775775057.416217,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "At low HP on real attack turns, take the line that avoids chip damage over greedy setup or fair damage unless you can end the fight immediately."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:boss",
+      "archetype:shiv_burst",
+      "signal:last_combat_very_long"
+    ],
+    "rule_id": "d3b937f976bb",
+    "created_at": 1776351115.0892227,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "Shiv burst decks must draft sufficient raw damage output to finish Act 3 Bosses (like Queen or Door) in 8 rounds or fewer. Winning runs cleared these late-game encounters in 6-8 rounds, while failing runs stalled into lethal attrition wars lasting 14-18 rounds due to lack of burst damage."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv_burst",
+      "state:shop",
+      "state:event"
+    ],
+    "rule_id": "2cf84ee118c2",
+    "created_at": 1776364810.2303498,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "In Shiv archetypes, aggressively remove basic Strikes at shops and events. Winning runs consistently reduced their Strike count to 2-3 by late game, while runs that retained 4-5 Strikes suffered from dead draws, failed to generate sufficient tempo, and consistently died in Acts 2 and 3."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:rest_site",
+      "card:neutralize",
+      "card:blade_dance"
+    ],
+    "rule_id": "29fbbcf77700",
+    "created_at": 1776391583.2630937,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "Prioritize upgrading Neutralize and core Shiv generators (Blade Dance, Cloak and Dagger). Winning runs heavily feature these upgrades (Neutralize+, Blade Dance+, Cloak and Dagger+) to maximize damage and mitigation per draw, while losing runs consistently left them unupgraded."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "act:1",
+      "state:boss",
+      "signal:late_act1",
+      "character:the_silent"
+    ],
+    "rule_id": "d94b328e70a8",
+    "created_at": 1776412112.397866,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "Act 1 Bosses like Lagavulin Matriarch and Waterfall Giant severely punish purely defensive stall strategies. You must secure a reliable scaling damage engine (such as poison scaling or persistent shiv generation) before Floor 17 to avoid slowly dying over 25-30 round fights."
+  },
+  {
+    "verified_count": 0,
+    "context": "camp",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "card:neutralize",
+      "state:rest_site",
+      "act:1"
+    ],
+    "rule_id": "1d0ffcdfe7e3",
+    "created_at": 1776433758.5071316,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "Upgrade Neutralize early. Extending the Weak duration from 1 to 2 turns provides essential, energy-efficient damage mitigation. Most winning runs highly utilized Neutralize+, while failing runs consistently left it unupgraded or neglected it."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "card:neutralize",
+      "state:rest_site",
+      "intent:debuff"
+    ],
+    "rule_id": "5e40ce303006",
+    "created_at": 1776454506.1476486,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.95,
+    "rule_text": "Prioritize upgrading Neutralize early. Winning Silent runs consistently utilized Neutralize+ to reliably apply Weak and mitigate incoming damage across long combats, whereas the majority of losing runs left it unupgraded."
+  },
+  {
+    "verified_count": 125,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "signal:last_combat_long",
+      "act:1"
+    ],
+    "rule_id": "f7ba934e9db0",
+    "created_at": 1774807540.3960474,
+    "violated_count": 12,
+    "source_run_ids": [],
+    "confidence": 0.9064748201438849,
+    "rule_text": "After an 8+ turn Act 1 fight, treat the next card reward as a damage check and add frontload, scaling, or draw instead of more passive defense."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "act:2",
+      "signal:starter_dense",
+      "state:card_select"
+    ],
+    "rule_id": "0925a5c45778",
+    "created_at": 1775866118.6387978,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "On Silent, if you reach late Act 2 or Act 3 still carrying roughly 8+ starter Strikes/Defends, treat that as a build failure: prioritize removes and skip filler until basics stop being core plays."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "signal:starter_dense",
+      "signal:late_act1",
+      "state:card_reward"
+    ],
+    "rule_id": "15fae0afd641",
+    "created_at": 1775891170.7552757,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "By late Act 1, do not remain starter-dense. The winning decks either became very lean or were filled out with real engines/support cards, while the losses still had Strike and Defend as core cards and among the most-played cards. Prioritize removes and reward picks that displace starters before elite/boss checks."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "character:silent",
+      "archetype:shiv",
+      "state:boss",
+      "signal:last_combat_very_long"
+    ],
+    "rule_id": "963701af92d0",
+    "created_at": 1776330011.854357,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Shiv Burst decks must be optimized for speed against late-game bosses (Door, Queen), aiming to finish the fight in under 10 rounds. Without a dedicated block engine (like Blur+), Shiv decks that allow boss combats to drag on to 14-18 rounds consistently succumb to lethal attrition."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv",
+      "state:card_reward",
+      "card:backflip"
+    ],
+    "rule_id": "855037b5e143",
+    "created_at": 1776342244.5894911,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Incorporate block-producing draw cards (like Backflip or Flick-Flack) to support your shiv generation. Winning runs use these utility cards to cycle and survive, while losing runs suffer lethal damage by over-relying on basic Defends and unupgraded Neutralize for block."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv_burst",
+      "state:rest_site",
+      "card:blade_dance"
+    ],
+    "rule_id": "1bf6a62e44ad",
+    "created_at": 1776358720.776548,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize upgrading primary Shiv generators (Blade Dance, Cloak and Dagger) at rest sites to accelerate damage output. Winning Shiv runs used upgraded generators to burst down late-game Bosses in 6-8 rounds, minimizing damage taken, whereas losing runs left them unupgraded and suffered fatal attrition in 14-18 round fights."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv_burst",
+      "state:card_reward",
+      "state:boss"
+    ],
+    "rule_id": "ba23b893317f",
+    "created_at": 1776364810.2303553,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Do not rely on sheer volume of base-damage Shivs to clear Act 3 bosses. Draft and upgrade secondary scaling damage (Predator+, Noxious Fumes+) to finish boss fights (Queen, Door) in under 12 rounds. Runs that lacked damage-per-shiv scaling stalled into 14-18 round combats and ultimately lost despite playing over 150-250 Shivs."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "enemy:queen",
+      "enemy:door",
+      "state:boss",
+      "signal:last_combat_long"
+    ],
+    "rule_id": "a51deb148422",
+    "created_at": 1776379610.6830142,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Shiv decks must push for fast lethality against scaling bosses like the Queen and the Door (aiming for under 13 rounds). Winning runs closed out these boss fights in 6 to 13 rounds, while runs that lacked the burst to finish quickly were dragged out to 14-18 rounds and lost to boss scaling."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "card:blade_dance",
+      "card:cloak_and_dagger"
+    ],
+    "rule_id": "657cf5e63195",
+    "created_at": 1776383055.116763,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize upgrading primary Shiv generators (like Blade Dance or Cloak and Dagger) or securing alternate scaling (such as Noxious Fumes) for the mid-to-late game. Winning decks consistently feature upgraded Shiv sources or Poison to maintain damage output, whereas decks relying on unupgraded generators fail to scale and die in prolonged late-game encounters."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "state:boss",
+      "enemy:door",
+      "enemy:queen",
+      "signal:last_combat_long"
+    ],
+    "rule_id": "49419c2b89b0",
+    "created_at": 1776386208.5177844,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Late-game bosses (The Door, Queen+Torch Head Amalgam) are strict damage races. Winning runs defeated these bosses in 6 to 10 rounds, whereas runs that dragged the fight out to 14-18 rounds consistently lost. Draft strong upfront burst or secondary scaling (like Noxious Fumes+) to ensure you can end Act 3 boss fights before their scaling damage overwhelms your block."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv",
+      "state:rest_site",
+      "card:blade_dance"
+    ],
+    "rule_id": "d850078581f6",
+    "created_at": 1776388564.675969,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize upgrading core Shiv generators (Blade Dance, Cloak and Dagger) at rest sites when playing Shiv-focused archetypes. Winning runs consistently relied on upgraded versions to reach critical damage scaling, whereas losing runs stalled and died with unupgraded copies."
+  },
+  {
+    "verified_count": 0,
+    "context": "card_select",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "signal:last_combat_very_long",
+      "state:card_reward"
+    ],
+    "rule_id": "1332968cb3bc",
+    "created_at": 1776391583.2630866,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Extremely long combats (20+ rounds) severely drain HP and indicate a fatal lack of scaling damage. Avoid relying solely on 'block stall' or 'weak stall' archetypes without drafting a clear scaling win condition (e.g., poison engines, shiv payoffs)."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "signal:last_combat_very_long",
+      "act:2",
+      "intent:attack"
+    ],
+    "rule_id": "1c6bb0719580",
+    "created_at": 1776397448.1009302,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Do not rely on pure block or weak stall archetypes. Lacking scaling damage leads to severely protracted combats (25+ rounds) that result in guaranteed attrition and death by Act 2 (e.g., floor 17). Draft scaling damage like Noxious Fumes or synergized Shivs to keep combat lengths under 15 rounds."
+  },
+  {
+    "verified_count": 0,
+    "context": "card_reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "act:1",
+      "state:boss"
+    ],
+    "rule_id": "08343cdb5c0f",
+    "created_at": 1776407233.941267,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Avoid keeping the deck extremely thin (under 15 cards) in Act 1 if you lack strong damage scaling. Runs that entered Floor 17 (Act 1 Boss) with 12-14 cards relying entirely on flat damage attacks and basic Defends died after agonizingly long 26-32 round combats because they could not outpace boss scaling."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "act:1",
+      "state:card_reward",
+      "signal:starter_dense",
+      "character:the_silent"
+    ],
+    "rule_id": "d86656be423d",
+    "created_at": 1776412112.3978448,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Avoid aggressively skipping card rewards to thin your deck in Act 1. Arriving at the Act 1 Boss with only 12-14 cards and a high density of basic Strikes and Defends lacks the damage output required to survive, leading to lethal 25+ round combats by attrition."
+  },
+  {
+    "verified_count": 0,
+    "context": "card_reward",
+    "active": true,
+    "phase_tags": [
+      "state:card_reward",
+      "character:the_silent",
+      "act:1",
+      "signal:starter_dense"
+    ],
+    "rule_id": "0e33820fc6db",
+    "created_at": 1776422829.0155003,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Do not aggressively thin your deck in Act 1 without a strong damage scaling engine. Losing runs that heavily thinned their decks (12-14 cards) without scaling damage inevitably stalled out, dying in fatal 26-32 round encounters against Floor 17 bosses. Winning decks naturally hovered around 20-26 cards by taking impactful additions."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "act:1",
+      "state:boss",
+      "threat:lethal"
+    ],
+    "rule_id": "1c883cff80fd",
+    "created_at": 1776422829.015521,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Draft scaling damage (such as Poison, Phantom Blades, or Leading Strike) before facing the Act 1 Boss. Relying solely on basic block stalling and flat damage (Strikes, Dagger Spray) against bosses like Lagavulin Matriarch and Waterfall Giant will force unsurvivable 25+ round combats."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "signal:last_combat_very_long",
+      "intent:attack",
+      "act:1"
+    ],
+    "rule_id": "5454e2fad8f7",
+    "created_at": 1776433758.507144,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize dedicated damage scaling to avoid fatal late-Act-1 stalls. Losing runs repeatedly died in grueling 26-32 round combats around floor 17 (e.g., vs Lagavulin Matriarch or Waterfall Giant), indicating that relying purely on basic block and unscaled strikes leads to insurmountable attrition."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "signal:last_combat_very_long",
+      "threat:high",
+      "state:boss"
+    ],
+    "rule_id": "ad83e9f7da8d",
+    "created_at": 1776441060.7903116,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Secure immediate damage scaling or burst before Act 1/Act 2 elites and bosses to prevent fatal attrition. Losing runs that relied too heavily on basic Strike/Defend patterns without scaling damage stalled out, resulting in lethal 30+ round combats against sturdy enemies like Lagavulin Matriarch and Waterfall Giant."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "enemy:lagavulin_matriarch",
+      "state:elite",
+      "act:1"
+    ],
+    "rule_id": "45f9a680d3cd",
+    "created_at": 1776449951.1929948,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Draft and play frontloaded damage before taking on early scaling Elites. Over-relying on defensive setups (Defend, Deflect, Survivor) without adequate damage tools leads to fatal attrition wars, as evidenced by catastrophic 30-round losses to the Lagavulin Matriarch."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "enemy:queen",
+      "state:boss",
+      "hp:healthy",
+      "signal:last_multi_enemy"
+    ],
+    "rule_id": "8d377a14fb8e",
+    "created_at": 1776506811.2673564,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prepare for extreme attrition against late-game multi-enemy encounters like Queen + Torch Head Amalgam or Test Subject. These fights frequently stretch to 14-24 rounds; unless you have a highly accelerated damage engine (winning in <10 rounds), entering with low to middling HP (e.g., 45 HP) risks fatal chip damage, requiring a healthy HP pool and dense mitigation to outlast."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:silent",
+      "state:rest_site",
+      "card:neutralize",
+      "intent:debuff"
+    ],
+    "rule_id": "fd56cb0558c8",
+    "created_at": 1776533250.0124452,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize upgrading Neutralize early. Across both physical and shiv successful runs, Neutralize+ sees exceptionally high play rates. Repeatedly applying Weakness is critical for mitigating damage in prolonged multi-enemy or boss fights (like Queen + Torch Head Amalgam), especially when paired with 0-cost cycle tools like Escape Plan."
+  },
+  {
+    "verified_count": 0,
+    "context": "map",
+    "active": true,
+    "phase_tags": [
+      "state:rest_site",
+      "hp:low",
+      "character:silent",
+      "threat:high"
+    ],
+    "rule_id": "3040c1f3ce18",
+    "created_at": 1776539249.5276837,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "When at late-act rest sites or routing map choices before bosses like Test Subject or the Queen, heavily prioritize resting/healing if your health is below 45. Winning Silent runs routinely absorb 30-40 unavoidable damage over these 10-20 round endurance fights, whereas runs entering these boss encounters with 30-35 HP consistently face early lethal before their deck can scale."
+  },
+  {
+    "verified_count": 0,
+    "context": "map",
+    "active": true,
+    "phase_tags": [
+      "state:boss",
+      "hp:low",
+      "enemy:queen",
+      "signal:last_combat_costly"
+    ],
+    "rule_id": "9b176ae6fd92",
+    "created_at": 1776544995.5885103,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Preserve HP aggressively in the late Acts to ensure you enter the final boss fights with a substantial health buffer (50+ HP). Winning runs entered Test Subject and Queen fights with high HP and successfully endured 10-20 rounds of attrition, whereas runs entering with critical/low HP (31-45 HP) lacked the buffer to survive the initial setup phase and were killed in 6-7 rounds."
+  },
+  {
+    "verified_count": 0,
+    "context": "map",
+    "active": true,
+    "phase_tags": [
+      "state:rest_site",
+      "character:the_silent",
+      "act:3",
+      "hp:low"
+    ],
+    "rule_id": "8b472842864f",
+    "created_at": 1776549036.0196793,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Rest before late Act 3 bosses (Queen, Test Subject) to ensure you enter with at least 50 HP. Winning runs preserved HP efficiently and entered these F48 fights with 49-80 HP, whereas runs that entered with ~30 HP consistently lost despite having similar viable archetypes."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:rest_site",
+      "card:neutralize",
+      "act:1"
+    ],
+    "rule_id": "946f329c387c",
+    "created_at": 1776556005.58086,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize upgrading Neutralize early in the run. Nearly all successful runs and deep runs (reaching Act 3+) rely heavily on playing Neutralize+ for zero-cost damage mitigation, whereas runs that fail in Act 1 or early Act 2 typically leave it unupgraded."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:card_reward"
+    ],
+    "rule_id": "183c07ea7700",
+    "created_at": 1776589718.2984147,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Commit entirely to a single damage scaling archetype (either Shivs or Poison). Losing runs frequently attempted to hybridize poison and shivs, leading to a lack of burst or scaling, whereas winning runs strictly specialized in one engine (e.g., Shiv Spam, Poison Stall)."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:rest_site",
+      "card:neutralize"
+    ],
+    "rule_id": "f4c763840289",
+    "created_at": 1776688967.7034616,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize upgrading Neutralize early. Winning runs consistently had Neutralize+ among their top 5 most played cards to reliably apply Weak and mitigate damage, whereas losing runs often ignored it in favor of upgrading basic attacks like Poisoned Stab or Ultimate Strike."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:card_reward",
+      "signal:late_act1"
+    ],
+    "rule_id": "957245ea4ac8",
+    "created_at": 1776700538.797942,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Commit clearly to either a Shiv-based scaling engine or a Poison-based stall engine. Avoid drafting hybrid 'shiv and poison' decks, as splitting your synergies leads to inadequate scaling in later acts."
+  },
+  {
+    "verified_count": 0,
+    "context": "rest",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:rest_site",
+      "card:neutralize"
+    ],
+    "rule_id": "9ed3873bd3bd",
+    "created_at": 1776704329.7527092,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Upgrade Neutralize early or aggressively draft persistent damage mitigation (like Suppress or Escape Plan) to minimize HP bleed during long boss and elite encounters."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "cap:block_8_plus",
+      "signal:last_combat_very_long",
+      "threat:high"
+    ],
+    "rule_id": "893b639906b6",
+    "created_at": 1776711329.4472594,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Ensure high defensive density in Shiv-based decks. Winners consistently played 'Defend' or block cards 70+ times across the run, even in offensive archetypes. Losses occurred when Shiv volume was high but block plays remained under 40, leading to attrition in long combats (10+ rounds)."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "enemy:test_subject",
+      "state:boss",
+      "hp:critical",
+      "hp:low"
+    ],
+    "rule_id": "c504d50132c5",
+    "created_at": 1776722068.6747477,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Prioritize entering the Test Subject boss fight with high HP (60+) and prepare for a long attrition battle. Winning runs endured 15-20 rounds and absorbed 40-50 cumulative damage. Entering this fight with low HP (around 30) leads to rapid losses, as burst damage alone is insufficient."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "state:card_reward",
+      "hp:critical"
+    ],
+    "rule_id": "c1e8328c53e1",
+    "created_at": 1776731325.8122373,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Do not hybridize Shiv and Poison archetypes. Runs that mixed Poison cards (Deadly Poison, Noxious Fumes) into Shiv decks suffered from split synergies and poor HP efficiency in late-game hallway fights, entering late Act bosses with critical HP (e.g., 31 HP vs Test Subject) and failing. Commit completely to pure Shiv scaling or pure Poison."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv_scaling",
+      "card:backflip",
+      "state:boss"
+    ],
+    "rule_id": "77843431d94c",
+    "created_at": 1776735942.9194376,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "Support Shiv generation with strong card draw and efficient block engines. Cards like Backflip, Escape Plan, and Dodge and Roll are crucial for sustaining the 15-20 round boss encounters typically required for a Shiv scaling deck to win."
+  },
+  {
+    "verified_count": 0,
+    "context": "combat",
+    "active": true,
+    "phase_tags": [
+      "state:boss",
+      "enemy:test_subject",
+      "character:the_silent",
+      "archetype:shiv_scaling"
+    ],
+    "rule_id": "a7e242c597ef",
+    "created_at": 1776740659.2301915,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "In Shiv-centric decks, prioritize defensive scaling and draw (Backflip, Dodge and Roll, Escape Plan) to survive long-duration boss encounters. Winning runs against 'Test Subject' and 'Door' lasted 15-20 rounds, whereas losing runs were eliminated within 7-8 rounds."
+  },
+  {
+    "verified_count": 0,
+    "context": "card_reward",
+    "active": true,
+    "phase_tags": [
+      "character:silent",
+      "archetype:shiv",
+      "state:card_reward",
+      "enemy:test_subject"
+    ],
+    "rule_id": "76beb3dd4286",
+    "created_at": 1776747617.0031564,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "In Shiv archetypes, prioritize 'scaling' and sustained defense (like Backflip, Escape Plan, or Dodge and Roll) over pure 'burst' damage cards (like Assassinate). Winning runs successfully survived late-game bosses (e.g., Test Subject) by sustaining for 15-20 rounds, whereas burst-focused decks lacked the defensive density and died in 7-8 rounds."
+  },
+  {
+    "verified_count": 0,
+    "context": "card_reward",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "archetype:shiv",
+      "enemy:test_subject",
+      "state:card_reward"
+    ],
+    "rule_id": "64422f430f13",
+    "created_at": 1776752715.683684,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.9,
+    "rule_text": "In Silent Shiv decks, prioritize drafting 'scaling' or 'spam' engines that include sustained card draw and defense (e.g., Backflip, Escape Plan, Cloak and Dagger) over pure burst damage. Late-game bosses like Test Subject require 15-20 rounds of sustained defense to defeat, which aggressive burst decks fail to achieve, resulting in rapid deaths."
+  },
+  {
+    "rule_id": "7025b1c20b7a",
+    "rule_text": "Upgrade early mitigation and shiv utility cards like Neutralize and Cloak and Dagger. Winning runs consistently utilized Neutralize+ and Cloak and Dagger+ to maximize block efficiency per draw, whereas late-game losses (Floors 30-48) struggled with unupgraded versions of these same cards.",
+    "context": "rest",
+    "phase_tags": [
+      "character:the_silent",
+      "state:rest_site",
+      "card:neutralize",
+      "card:cloak_and_dagger"
+    ],
+    "confidence": 0.9,
+    "source_run_ids": [],
+    "created_at": 1776944163.275085,
+    "verified_count": 0,
+    "violated_count": 0,
+    "active": true
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:silent",
+      "signal:starter_dense",
+      "act:1",
+      "state:card_reward"
+    ],
+    "rule_id": "01bc1f7fddb4",
+    "created_at": 1776197364.063168,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.89,
+    "rule_text": "If Silent is still starter-dense by late Act 1, treat that as a warning sign: prioritize removes and only add real archetype payoffs or draw/block support. The losses at floors 8, 17, and 33 were still mostly Strike/Defend decks, while winning runs either trimmed down to 9-13 cards or had a clearly functional engine despite larger size."
+  },
+  {
+    "verified_count": 155,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "signal:late_act1",
+      "signal:aoe_missing"
+    ],
+    "rule_id": "3926bf4fcf0b",
+    "created_at": 1774807540.3960452,
+    "violated_count": 20,
+    "source_run_ids": [],
+    "confidence": 0.8813559322033898,
+    "rule_text": "Late Act 1, if the deck still has no AoE or multi-target payoff, spend the next card reward on that gap instead of another single-target filler pick."
+  },
+  {
+    "verified_count": 0,
+    "context": "reward",
+    "active": true,
+    "phase_tags": [
+      "character:silent",
+      "act:2",
+      "signal:starter_dense",
+      "state:card_reward"
+    ],
+    "rule_id": "f5f594774d04",
+    "created_at": 1775901304.6395931,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.87,
+    "rule_text": "On Silent, a starter-dense deck by late Act 2 is a major loss signal; prioritize removals and high-impact card rewards over filler. The losing runs still relied heavily on Strike/Defend, while winning runs either thinned down hard or had enough non-starter utility that basic cards stopped being the core plan."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:silent",
+      "signal:starter_dense",
+      "act:2",
+      "state:card_reward"
+    ],
+    "rule_id": "8835114964a2",
+    "created_at": 1775923945.8194728,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.87,
+    "rule_text": "By late Act 1 into Act 2 on Silent, treat a deck as underpowered if Strike/Defend are still your most-played cards; prioritize removes and higher-impact reward picks until your turns are centered on engine cards instead of starters."
+  },
+  {
+    "verified_count": 0,
+    "context": "all",
+    "active": true,
+    "phase_tags": [
+      "character:the_silent",
+      "signal:starter_dense",
+      "act:1",
+      "state:shop"
+    ],
+    "rule_id": "12c0bcdb2c96",
+    "created_at": 1775992265.4092767,
+    "violated_count": 0,
+    "source_run_ids": [],
+    "confidence": 0.87,
+    "rule_text": "If you still have 4+ Strikes by late Act 1, prioritize Strike removes over adding more mediocre attack cards. The losses stayed starter-heavy (often 3-5 Strikes at death), while most wins had already cut down to 0-2 Strikes or fully replaced starter damage with stronger engines."
+  },
+  {
+    "rule_id": "202b39c81c86",
+    "rule_text": "In late-act Silent shiv decks that are still starter-dense, stop taking more chip/shiv cards and prioritize block-draw-control tools instead (for example Backflip, Deflect, Acrobatics, Piercing Wail, or Malaise). The winning shiv runs were the HP-efficient ones; the losing shiv runs were mostly Strike/Defend/Shiv/Cloak-and-Dagger shells that ran out of life.",
+    "context": "reward",
+    "phase_tags": [
+      "character:silent",
+      "archetype:shiv_burst",
+      "signal:starter_dense",
+      "state:card_reward"
+    ],
+    "confidence": 0.87,
+    "source_run_ids": [],
+    "created_at": 1776157099.89243,
+    "verified_count": 0,
+    "violated_count": 0,
+    "active": true
+  }
+]

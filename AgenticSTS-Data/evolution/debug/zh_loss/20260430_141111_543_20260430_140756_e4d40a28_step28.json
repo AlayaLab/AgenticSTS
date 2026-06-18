@@ -1,0 +1,28 @@
+{
+  "ts": "20260430_141111_543",
+  "run_id": "20260430_140756_e4d40a28",
+  "step": 28,
+  "floor": 3,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Venerate",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Play Venerate to gain 2 stars, putting us at 3 stars. This enables Guiding Star, which deals 12 damage to Corpse Slug 0 and draws the remaining 2 cards from our draw pile (Strike and Defend). Playing the drawn Strike deals 6 damage, exactly lethal on Corpse Slug 0 (14 HP total). Killing Corpse Slug 0 triggers Corpse Slug 1's Ravenous power, stunning it and canceling its attack, resulting in 0 damage taken.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

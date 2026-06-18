@@ -1,0 +1,282 @@
+{
+  "current_game_version": "v0.103.1",
+  "play_threshold": 3,
+  "missing_high_play": [
+    {
+      "character": "the silent",
+      "card_name": "defend",
+      "play_count": 7720
+    },
+    {
+      "character": "the silent",
+      "card_name": "strike",
+      "play_count": 6432
+    },
+    {
+      "character": "the silent",
+      "card_name": "ultimate strike",
+      "play_count": 133
+    },
+    {
+      "character": "the silent",
+      "card_name": "finesse",
+      "play_count": 72
+    },
+    {
+      "character": "the silent",
+      "card_name": "flash of steel",
+      "play_count": 64
+    },
+    {
+      "character": "the silent",
+      "card_name": "neow's fury",
+      "play_count": 52
+    },
+    {
+      "character": "the silent",
+      "card_name": "byrd swoop",
+      "play_count": 48
+    },
+    {
+      "character": "the silent",
+      "card_name": "alchemize",
+      "play_count": 46
+    },
+    {
+      "character": "the silent",
+      "card_name": "prowess",
+      "play_count": 37
+    },
+    {
+      "character": "the silent",
+      "card_name": "omnislice",
+      "play_count": 33
+    },
+    {
+      "character": "the silent",
+      "card_name": "brightest flame",
+      "play_count": 33
+    },
+    {
+      "character": "the silent",
+      "card_name": "blade of ink",
+      "play_count": 32
+    },
+    {
+      "character": "the silent",
+      "card_name": "shockwave",
+      "play_count": 31
+    },
+    {
+      "character": "the silent",
+      "card_name": "hand of greed",
+      "play_count": 28
+    },
+    {
+      "character": "the silent",
+      "card_name": "luminesce",
+      "play_count": 26
+    },
+    {
+      "character": "the silent",
+      "card_name": "scourge",
+      "play_count": 24
+    },
+    {
+      "character": "the ironclad",
+      "card_name": "defend",
+      "play_count": 24
+    },
+    {
+      "character": "the silent",
+      "card_name": "thinking ahead",
+      "play_count": 24
+    },
+    {
+      "character": "the ironclad",
+      "card_name": "strike",
+      "play_count": 22
+    },
+    {
+      "character": "the silent",
+      "card_name": "debilitate",
+      "play_count": 20
+    },
+    {
+      "character": "the silent",
+      "card_name": "eradicate",
+      "play_count": 20
+    },
+    {
+      "character": "the silent",
+      "card_name": "secret technique",
+      "play_count": 20
+    },
+    {
+      "character": "the silent",
+      "card_name": "setup strike",
+      "play_count": 18
+    },
+    {
+      "character": "the silent",
+      "card_name": "master of strategy",
+      "play_count": 17
+    },
+    {
+      "character": "the silent",
+      "card_name": "supercritical",
+      "play_count": 17
+    },
+    {
+      "character": "the silent",
+      "card_name": "ultimate defend",
+      "play_count": 16
+    },
+    {
+      "character": "the silent",
+      "card_name": "the bomb",
+      "play_count": 15
+    },
+    {
+      "character": "the silent",
+      "card_name": "panache",
+      "play_count": 14
+    },
+    {
+      "character": "the silent",
+      "card_name": "charge battery",
+      "play_count": 13
+    },
+    {
+      "character": "the silent",
+      "card_name": "conflagration",
+      "play_count": 13
+    },
+    {
+      "character": "the silent",
+      "card_name": "fisticuffs",
+      "play_count": 12
+    },
+    {
+      "character": "the silent",
+      "card_name": "expect a fight",
+      "play_count": 10
+    },
+    {
+      "character": "the silent",
+      "card_name": "enthralled",
+      "play_count": 9
+    },
+    {
+      "character": "the silent",
+      "card_name": "seeker strike",
+      "play_count": 9
+    },
+    {
+      "character": "the silent",
+      "card_name": "prep time",
+      "play_count": 9
+    },
+    {
+      "character": "the silent",
+      "card_name": "thrumming hatchet",
+      "play_count": 8
+    },
+    {
+      "character": "the ironclad",
+      "card_name": "bash",
+      "play_count": 6
+    },
+    {
+      "character": "the silent",
+      "card_name": "impervious",
+      "play_count": 6
+    },
+    {
+      "character": "the silent",
+      "card_name": "volley",
+      "play_count": 6
+    },
+    {
+      "character": "the silent",
+      "card_name": "fiend fire",
+      "play_count": 6
+    },
+    {
+      "character": "the silent",
+      "card_name": "splash",
+      "play_count": 5
+    },
+    {
+      "character": "the silent",
+      "card_name": "toric toughness",
+      "play_count": 5
+    },
+    {
+      "character": "the silent",
+      "card_name": "eternal armor",
+      "play_count": 5
+    },
+    {
+      "character": "the silent",
+      "card_name": "discovery",
+      "play_count": 4
+    },
+    {
+      "character": "the silent",
+      "card_name": "salvo",
+      "play_count": 4
+    },
+    {
+      "character": "the silent",
+      "card_name": "anointed",
+      "play_count": 4
+    },
+    {
+      "character": "the silent",
+      "card_name": "equilibrium",
+      "play_count": 4
+    },
+    {
+      "character": "the ironclad",
+      "card_name": "rage",
+      "play_count": 3
+    },
+    {
+      "character": "the silent",
+      "card_name": "thunder",
+      "play_count": 3
+    },
+    {
+      "character": "the silent",
+      "card_name": "fasten",
+      "play_count": 3
+    },
+    {
+      "character": "the silent",
+      "card_name": "clash",
+      "play_count": 3
+    }
+  ],
+  "stale_notes": [],
+  "by_character": {
+    "the silent": {
+      "total": 185,
+      "with_note": 100,
+      "high_play": 141,
+      "missing": 47
+    },
+    "the ironclad": {
+      "total": 11,
+      "with_note": 0,
+      "high_play": 4,
+      "missing": 4
+    }
+  },
+  "summary": {
+    "missing_high_play_count": 51,
+    "stale_notes_count": 0,
+    "total_cards": 196,
+    "cards_with_note": 100
+  }
+}

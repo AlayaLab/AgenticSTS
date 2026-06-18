@@ -1,0 +1,14 @@
+# Release export-ignore: paths that must never ship in a public export/archive.
+# These are verbatim or derived game content (AGPL-3.0 upstream, or extracted from
+# Mega Crit's proprietary package) and are regenerated locally — see
+# AgenticSTS/data/knowledge/README.md and docs/release/release_exclusions.md.
+# NOTE: export-ignore covers `git archive`; the same paths are removed from tracking
+# (git rm) and listed in .gitignore so a normal `git clone` never carries them either.
+AgenticSTS/data/knowledge/upstream/        export-ignore
+AgenticSTS/data/knowledge/*_dll.json       export-ignore
+AgenticSTS/data/knowledge/afflictions.json export-ignore
+AgenticSTS/data/knowledge/powers.json      export-ignore
+AgenticSTS/data/knowledge/localization/    export-ignore
+
+# Dev-side staging area with pre-restructure metadata + machine identifiers.
+paper/data_package_2026-05-20/             export-ignore

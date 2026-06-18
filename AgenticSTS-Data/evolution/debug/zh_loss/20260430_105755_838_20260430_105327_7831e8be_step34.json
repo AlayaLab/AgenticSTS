@@ -1,0 +1,34 @@
+{
+  "ts": "20260430_105755_838",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 34,
+  "floor": 4,
+  "trigger_kind": "hand_change",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Prowess",
+        "potion_index": null,
+        "target_index": null
+      },
+      {
+        "type": "card",
+        "card": "Stardust",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Play Prowess for +1 Strength. Stardust will hit twice for 6 damage each (12 total). Strike will deal 7 damage. 12 + 7 = 19 damage, which is lethal on the 17 HP Toadpole. We will take some Thorns damage but eliminate the enemy immediately and end the combat.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

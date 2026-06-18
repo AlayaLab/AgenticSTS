@@ -1,0 +1,118 @@
+{
+  "run_id": "20260427_212819_931ea05c",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 138,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 2305,
+      "estimated_tokens": 577
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 2158,
+      "estimated_tokens": 540
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 9848,
+      "estimated_tokens": 2462
+    },
+    {
+      "name": "replay_package",
+      "chars": 4721,
+      "estimated_tokens": 1181
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 581,
+      "estimated_tokens": 146
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 3579,
+    "non_combat_decisions": 30,
+    "combat_episodes": 3,
+    "encountered_enemy_keys": [
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Bash+",
+      "Sword Boomerang",
+      "Molten Fist"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 1129,
+    "entries": [
+      {
+        "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+        "floor": 8,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite",
+          "death"
+        ],
+        "historical_line": "loss=80 vs historical avg=16.7+/-16.6 (z=3.8, WORSE_THAN_USUAL, n=14)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.8,
+        "comparator": {
+          "enemy_key": "multi:Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener+Phantasmal Gardener",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 20466,
+  "context_estimated_tokens": 5109,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 28103,
+    "total_output_tokens": 1541,
+    "round_input_tokens": [
+      8296,
+      9257,
+      10550
+    ],
+    "round_output_tokens": [
+      174,
+      561,
+      806
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 36931,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

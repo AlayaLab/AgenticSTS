@@ -1,0 +1,8 @@
+{
+  "context_chars": 13,
+  "context_estimated_tokens": 456,
+  "session": {
+    "total_input_tokens": 210000,
+    "target_reached": true
+  }
+}

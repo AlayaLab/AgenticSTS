@@ -1,0 +1,229 @@
+{
+  "run_id": "20260505_222004_5580dca4",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 15978,
+      "estimated_tokens": 3995
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 12073,
+      "estimated_tokens": 3019
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 54509,
+      "estimated_tokens": 13628
+    },
+    {
+      "name": "replay_package",
+      "chars": 49812,
+      "estimated_tokens": 12453
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 604,
+      "estimated_tokens": 151
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 20642,
+    "non_combat_decisions": 134,
+    "combat_episodes": 15,
+    "encountered_enemy_keys": [
+      "Knowledge Demon",
+      "Living Fog",
+      "Punch Construct",
+      "Sewer Clam",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Spiny Toad",
+      "Terror Eel",
+      "Tunneler",
+      "Waterfall Giant",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Chomper+Chomper",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Cloak and Dagger+",
+      "Dash",
+      "Deadly Poison",
+      "Accuracy+",
+      "Serpent Form+",
+      "Infinite Blades",
+      "Acrobatics+",
+      "Storm of Steel",
+      "Dagger Throw",
+      "Up My Sleeve",
+      "Nightmare+",
+      "Cloak and Dagger+",
+      "Ultimate Strike",
+      "Accuracy",
+      "Cloak and Dagger",
+      "Footwork",
+      "Up My Sleeve+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 12307,
+    "entries": [
+      {
+        "enemy_key": "multi:Toadpole+Toadpole",
+        "floor": 3,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=9 vs historical avg=2.6+/-3.7 (z=1.8, WORSE_THAN_USUAL, n=7)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.8,
+        "comparator": {
+          "enemy_key": "multi:Toadpole+Toadpole",
+          "floor": 3,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Terror Eel",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Terror Eel",
+          "floor": 8,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=12 vs historical avg=18.3+/-14.2 (z=-0.4, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.4,
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Tunneler",
+        "floor": 19,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=25 vs historical avg=5.2+/-5.9 (z=3.3, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 3.3,
+        "comparator": {
+          "enemy_key": "Tunneler",
+          "floor": 21,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Knowledge Demon",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "comparator": {
+          "enemy_key": "Knowledge Demon",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 133488,
+  "context_estimated_tokens": 33364,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 225887,
+    "total_output_tokens": 18154,
+    "round_input_tokens": [
+      44075,
+      44544,
+      45495,
+      45964,
+      45809
+    ],
+    "round_output_tokens": [
+      1766,
+      1408,
+      1521,
+      2122,
+      11337
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 505439,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

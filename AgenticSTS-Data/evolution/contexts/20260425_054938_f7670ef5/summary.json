@@ -1,0 +1,276 @@
+{
+  "run_id": "20260425_054938_f7670ef5",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 10825,
+      "estimated_tokens": 2707
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 10339,
+      "estimated_tokens": 2585
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 47901,
+      "estimated_tokens": 11976
+    },
+    {
+      "name": "replay_package",
+      "chars": 20076,
+      "estimated_tokens": 5019
+    },
+    {
+      "name": "combat_guides",
+      "chars": 15746,
+      "estimated_tokens": 3937
+    },
+    {
+      "name": "deck_guides",
+      "chars": 950,
+      "estimated_tokens": 238
+    },
+    {
+      "name": "card_notes",
+      "chars": 4873,
+      "estimated_tokens": 1219
+    },
+    {
+      "name": "card_stats",
+      "chars": 2816,
+      "estimated_tokens": 704
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1965,
+      "estimated_tokens": 492
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 17268,
+    "non_combat_decisions": 154,
+    "combat_episodes": 16,
+    "encountered_enemy_keys": [
+      "Haunted Ship",
+      "Louse Progenitor",
+      "Seapunk",
+      "Skulking Colony",
+      "Soul Fysh",
+      "Spiny Toad",
+      "Terror Eel",
+      "The Insatiable",
+      "Tunneler",
+      "multi:Bowlbug (Egg)+Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Greed",
+      "Dagger Throw",
+      "Backstab",
+      "Acrobatics+",
+      "Infinite Blades",
+      "Backflip",
+      "Dash",
+      "Footwork+",
+      "Dodge and Roll",
+      "Leading Strike",
+      "Backflip",
+      "Afterimage",
+      "Deflect",
+      "Ultimate Strike",
+      "Nightmare+",
+      "Piercing Wail",
+      "Dagger Spray",
+      "Acrobatics",
+      "Cloak and Dagger",
+      "Dodge and Roll+",
+      "Well-Laid Plans",
+      "Blade of Ink"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 4862,
+    "entries": [
+      {
+        "enemy_key": "Terror Eel",
+        "floor": 8,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=19 vs historical avg=21.4+/-13.4 (z=-0.2, TYPICAL, n=20)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.2,
+        "comparator": {
+          "enemy_key": "Terror Eel",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Haunted Ship",
+        "floor": 12,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=9.0+/-7.5 (z=-1.2, BETTER_THAN_USUAL, n=31)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "Haunted Ship",
+          "floor": 5,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 14,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=15.4+/-12.6 (z=-1.2, BETTER_THAN_USUAL, n=27)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 9,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Soul Fysh",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=20 vs historical avg=21.1+/-10.2 (z=-0.1, TYPICAL, n=27)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.1,
+        "comparator": {
+          "enemy_key": "Soul Fysh",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 30,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=0 vs historical avg=23.3+/-13.2 (z=-1.8, BETTER_THAN_USUAL, n=22)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.8,
+        "comparator": {
+          "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+          "floor": 24,
+          "combat_type": "elite",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=69 vs historical avg=38.0+/-21.0 (z=1.5, TYPICAL, n=45)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.5,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "guide_counts": {
+    "combat_guides": 16,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 20,
+    "stats": 24
+  },
+  "context_chars": 116320,
+  "context_estimated_tokens": 29073,
+  "session": {
+    "total_rounds": 6,
+    "total_input_tokens": 247231,
+    "total_output_tokens": 24533,
+    "round_input_tokens": [
+      38787,
+      39524,
+      41997,
+      42160,
+      41557,
+      43206
+    ],
+    "round_output_tokens": [
+      1983,
+      618,
+      1815,
+      18178,
+      159,
+      1780
+    ],
+    "actions_taken": 5,
+    "action_types": [
+      "update_card_note",
+      "update_guide",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 427261,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

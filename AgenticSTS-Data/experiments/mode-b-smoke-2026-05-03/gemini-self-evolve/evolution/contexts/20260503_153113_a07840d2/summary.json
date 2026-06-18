@@ -1,0 +1,222 @@
+{
+  "run_id": "20260503_153113_a07840d2",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 15808,
+      "estimated_tokens": 3952
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 24981,
+      "estimated_tokens": 6246
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 68523,
+      "estimated_tokens": 17131
+    },
+    {
+      "name": "replay_package",
+      "chars": 52587,
+      "estimated_tokens": 13147
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1236,
+      "estimated_tokens": 309
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 27329,
+    "non_combat_decisions": 211,
+    "combat_episodes": 23,
+    "encountered_enemy_keys": [
+      "Battle Friend V2.0",
+      "Bygone Effigy",
+      "Devoted Sculptor",
+      "Fuzzy Wurm Crawler",
+      "Hunter Killer",
+      "Infested Prism",
+      "Ovicopter",
+      "Owl Magistrate",
+      "Phrog Parasite",
+      "Shrinker Beetle",
+      "Slimed Berserker",
+      "The Insatiable",
+      "Thieving Hopper",
+      "multi:Axebot+Axebot",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Flyconid+Snapping Jaxfruit",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Leaf Slime (S)+Slithering Strangler+Twig Slime (S)",
+      "multi:Myte+Myte",
+      "multi:Queen+Torch Head Amalgam",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Pinpoint",
+      "Blade of Ink+",
+      "Accuracy+",
+      "Cloak and Dagger+",
+      "Infinite Blades",
+      "Hidden Daggers",
+      "Piercing Wail+",
+      "Knife Trap+",
+      "Leading Strike",
+      "Footwork+",
+      "Scrawl+",
+      "Predator",
+      "Backflip",
+      "Dodge and Roll+",
+      "Rage+",
+      "Conflagration+",
+      "Blade Dance+",
+      "Calculated Gamble",
+      "Strangle+",
+      "Footwork+",
+      "Blade Dance",
+      "Bullet Time+",
+      "Apparition",
+      "Apparition",
+      "Apparition",
+      "Piercing Wail+",
+      "Leading Strike+",
+      "Dodge and Roll",
+      "Blade Dance",
+      "Cloak and Dagger+",
+      "Shockwave"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 13018,
+    "entries": [
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 13,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Bygone Effigy",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Bygone Effigy",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 28,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 42,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "multi:Queen+Torch Head Amalgam",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ]
+      }
+    ]
+  },
+  "context_chars": 163647,
+  "context_estimated_tokens": 40903,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 284302,
+    "total_output_tokens": 13454,
+    "round_input_tokens": [
+      56063,
+      56382,
+      57291,
+      57389,
+      57177
+    ],
+    "round_output_tokens": [
+      2545,
+      3644,
+      2136,
+      2640,
+      2489
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 164521,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

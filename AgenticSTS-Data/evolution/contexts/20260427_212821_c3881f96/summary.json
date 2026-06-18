@@ -1,0 +1,107 @@
+{
+  "run_id": "20260427_212821_c3881f96",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 137,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 3543,
+      "estimated_tokens": 886
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 2298,
+      "estimated_tokens": 575
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 13293,
+      "estimated_tokens": 3324
+    },
+    {
+      "name": "replay_package",
+      "chars": 68,
+      "estimated_tokens": 17
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 831,
+      "estimated_tokens": 208
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 4785,
+    "non_combat_decisions": 37,
+    "combat_episodes": 4,
+    "encountered_enemy_keys": [
+      "Sludge Spinner",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Toadpole+Toadpole",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Deadly Poison",
+      "Hidden Daggers",
+      "Bouncing Flask",
+      "Backflip",
+      "Ricochet",
+      "Flick-Flack"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 0,
+    "entries": []
+  },
+  "context_chars": 20885,
+  "context_estimated_tokens": 5213,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 26293,
+    "total_output_tokens": 984,
+    "round_input_tokens": [
+      7792,
+      8604,
+      9897
+    ],
+    "round_output_tokens": [
+      123,
+      214,
+      647
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 69516,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

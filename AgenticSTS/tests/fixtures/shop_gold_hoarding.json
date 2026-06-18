@@ -1,0 +1,131 @@
+{
+  "system_prompt": "You are an autonomous Slay the Spire 2 agent playing a complete run. You make every decision — combat plays, map routing, card rewards, shop purchases, rest sites, events — to maximize your chance of defeating the Act 3 boss.\n\n## Core Game Rules\n- **Turn structure**: Each turn you draw 5 cards, gain 3 energy, and your Block resets to 0. Play cards (costs energy), use potions (free). At end of turn, all remaining hand cards are discarded.\n- **Hand resets every turn**: You get 5 NEW cards each turn from your draw pile. Cards with Retain stay.\n- **Block resets every turn**: Block only protects you during the upcoming enemy turn. You cannot stockpile it.\n- **Energy resets to 3**: Unspent energy is wasted. Use ALL your energy each turn.\n- **HP is a run-wide resource**: Damage taken in non-boss fights means less HP for the boss. Minimize war damage.\n- **HP fully restores between Acts**: After beating an Act boss, you heal to full. Boss fights: play to win, not to save HP.\n- **Enemy intents are visible**: Attack (damage value shown), Defend, Buff (free offense turn!), Debuff, Status (adds junk cards to your deck).\n- **Draw pile cycles**: When empty, discard pile shuffles back. Check draw pile to predict next turn's hand.\n- **Deck quality > quantity**: Removing weak cards (Strike, Defend) improves draw consistency permanently.\n\n## Key Status Effects\n- **Vulnerable**: Take 50% more attack damage (1.5x). Lasts N turns. Apply to enemies before attacking!\n- **Weak**: Deal 25% less attack damage (0.75x). Lasts N turns. Apply to dangerous attackers.\n- **Strength**: +N damage per attack hit. Multi-hit cards benefit enormously (e.g. +2 Strength on a 5-hit card = +10 total).\n- **Dexterity**: +N Block per block card. Stacks with Footwork permanently in combat.\n- **Poison**: Deals N damage at start of enemy turn, then decreases by 1. Bypasses Block and enemy armor effects.\n- **Frail**: Block from cards reduced by 25%. Very dangerous — prioritize removing or waiting it out.\n- **Artifact**: Negates N debuffs. Count enemy Artifact before applying debuffs — they'll be wasted.\n- **Retain**: Card stays in hand at end of turn instead of being discarded.\n- **Exhaust**: Card is removed from combat permanently (not to discard pile). Thins deck mid-fight.\n- **Innate**: Card is always in your opening hand.\n- **Sly**: If this card is discarded from your hand BY A CARD EFFECT (e.g. Survivor, Acrobatics), it is PLAYED FOR FREE. End-of-turn automatic discard does NOT trigger Sly. To activate Sly: play a card that discards from hand, and choose the Sly card as the discard target. Do NOT play Sly cards normally — discard them via another card's effect to get their effect for free!\n- **Ethereal**: If this card is still in your hand at end of turn, it is Exhausted (permanently removed). You must play it or lose it.\n- **Eternal**: Cannot be removed or transformed from your deck.\n- **Unplayable**: Cannot be played from hand. Only useful for discard/exhaust synergies.\n\n## Combat Rules\n- Only play cards marked [PLAYABLE]. Cards marked [UNPLAYABLE] will fail.\n- Cards show `cost=N` — you need at least N energy remaining to play them.\n- Include potions in your combat plan when useful (they don't cost energy).\n- **Discard effects**: If a card requires discarding (e.g. Survivor), specify which card to discard with the `\"discard\"` field in your plan. Example: `{\"type\": \"card\", \"card\": \"Survivor\", \"target_index\": -1, \"discard\": \"Defend\"}`\n\n## Strategic Priorities\n- **Act 1**: Build damage output. Take good attack cards, remove Strikes. Survive early elites for relics.\n- **Act 2**: Scale or die. Need Strength/Poison/Orb scaling to handle multi-enemy fights and the boss.\n- **Act 3**: Execute your build. Boss fights test your full deck — every card counts.\n- **Rest sites**: Upgrade (Smith) by default. Only rest if HP < 35% AND next fight is Boss.\n- **Shops**: Buy key synergy cards, remove weak cards when deck is bloated, stock up on potions. Balance spending.\n- **Potions**: Use them! Dying with full potions is the worst outcome. Save one for emergencies.\n\n## Available Query Tools\nYou can look up information before making decisions. Use these when you need details:\n- **recall_encounter**: Remember past fights against a specific enemy — what worked and what didn't.\n- **get_run_progress**: Get a summary of your run so far — HP trend, deck evolution, key decisions.\n- **search_strategy**: Find relevant strategy advice (e.g., \"how to beat Act 2 boss\", \"when to take elite fights\").\n- **read_guide**: Read character-specific or boss-specific strategy guides.\n\nEnemy info and card details are provided in the game state — don't waste tool calls looking them up. Use recall_encounter for past combat experience, search_strategy or read_guide for boss/strategy advice.\n\n## Decision Tools\nAfter gathering information, use the appropriate decision tool to commit your choice. Exactly one decision tool per turn.\n\n**IMPORTANT**: You have a maximum of 5 query rounds before you MUST call a decision tool. Don't spend all rounds on lookups — 1-2 queries is usually enough. If you have enough context from the game state and your memory, skip queries and decide immediately.\n",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Run Context\n## Run Progress (The Silent, Act 2 Floor 29)\n**Deck Changes**:\n  Added (3): Blur, Pounce, Adrenaline\n  Removed (5): Strike, Strike, Strike, Strike, Strike\n  Upgraded (7): Noxious Fumes, Pounce, Footwork, Adrenaline, Blur, Strangle, Neutralize\n  Most played: Defend(45), Strike(35), Neutralize(21), Poisoned Stab(17), Survivor(14)\nCombats: 11W/0L (11 total).\nHP: 56/70 (80%). Gold: 792.\n**Act 2 Route** (9 nodes):\n  F23 rest_site: HP +0, Gold +0\n  F24 event: HP +0, Gold +0\n  F25 event: HP +0, Gold +0\n  F26 treasure: HP -4, Gold +685\n  F28 rest_site: HP +0, Gold +0\n\n## Strategy Skills\n## Expert Knowledge (retrieved skills)\n*Apply these strategies to the current situation. Deviate only with good reason.*\n\n\n**Deck Building Across the Run** (deck_building, 95%)\nLow-quality cards are worse than not having them — they dilute your draws and waste turns. (1) Act 1 (<15 cards): ADD good cards aggressively — your 10-card starter CANNOT beat bosses. Take anything better than Strike (6 dmg) or Defend (5 block). Prioritize AoE, card draw, energy generation. (2) Act 2 (15-25 cards): BUILD your archetype. Only take cards that support your emerging strategy (Strength, Poison, Orbs, Stars, etc.). Skip off-archetype cards even if they look strong in isolation. (3) Act 3 (20+ cards): BE SELECTIVE. Only take cards that complete your win condition. Skip freely. (4) Card removal at shops is almost always the #1 purchase. Remove Strikes first, then Defends, then off-archetype cards. Budget 75-100g for removal. (5) Upgrade priority: cards with cost reduction (2→1, 1→0) or doubled effects first, then core Powers you play every combat.\n  ⚠ Without this: Without this: decks balloon to 30+ cards, key cards drawn once every 6 turns instead of every 3, losing consistency at the worst moment\n...(truncated)\n\n## Past Experience\n## Deck Building Insights\n*Adapt to your current deck and situation.*\n\n\n**Past Builds:**\n- Past build (combo): F33 | Top played: Strike(53), Defend(36), Neutralize+(23) | LOSS\n- Past build (balanced): F33 | Top played: Neutralize+(11), Defend(9), Bubble Bubble(8) | LOSS\n\n## Current Progress\n**Deck Changes**:\n  Added (3): Blur, Pounce, Adrenaline\n  Removed (5): Strike, Strike, Strike, Strike, Strike\n  Upgraded (7): Noxious Fumes, Pounce, Footwork, Adrenaline, Blur, Strangle, Neutralize\n  Most played: Defend(45), Strike(35), Neutralize(21), Poisoned Stab(17), Survivor(14)\n\n## Strategy Rules\n- Rule (50%): Build toward archetype synergies - 'combo' archetype runs kept too many basic cards instead of combo enablers\n- Rule (50%): Remove starter Strikes aggressively - all losses retained 4-5 Strikes in final deck, creating dead draws in critical combats\n\n\n## Game Knowledge\n## Card Mechanics (from game data)\n- Pounce: [DamageVar(12m, ValueProp.Move)] DamageCmd.Attack, PowerCmd.Apply<FreeSkillPower>\n- Tactician: [EnergyVar(1)] PlayerCmd.GainEnergy\n- Bolas: [DamageVar(3m, ValueProp.Move)] DamageCmd.Attack\n\n## Computed Insights\n**deck_bloat_energy_check**: {'verdict': 'CRITICAL', 'score': 15, 'deck_size': 25, 'basic_count': 7, 'basic_ratio': 0.28, 'avg_nonzero_cost': 1.11, 'expensive_cards': ['Speedster', 'Pounce+'], 'warnings': ['Deck has 25 cards — trim to ≤15 for consistency.', \"Speedster costs 2 energy — verify it's worth the slot in a 25-card deck.\", \"Pounce+ costs 2 energy — verify it's worth the slot in a 25-card deck.\", 'Expected energy demand per turn (~5.5) exceeds supply (3) — hands will frequently be unplayable.']}\n**multi_enemy_incoming_damage**: {'total_incoming': 0, 'current_block': 0, 'net_damage': 0, 'hp_after': 56, 'survives': True, 'recommendation': 'CAN_SKIP_BLOCK', 'attackers': [], 'note': 'You take 0 net damage, leaving 56 HP.'}\n**playable_cards_check**: {'playable_count': 0, 'playable_cards': [], 'unplayable_cards': [], 'will_pass_turn': False, 'warning': None}\n**rest_site_heal_vs_upgrade_v2**: {'decision': 'NO-GO', 'heal_amount': 21, 'hp_after_heal': 70, 'hp_pct': 0.8, 'reason': 'HP OK: 56/70 (80%). Heal would give 21 HP (only 14 missing). Upgrade is more valuable.'}\n**silent_survival_check**: {'verdict': 'GO', 'reason': 'Already have enough block to survive.', 'block_needed': 0, 'max_block_generatable': 0, 'energy_spent': 0}\n\n## Shop\nHP: 56/70 (80%) | Gold: 437\nInventory state: OPEN -- you may buy items or close the inventory to leave.\nAct: 2 | Floor: 29\n\n## Current Deck (25 cards)\n  [Attack]\n    Backstab (cost=0, Uncommon)\n    Clash (cost=0, Event)\n    Dagger Throw (cost=1, Common)\n    Flash of Steel (cost=0, Uncommon)\n    Follow Through (cost=1, Uncommon)\n    Leading Strike (cost=1, Common)\n    Neutralize++ (cost=0, Basic)\n    Pounce++ (cost=2, Uncommon)\n    Strangle++ (cost=1, Uncommon)\n  [Power]\n    Footwork++ (cost=1, Uncommon)\n    Noxious Fumes++ (cost=1, Uncommon)\n    Outbreak (cost=1, Uncommon)\n    Speedster (cost=2, Uncommon)\n  [Skill]\n    Acrobatics (cost=1, Common)\n    Adrenaline++ (cost=0, Rare)\n    Blur++ (cost=1, Uncommon)\n    Bubble Bubble (cost=1, Uncommon)\n    Dark Shackles (cost=0, Uncommon)\n    Defend (cost=1, Basic)\n    Defend (cost=1, Basic)\n    Defend (cost=1, Basic)\n    Defend (cost=1, Basic)\n    Defend (cost=1, Basic)\n    Piercing Wail (cost=1, Common)\n    Survivor (cost=1, Basic)\n\n## Relics: Ring of the Snake (At the start of each combat, draw 2 additional cards.), Precarious Shears (Upon pickup, remove 2 cards from your Deck and take 13 damage.), Oddly Smooth Stone (Start each combat with 1 Dexterity.), Yummy Cookie (Upon pickup, Upgrade 4 cards.), Sparkling Rouge (At the start of your 3rd turn, gain 1 Strength and 1 Dexterity.), Cloak Clasp (At the end of your turn, gain 1 Block for each card in your Hand.)\n\n## Gold Budget Analysis\nAffordable relics: 3 | Affordable cards: 4 | Affordable potions: 0\nSOLID GOLD (437g) -- can afford removal + one more item.\n\n## Items For Sale\n- [index=1] Pounce (Card: Attack, Uncommon, cost=2, 37g) [CAN BUY] [SALE]: Deal 12 damage. The next Skill you play costs 0\n- [index=2] Hand Trick (Card: Skill, Uncommon, cost=1, 74g) [CAN BUY]: Gain 7 Block. Add Sly to a Skill in your Hand this turn.\n- [index=3] Tactician (Card: Skill, Uncommon, cost=3, 74g) [CAN BUY]: Sly. Gain\n- [index=6] Bolas (Card: Attack, Rare, cost=0, 170g) [CAN BUY]: Deal 3 damage. At the start of your next turn, return this to your Hand.\n- [index=0] Stone Calendar (Relic, Rare, 310g) [CAN BUY]\n- [index=1] Gorget (Relic, Common, 192g) [CAN BUY]\n- [index=2] Ghost Seed (Relic, Shop, 236g) [CAN BUY]\n- [index=0] Liquid Bronze (Potion, 76g) [TOO EXPENSIVE]\n- [index=1] Block Potion (Potion, 50g) [TOO EXPENSIVE]\n- [index=2] Energy Potion (Potion, 48g) [TOO EXPENSIVE]\n\nConsider: synergy cards for your archetype, card removal if deck is bloated, potions for upcoming fights.\nCards that fit your archetype or are universally strong are also worth buying.\nCard details and deck are shown above. Use search_strategy for purchase advice.\n\n## Your Task\nChoose ONE action: buy an item or leave the shop.\nIf you want to leave and the inventory is OPEN, choose close_shop_inventory first.\nOpen inventory: {\"action\": \"open_shop_inventory\", \"params\": {}, \"reasoning\": \"...\"}\nClose inventory: {\"action\": \"close_shop_inventory\", \"params\": {}, \"reasoning\": \"...\"}\nBuy card: {\"action\": \"buy_card\", \"params\": {\"option_index\": <int>}, \"reasoning\": \"Priority: [removal/relic/card/potion]. Budget: Xg - Yg = Zg remaining.\"}\nBuy relic: {\"action\": \"buy_relic\", \"params\": {\"option_index\": <int>}, \"reasoning\": \"...\"}\nBuy potion: {\"action\": \"buy_potion\", \"params\": {\"option_index\": <int>}, \"reasoning\": \"...\"}\nLeave: {\"action\": \"proceed\", \"params\": {}, \"reasoning\": \"...\"}"
+    }
+  ],
+  "tools": [
+    {
+      "name": "recall_encounter",
+      "description": "Recall past combat experiences against a specific enemy. Returns strategies that worked or failed, damage patterns, and lessons learned from previous runs.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "enemy_name": {
+            "type": "string",
+            "description": "Name of the enemy to recall experiences for."
+          },
+          "character": {
+            "type": "string",
+            "description": "Optional: filter by character (e.g., 'Ironclad', 'Silent'). Omit to search across all characters."
+          }
+        },
+        "required": [
+          "enemy_name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "get_run_progress",
+      "description": "Get a summary of the current run: HP trend over floors, deck evolution (cards added/removed), gold economy, relics collected, and key decisions made so far.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "search_strategy",
+      "description": "Search for relevant strategy advice from the skill library and knowledge base. Use for tactical questions like 'how to handle Act 2 elites' or 'when to take Offering'.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Natural language strategy question or topic to search for."
+          },
+          "category": {
+            "type": "string",
+            "description": "Optional: filter by category. One of: combat, deck_building, map, rest, shop, event, boss, character.",
+            "enum": [
+              "combat",
+              "deck_building",
+              "map",
+              "rest",
+              "shop",
+              "event",
+              "boss",
+              "character"
+            ]
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "read_guide",
+      "description": "Read a character or boss guide. Topics include character archetypes, boss strategies, and general game knowledge. Examples: 'ironclad_archetypes', 'boss_kin_priest', 'silent_poison', 'defect_orbs'.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "Guide topic identifier. Use snake_case format: 'ironclad_archetypes', 'boss_kin_priest', 'regent_stars', 'necrobinder_summons', etc."
+          }
+        },
+        "required": [
+          "topic"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shop_action",
+      "description": "Purchase a shop item or leave the shop.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "open_shop_inventory",
+              "close_shop_inventory",
+              "buy_card",
+              "buy_relic",
+              "buy_potion",
+              "remove_card_at_shop",
+              "proceed"
+            ]
+          },
+          "option_index": {
+            "type": "integer",
+            "description": "Item index to purchase. Use -1 for proceed (leave shop)."
+          },
+          "reasoning": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "action",
+          "option_index",
+          "reasoning"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "metadata": {
+    "source": "run_b5528263c18b.jsonl event[1596]",
+    "scenario": "Shop gold hoarding on Floor 29 (Act 2) with 437 gold. Agent closes shop without buying anything. Shop has: Stone Calendar relic (310g), Ghost Seed relic (236g), Gorget relic (192g), Tactician (74g), Hand Trick (74g), Pounce (37g), Bolas (170g). Deck is 25 cards (bloated) with a poison/dexterity build. Agent has already bought 2 cards this shop visit.",
+    "expected_correct_action": "Buy a relic. With 437 gold and 3 affordable relics, at least one should be worth purchasing. Gorget (192g, Common relic) is the cheapest and provides consistent value. Stone Calendar (310g) provides scaling damage. Gold has zero value if you never spend it -- dying with 437 gold is equivalent to dying with 0 gold. Even if no card is worth adding to a bloated deck, relics do not increase deck size.",
+    "actual_wrong_action": "Agent claimed relics are \"All 192g+ -- too expensive given the budget constraints\" despite having 437 gold (can afford any of them). Closed shop and left with 437 unspent gold, planning to \"save for future shops with card removal.\"",
+    "reasoning_error": "The agent correctly identified deck bloat as the core problem but then applied anti-bloat reasoning to relics, which do NOT add to deck size. The claim that 192-310g relics are \"too expensive\" when holding 437g is a numerical reasoning error. The agent also exhibits loss aversion -- preferring to hoard gold for a hypothetical future shop rather than spend it on available power spikes now. In STS2, gold saved for \"later\" often goes unspent because you may not visit another shop, or the next shop may not have removal either."
+  }
+}

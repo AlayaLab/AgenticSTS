@@ -1,0 +1,259 @@
+{
+  "run_id": "20260506_120622_6eda2bab",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 141,
+      "estimated_tokens": 36
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 13105,
+      "estimated_tokens": 3277
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 14006,
+      "estimated_tokens": 3502
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 45953,
+      "estimated_tokens": 11489
+    },
+    {
+      "name": "replay_package",
+      "chars": 66982,
+      "estimated_tokens": 16746
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 469,
+      "estimated_tokens": 118
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 18268,
+    "non_combat_decisions": 139,
+    "combat_episodes": 14,
+    "encountered_enemy_keys": [
+      "Gremlin Merc",
+      "Seapunk",
+      "Sewer Clam",
+      "Skulking Colony",
+      "Spiny Toad",
+      "The Insatiable",
+      "Thieving Hopper",
+      "Waterfall Giant",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Decimillipede+Decimillipede+Decimillipede",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Toadpole+Toadpole"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Ascender's Bane",
+      "Leading Strike",
+      "Dagger Throw",
+      "Piercing Wail",
+      "Hand of Greed+",
+      "Flick-Flack",
+      "Haze",
+      "Cloak and Dagger",
+      "Leg Sweep",
+      "Calculated Gamble",
+      "Footwork+",
+      "Accelerant+",
+      "Adrenaline+",
+      "Well-Laid Plans",
+      "Prepared+",
+      "Snakebite",
+      "Piercing Wail",
+      "Outbreak",
+      "Abrasive",
+      "Alchemize",
+      "Flick-Flack"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 16555,
+    "entries": [
+      {
+        "enemy_key": "multi:Toadpole+Toadpole",
+        "floor": 2,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=9 vs historical avg=3.1+/-3.9 (z=1.5, WORSE_THAN_USUAL, n=9)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.5,
+        "comparator": {
+          "enemy_key": "multi:Toadpole+Toadpole",
+          "floor": 4,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 9,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=19 vs historical avg=10.8+/-7.6 (z=1.1, TYPICAL, n=5)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 1.1,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 11,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Gremlin Merc",
+        "floor": 15,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=12.2+/-6.4 (z=-1.9, BETTER_THAN_USUAL, n=5)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.9,
+        "comparator": {
+          "enemy_key": "Gremlin Merc",
+          "floor": 6,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=19 vs historical avg=16.0+/-11.4 (z=0.3, TYPICAL, n=5)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.3,
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+        "floor": 22,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=13 vs historical avg=4.6+/-5.5 (z=1.5, WORSE_THAN_USUAL, n=8)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 1.5,
+        "comparator": {
+          "enemy_key": "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+          "floor": 22,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+        "floor": 30,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=28 vs historical avg=23.8+/-7.2 (z=0.6, TYPICAL, n=4)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.6,
+        "comparator": {
+          "enemy_key": "multi:Decimillipede+Decimillipede+Decimillipede",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss",
+          "death"
+        ],
+        "historical_line": "loss=59 vs historical avg=23.5+/-13.8 (z=2.6, WORSE_THAN_USUAL, n=4)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 2.6,
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent better same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 141027,
+  "context_estimated_tokens": 35250,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 251748,
+    "total_output_tokens": 11942,
+    "round_input_tokens": [
+      49319,
+      49472,
+      50981,
+      51037,
+      50939
+    ],
+    "round_output_tokens": [
+      1111,
+      934,
+      5050,
+      3165,
+      1682
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 182520,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,46 @@
+# Citation File Format (CFF) 1.2.0
+# https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: >-
+  If you use this software or the released trajectory archive, please cite
+  the accompanying paper. The arXiv version (deanonymized) will replace
+  this entry once posted.
+
+title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
+abstract: >-
+  AgenticSTS is a long-horizon LLM-agent testbed in Slay the Spire 2,
+  built on a per-decision typed retrieval memory contract. The released
+  archive contains 298 game trajectories with condition tags,
+  SHA-anchored L4/L5 memory snapshots, prompt records, and reproducibility
+  scripts. In a fixed-A0 ablation, adding the triggered L5 skill layer
+  changes the observed success rate from 3/10 to 6/10; at this sample size
+  the comparison is directional rather than statistically decisive. A
+  cross-backbone probe and public accumulating-context baselines are
+  reported as operational comparisons, not matched ablations of the contract.
+type: software
+authors:
+  - name: "Anonymous (EMNLP 2026 ARR submission)"
+preferred-citation:
+  type: conference-paper
+  title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
+  collection-title: "EMNLP 2026 ARR (under review)"
+  year: 2026
+  month: 5
+  authors:
+    - name: "Anonymous (EMNLP 2026 ARR submission)"
+keywords:
+  - llm-agents
+  - long-horizon-reasoning
+  - bounded-memory
+  - typed-retrieval
+  - skill-libraries
+  - slay-the-spire
+  - reproducibility
+license: Apache-2.0
+url: "https://github.com/ShandaAI/AgenticSTS"
+repository-code: "https://github.com/ShandaAI/AgenticSTS"
+identifiers:
+  - type: other
+    value: "EMNLP 2026 ARR submission, anonymized"
+    description: Conference submission status as of 2026-05-28

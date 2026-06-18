@@ -1,0 +1,21 @@
+[
+  {
+    "skill_id": "seed_core_combat",
+    "name": "Core Combat Principles",
+    "category": "combat",
+    "tier": "general",
+    "trigger": {
+      "state_types": ["monster", "elite", "boss"]
+    },
+    "content": "Every combat turn: (1) Read enemy intents — if ALL enemies have non-attack intents (Buff/Debuff/Sleep), it is a FREE offense window. In multi-enemy fights, some enemies may still attack while others buff — always account for total incoming damage and block accordingly. (2) Dead enemies deal zero damage. If your attacks can kill an enemy this turn, prioritize that. (3) Check your draw pile — knowing what cards remain tells you what you might draw next turn or from draw effects. Plan your plays considering both current hand and future draws. (4) Use ALL energy — unspent energy is permanently wasted. If you have 1 energy left, play a 1-cost card. (5) Multi-enemy: focus fire the most dangerous attacker first. Each kill reduces incoming damage next turn. Use AoE when 3+ enemies alive. (6) Potions don't cost energy — use buff potions BEFORE attacks, damage potions to secure kills, defensive potions vs lethal incoming.",
+    "lessons": "Without these principles: wasting energy on Block during buff turns, missing lethal kills, playing attacks before Vulnerable, and dying with full potions.",
+    "examples": [
+      "Single enemy buffs → play all attacks. Multi-enemy: one enemy buffs but others attack → still block for the attackers",
+      "Vulnerable target + 3 attacks in hand → apply Vulnerable first, then attacks deal 50% more each"
+    ],
+    "priority": 90,
+    "source": "seed",
+    "confidence": 0.9,
+    "verified": true
+  }
+]

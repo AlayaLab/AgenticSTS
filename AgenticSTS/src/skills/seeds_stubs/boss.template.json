@@ -1,0 +1,42 @@
+{
+  "skill_id_template": "stub_{character_id}_boss",
+  "name_template": "{character_name} - Boss Strategy",
+  "category": "boss",
+  "tier": "general",
+  "trigger": {
+    "state_types": ["boss"],
+    "character": ["{character}"]
+  },
+  "source": "stub",
+  "status": "pending_fill",
+  "scaffold": {
+    "topic": "Strategic approach to boss fights for this character",
+    "scope": "Principles for act-ending boss encounters, where HP fully restores between acts.",
+    "dimensions_to_consider": [
+      "How boss fights differ from hallway fights — what the win condition requires given the longer timeline",
+      "How HP and potion usage compare to hallway combat",
+      "Front-loaded burst vs scaling commitment trade-offs",
+      "When to commit to a Power card vs continue applying pressure",
+      "How to recognize when the current build is insufficient for this boss and what options remain"
+    ],
+    "out_of_scope": [
+      "Per-boss mechanics or specific phase counters -> belongs in combat_guides",
+      "Specific Power-card play orders -> belongs in card_memory",
+      "Specific HP / damage thresholds tied to one boss"
+    ],
+    "format_constraints": {
+      "token_budget": "300-600 tokens",
+      "structure": "4-7 numbered principles. Each = one imperative declarative sentence + one short concrete example.",
+      "voice": "Imperative, second-person."
+    },
+    "leakage_guard": {
+      "max_distinct_card_names": 6,
+      "max_distinct_enemy_names": 3,
+      "no_specific_damage_thresholds": true
+    }
+  },
+  "content": "TBD - filled by Mode B postrun",
+  "version": 0,
+  "confidence": 0.5,
+  "priority": 92
+}

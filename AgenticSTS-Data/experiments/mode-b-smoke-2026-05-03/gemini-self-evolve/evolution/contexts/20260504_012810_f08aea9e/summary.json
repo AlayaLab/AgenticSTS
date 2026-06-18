@@ -1,0 +1,263 @@
+{
+  "run_id": "20260504_012810_f08aea9e",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 22723,
+      "estimated_tokens": 5681
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 23386,
+      "estimated_tokens": 5847
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 84144,
+      "estimated_tokens": 21036
+    },
+    {
+      "name": "replay_package",
+      "chars": 85555,
+      "estimated_tokens": 21389
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1443,
+      "estimated_tokens": 361
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 32564,
+    "non_combat_decisions": 222,
+    "combat_episodes": 24,
+    "encountered_enemy_keys": [
+      "Devoted Sculptor",
+      "Hunter Killer",
+      "Infested Prism",
+      "Mecha Knight",
+      "Nibbit",
+      "Phrog Parasite",
+      "Shrinker Beetle",
+      "Soul Nexus",
+      "Spiny Toad",
+      "The Insatiable",
+      "Thieving Hopper",
+      "Tunneler",
+      "Vine Shambler",
+      "multi:Cubex Construct+Cubex Construct+Punch Construct",
+      "multi:Flail Knight+Magi Knight+Spectral Knight",
+      "multi:Flyconid+Leaf Slime (M)",
+      "multi:Fuzzy Wurm Crawler+Shrinker Beetle",
+      "multi:Kin Follower+Kin Follower+Kin Priest",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (M)+Twig Slime (S)",
+      "multi:Leaf Slime (M)+Leaf Slime (S)+Twig Slime (S)",
+      "multi:Myte+Myte",
+      "multi:Queen+Torch Head Amalgam",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting",
+      "multi:Slithering Strangler+Snapping Jaxfruit"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Bubble Bubble",
+      "Dagger Spray",
+      "Deadly Poison",
+      "Noxious Fumes+",
+      "Predator+",
+      "Acrobatics+",
+      "Piercing Wail",
+      "Haze",
+      "Piercing Wail",
+      "Assassinate",
+      "Expertise",
+      "Bouncing Flask",
+      "Fasten",
+      "Noxious Fumes",
+      "Acrobatics",
+      "Skewer",
+      "Footwork+",
+      "Backflip",
+      "Corrosive Wave+",
+      "Escape Plan+",
+      "Footwork+",
+      "Backflip+",
+      "Well-Laid Plans+",
+      "Calculated Gamble+",
+      "Master of Strategy",
+      "Automation",
+      "Calculated Gamble+",
+      "Piercing Wail"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 21200,
+    "entries": [
+      {
+        "enemy_key": "Phrog Parasite",
+        "floor": 12,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Phrog Parasite",
+          "floor": 13,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Kin Follower+Kin Follower+Kin Priest",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Infested Prism",
+        "floor": 30,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=2 vs historical avg=3.0+/-2.2 (z=-0.5, TYPICAL, n=3)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.5,
+        "comparator": {
+          "enemy_key": "Infested Prism",
+          "floor": 30,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Soul Nexus",
+        "floor": 40,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+        "floor": 43,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Flail Knight+Magi Knight+Spectral Knight",
+          "floor": 40,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Mecha Knight",
+        "floor": 46,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "comparator": {
+          "enemy_key": "Mecha Knight",
+          "floor": 43,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Queen+Torch Head Amalgam",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "multi:Queen+Torch Head Amalgam",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 217752,
+  "context_estimated_tokens": 54429,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 367591,
+    "total_output_tokens": 13663,
+    "round_input_tokens": [
+      72891,
+      72995,
+      73914,
+      73953,
+      73838
+    ],
+    "round_output_tokens": [
+      1071,
+      1586,
+      1492,
+      4717,
+      4797
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 163721,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

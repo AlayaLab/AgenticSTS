@@ -1,0 +1,83 @@
+AgenticSTS
+Copyright 2026 Shanda AI Research
+
+This product includes software developed by the AgenticSTS project.
+
+================================================================================
+Companion repositories
+================================================================================
+
+The full AgenticSTS release spans three repositories that interoperate:
+
+  * AgenticSTS (this repo) — agent code, static game knowledge, paper
+    artifact bundle.
+
+  * AgenticSTS-Data — dynamic data: 298 game trajectories from the EMNLP 2026
+    paper, frozen L4/L5 memory snapshots at SHA 1888a62, analysis scripts.
+    Released under CC-BY-4.0.
+
+  * AgenticSTS-Mod — the Godot 4.5 / .NET 9 Slay the Spire 2 mod that
+    exposes the REST/MCP gameplay interface used by this agent.
+
+================================================================================
+Third-party acknowledgements
+================================================================================
+
+* The AgenticSTS-Mod (sibling repo) is a fork of CharTyr/STS2-Agent
+  (https://github.com/CharTyr/STS2-Agent). Its license terms are documented
+  inside that sibling repository; please consult the LICENSE file shipped
+  there before redistributing the mod.
+
+* The MCP gameplay-protocol REST reference implementation is by
+  Gennadiyev/STS2MCP (https://github.com/Gennadiyev/STS2MCP). This project
+  is API-compatible but distributes its own implementation; we cite the
+  reference implementation in the paper.
+
+* External calibration sources are cached under external_calibration/ with
+  capture-date metadata. Original attribution is preserved inline alongside
+  each cached snapshot:
+
+    - AGI-Eval leaderboard for Slay the Spire 2 LLM agents
+      (community blog source; attribution-only fragments)
+    - Mega Crit / Spiracle community statistics (player win rates;
+      developer/community communications, attribution to Mega Crit)
+    - Spire Codex database (cards, relics, enemies, encounters, events).
+      Source code at https://github.com/spirecodex/ is licensed under
+      PolyForm Noncommercial 1.0.0; the cached snapshot here ships only
+      numerical inventory extracts, not Spire Codex source code.
+    - sts2.fun community statistics (no explicit license posted at the
+      time of capture; attribution conservative path)
+
+  Please cite the original sources when quoting these numbers. The cached
+  copies exist for reproducibility (so paper calibration rows can be
+  re-checked under identical inputs), not as a substitute for citing the
+  primary source.
+
+================================================================================
+Paper bundle third-party content
+================================================================================
+
+The submitted paper source bundle at
+`paper/STS2Agent__A_Bounded_Memory_Testbed_for_Long_Horizon_LLM_Agents/`
+ships the following third-party files:
+
+* `acl.sty`, `acl_natbib.bst` — the official ACL Rolling Review LaTeX
+  style files from https://github.com/acl-org/acl-style-files, distributed
+  under the MIT License. These files are intended by upstream to be
+  redistributed alongside paper submissions; the unmodified copies are
+  included here so the paper builds reproducibly.
+
+* `refs.bib` — a curated bibliography compilation authored for this paper.
+  The bibliography file itself is original work (citation entries are
+  factual references and are not copyrightable as a set); please consult
+  each cited work's own license before quoting source material from it.
+
+================================================================================
+Game distribution
+================================================================================
+
+This project does NOT include or redistribute the Slay the Spire 2 game.
+To run the harness end-to-end you must have a legal copy of Slay the Spire 2
+from Mega Crit Games. The mod attaches to your local game installation; the
+agent communicates with the running game via the REST/MCP interface on
+localhost:8128.

@@ -1,0 +1,585 @@
+[
+  {
+    "skill_id": "stub_the_silent_boss",
+    "name": "The Silent - Boss Strategy",
+    "category": "boss",
+    "trigger": {
+      "state_types": [
+        "boss"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "1. Treat your health pool and potion slots as fully expendable resources since your health will fully restore after the combat.\n   Example: Accept incoming chip damage early to aggressively apply Deadly Poison, or expend all offensive potions to rapidly push through early phases, knowing consequences vanish after victory.\n2. Prioritize deploying your long-term scaling cards during the opening turns rather than focusing on upfront, front-loaded damage.\n   Example: Commit energy to playing Bouncing Flask against high-health bosses like The Insatiable instead of playing flat attacks, ensuring your damage scales exponentially over the extended encounter.\n3. Reserve high-value or severe-drawback defensive tools specifically for the boss's largest telegraphed damage spikes.\n   Example: Hold Panic Button until Knowledge Demon threatens a massive multi-attack, accepting the subsequent block-penalty specifically during its weaker follow-up turns.\n4. Pivot your entire energy economy strictly to defense once your delayed damage or status effects guarantee a lethal outcome over the remaining turns.\n   Example: Cease playing attacks once poison stacks are mathematically sufficient to kill Test Subject #C72, utilizing combinations like Burst and Defend to completely stall the fight.\n5. Use hybrid cards that offer both mitigation and offense to safely bridge the gap between early setup and late-fight execution.\n   Example: Play Dash to simultaneously chip away at the boss's health and provide critical mitigation, conserving dedicated block cards for turns with higher incoming damage.",
+    "lessons": "",
+    "examples": [],
+    "priority": 92,
+    "source": "stub_filled",
+    "source_run_ids": [],
+    "created_at": 1777784295.221029,
+    "version": 17,
+    "confidence": 0.88,
+    "usage_count": 24,
+    "success_count": 14,
+    "failure_count": 0,
+    "verified": true,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": false,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "consecutive_unimproved_runs": 3,
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "Strategic approach to boss fights for this character",
+      "scope": "Principles for act-ending boss encounters, where HP fully restores between acts.",
+      "dimensions_to_consider": [
+        "How boss fights differ from hallway fights — what the win condition requires given the longer timeline",
+        "How HP and potion usage compare to hallway combat",
+        "Front-loaded burst vs scaling commitment trade-offs",
+        "When to commit to a Power card vs continue applying pressure",
+        "How to recognize when the current build is insufficient for this boss and what options remain"
+      ],
+      "out_of_scope": [
+        "Per-boss mechanics or specific phase counters -> belongs in combat_guides",
+        "Specific Power-card play orders -> belongs in card_memory",
+        "Specific HP / damage thresholds tied to one boss"
+      ],
+      "format_constraints": {
+        "token_budget": "300-600 tokens",
+        "structure": "4-7 numbered principles. Each = one imperative declarative sentence + one short concrete example.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 6,
+        "max_distinct_enemy_names": 3,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_combat",
+    "name": "The Silent - Combat Principles",
+    "category": "combat",
+    "trigger": {
+      "state_types": [
+        "elite",
+        "hand_select",
+        "monster"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "1. Sequence your turn by applying cheap damage mitigation debuffs before committing energy to defensive cards to accurately calculate required block.\n   Example: Open your turn with Neutralize against the Terror Eel to apply Weakness, then play Defends to cover the newly mitigated incoming damage.\n2. Push damage aggressively during enemy non-attacking turns, pivoting to heavy defensive plays when large incoming attacks are queued.\n   Example: Expend all your energy on Strikes and applying Deadly Poison while the Terror Eel prepares a debuff, saving Survivor for its heavy attack turns.\n3. Focus single-target attacks to quickly eliminate one enemy in multi-enemy encounters, permanently reducing the overall incoming damage pressure.\n   Example: Direct your initial Strikes to continuously damage and eliminate a specific Wriggler before splitting damage onto the remaining enemies.\n4. Utilize high-cost hybrid cards that provide simultaneous offense and defense to maximize your output during dangerous attack rounds.\n   Example: Play Dash against the Bygone Effigy to meaningfully progress the fight while simultaneously generating substantial block against its large attacks.\n5. Establish persistent damage early in high-health elite encounters to guarantee lethality while you dedicate later turns to survival.\n   Example: Apply Deadly Poison or Bouncing Flask early against the Bygone Effigy to continuously deplete its health while you spend late-fight energy on block.\n6. Expend offensive potions early during dangerous multi-enemy elite encounters to rapidly accelerate damage and quickly remove threats.\n   Example: Consume a Flex Potion on your first active turn against a Wriggler group to quickly burst down a target before incoming damage scales out of control.",
+    "lessons": "",
+    "examples": [],
+    "priority": 90,
+    "source": "stub_filled",
+    "source_run_ids": [],
+    "created_at": 1777784295.2211049,
+    "version": 17,
+    "confidence": 0.85,
+    "usage_count": 492,
+    "success_count": 246,
+    "failure_count": 0,
+    "verified": true,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "consecutive_unimproved_runs": 1,
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "Strategic approach to non-boss combat for this character",
+      "scope": "Generalizable principles applying to MOST hallway and elite encounters, regardless of the specific enemy.",
+      "dimensions_to_consider": [
+        "How to allocate energy each turn (offense / defense / setup)",
+        "How to read enemy intents and react to multi-enemy boards",
+        "HP loss across the run — when is taking damage acceptable, when should it be avoided, and how does this scale across the act",
+        "Card sequencing within a turn (which card types resolve first)",
+        "When to spend potions in non-boss combat",
+        "How character-specific tempo levers work"
+      ],
+      "out_of_scope": [
+        "Per-enemy mechanics (round triggers, threshold patterns) -> belongs in combat_guides",
+        "Per-card play recipes or specific combos -> belongs in card_memory notes",
+        "Specific numerical thresholds tied to one situation"
+      ],
+      "format_constraints": {
+        "token_budget": "400-700 tokens",
+        "structure": "5-8 numbered principles. Each = one imperative declarative sentence + one short concrete example demonstrating application.",
+        "voice": "Imperative, second-person, not descriptive."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 8,
+        "max_distinct_enemy_names": 3,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_deckbuilding",
+    "name": "The Silent - Deckbuilding Principles",
+    "category": "deck_building",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "card_select",
+        "relic_select",
+        "shop",
+        "treasure"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "1. Draft efficient frontloaded tools early to survive Act 1 threats, then commit definitively to a specific scaling archetype once you secure a core engine piece.\n   Example: Take high-impact early attacks like Dash, but pivot completely into a focused trajectory the moment you draft a defining scaling power like Noxious Fumes.\n2. Refuse to hybridize your scaling engines by strictly skipping cards that belong to alternate archetypes once your primary win condition is securely locked in.\n   Example: If your deck is structurally committed to a passive scaling strategy, aggressively skip off-plan attacks to ensure you consistently draw your core engine pieces.\n3. Fuel your primary strategy by prioritizing massive card draw and hand-cycling to accelerate setup and dig through negative status cards.\n   Example: Rely heavily on tools like Calculated Gamble or Acrobatics to rapidly cycle your deck against the Knowledge Demon, guaranteeing you find your vital setup powers on early turns.\n4. Secure permanent defensive scaling and persistent block mitigation to stall prolonged fights long enough for your core engine to ramp up.\n   Example: Utilize Footwork to massively buff your defensive output or use Dodge and Roll to carry over block into restricted turns, generating a comfortable buffer while passive damage scales.\n5. Allocate your shop and event removal opportunities relentlessly toward removing basic attacks to increase the density of your defense, cycle, and setup cards.\n   Example: Pay to remove a Strike at nearly every shop opportunity because they actively impede your draws, whereas basic defenses remain viable when buffed by dexterity.\n6. Invest your remaining shop gold in premium relics and critical payoff cards that exponentially multiply your committed scaling engine rather than taking marginal utility additions.\n   Example: Save gold to purchase engine-accelerating relics or key multipliers that drastically increase the output efficiency of core applications like Bouncing Flask against bosses like the Ceremonial Beast.",
+    "lessons": "",
+    "examples": [],
+    "priority": 88,
+    "source": "stub_filled",
+    "source_run_ids": [],
+    "created_at": 1777784295.2211568,
+    "version": 16,
+    "confidence": 0.9,
+    "usage_count": 32,
+    "success_count": 28,
+    "failure_count": 4,
+    "verified": true,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [
+      81.21428571428571,
+      83.0,
+      42.51807228915663
+    ],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "How this character evaluates card and deck choices",
+      "scope": "Principles for adding, removing, and upgrading cards across the run; relic and shop decisions.",
+      "dimensions_to_consider": [
+        "What dimensions of card value matter most for this character",
+        "Archetype commitment vs flexibility — when to commit to a build, when to stay open",
+        "Card removal priority and timing",
+        "Shop budgeting and gold allocation",
+        "When to skip rather than pick"
+      ],
+      "out_of_scope": [
+        "Specific card tier lists - belongs in card_memory notes",
+        "Specific archetype recipes - belongs in deck_guides",
+        "Specific gold thresholds tied to one shop visit"
+      ],
+      "format_constraints": {
+        "token_budget": "400-700 tokens",
+        "structure": "5-8 numbered principles, each one imperative sentence + concrete example.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 8,
+        "max_distinct_enemy_names": 2,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_intermission",
+    "name": "The Silent - Rest & Event Decisions",
+    "category": "rest",
+    "trigger": {
+      "state_types": [
+        "event",
+        "rest_site"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "1. Greed card upgrades over healing when protected by upcoming safe nodes, when boss-healing relics guarantee a full heal, or when massive overhealing would occur.\n   Example: Smith high-impact cards like Dash instead of resting when holding a relic that heals before boss fights, or when an enhanced resting action would waste recovery.\n2. Prioritize healing at mid-health before aggressive burst-damage elites or bosses if your deck relies on slow scaling engines that inevitably take early chip damage.\n   Example: Rest to build a health buffer before facing Gremlin Nob if your primary damage engine relies on slow poison application that requires multiple turns to ramp up.\n3. Trade health aggressively in early acts for permanent scaling or massive delayed economy, provided the remaining health buffer can survive upcoming encounters.\n   Example: Spend health for maximum health scaling or an economic map event that snowballs your late-game purchasing power.\n4. Pay gold or skip rewards entirely to avoid permanent deck pollution, especially when holding relics that duplicate card additions or when modifiers conflict with your core strategy.\n   Example: Pay gold to dodge adding a curse, or reject modifiers that cause attacks to deal self-damage when playing a defensive deck.\n5. Balance event gold expenditures against the proximity of known upcoming shops to ensure you retain purchasing power for critical card removals or setup relics.\n   Example: Purchase a random relic at an event only if the remaining gold balance allows you to remove a basic Strike at the merchant on the next floor.\n6. Prioritize event enchantments and relics that guarantee early-turn setup, rapid cycling, or free power deployment for your scaling engines.\n   Example: Enchant a power with an effect that draws extra cards when played, or acquire a mask relic that guarantees Noxious Fumes is deployed for free on turn one.\n7. Utilize rest options specifically to trigger high-impact rest-site relics immediately before major fights, even if your health pool is nearly full.\n   Example: Choose to rest right before a boss solely to generate random potions from a mailbox relic.",
+    "lessons": "",
+    "examples": [],
+    "priority": 85,
+    "source": "stub_filled",
+    "source_run_ids": [],
+    "created_at": 1777784295.2211962,
+    "version": 17,
+    "confidence": 0.88,
+    "usage_count": 30,
+    "success_count": 28,
+    "failure_count": 2,
+    "verified": true,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [
+      81.21428571428571,
+      83.0,
+      42.51807228915663
+    ],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "How this character makes trade-off decisions at non-combat nodes",
+      "scope": "Resource investment and trade-off framing at rest sites and events.",
+      "dimensions_to_consider": [
+        "Rest investment trade-offs (smith vs heal vs other)",
+        "Event trade-off framing (HP for relic, deck pollution for gold, etc.)",
+        "Which deck gaps to fill at non-combat nodes"
+      ],
+      "out_of_scope": [
+        "Specific event option tier lists - belongs in event_guides",
+        "Per-card upgrade priorities - belongs in card_memory"
+      ],
+      "format_constraints": {
+        "token_budget": "300-600 tokens",
+        "structure": "4-7 numbered principles + concrete example each.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 6,
+        "max_distinct_enemy_names": 2,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "stub_the_silent_map",
+    "name": "The Silent - Path Selection",
+    "category": "map",
+    "trigger": {
+      "state_types": [
+        "map"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "general",
+    "content": "1. Chain consecutive monster nodes early in the run to draft front-loaded damage, establishing a combat engine before challenging a delayed elite.\n   Example: Farm early hallways to draft attacks like Dagger Throw before attempting to fight Gremlin Nob or Lagavulin in the mid-to-late act.\n2. Bypass early map shops to accumulate a massive gold reserve, targeting mid-act or late-act merchants to secure permanent scaling and high-impact card removals.\n   Example: Path around an early shop to continue farming card rewards, saving your funds for a massive power spike at a later merchant to aggressively remove starting strikes.\n3. Adjust your pathing risk assessment to maximize the value of map-dependent utility or sustain relics, using them to offset the attrition of combat or navigate safely around threats.\n   Example: Prioritize shop nodes aggressively when holding Meal Ticket to create a passive healing engine that sustains your run through difficult acts.\n4. Adopt a strict pacifist routing strategy of Unknowns and Rest Sites in later acts to minimize chip damage, bypassing high-attrition elites entirely when piloting setup-heavy scaling decks.\n   Example: Path safely around late-act elites, as a deck requiring multiple turns to scale Noxious Fumes or Bouncing Flask will struggle against rapid, high-burst elite encounters.\n5. Deviate from late-game pacifist routes into monster fights only if your deck critically lacks the cycle or defensive pieces required to establish your win condition.\n   Example: Route through a late monster node despite a pacifist strategy if you still desperately need to draft a draw engine like Acrobatics to speed up your setup turns.\n6. Route through safer non-combat nodes leading up to a boss to guarantee you enter the final campfire with a large health buffer, allowing you to select a crucial scaling upgrade rather than a forced heal.\n   Example: Avoid high-attrition late-act encounters to preserve your health pool, arriving at the pre-boss rest site healthy enough to safely upgrade a core engine card instead of resting.",
+    "lessons": "",
+    "examples": [],
+    "priority": 85,
+    "source": "stub_filled",
+    "source_run_ids": [],
+    "created_at": 1777784295.2212348,
+    "version": 17,
+    "confidence": 0.9,
+    "usage_count": 32,
+    "success_count": 28,
+    "failure_count": 4,
+    "verified": true,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [
+      81.21428571428571,
+      83.0,
+      42.51807228915663
+    ],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "scaffold": {
+      "topic": "How this character selects between map nodes",
+      "scope": "Forward-looking path selection given current run state.",
+      "dimensions_to_consider": [
+        "Node priority hierarchy for this character",
+        "How HP buffer should adjust path choice",
+        "Boss-distance routing (when to start prioritizing rest, removal, or scaling)",
+        "Shop and rest pacing across an act"
+      ],
+      "out_of_scope": [
+        "Per-act specific patterns - belongs in route_guides",
+        "Specific HP thresholds for path choice"
+      ],
+      "format_constraints": {
+        "token_budget": "300-600 tokens",
+        "structure": "4-7 numbered principles + concrete example each.",
+        "voice": "Imperative, second-person."
+      },
+      "leakage_guard": {
+        "max_distinct_card_names": 4,
+        "max_distinct_enemy_names": 3,
+        "no_specific_damage_thresholds": true
+      }
+    },
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "e2bae878fba9",
+    "name": "Avoid Mixed Scaling Bloat",
+    "category": "deck_building",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "shop"
+      ],
+      "enemy_names": [
+        "GlobeHead"
+      ],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "specific",
+    "content": "Do not mix Poison scaling (Noxious Fumes, Envenom) with Shiv scaling (Accuracy, Phantom Blades) in the same deck. This creates severe deck bloat (10+ setup cards) causing turn 2/3 deaths because you draw hands full of conflicting setup powers instead of block. Pick ONE scaling engine and focus the rest of the deck entirely on card draw and efficient block (Dodge and Roll, Backflip).",
+    "lessons": "Motivation: The agent drafted 10+ powers across Poison and Shiv synergies, leading to a bloated 31-card deck that drew hands with no block and died to Globe Head's 18-damage swings.",
+    "examples": [],
+    "priority": 70,
+    "source": "evolved",
+    "source_run_ids": [],
+    "created_at": 1777793445.3378005,
+    "version": 1,
+    "confidence": 0.65,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": false,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "6b3f67f8c614",
+    "name": "Preserve Conditional Exhaust Cards",
+    "category": "combat",
+    "trigger": {
+      "state_types": [
+        "boss",
+        "elite",
+        "monster"
+      ],
+      "enemy_names": [],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [
+        "Mirage+"
+      ],
+      "character": [
+        "the silent"
+      ],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "specific",
+    "content": "Never play 0-cost, conditional Exhaust cards (like Mirage+ or Piercing Wail) for zero or negligible value just because they are free. If you play them for 0 effect, they Exhaust and are permanently gone for the combat. Let them discard normally so you can redraw and use them when their condition (e.g., high enemy Poison or heavy multi-attacks) yields massive value.",
+    "lessons": "Motivation: In F24, Mirage+ was played on turn 1 for 0 block, permanently destroying a potential 30+ block card in an attrition fight.",
+    "examples": [],
+    "priority": 70,
+    "source": "evolved",
+    "source_run_ids": [],
+    "created_at": 1777845739.8714755,
+    "version": 1,
+    "confidence": 0.65,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": false,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "ae50ce8c2af6",
+    "name": "Strict Block Priority Over Non-Lethal Damage",
+    "category": "combat",
+    "trigger": {
+      "state_types": [],
+      "enemy_names": [
+        "FuzzyWurmCrawler"
+      ],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "specific",
+    "content": "When facing incoming damage, NEVER prioritize non-lethal attacks over block cards. A fight won at 7 HP is strictly worse than a fight won at 18 HP. If you cannot deal lethal damage this turn, you MUST play every available block card (Defend, Survivor, Dodge and Roll) to fully mitigate incoming damage before spending remaining energy on attacks. Treat your HP as your most valuable resource.",
+    "lessons": "Motivation: Taking 11 entirely avoidable damage against a Fuzzy Wurm Crawler because the agent played 3 Strikes instead of blocking.",
+    "examples": [],
+    "priority": 70,
+    "source": "evolved",
+    "source_run_ids": [],
+    "created_at": 1777873058.481759,
+    "version": 1,
+    "confidence": 0.65,
+    "usage_count": 0,
+    "success_count": 0,
+    "failure_count": 0,
+    "verified": false,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "anchor_exemplars": []
+  },
+  {
+    "skill_id": "ffdb6ef825be",
+    "name": "Tunneler Burrowed Stun",
+    "category": "combat",
+    "trigger": {
+      "state_types": [],
+      "enemy_names": [
+        "Tunneler"
+      ],
+      "min_act": 0,
+      "max_act": 99,
+      "hp_below": 1.0,
+      "hp_above": 0.0,
+      "min_deck_size": 0,
+      "max_deck_size": 999,
+      "requires_cards": [],
+      "character": [],
+      "any_of_relics": [],
+      "requires_hand_capabilities": [],
+      "requires_enemy_powers": []
+    },
+    "tier": "specific",
+    "content": "When Tunneler uses Buff/Defend, it gains ~32 Block and 'Burrowed' (retains Block). While Burrowed, it attacks for heavy damage (e.g., 23) every turn. You MUST prioritize dealing damage to break its Block. Breaking the Block instantly removes Burrowed and Stuns it for a turn. Passively blocking its attacks leads to heavy attrition.",
+    "lessons": "Motivation: Took 11 damage over 4 turns of 23-damage attacks because I played defensively instead of breaking its block.",
+    "examples": [],
+    "priority": 70,
+    "source": "evolved",
+    "source_run_ids": [],
+    "created_at": 1777886869.110053,
+    "version": 1,
+    "confidence": 0.62426,
+    "usage_count": 4,
+    "success_count": 2,
+    "failure_count": 0,
+    "verified": false,
+    "status": "active",
+    "supplements_seed_id": "",
+    "deactivated_runs": 0,
+    "active": true,
+    "superseded_by": "",
+    "recent_noncombat_scores": [],
+    "consecutive_unimproved_runs": 2,
+    "game_version": "v0.103.1",
+    "mod_version": "v0.5.4-xc",
+    "data_schema_version": 2,
+    "anchor_exemplars": []
+  }
+]

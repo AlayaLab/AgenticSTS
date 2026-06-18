@@ -1,0 +1,244 @@
+{
+  "run_id": "20260502_080203_58ac0e66",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 17376,
+      "estimated_tokens": 4344
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 19342,
+      "estimated_tokens": 4836
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 80780,
+      "estimated_tokens": 20195
+    },
+    {
+      "name": "replay_package",
+      "chars": 55462,
+      "estimated_tokens": 13866
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2329,
+      "estimated_tokens": 583
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 29375,
+    "non_combat_decisions": 247,
+    "combat_episodes": 21,
+    "encountered_enemy_keys": [
+      "Door",
+      "Fabricator",
+      "Living Fog",
+      "Louse Progenitor",
+      "Ovicopter",
+      "Seapunk",
+      "Sludge Spinner",
+      "Spiny Toad",
+      "The Insatiable",
+      "Tunneler",
+      "Waterfall Giant",
+      "multi:Axebot+Axebot",
+      "multi:Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Calcified Cultist+Damp Cultist",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+      "multi:Cubex Construct+Cubex Construct+Punch Construct",
+      "multi:Living Shield+Turret Operator",
+      "multi:Punch Construct+Punch Construct",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Defend+",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Greed",
+      "Dagger Spray+",
+      "Follow Through",
+      "Phantom Blades",
+      "Blade Dance",
+      "Expose",
+      "Cloak and Dagger",
+      "Accuracy+",
+      "Up My Sleeve",
+      "Calculated Gamble",
+      "Escape Plan",
+      "Strangle+",
+      "Fan of Knives",
+      "Tools of the Trade+",
+      "Piercing Wail+",
+      "Blade Dance+",
+      "Master of Strategy",
+      "Infinite Blades+",
+      "Afterimage+",
+      "Secret Technique",
+      "Expertise",
+      "Backflip",
+      "Blade Dance+",
+      "Alchemize+",
+      "Backflip",
+      "Blade Dance",
+      "Dramatic Entrance",
+      "Piercing Wail",
+      "Blur+",
+      "Envenom+",
+      "Accuracy",
+      "Finisher",
+      "Piercing Wail+",
+      "Accuracy+",
+      "Blade of Ink",
+      "Footwork",
+      "Thinking Ahead",
+      "Leading Strike",
+      "Well-Laid Plans",
+      "Finisher",
+      "Deflect+",
+      "Phantom Blades+",
+      "Leg Sweep"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 13739,
+    "entries": [
+      {
+        "enemy_key": "Sludge Spinner",
+        "floor": 2,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=3 vs historical avg=0.7+/-0.5 (z=4.9, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 4.9,
+        "comparator": {
+          "enemy_key": "Sludge Spinner",
+          "floor": 6,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "multi:Corpse Slug+Corpse Slug",
+        "floor": 3,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=7 vs historical avg=2.3+/-2.1 (z=2.3, WORSE_THAN_USUAL, n=3)",
+        "anomaly_label": "WORSE_THAN_USUAL",
+        "anomaly_score": 2.3,
+        "comparator": {
+          "enemy_key": "multi:Corpse Slug+Corpse Slug",
+          "floor": 2,
+          "combat_type": "monster",
+          "reason": "recent better same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "The Insatiable",
+          "floor": 33,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=0 vs historical avg=37.7+/-15.9 (z=-2.4, BETTER_THAN_USUAL, n=3)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -2.4,
+        "comparator": {
+          "enemy_key": "Door",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 175790,
+  "context_estimated_tokens": 43939,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 301005,
+    "total_output_tokens": 17003,
+    "round_input_tokens": [
+      59226,
+      59754,
+      60657,
+      60790,
+      60578
+    ],
+    "round_output_tokens": [
+      7164,
+      1749,
+      3280,
+      1704,
+      3106
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 183888,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

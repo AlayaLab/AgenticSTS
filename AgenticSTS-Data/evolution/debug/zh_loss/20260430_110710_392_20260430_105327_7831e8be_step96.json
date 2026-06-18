@@ -1,0 +1,28 @@
+{
+  "ts": "20260430_110710_392",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 96,
+  "floor": 11,
+  "trigger_kind": "validation_retry",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Solar Strike+",
+        "potion_index": null,
+        "target_index": 1
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Enemy 1 and 2 attack for 7 each. I can kill Enemy 1 exactly with Solar Strike+ (12 dmg) + Sovereign Blade (19 dmg - 1 Block from Skittish = 18 dmg). I use Alignment to gain energy for a Defend, taking only 2 damage.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

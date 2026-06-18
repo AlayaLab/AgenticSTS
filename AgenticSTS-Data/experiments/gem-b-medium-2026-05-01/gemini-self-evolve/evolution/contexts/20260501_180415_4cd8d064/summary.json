@@ -1,0 +1,186 @@
+{
+  "run_id": "20260501_180415_4cd8d064",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 130,
+      "estimated_tokens": 33
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 21848,
+      "estimated_tokens": 5462
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 18538,
+      "estimated_tokens": 4635
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 75479,
+      "estimated_tokens": 18870
+    },
+    {
+      "name": "replay_package",
+      "chars": 30403,
+      "estimated_tokens": 7601
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 2487,
+      "estimated_tokens": 622
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 16,
+      "estimated_tokens": 4
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 28967,
+    "non_combat_decisions": 206,
+    "combat_episodes": 25,
+    "encountered_enemy_keys": [
+      "Battle Friend V3.0",
+      "Devoted Sculptor",
+      "Door",
+      "Fossil Stalker",
+      "Frog Knight",
+      "Haunted Ship",
+      "Lagavulin Matriarch",
+      "Owl Magistrate",
+      "Punch Construct",
+      "Seapunk",
+      "Sewer Clam",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Spiny Toad",
+      "The Insatiable",
+      "Tunneler",
+      "multi:Bowlbug (Egg)+Bowlbug (Nectar)+Bowlbug (Rock)",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Bowlbug (Rock)+Bowlbug (Silk)+Slumbering Beetle",
+      "multi:Chomper+Chomper",
+      "multi:Corpse Slug+Corpse Slug",
+      "multi:Cubex Construct+Cubex Construct+Punch Construct",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Myte+Myte",
+      "multi:Scroll of Biting+Scroll of Biting+Scroll of Biting"
+    ],
+    "final_deck_cards": [
+      "Strike+",
+      "Strike",
+      "Strike",
+      "Strike+",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Bullet Time+",
+      "Hidden Daggers",
+      "Blade Dance+",
+      "Dagger Spray+",
+      "Cloak and Dagger+",
+      "Blade of Ink+",
+      "Finisher+",
+      "Phantom Blades+",
+      "Tracking+",
+      "Expertise+",
+      "Piercing Wail+",
+      "Backflip+",
+      "Leg Sweep+",
+      "Backstab+",
+      "Fan of Knives",
+      "Expose+",
+      "Prepared+",
+      "Hand Trick+",
+      "Abrasive"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 7537,
+    "entries": [
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 11,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ]
+      },
+      {
+        "enemy_key": "Lagavulin Matriarch",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "The Insatiable",
+        "floor": 33,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ]
+      },
+      {
+        "enemy_key": "Door",
+        "floor": 48,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "comparator": {
+          "enemy_key": "Door",
+          "floor": 48,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 149256,
+  "context_estimated_tokens": 37305,
+  "session": {
+    "total_rounds": 5,
+    "total_input_tokens": 250426,
+    "total_output_tokens": 16008,
+    "round_input_tokens": [
+      49381,
+      49436,
+      50710,
+      50749,
+      50150
+    ],
+    "round_output_tokens": [
+      1652,
+      550,
+      1710,
+      2606,
+      9490
+    ],
+    "actions_taken": 1,
+    "action_types": [
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 236761,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 5,
+    "read_only_rounds": 2
+  }
+}

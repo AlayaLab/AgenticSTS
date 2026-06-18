@@ -1,0 +1,195 @@
+{
+  "run_id": "20260426_002320_62823f45",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 140,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 9196,
+      "estimated_tokens": 2299
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 8036,
+      "estimated_tokens": 2009
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 37968,
+      "estimated_tokens": 9492
+    },
+    {
+      "name": "replay_package",
+      "chars": 15442,
+      "estimated_tokens": 3861
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 1802,
+      "estimated_tokens": 451
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 312,
+      "estimated_tokens": 78
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 13800,
+    "non_combat_decisions": 112,
+    "combat_episodes": 14,
+    "encountered_enemy_keys": [
+      "Haunted Ship",
+      "Louse Progenitor",
+      "Ovicopter",
+      "Seapunk",
+      "Skulking Colony",
+      "Sludge Spinner",
+      "Waterfall Giant",
+      "multi:Bowlbug (Egg)+Bowlbug (Rock)",
+      "multi:Calcified Cultist+Seapunk",
+      "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+      "multi:Exoskeleton+Exoskeleton+Exoskeleton",
+      "multi:Myte+Myte",
+      "multi:Toadpole+Toadpole",
+      "multi:Two-Tailed Rat+Two-Tailed Rat+Two-Tailed Rat"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize+",
+      "Survivor",
+      "Ascender's Bane",
+      "Flick-Flack+",
+      "Hidden Daggers+",
+      "Cloak and Dagger+",
+      "Backstab",
+      "Noxious Fumes+",
+      "Escape Plan",
+      "Backflip+",
+      "Calculated Gamble+",
+      "Dagger Throw",
+      "Backflip+",
+      "Malaise+",
+      "Backflip+",
+      "Footwork+",
+      "Leading Strike+",
+      "Hidden Daggers+"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 3749,
+    "entries": [
+      {
+        "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+        "floor": 8,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=9.5+/-8.4 (z=-1.1, BETTER_THAN_USUAL, n=26)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.1,
+        "comparator": {
+          "enemy_key": "multi:Corpse Slug+Corpse Slug+Corpse Slug",
+          "floor": 9,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Haunted Ship",
+        "floor": 12,
+        "combat_type": "monster",
+        "selection_reasons": [
+          "run_combat"
+        ],
+        "historical_line": "loss=0 vs historical avg=8.7+/-7.5 (z=-1.2, BETTER_THAN_USUAL, n=32)",
+        "anomaly_label": "BETTER_THAN_USUAL",
+        "anomaly_score": -1.2,
+        "comparator": {
+          "enemy_key": "Haunted Ship",
+          "floor": 5,
+          "combat_type": "monster",
+          "reason": "recent worse/typical same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Skulking Colony",
+        "floor": 15,
+        "combat_type": "elite",
+        "selection_reasons": [
+          "elite"
+        ],
+        "historical_line": "loss=4 vs historical avg=14.8+/-12.7 (z=-0.9, TYPICAL, n=28)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": -0.9,
+        "comparator": {
+          "enemy_key": "Skulking Colony",
+          "floor": 14,
+          "combat_type": "elite",
+          "reason": "recent same-enemy comparator"
+        }
+      },
+      {
+        "enemy_key": "Waterfall Giant",
+        "floor": 17,
+        "combat_type": "boss",
+        "selection_reasons": [
+          "boss"
+        ],
+        "historical_line": "loss=39 vs historical avg=27.8+/-16.1 (z=0.7, TYPICAL, n=24)",
+        "anomaly_label": "TYPICAL",
+        "anomaly_score": 0.7,
+        "comparator": {
+          "enemy_key": "Waterfall Giant",
+          "floor": 17,
+          "combat_type": "boss",
+          "reason": "recent same-enemy comparator"
+        }
+      }
+    ]
+  },
+  "context_chars": 73299,
+  "context_estimated_tokens": 18315,
+  "session": {
+    "total_rounds": 3,
+    "total_input_tokens": 79212,
+    "total_output_tokens": 2016,
+    "round_input_tokens": [
+      25362,
+      25492,
+      28358
+    ],
+    "round_output_tokens": [
+      406,
+      324,
+      1286
+    ],
+    "actions_taken": 0,
+    "action_types": [],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 68005,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 3,
+    "read_only_rounds": 2
+  }
+}

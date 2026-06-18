@@ -1,0 +1,163 @@
+[
+  {
+    "skill_id": "seed_regent_a10_macro",
+    "name": "Regent - A10 Macro (XecnaR)",
+    "category": "deck_building",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "card_select",
+        "shop",
+        "treasure",
+        "event"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "REGENT WIN CONDITION (per XecnaR A10 guide, applied to patch 0.103 — 0.104.0 changes are NOT yet live): a part of Regent's card pool is insanely overstatted; the macro is to find these cards in your deck quickly, then snowball. Take a lot of fights in act 1 — a floor-1 Astral Pulse will kill 80% of fights through end of act 2 on its own, letting you skip every other early-game card and just build the best lategame deck possible. The same Astral Pulse in early act 2 is much weaker for deckbuilding. PRIMARY FARM TARGETS (always pick when offered, unless star economy says no): Astral Pulse, Reflect, GUARDS!!!, Big Bang, Bulwark, Crash Landing, Know Thy Place, Quasar, Particle Wall, CHARGE!!, Spectrum Shift, Child of the Stars, Pillar of Creation, Meteor Shower. Premium supporting cards: Wrought in War, Refine Blade, Cloak of Stars, Glow, Convergence, Royal Gamble, Dying Star, Royalties. Cards that are TRADITIONALLY rated highly but are actually bad on Regent: Conqueror (unpickable), Sword Sage, Seeking Edge, Furnace, Beat into Shape (only good from Neow transforms), The Smith, Summon Forth, Cosmic Indifference, Shining Strike (unpickable), Solar Strike, Stardust (early), Make It So, Heavenly Drill (situational), Foregone Conclusion, I Am Invincible. Adding bad cards to a Regent deck has a much bigger negative impact than other characters because Star cards are draw-order dependent — every Strike or weak common in the deck is a dead draw on a turn you needed star gen or a payoff. Skip mediocre commons unless deck is genuinely dying in hallways.",
+    "lessons": "The 'two archetypes pick one' framing is wrong. Regent doesn't have Forge vs Star archetypes — it has overstatted cards vs everything else. Mixing Forge cards and Star cards is fine if both happen to be overstatted (e.g., Bulwark + Astral Pulse). Adding 'committed' cards from a single archetype that AREN'T overstatted (Sword Sage, Seeking Edge, Stardust, Solar Strike) builds a coherent-looking deck that doesn't actually win. Always evaluate against the overstatted-list first; let archetype emerge from what you find, not the other way around.",
+    "examples": [
+      "Floor 1 reward: Beat into Shape vs Astral Pulse vs skip → take Astral Pulse, autopick. Beat into Shape (rare) is a trap pick because XecnaR almost never manually picks it.",
+      "Floor 5 reward, deck has 1 Wrought in War: Sword Sage vs Crash Landing vs skip → take Crash Landing or skip. Sword Sage looks like the Forge payoff but it's actually 'usually not good enough to pick.'",
+      "Floor 8 reward, deck has Genesis: Stardust vs Quasar vs skip → take Quasar. Stardust is 'terrible star payoff value' even with star gen — only good as a Sealed Throne dump."
+    ],
+    "priority": 99,
+    "source": "seed",
+    "confidence": 0.92,
+    "verified": false
+  },
+  {
+    "skill_id": "seed_regent_a10_deck",
+    "name": "Regent - Star Economy & Draft Rules",
+    "category": "deck_building",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "card_reward",
+        "card_select",
+        "shop",
+        "treasure"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "STAR ECONOMY (XecnaR's central deckbuilding concept): you start with 2 star gen per cycle (Venerate + Falling Star slot, sort of) and 2 potential payoff slots from the starter relic's 3-star opener. Every star payoff added beyond what gen supports creates BAD DRAW ORDERS — drawing payoffs before gen and being unable to play, or drawing gen with no payoffs. Every star gen added beyond what payoffs need is a wasted slot. RULES: (1) Only ADD star payoffs that are genuinely premium picks: Astral Pulse, Quasar, Particle Wall, Gamma Blast (sometimes), and Cloak of Stars (cheap enough not to disrupt). DO NOT add Stardust, Comet, Devastate, Knockout Blow, Seven Stars early — these are too expensive (>3 stars) and brick draws. (2) When ADDING star gen, prefer SMOOTH generators that have utility beyond just stars: Glow (provides stars + draw + scaling buff) and Convergence (next-turn energy + stars + Retain). These are the only 'smooth' generators per XecnaR. Hidden Cache, Solar Strike, Royal Gamble work but are pure gen. (3) Real practical payoffs/cycle ≠ literal payoff count — once an Astral Pulse is in deck, you may NOT need to play it every cycle later in run (e.g., vs Doormaker / Queen, not needed). Don't overcorrect by adding more gen for theoretical payoff demand. (4) Excess star gen is fixable by adding payoffs; excess payoffs is HARDER to fix because adding more gen creates draw-order issues anyway. Be picky with payoffs first. (5) Be picky in early game: Regent's basic deck is strong enough that you can skip mediocre commons in very early floors and not lose much HP — every bad card you add has outsized negative impact.",
+    "lessons": "Decks fail when: drafted excess payoffs hoping draws will line up; drafted star gen with no payoff and now slots are wasted; drafted bad cards (Stardust, Solar Strike) thinking they enable star economy when they actually pollute it. The 'I have 2 providers and 1 spender so I'm Star committed' heuristic from older guides is misleading — the question is whether the SPECIFIC cards you have are good, not whether they form a category.",
+    "examples": [
+      "Deck has Venerate + Glow + Astral Pulse. Reward offers Stardust vs Hidden Cache vs Convergence → take Convergence (smooth gen + retain) or skip. Stardust is bad payoff. Hidden Cache is pure gen which doesn't add deck value beyond stars.",
+      "Deck has Venerate + Falling Star + Genesis (in play, +1/turn). Reward offers Quasar vs Solar Strike vs skip → take Quasar (premium speculative payoff, fits the gen) or skip Solar Strike (bad attack).",
+      "Deck has Venerate + Astral Pulse + Reflect + Cloak of Stars. PAYOFF SATURATED. Reward offers Royal Gamble vs Convergence vs Hidden Cache → take Convergence (utility) or Royal Gamble (free 0-cost gen). Skip Hidden Cache (pure gen, less smooth)."
+    ],
+    "priority": 98,
+    "source": "seed",
+    "confidence": 0.92,
+    "verified": false
+  },
+  {
+    "skill_id": "seed_regent_a10_map",
+    "name": "Regent - Route Priorities (XecnaR macro)",
+    "category": "map",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "map"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "ACT 1 IS THE MOST IMPORTANT PART OF THE RUN per XecnaR — Spire 2 is a snowballing game and a well-played act 1 makes the rest much easier. Goal: take a LOT of fights to see card rewards and find the overstatted cards (Astral Pulse, GUARDS!!!, Bulwark, etc). Advanced hallways in act 1 are roughly all the same power level; if your deck just barely passes the output threshold, you go from dying horribly to taking almost no damage. Frontload Neow bonuses (150 gold, Strike-Defend upgrade, Transform 1, 1 Relic) push you past that threshold. PATHING DEFAULTS: prefer early shop access on act 1 (even without bonus gold) — buying a strong early-game card (Bulwark, Astral Pulse, an uncommon colorless like Splash/Fasten/Ultimate Strike, or one of the gamebreaking uncommon powers Child of the Stars / Pillar of Creation / Spectrum Shift if offered) is a safe power boost before advanced hallways. ~⅓ chance of seeing one of the 3 gamebreaking powers in early shop. POTION REACTIONS: only 2 potion slots — if a 3rd drops with belt full, value is lost. Adjust path to avoid wasted potion drops (e.g., if belt is full and an advanced hallway is next, consider rerouting through Elite → Fire instead). Save Gigantification potion until floor 49 to one-shot Test Subject phase 2. Don't use potions in hallways unless you're drawing terribly (>20 damage incoming) — they're for elites. ACT 1 EVENTS are on average pretty good now — flexible paths with a few forced events are fine.",
+    "lessons": "Pure-elite paths without enough fires kill runs even when the deck is fine, because Regent is draw-order dependent and bad draws happen. Pure-hallway paths waste potential elite relics. Two campfires (one upgrade for a key card, one rest if needed) plus 2-3 elites is the goal when the deck is strong enough to take elites. The single most common pathing mistake on Regent is forcing an early elite without a safe shop or potion buffer — if it goes wrong, the run snowballs downward.",
+    "examples": [
+      "Neow bonus is Transform 1 → Crash Landing on Strike. Now we're aggressive — Crash Landing is really really strong if it ends or almost ends the fight. But in Underdocks (Terror Eel, Skulking Colony are tanky elites), don't go max-aggressive on the rightmost path — start more flexibly so you can pivot left if floor 1 lowrolls.",
+      "Map has only floor 4 shop available (right side leads to 3 elites 0 fires — too dangerous). Take 150 gold Neow → path left through floor 3 shop → 2 fights first to gather info, then decide between fight/event after the shop based on rewards.",
+      "After 3 fights you have an Attack potion + Block potion (belt full). Original path was Fire → Adv Hallway → Elite. With 30% chance the hallway drops a wasted potion, consider rerouting to Elite → Fire instead — your potions are strong and you squeeze more value."
+    ],
+    "priority": 95,
+    "source": "seed",
+    "confidence": 0.88,
+    "verified": false
+  },
+  {
+    "skill_id": "seed_regent_a10_combat",
+    "name": "Regent - Combat Sequencing & Common Mistakes",
+    "category": "combat",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "monster",
+        "elite",
+        "boss"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "TWO RESOURCES TO PLAN AROUND: energy resets to 3/turn, stars persist for the whole combat. XECNAR'S 4 MICRO-MISTAKES TO AVOID: (1) Playing 'bad' star payoffs over crucial ones when star gen isn't excessive — e.g., spending stars on Falling Star when Astral Pulse is the win condition next cycle. (2) Playing something else (a Defend) instead of star gen when there's a crucial star payoff that has to be played for the fight win — then you draw the payoff with no stars and the fight goes to shit. Most common with Astral Pulse in the reshuffle. (3) Playing Sovereign Blade too early over something else when the fight isn't ending that turn — you stack Forge for nothing because you have to redraw the buffed Blade later anyway. (4) CONVERSELY, NOT playing Sovereign Blade when you're floating 2 energy because 'it will be bigger later' — unless you have lethal soon OR a special reason (breaking act-2-guy's Burrow, etc), spend the energy. PLAN ORDER FOR FORGE TURNS: Forge cards FIRST → Sovereign Blade LAST after all Forges have stacked. NEVER exhaust/transform a buffed Blade — losing the stack is worse than skipping the turn's exhaust. STARS: don't burn the starter relic's 3 opening stars on round 1 unless you have a real payoff in hand (a star-cost attack or a star-providing skill that snowballs); banking to round 2-3 is fine because they don't decay. EXCESS STARS: if you've generated more than the deck can spend, dump via Particle Wall (block, controllable spend) over Stardust (damage, all-or-nothing). HALLWAYS: default to no-damage block lines if available; otherwise open with damage and let bigger plays arrive next turn. ELITES/BOSSES: forecast incoming damage 2 turns ahead — block until your output is enough to outpace the burst, then race.",
+    "lessons": "The fight's optimal play depends on what's still in deck — if the win-condition card is in discard/exhaust, EVERYTHING else this cycle is preparation for it (cycle, gen, block). If it's already been used and won't help, switch to brute-force damage/block from current hand. Counting stars and energy for 2 cycles ahead is the difference between A20 and not.",
+    "examples": [
+      "Turn 2 hand: Defend, Wrought in War, Venerate. Astral Pulse is in discard. Play Wrought in War + Venerate (gen, cycle), end turn — DO NOT play Defend instead of Venerate even if you're worried about damage; you NEED the star for next cycle's Astral Pulse.",
+      "Turn 1 hand: Sovereign Blade (just spawned, 10 dmg) + Wrought in War + 2 Defends. Enemy isn't dying this turn. Play the Forge FIRST (Wrought in War) → Blade is now ~14 → still play Blade if energy allows. NEVER reverse the order.",
+      "Turn 3: Sovereign Blade is at 30 damage. A discard-cost card would target it. SKIP the discard play — play another Block card or end turn early. Resetting Blade to 10 costs you 20+ future damage."
+    ],
+    "priority": 96,
+    "source": "seed",
+    "confidence": 0.90,
+    "verified": false
+  },
+  {
+    "skill_id": "seed_regent_neow_bonus",
+    "name": "Regent - Neow Bonus Tier List",
+    "category": "deck_building",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "event"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "Per XecnaR A10 guide, applied to patch 0.103 (0.104.0 buffs to Neow's Fury and Draw-2-elite are NOT yet live). VERY GOOD (auto-pick): 150 gold (flexible safe power boost; you can react to early run state and buy Bulwark/Astral Pulse/uncommon colorless or a potion if needed); Colorless card (almost no bricks in uncommon pool, ~95% chance of very-good-to-broken card before fighting); Strike Defend upgrade (guaranteed immediate boost, saves HP in hallways, allows pickier early rewards); Transform 1 (almost all 'bad' cards beat Strike; small brick chance into Prophesize/Pale Blue Dot/Monarch's Gaze, but Falling Star carries through hallways); Transform 2 for 12 max HP (lower brick chance, higher highroll chance); 1 relic (relic pool insanely strong in Spire 2). PICKABLE: Curse for 333 gold (apply 150 gold logic + buy in first shop, but curse hurts early hallways before reaching shop); 2 relics for 2 more basics (relics strong but extra basics make Star package awkward — don't pick inconsistent big payoffs like Devastate/Comet/The Smith early); 2 relics from act 1 boss (delayed but high value — better with safer act 1 map); 1 card 1 potion (frontload only, but matches macro of 'be stronger immediately'); 11 max HP (boring; +3 from rests; HP buffer for greedier early picks); Upgrade a card (Falling Star upgrade is decent, Meteor Shower upgrade preserved on starter trade is bonus); Remove 1 (Strike or Defend — drawing Falling Star more often is good); Remove 2 for 16 damage (always 1 Strike 1 Defend split — 2 Strike weakens Falling Star, 2 Defend opens lowroll draws; only take with early shop available for safety); 3 upgraded cards for empty chest (horrendous downside generally but Regent appreciates very early power boost most, and a lot of Regent commons never fall off); 1 potion slot + 2 potions (better long term than 1 card 1 potion); Winged Boots (flexibility — react to highrolls/lowrolls/upgrade-needs). BAD: Neow's Fury (very underwhelming on Regent — 1 energy deal 10 is comparable or weaker than almost every common attack, and the random extra effect doesn't help; slightly positive but not worth taking over a different positive bonus); Draw 2 + 1 energy in elite fights (on paper not bad — Regent is draw-order dependent and 2 more turn-1 draws are welcome — but the macro wants strong-in-hallway not strong-in-elites, and this bonus does nothing in hallway fights; only OK if your preferred path is 3+ elites); 5 max HP per rest (resting a lot isn't what Regent wants early); Random curse for 2 random Neow bonuses (high variance but lowrolls happen too often). UNPICKABLE: Random rare (way too many bricks from floor 0); Curse for choose a rare (~42% brick chance — only ~6 acceptable rares: Crash Landing, Dying Star, Bombardment, Big Bang, Bundle of Joy questionable, GUARDS!!!); Gold for card pack (losing all gold = losing safe power boost option, AND forced 3 cards is bad).",
+    "lessons": "Frontload Neow bonuses are valued highly because every bad card you have to add later is a bigger Regent-specific cost than other characters. Don't undervalue 'boring' bonuses like Strike-Defend upgrade — the saved HP in hallways enables picky drafting. Don't overvalue rare-card bonuses — random rare into Comet sounds great until you realize you can't survive act 1 to find the cards Comet needs.",
+    "examples": [
+      "Neow shows: 150 gold | Random rare | 5 max HP per rest. Take 150 gold — only good option.",
+      "Neow shows: Transform 1 | Strike Defend upgrade | Curse for choose a rare. Take Strike Defend upgrade — guaranteed boost, no brick risk.",
+      "Neow shows: 1 relic | Colorless card | Random curse for 2 random Neow bonuses. Both 1 relic and Colorless card are very good. Pick whichever you prefer; both are auto-pick tier."
+    ],
+    "priority": 94,
+    "source": "seed",
+    "confidence": 0.90,
+    "verified": false
+  },
+  {
+    "skill_id": "seed_regent_dangerous_enemies",
+    "name": "Regent - Dangerous Enemies Solves",
+    "category": "combat",
+    "tier": "specific",
+    "trigger": {
+      "state_types": [
+        "monster",
+        "elite",
+        "boss"
+      ],
+      "character": [
+        "the regent"
+      ]
+    },
+    "content": "Per XecnaR A10 guide — these enemies can kill from 50+ HP if not respected. Most other enemies are statchecks where a decently-good deck wins easily. PHROG PARASITE (act 1): puts Infections in deck. Solves: kill the big Parasite by turn 3 before 2nd Infection round, OR guarantee quick kill on the 4 small Wrigglers if you took the turn-3 Infections (Astral Pulse). For long fights: CHARGE!! / BEGONE! to deal with Infections, or draw power (Tyranny, Spectrum Shift). VANTOM (act 1 boss): hits hard, puts Wounds in deck, especially hard if relying on Sovereign Blade. Solves: Peck event, multihit (Radiate, maybe Lunar Blast), Black Hole, passive block (Pillar + Spectrum Shift combo), potions to handle the gimmick. Plan: leave a rest option open at the last fire — Vantom fights are long. SOUL FYSH (act 1 elite-tier): like Phrog Parasite — status pollution. Solves: high overall damage, CHARGE!! / BEGONE! / Tyranny for Beckons, Spectrum Shift. Boss itself doesn't deal much damage; the Beckons hurt. DECIMILLIPEDE (act 2 elite): permanent Weakness, very high constant damage, decks reliant on big single Sovereign Blade hits LOSE here. They revive constantly. Solves: ALL Regent AOE cards (Astral Pulse, Crash Landing, Meteor Shower, Dying Star, Radiate, Black Hole, Crush Under, Seeking Edge), Seven Stars, Knockout Blow, AOE potions (Festive Popper, Explosive). If you can't consistently block 30+ AND can't kill quickly, RECOGNIZE this before walking in — possibly delay act 2 elites. Picking which to target first is context-dependent. ENTOMANCER (act 2 elite): Regent has hard time dealing damage without attacking, so you usually need to kill before its gimmick gets out of control. Solves: Bronze Scales, Thorns potions, Black Hole, Reflect (post-nerf weaker), big single hits (Kingly Kick, Supermassive, Sovereign Blade), Cosmic Indifference for big-hit recall, Spectrum Shift, scaling 1 attack to 1-shot (Radiate, Stardust, Heavenly Drill). Use generic potions immediately if no specific solve. Trade HP early if you can't deal with Dazed — Entomancer has low HP, attacking through 1-Dazed still kills it quickly. THE INSATIABLE (act 2 boss): puts 6 statuses in deck turn 1, scales own damage AND scales your energy DOWN. Need either skyhigh topend OR enough damage to kill before 3-energy Frantic Escapes. Generically good powers excellent (Orbit, Void Form especially good for Frantic Escape gimmick). Stop wasting energy on Frantic Escapes once fight is almost over — micro-heavy. KNIGHTS (act 3 elite): kill the 2 debuff guys first (No-upgrade is harsher than Ethereal cards generally). Burst the rightmost guy first usually. If deck can't 100 damage quickly AND can't block without upgraded cards: delay act 3 elites or rest after. ACT 3 BOSSES: not in dangerous list per XecnaR — properly built deck just plays powers and they die. Take a bit of damage in phase 1 to play powers first; HP is there to be spent.",
+    "lessons": "Recognizing your deck is BAD vs an upcoming dangerous enemy is more valuable than playing the fight well — you can usually delay or path around. Most dangerous enemies hurt by 30-40+ damage if unprepared, which kills runs.",
+    "examples": [
+      "Floor 14, Phrog Parasite next, deck has Astral Pulse → fight is fine, Astral Pulse handles AOE Wrigglers. Don't waste potions.",
+      "Floor 32, Decimillipede next, deck has 1 Sovereign Blade + 1 Wrought in War, no AOE. RECOGNIZE: this deck loses. Either delay (path around) or save 2 AOE potions specifically for this fight.",
+      "Vantom upcoming, deck has no multihit and no passive block — save Strength/Dex/Power potion for the fight, plan to rest after."
+    ],
+    "priority": 95,
+    "source": "seed",
+    "confidence": 0.88,
+    "verified": false
+  }
+]

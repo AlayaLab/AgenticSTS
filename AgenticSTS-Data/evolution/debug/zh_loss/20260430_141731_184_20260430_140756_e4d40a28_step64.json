@@ -1,0 +1,40 @@
+{
+  "ts": "20260430_141731_184",
+  "run_id": "20260430_140756_e4d40a28",
+  "step": 64,
+  "floor": 6,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Hidden Cache",
+        "potion_index": null,
+        "target_index": null
+      },
+      {
+        "type": "card",
+        "card": "Defend",
+        "potion_index": null,
+        "target_index": null
+      },
+      {
+        "type": "card",
+        "card": "Defend",
+        "potion_index": null,
+        "target_index": null
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "Play Hidden Cache to generate a star and guarantee 3 stars for next turn. Play 2 Defends to fully block Toadpole 0's incoming 9 damage. Then, with 2 stars available, play Falling Star on Toadpole 1 to deal 8 damage and apply Weak/Vulnerable without taking Thorns damage from Toadpole 0.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}

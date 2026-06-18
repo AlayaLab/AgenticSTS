@@ -1,0 +1,153 @@
+{
+  "run_id": "20260423_193017_b9d5dc5f",
+  "section_stats": [
+    {
+      "name": "run_summary",
+      "chars": 137,
+      "estimated_tokens": 35
+    },
+    {
+      "name": "decision_digest.strategic_thread",
+      "chars": 1982,
+      "estimated_tokens": 496
+    },
+    {
+      "name": "decision_digest.combat",
+      "chars": 659,
+      "estimated_tokens": 165
+    },
+    {
+      "name": "decision_digest.non_combat",
+      "chars": 7565,
+      "estimated_tokens": 1892
+    },
+    {
+      "name": "replay_package",
+      "chars": 68,
+      "estimated_tokens": 17
+    },
+    {
+      "name": "combat_guides",
+      "chars": 2087,
+      "estimated_tokens": 522
+    },
+    {
+      "name": "deck_guides",
+      "chars": 874,
+      "estimated_tokens": 219
+    },
+    {
+      "name": "strategy_rules",
+      "chars": 38,
+      "estimated_tokens": 10
+    },
+    {
+      "name": "card_notes",
+      "chars": 2898,
+      "estimated_tokens": 725
+    },
+    {
+      "name": "card_stats",
+      "chars": 1652,
+      "estimated_tokens": 413
+    },
+    {
+      "name": "triggered_skills",
+      "chars": 464,
+      "estimated_tokens": 116
+    },
+    {
+      "name": "dynamic_tools",
+      "chars": 360,
+      "estimated_tokens": 90
+    },
+    {
+      "name": "focus",
+      "chars": 277,
+      "estimated_tokens": 70
+    }
+  ],
+  "decision_digest": {
+    "estimated_tokens": 2553,
+    "non_combat_decisions": 21,
+    "combat_episodes": 2,
+    "encountered_enemy_keys": [
+      "Nibbit",
+      "Vine Shambler"
+    ],
+    "final_deck_cards": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Neutralize",
+      "Survivor",
+      "Ascender's Bane",
+      "The Hunt",
+      "Injury",
+      "Hidden Daggers",
+      "Footwork",
+      "Accuracy",
+      "Piercing Wail",
+      "Up My Sleeve",
+      "Haze",
+      "Cloak and Dagger+",
+      "Spoils Map",
+      "Cloak and Dagger"
+    ]
+  },
+  "replay_package": {
+    "estimated_tokens": 0,
+    "entries": []
+  },
+  "guide_counts": {
+    "combat_guides": 2,
+    "deck_guides": 1
+  },
+  "card_counts": {
+    "notes": 10,
+    "stats": 15
+  },
+  "rule_count": 0,
+  "context_chars": 19114,
+  "context_estimated_tokens": 4770,
+  "session": {
+    "total_rounds": 6,
+    "total_input_tokens": 57938,
+    "total_output_tokens": 5441,
+    "round_input_tokens": [
+      7663,
+      7803,
+      10321,
+      10522,
+      10707,
+      10922
+    ],
+    "round_output_tokens": [
+      262,
+      207,
+      1603,
+      1173,
+      1103,
+      1093
+    ],
+    "actions_taken": 2,
+    "action_types": [
+      "update_card_note",
+      "write_skill"
+    ],
+    "model": "gemini-3.1-pro-preview",
+    "fallbacks_used": 0,
+    "duration_ms": 126491,
+    "target_input_tokens": 0,
+    "target_enforced": false,
+    "target_reached": true,
+    "min_rounds": 4,
+    "max_rounds": 6,
+    "read_only_rounds": 2
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "seed_core_deck_building",
+    "name": "Deck Building Across the Run",
+    "category": "deck_building",
+    "tier": "general",
+    "trigger": {
+      "state_types": ["card_reward", "shop", "card_select", "treasure", "relic_select"]
+    },
+    "content": "Evaluate every card along 4 dimensions: Damage (kill faster), Defense (survive), Draw (cycle deck faster), Energy (play more per turn). A balanced deck needs all four — identify which dimension your deck lacks most and prioritize filling that gap. Skip if the card doesn't clearly improve a weak dimension. Upgrade priority: cards with cost reduction (2→1, 1→0) or doubled effects first. Do NOT over-thin: keep enough damage AND defense that your deck still functions in every combat. Always think about how your deck will perform in boss fights — build enough damage and defense through card synergies. Avoid picking too many transitional cards that don't combo well. Also avoid having too few damage cards. If you've committed to an archetype (poison, shiv, etc.), specialize in damage cards for that archetype. Generic damage cards are fine as supplements, but avoid bloating the deck with cards that don't contribute to your core damage plan.",
+    "lessons": "Without this: decks balloon to 30+ cards losing consistency at boss fights. Or over-thin to 8 cards and can't survive. Or pick scattered cards with no synergy and fail to output enough damage.",
+    "examples": [
+      "Shop with 150g: remove Strike if deck already has enough damage output"
+    ],
+    "priority": 85,
+    "source": "seed",
+    "confidence": 0.85,
+    "verified": true
+  }
+]

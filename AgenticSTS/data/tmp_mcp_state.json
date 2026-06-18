@@ -1,0 +1,1485 @@
+{
+  "ok": true,
+  "request_id": "req_20260424_090154_4804_4782",
+  "data": {
+    "state_version": 10,
+    "run_id": "PPNAXA4656",
+    "screen": "SHOP",
+    "session": {
+      "mode": "singleplayer",
+      "phase": "run",
+      "control_scope": "local_player"
+    },
+    "in_combat": false,
+    "turn": null,
+    "combat_type": null,
+    "boss_stage": null,
+    "is_final_boss": false,
+    "act": 3,
+    "boss_encounter_id": "DOORMAKER_BOSS",
+    "second_boss_encounter_id": null,
+    "available_actions": [
+      "close_shop_inventory",
+      "discard_potion",
+      "save_and_quit"
+    ],
+    "combat": null,
+    "run": {
+      "character_id": "SILENT",
+      "character_name": "The Silent",
+      "ascension": 2,
+      "ascension_effects": [
+        {
+          "id": "LEVEL_01",
+          "name": "Swarming Elites",
+          "description": "[gold]Elites[/gold] spawn more often."
+        },
+        {
+          "id": "LEVEL_02",
+          "name": "Weary Traveler",
+          "description": "Ancients only heal [blue]80%[/blue] of your missing HP."
+        }
+      ],
+      "floor": 37,
+      "current_hp": 62,
+      "max_hp": 75,
+      "gold": 268,
+      "max_energy": 3,
+      "base_orb_slots": 0,
+      "deck": [
+        {
+          "index": 0,
+          "card_id": "DEFEND_SILENT",
+          "name": "Defend",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Basic",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 5 Block.",
+          "resolved_rules_text": "Gain 5 Block.",
+          "dynamic_values": [
+            {
+              "name": "Block",
+              "base_value": 5,
+              "current_value": 5,
+              "enchanted_value": 5,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "card_id": "DEFEND_SILENT",
+          "name": "Defend",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Basic",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 5 Block.",
+          "resolved_rules_text": "Gain 5 Block.",
+          "dynamic_values": [
+            {
+              "name": "Block",
+              "base_value": 5,
+              "current_value": 5,
+              "enchanted_value": 5,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "card_id": "DEFEND_SILENT",
+          "name": "Defend",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Basic",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 5 Block.",
+          "resolved_rules_text": "Gain 5 Block.",
+          "dynamic_values": [
+            {
+              "name": "Block",
+              "base_value": 5,
+              "current_value": 5,
+              "enchanted_value": 5,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "card_id": "NEUTRALIZE",
+          "name": "Neutralize+",
+          "upgraded": true,
+          "card_type": "Attack",
+          "rarity": "Basic",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Deal 4 damage. Apply 2 Weak.",
+          "resolved_rules_text": "Deal 4 damage. Apply 2 Weak.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 4,
+              "current_value": 4,
+              "enchanted_value": 4,
+              "is_modified": false,
+              "was_just_upgraded": false
+            },
+            {
+              "name": "WeakPower",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "card_id": "SURVIVOR",
+          "name": "Survivor",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Basic",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 8 Block. Discard 1 card.",
+          "resolved_rules_text": "Gain 8 Block. Discard 1 card.",
+          "dynamic_values": [
+            {
+              "name": "Block",
+              "base_value": 8,
+              "current_value": 8,
+              "enchanted_value": 8,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "card_id": "WELL_LAID_PLANS",
+          "name": "Well-Laid Plans+",
+          "upgraded": true,
+          "card_type": "Power",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "At the end of your turn, Retain up to 2 cards.",
+          "resolved_rules_text": "At the end of your turn, Retain up to 2 cards.",
+          "dynamic_values": [
+            {
+              "name": "RetainAmount",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "card_id": "PECK",
+          "name": "Peck",
+          "upgraded": false,
+          "card_type": "Attack",
+          "rarity": "Event",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Deal 2 damage 3 times.",
+          "resolved_rules_text": "Deal 2 damage 3 times.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            },
+            {
+              "name": "Repeat",
+              "base_value": 3,
+              "current_value": 3,
+              "enchanted_value": 3,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "card_id": "ALCHEMIZE",
+          "name": "Alchemize+",
+          "upgraded": true,
+          "card_type": "Skill",
+          "rarity": "Rare",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Procure a random potion. Exhaust.",
+          "resolved_rules_text": "Procure a random potion. Exhaust.",
+          "dynamic_values": []
+        },
+        {
+          "index": 8,
+          "card_id": "AFTERIMAGE",
+          "name": "Afterimage",
+          "upgraded": false,
+          "card_type": "Power",
+          "rarity": "Rare",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Whenever you play a card, gain 1 Block.",
+          "resolved_rules_text": "Whenever you play a card, gain 1 Block.",
+          "dynamic_values": [
+            {
+              "name": "AfterimagePower",
+              "base_value": 1,
+              "current_value": 1,
+              "enchanted_value": 1,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "card_id": "EXPOSE",
+          "name": "Expose",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. Exhaust.",
+          "resolved_rules_text": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. Exhaust.",
+          "dynamic_values": [
+            {
+              "name": "Power",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "card_id": "AFTERIMAGE",
+          "name": "Afterimage",
+          "upgraded": false,
+          "card_type": "Power",
+          "rarity": "Rare",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Whenever you play a card, gain 1 Block.",
+          "resolved_rules_text": "Whenever you play a card, gain 1 Block.",
+          "dynamic_values": [
+            {
+              "name": "AfterimagePower",
+              "base_value": 1,
+              "current_value": 1,
+              "enchanted_value": 1,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "card_id": "LEADING_STRIKE",
+          "name": "Leading Strike",
+          "upgraded": false,
+          "card_type": "Attack",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Deal 3 damage. Add 2 Shivs into your Hand.",
+          "resolved_rules_text": "Deal 3 damage. Add 2 Shivs into your Hand.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 3,
+              "current_value": 3,
+              "enchanted_value": 3,
+              "is_modified": false,
+              "was_just_upgraded": false
+            },
+            {
+              "name": "Shivs",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "card_id": "BACKFLIP",
+          "name": "Backflip",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 5 Block. Draw 2 cards.",
+          "resolved_rules_text": "Gain 5 Block. Draw 2 cards.",
+          "dynamic_values": [
+            {
+              "name": "Block",
+              "base_value": 5,
+              "current_value": 5,
+              "enchanted_value": 5,
+              "is_modified": false,
+              "was_just_upgraded": false
+            },
+            {
+              "name": "Cards",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "card_id": "CALCULATED_GAMBLE",
+          "name": "Calculated Gamble",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Discard your Hand, then draw that many cards. Exhaust.",
+          "resolved_rules_text": "Discard your Hand, then draw that many cards. Exhaust.",
+          "dynamic_values": []
+        },
+        {
+          "index": 14,
+          "card_id": "EXPERTISE",
+          "name": "Expertise+",
+          "upgraded": true,
+          "card_type": "Skill",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Draw cards until you have 7 in your Hand.",
+          "resolved_rules_text": "Draw cards until you have 7 in your Hand.",
+          "dynamic_values": [
+            {
+              "name": "Cards",
+              "base_value": 7,
+              "current_value": 7,
+              "enchanted_value": 7,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "card_id": "ACCURACY",
+          "name": "Accuracy",
+          "upgraded": false,
+          "card_type": "Power",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Shivs deal 4 additional damage.",
+          "resolved_rules_text": "Shivs deal 4 additional damage.",
+          "dynamic_values": [
+            {
+              "name": "AccuracyPower",
+              "base_value": 4,
+              "current_value": 4,
+              "enchanted_value": 4,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "card_id": "LEADING_STRIKE",
+          "name": "Leading Strike",
+          "upgraded": false,
+          "card_type": "Attack",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Deal 3 damage. Add 2 Shivs into your Hand.",
+          "resolved_rules_text": "Deal 3 damage. Add 2 Shivs into your Hand.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 3,
+              "current_value": 3,
+              "enchanted_value": 3,
+              "is_modified": false,
+              "was_just_upgraded": false
+            },
+            {
+              "name": "Shivs",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "card_id": "BLADE_DANCE",
+          "name": "Blade Dance",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Add 3 Shivs into your Hand. Exhaust.",
+          "resolved_rules_text": "Add 3 Shivs into your Hand. Exhaust.",
+          "dynamic_values": [
+            {
+              "name": "Cards",
+              "base_value": 3,
+              "current_value": 3,
+              "enchanted_value": 3,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "card_id": "CLOAK_AND_DAGGER",
+          "name": "Cloak and Dagger+",
+          "upgraded": true,
+          "card_type": "Skill",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 6 Block. Add 2 Shivs into your Hand.",
+          "resolved_rules_text": "Gain 6 Block. Add 2 Shivs into your Hand.",
+          "dynamic_values": [
+            {
+              "name": "Block",
+              "base_value": 6,
+              "current_value": 6,
+              "enchanted_value": 6,
+              "is_modified": false,
+              "was_just_upgraded": false
+            },
+            {
+              "name": "Cards",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "card_id": "FAN_OF_KNIVES",
+          "name": "Fan of Knives",
+          "upgraded": false,
+          "card_type": "Power",
+          "rarity": "Rare",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 2,
+          "star_cost": 0,
+          "rules_text": "Shivs now hit ALL enemies. Add 4 Shivs into your Hand.",
+          "resolved_rules_text": "Shivs now hit ALL enemies. Add 4 Shivs into your Hand.",
+          "dynamic_values": [
+            {
+              "name": "Shivs",
+              "base_value": 4,
+              "current_value": 4,
+              "enchanted_value": 4,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "card_id": "FOOTWORK",
+          "name": "Footwork+",
+          "upgraded": true,
+          "card_type": "Power",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Gain 3 Dexterity.",
+          "resolved_rules_text": "Gain 3 Dexterity.",
+          "dynamic_values": [
+            {
+              "name": "DexterityPower",
+              "base_value": 3,
+              "current_value": 3,
+              "enchanted_value": 3,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "card_id": "PINPOINT",
+          "name": "Pinpoint",
+          "upgraded": false,
+          "card_type": "Attack",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 3,
+          "star_cost": 0,
+          "rules_text": "Deal 15 damage. Costs 1 less 1 energy for each Skill played this turn.",
+          "resolved_rules_text": "Deal 15 damage. Costs 1 less 1 energy for each Skill played this turn.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 15,
+              "current_value": 15,
+              "enchanted_value": 15,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "card_id": "FLICK_FLACK",
+          "name": "Flick-Flack",
+          "upgraded": false,
+          "card_type": "Attack",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Sly. Deal 6 damage to ALL enemies.",
+          "resolved_rules_text": "Sly. Deal 6 damage to ALL enemies.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 6,
+              "current_value": 6,
+              "enchanted_value": 6,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "card_id": "EXPOSE",
+          "name": "Expose",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. Exhaust.",
+          "resolved_rules_text": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. Exhaust.",
+          "dynamic_values": [
+            {
+              "name": "Power",
+              "base_value": 2,
+              "current_value": 2,
+              "enchanted_value": 2,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "card_id": "PREPARED",
+          "name": "Prepared",
+          "upgraded": false,
+          "card_type": "Skill",
+          "rarity": "Common",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Draw 1 card. Discard 1 card.",
+          "resolved_rules_text": "Draw 1 card. Discard 1 card.",
+          "dynamic_values": [
+            {
+              "name": "Cards",
+              "base_value": 1,
+              "current_value": 1,
+              "enchanted_value": 1,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "card_id": "PHANTOM_BLADES",
+          "name": "Phantom Blades",
+          "upgraded": false,
+          "card_type": "Power",
+          "rarity": "Uncommon",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.",
+          "resolved_rules_text": "Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.",
+          "dynamic_values": [
+            {
+              "name": "PhantomBladesPower",
+              "base_value": 9,
+              "current_value": 9,
+              "enchanted_value": 9,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "card_id": "VOLLEY",
+          "name": "Volley",
+          "upgraded": false,
+          "card_type": "Attack",
+          "rarity": "Uncommon",
+          "costs_x": true,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "Deal 10 damage to a random enemy X times.",
+          "resolved_rules_text": "Deal 10 damage to a random enemy X times.",
+          "dynamic_values": [
+            {
+              "name": "Damage",
+              "base_value": 10,
+              "current_value": 10,
+              "enchanted_value": 10,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "card_id": "ENTROPY",
+          "name": "Entropy",
+          "upgraded": false,
+          "card_type": "Power",
+          "rarity": "Rare",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 1,
+          "star_cost": 0,
+          "rules_text": "At the start of your turn, Transform 1 card in your Hand.",
+          "resolved_rules_text": "At the start of your turn, Transform 1 card in your Hand.",
+          "dynamic_values": [
+            {
+              "name": "Cards",
+              "base_value": 1,
+              "current_value": 1,
+              "enchanted_value": 1,
+              "is_modified": false,
+              "was_just_upgraded": false
+            }
+          ]
+        }
+      ],
+      "relics": [
+        {
+          "index": 0,
+          "relic_id": "RING_OF_THE_SNAKE",
+          "name": "Ring of the Snake",
+          "description": "At the start of each combat, draw [blue]2[/blue] additional cards.",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 1,
+          "relic_id": "GOLDEN_PEARL",
+          "name": "Golden Pearl",
+          "description": "Upon pickup, gain [blue]150[/blue] [gold]Gold[/gold].",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 2,
+          "relic_id": "CHOSEN_CHEESE",
+          "name": "The Chosen Cheese",
+          "description": "At the end of combat, gain [blue]1[/blue] Max HP.",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 3,
+          "relic_id": "BELLOWS",
+          "name": "Bellows",
+          "description": "The first [gold]Hand[/gold] you draw each combat is [gold]Upgraded[/gold].",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 4,
+          "relic_id": "HORN_CLEAT",
+          "name": "Horn Cleat",
+          "description": "At the start of your [blue]2nd[/blue] turn, gain [blue]14[/blue] [gold]Block[/gold].",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 5,
+          "relic_id": "KUSARIGAMA",
+          "name": "Kusarigama",
+          "description": "Every time you play [blue]3[/blue] Attacks in a single turn, deal [blue]6[/blue] damage to a random enemy.",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 6,
+          "relic_id": "BIIIG_HUG",
+          "name": "Biiig Hug",
+          "description": "Upon pickup, remove [blue]4[/blue] cards from your [gold]Deck[/gold]. Whenever you shuffle your [gold]Draw Pile[/gold], add a [gold]Soot[/gold] into your [gold]Draw Pile[/gold].",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 7,
+          "relic_id": "AMETHYST_AUBERGINE",
+          "name": "Amethyst Aubergine",
+          "description": "Enemies drop [blue]15[/blue] additional [gold]Gold[/gold].",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 8,
+          "relic_id": "LORDS_PARASOL",
+          "name": "Lord's Parasol",
+          "description": "When you encounter the [gold]Merchant[/gold], immediately obtain EVERYTHING he sells.",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 9,
+          "relic_id": "PANTOGRAPH",
+          "name": "Pantograph",
+          "description": "At the start of each [gold]Boss[/gold] combat, heal [green]25[/green] HP.",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 10,
+          "relic_id": "REGAL_PILLOW",
+          "name": "Regal Pillow",
+          "description": "Whenever you [gold]Rest[/gold], heal an additional [blue]15[/blue] HP.",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        },
+        {
+          "index": 11,
+          "relic_id": "BURNING_STICKS",
+          "name": "Burning Sticks",
+          "description": "The first time each combat you [gold]Exhaust[/gold] a Skill, add a copy of it into your [gold]Hand[/gold].",
+          "stack": null,
+          "is_melted": false,
+          "counter": null
+        }
+      ],
+      "players": [
+        {
+          "player_id": "1",
+          "slot_index": 0,
+          "is_local": true,
+          "is_connected": true,
+          "character_id": "SILENT",
+          "character_name": "The Silent",
+          "current_hp": 62,
+          "max_hp": 75,
+          "gold": 268,
+          "is_alive": true
+        }
+      ],
+      "potions": [
+        {
+          "index": 0,
+          "potion_id": "GAMBLERS_BREW",
+          "name": "Gambler's Brew",
+          "description": "Discard any number of cards, then draw that many.",
+          "rarity": "Uncommon",
+          "occupied": true,
+          "usage": "CombatOnly",
+          "target_type": "Self",
+          "is_queued": false,
+          "requires_target": false,
+          "target_index_space": null,
+          "valid_target_indices": [],
+          "can_use": false,
+          "can_discard": true
+        },
+        {
+          "index": 1,
+          "potion_id": "SWIFT_POTION",
+          "name": "Swift Potion",
+          "description": "Draw 3 cards.",
+          "rarity": "Common",
+          "occupied": true,
+          "usage": "CombatOnly",
+          "target_type": "AnyPlayer",
+          "is_queued": false,
+          "requires_target": false,
+          "target_index_space": null,
+          "valid_target_indices": [],
+          "can_use": false,
+          "can_discard": true
+        },
+        {
+          "index": 2,
+          "potion_id": "FAIRY_IN_A_BOTTLE",
+          "name": "Fairy in a Bottle",
+          "description": "When your HP would be reduced to 0, instead this potion is discarded and you heal to 30% of your Max HP.",
+          "rarity": "Rare",
+          "occupied": true,
+          "usage": "Automatic",
+          "target_type": "Self",
+          "is_queued": false,
+          "requires_target": false,
+          "target_index_space": null,
+          "valid_target_indices": [],
+          "can_use": false,
+          "can_discard": true
+        }
+      ]
+    },
+    "multiplayer": null,
+    "multiplayer_lobby": null,
+    "map": null,
+    "selection": null,
+    "cards_view": null,
+    "character_select": null,
+    "timeline": null,
+    "chest": null,
+    "event": null,
+    "shop": {
+      "is_open": true,
+      "can_open": false,
+      "can_close": true,
+      "cards": [
+        {
+          "index": 0,
+          "category": "character",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": false,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 1,
+          "category": "character",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": true,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 2,
+          "category": "character",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": false,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 3,
+          "category": "character",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": false,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 4,
+          "category": "character",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": false,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 5,
+          "category": "colorless",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": false,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 6,
+          "category": "colorless",
+          "card_id": "",
+          "name": "",
+          "upgraded": false,
+          "card_type": "",
+          "rarity": "",
+          "costs_x": false,
+          "star_costs_x": false,
+          "energy_cost": 0,
+          "star_cost": 0,
+          "rules_text": "",
+          "resolved_rules_text": "",
+          "dynamic_values": [],
+          "price": 0,
+          "on_sale": false,
+          "is_stocked": false,
+          "enough_gold": false
+        }
+      ],
+      "relics": [
+        {
+          "index": 0,
+          "relic_id": "",
+          "name": "",
+          "description": null,
+          "rarity": "",
+          "price": 0,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 1,
+          "relic_id": "",
+          "name": "",
+          "description": null,
+          "rarity": "",
+          "price": 0,
+          "is_stocked": false,
+          "enough_gold": false
+        },
+        {
+          "index": 2,
+          "relic_id": "",
+          "name": "",
+          "description": null,
+          "rarity": "",
+          "price": 0,
+          "is_stocked": false,
+          "enough_gold": false
+        }
+      ],
+      "potions": [
+        {
+          "index": 0,
+          "potion_id": "VULNERABLE_POTION",
+          "name": "Vulnerable Potion",
+          "description": "Apply 3 Vulnerable.",
+          "rarity": "Common",
+          "usage": "CombatOnly",
+          "price": 52,
+          "is_stocked": true,
+          "enough_gold": false
+        },
+        {
+          "index": 1,
+          "potion_id": "BEETLE_JUICE",
+          "name": "Beetle Juice",
+          "description": "Enemy's attacks deal 30% less damage for the next 4 turns.",
+          "rarity": "Rare",
+          "usage": "CombatOnly",
+          "price": 100,
+          "is_stocked": true,
+          "enough_gold": false
+        },
+        {
+          "index": 2,
+          "potion_id": "SWIFT_POTION",
+          "name": "Swift Potion",
+          "description": "Draw 3 cards.",
+          "rarity": "Common",
+          "usage": "CombatOnly",
+          "price": 48,
+          "is_stocked": true,
+          "enough_gold": false
+        }
+      ],
+      "card_removal": {
+        "price": 0,
+        "available": false,
+        "used": true,
+        "enough_gold": false
+      }
+    },
+    "rest": null,
+    "reward": null,
+    "modal": null,
+    "game_over": null,
+    "agent_view": {
+      "version": 3,
+      "screen": "SHOP",
+      "run_id": "PPNAXA4656",
+      "session": {
+        "mode": "singleplayer",
+        "phase": "run",
+        "control_scope": "local_player"
+      },
+      "turn": null,
+      "actions": [
+        "close_shop_inventory",
+        "discard_potion",
+        "save_and_quit"
+      ],
+      "available_actions": [
+        "close_shop_inventory",
+        "discard_potion",
+        "save_and_quit"
+      ],
+      "combat_type": null,
+      "boss_stage": null,
+      "is_final_boss": false,
+      "act": 3,
+      "combat": null,
+      "run": {
+        "character": "The Silent",
+        "ascension": 2,
+        "ascension_effects": [
+          {
+            "id": "LEVEL_01",
+            "name": "Swarming Elites",
+            "description": "[gold]Elites[/gold] spawn more often."
+          },
+          {
+            "id": "LEVEL_02",
+            "name": "Weary Traveler",
+            "description": "Ancients only heal [blue]80%[/blue] of your missing HP."
+          }
+        ],
+        "floor": 37,
+        "hp": "62/75",
+        "gold": 268,
+        "max_energy": 3,
+        "base_orb_slots": 0,
+        "deck": [
+          {
+            "line": "Accuracy [1费]：Shivs deal 4 additional damage.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Afterimage*2 [1费]：Whenever you play a card, gain 1 Block.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Alchemize+ [0费]：Procure a random potion. Exhaust.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Backflip [1费]：Gain 5 Block. Draw 2 cards.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Blade Dance [1费]：Add 3 Shivs into your Hand. Exhaust.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Calculated Gamble [0费]：Discard your Hand, then draw that many cards. Exhaust.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Cloak and Dagger+ [1费]：Gain 6 Block. Add 2 Shivs into your Hand.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Defend*3 [1费]：Gain 5 Block.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Entropy [1费]：At the start of your turn, Transform 1 card in your Hand.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Expertise+ [1费]：Draw cards until you have 7 in your Hand.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Expose*2 [0费]：Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. Exhaust.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Fan of Knives [2费]：Shivs now hit ALL enemies. Add 4 Shivs into your Hand.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Flick-Flack [1费]：Sly. Deal 6 damage to ALL enemies.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Footwork+ [1费]：Gain 3 Dexterity.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Leading Strike*2 [1费]：Deal 3 damage. Add 2 Shivs into your Hand.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Neutralize+ [0费]：Deal 4 damage. Apply 2 Weak.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Peck [1费]：Deal 2 damage 3 times.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Phantom Blades [1费]：Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Pinpoint [3费]：Deal 15 damage. Costs 1 less 1 energy for each Skill played this turn.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Prepared [0费]：Draw 1 card. Discard 1 card.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Survivor [1费]：Gain 8 Block. Discard 1 card.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Volley [X费]：Deal 10 damage to a random enemy X times.",
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "line": "Well-Laid Plans+ [1费]：At the end of your turn, Retain up to 2 cards.",
+            "keywords": [],
+            "mods": []
+          }
+        ],
+        "relics": [
+          "Ring of the Snake",
+          "Golden Pearl",
+          "The Chosen Cheese",
+          "Bellows",
+          "Horn Cleat",
+          "Kusarigama",
+          "Biiig Hug",
+          "Amethyst Aubergine",
+          "Lord's Parasol",
+          "Pantograph",
+          "Regal Pillow",
+          "Burning Sticks"
+        ],
+        "potions": [
+          {
+            "i": 0,
+            "line": "0: Gambler's Brew：CombatOnly",
+            "usable": false,
+            "discard": true,
+            "target": "player",
+            "targets": []
+          },
+          {
+            "i": 1,
+            "line": "1: Swift Potion：CombatOnly",
+            "usable": false,
+            "discard": true,
+            "target": "player",
+            "targets": []
+          },
+          {
+            "i": 2,
+            "line": "2: Fairy in a Bottle：Automatic",
+            "usable": false,
+            "discard": true,
+            "target": "player",
+            "targets": []
+          }
+        ],
+        "piles": {
+          "draw": [],
+          "discard": [],
+          "exhaust": []
+        }
+      },
+      "map": null,
+      "selection": null,
+      "cards_view": null,
+      "character_select": null,
+      "timeline": null,
+      "chest": null,
+      "event": null,
+      "shop": {
+        "open": true,
+        "can_open": false,
+        "can_close": true,
+        "cards": [
+          {
+            "i": 0,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "i": 1,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "i": 2,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "i": 3,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "i": 4,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "i": 5,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          },
+          {
+            "i": 6,
+            "line": " [0费] | 0g",
+            "affordable": false,
+            "keywords": [],
+            "mods": []
+          }
+        ],
+        "relics": [
+          {
+            "i": 0,
+            "line": " [] | 0g",
+            "affordable": false,
+            "stocked": false
+          },
+          {
+            "i": 1,
+            "line": " [] | 0g",
+            "affordable": false,
+            "stocked": false
+          },
+          {
+            "i": 2,
+            "line": " [] | 0g",
+            "affordable": false,
+            "stocked": false
+          }
+        ],
+        "potions": [
+          {
+            "i": 0,
+            "line": "Vulnerable Potion：CombatOnly | 52g",
+            "affordable": false,
+            "stocked": true
+          },
+          {
+            "i": 1,
+            "line": "Beetle Juice：CombatOnly | 100g",
+            "affordable": false,
+            "stocked": true
+          },
+          {
+            "i": 2,
+            "line": "Swift Potion：CombatOnly | 48g",
+            "affordable": false,
+            "stocked": true
+          }
+        ],
+        "remove": {
+          "price": 0,
+          "affordable": false,
+          "available": false,
+          "used": true
+        }
+      },
+      "rest": null,
+      "reward": null,
+      "modal": null,
+      "game_over": null,
+      "glossary": {}
+    }
+  }
+}

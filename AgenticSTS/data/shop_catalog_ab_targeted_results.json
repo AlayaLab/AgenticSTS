@@ -1,0 +1,38 @@
+[
+  {
+    "i": 1,
+    "ms": 14029,
+    "data": {
+      "purchases": [
+        "Alchemize",
+        "Card Removal",
+        "Leading Strike"
+      ],
+      "gold_after": 15,
+      "reason": "Alchemize generates potions for a massive combat power spike. Card removal and Leading Strike improve consistency and provide cheap damage for Act 1."
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"Alchemize\",\n    \"Card Removal\",\n    \"Leading Strike\"\n  ],\n  \"gold_after\": 15,\n  \"reason\": \"Alchemize generates potions for a massive combat power spike. Card removal and Leading Strike improve consistency and provide cheap damage for Act 1.\"\n}\n```"
+  },
+  {
+    "i": 2,
+    "ms": 102301,
+    "data": {
+      "parse_error": "```json\n{\n  \"purchases\": [\n    \"Corrosive Wave\",\n    \"Cloak and Dagger\",\n    \"Card Removal\"\n  "
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"Corrosive Wave\",\n    \"Cloak and Dagger\",\n    \"Card Removal\"\n  "
+  },
+  {
+    "i": 3,
+    "ms": 16128,
+    "data": {
+      "purchases": [
+        "Corrosive Wave",
+        "Cloak and Dagger",
+        "Card Removal"
+      ],
+      "gold_after": 11,
+      "reason": "Corrosive Wave is incredible with Ring of the Snake (14 AoE poison turn 1). Cloak adds mitigation, and Strike removal improves consistency."
+    },
+    "raw": "```json\n{\n  \"purchases\": [\n    \"Corrosive Wave\",\n    \"Cloak and Dagger\",\n    \"Card Removal\"\n  ],\n  \"gold_after\": 11,\n  \"reason\": \"Corrosive Wave is incredible with Ring of the Snake (14 AoE poison turn 1). Cloak adds mitigation, and Strike removal improves consistency.\"\n}\n```"
+  }
+]

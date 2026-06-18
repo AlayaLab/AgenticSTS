@@ -1,0 +1,785 @@
+[
+  {
+    "character": "the regent",
+    "card_name": "Strike",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Basic 1-cost 6-damage attack. Top removal target. Adding bad cards to a Regent deck has a much bigger negative impact than other characters because Star cards are draw-order dependent — every Strike sitting in the deck is a dead draw on a turn you needed star gen or a payoff. Remove first via Spiral/Strike removal Neow bonuses, then via shop card removal."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Defend",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Basic 1-cost 5-Block. Spiral target if asked — XecnaR's heuristic: 'always Spiral your Defend' on Regent. 1 Strike 1 Defend remove from Neow's '2 removes for 16 damage' is the safe split (2 Strike remove makes Falling Star weak; 2 Defend remove opens too many lowroll draw orders)."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Venerate",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Basic 1-cost skill: Gain 1 Star. The starter star generator. Don't remove early. Falling Star upgrade from Neow is preferred over Venerate upgrade because it's both proven good and immediately powerful."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Falling Star",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Basic 0-cost ~3 damage attack. Overstatted basic — strong enough to carry through easy hallways even when the rest of your deck is weak. Neow Falling Star upgrade is decent. Keep one copy."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Astral Pulse",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "0 energy 14 AOE with star cost low enough to play immediately. '1 of the cards of all time. I have no idea who thought this card was ok to be released.' Solves almost all early game hallway problems and AOE elites. First copy is autopick in act 1 and usually early act 2. PRIMARY OVERSTATTED CARD — farm act 1 fights to find this."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Collision Course",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "0-1 energy deal 11 with card-creation synergy. Energy cost is optional (Debris doesn't matter if fight ends quickly). One of XecnaR's preferred common attacks to pick in act 1. Can be played before GUARDS!!! if you don't mind redrawing it later."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Crescent Spear",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "1 energy deal 10 initially. 'Balanced numberwise and Regent hates balanced cards.' With heavy star payoffs becomes ~1 energy 16 — but the deck shouldn't have that many payoffs in early game. Preferably not picked."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Crush Under",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Situational AOE attack — efficient in AOE fights, bad otherwise. Mainly picked in Underdocks for Phantasmal Gardeners. Astral Pulse exists and is also common — if Astral Pulse is already in deck, Crush Under is still pickable for AOE supplement. If Crush Under is in deck first, still take Astral Pulse on top."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Guiding Star",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "1 energy draw 2-3. Decent damage number but early game card draw is not strong when it costs significant stars (you want to draw the payoff in the first place). More commonly a lategame pick when star gen is excessive. Very good with Void Form."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Photon Cut",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "1 energy deal 10 — balanced, therefore bad on Regent. Very good upgrade but you usually have something better to upgrade in act 1. Some uses with Kingly cards but generally better not in deck."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Solar Strike",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Bad attack, decent upgrade. Not the kind of star generator you want — only maybe pick if you transformed into a very expensive star payoff from Neow. Was wrongly graded high in the prior tier list; XecnaR clearly says 'Bad attack'."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Wrought in War",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "A",
+    "star_tier": "B",
+    "note": "1 energy deal 4 + Forge. XecnaR's heuristic: 1 Forge ≈ 1 damage on average, so this is ~14 damage equivalent. Comfortably strong, not completely overstatted. Having at least 1 Forge card in deck is good for boss fights so this is picked often early game."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Celestial Might",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "2 energy deal 18 with Vigor/relic synergy. Balanced number, therefore bad. Better with existing synergy (Miniature Cannon, Akabeko, Prep Time) but not worth picking up speculatively."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Cloak of Stars",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "A",
+    "star_tier": "A",
+    "note": "0 energy block 7 + cheap star cost. 'Extremely solid pick early game.' Star cost low enough that it doesn't mess with overall economy."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Know Thy Place",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "0 energy debuff card. 'Debuffs are broken especially Weakness.' Multiple copies reduce the need for Gamma Blast/Comet (which require additional star gen). Endgame deck often has 2-3 copies, with upgrades for permanent boss debuffs. PRIMARY FARM TARGET."
+  },
+  {
+    "character": "the regent",
+    "card_name": "BEGONE!",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "1 energy deal 6 + scaling + self-cycle draw + card-creation synergy. Raw numbers weak now but transforms curses/statuses, very good vs Soul Fysh. Looping decks (small deck, same strong turn every turn) appreciate the trim. Situational — good when good."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Cosmic Indifference",
+    "star_role": "neutral",
+    "forge_role": "blade_synergy",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "1 energy block 6 + utility. Balanced number. Better off not in deck unless utility is essential (Sovereign Blade + Parry is your whole damage, or deck has no damage without a Kingly card). Was wrongly graded A in the prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Gather Light",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "1 energy 8 block + Star. Decent number, star appreciated. Not amazing but good enough to pick early game or if short on star gen."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Glow",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "A",
+    "star_tier": "A",
+    "note": "Still amazing post-nerf. One of the 2 ways to comfortably get excess star gen in deck without bricking draws (Convergence is the other). High priority upgrade the moment its stars are usable. PRIMARY SMOOTH GENERATOR — has utility beyond just stars."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Hidden Cache",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Very efficient star generator but that's all it does. Only really good if deck has lots of star payoffs and not enough generators. XecnaR: 'not worth carrying in the early game for me' because if you're weak in hallways, the chance of finding payoffs is lower. Prior tier list rated this too high."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Patter",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Decent block numbers but awkward to pick early — better block cards with utility exist and Vigor synergy is not abundant or that good. Pickable but XecnaR prefers to greed-skip when possible."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Refine Blade",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "A",
+    "star_tier": "B",
+    "note": "1 self-refund energy 9 Forge. Really really strong — performs better than Wrought in War on average. One of XecnaR's preferred early game common attacks alongside Collision Course."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Spoils of Battle",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Forge with draw is awkward when Forge value is low. Card draw is not great early game and the low Forge number hurts. OK with Void Form later but every positive draw is."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Glitterstream",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Pretty good block common but 2-energy cost is awkward when relying on Sovereign Blade for damage. Slightly better in Overgrowth for Slither + Byrd Swoop synergy. XecnaR prefers to greed-skip; slightly better than Patter."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Gamma Blast",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "A",
+    "note": "Really good if you can play it — but competes with Astral Pulse and Reflect for limited star gen. XecnaR prefers Know Thy Place for debuffs (smoother star management). Still very pickable, especially if short on boss damage."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Lunar Blast",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Really bad — only pops off with Vigor/Strength + a big-skill turn (Brightest Flame/Relax) AND low deck damage. OK as a Vantom counter if deck looks bad against it and the fight is soon."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Radiate",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "The good Lunar Blast — counts starter relic stars so turn 1 minimum is 0 energy 9 AOE. Very strong with Royal Gamble+. Excellent with Vigor/Strength. Not as good vs Vantom as Lunar Blast but still better than average."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Stardust",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Terrible star payoff value but one of the only ways to dump excess stars. Quite bad early game, situationally good lategame. Most common combo: with The Sealed Throne. Was wrongly graded A in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Devastate",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Cards costing more than 3 stars create bad turn-1 draw orders and reliance on them is awkward. Devastate deals lots of damage but is replaceable. XecnaR prefers not to have it in deck."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Kingly Punch",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Slow and weaker than Kingly Kick as a boss solution. Numbers are fair = bad. Pickable early game but pretty awkward to play into. XecnaR prefers to greed-skip."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Shining Strike",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Mediocre damage and the deck makes too many stars by the 2nd play if built properly — bricks the next turn. Unpickably bad most of the time. OK if Neow-transformed into very expensive payoffs (Neutron Aegis, Comet) but XecnaR's preferred star gen regardless. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Supermassive",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Arsenal-as-attack but doesn't need upgrade as much and works retroactively. Decent if relying on Spectrum Shifts for boss output without a clear damage plan. Strong combo in short fights with Crash Landing. Not picked speculatively."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Hegemony",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "2 self-refund energy 15 damage — good on paper but awkward to spend frontload 2 energy and easy to float energy next turn. Decent early game attack, good Slither target in Overgrowth."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Knockout Blow",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "B",
+    "note": "Sunder if it was bad — deck shouldn't be relying on these 5 stars to function. 3 energy for 30(38) damage isn't a bad ratio but spending all 3 energy on damage is hard to justify on Regent. Super good Slither target but preferably not in deck."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Kingly Kick",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Better of the Kingly duo. Scaling to 0 energy makes topend better (enemies don't have infinite HP); first draw is also better frontload-wise (kills small enemies in AOE). Awkward with Cosmic Indifference (can't play both same turn). XecnaR picks this as a boss solution often; falls off in act 3."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Alignment",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "A",
+    "note": "Simple — if you make too much stars and don't have enough energy, it's good. Not worth picking speculatively."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Monologue",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Basically useless unless deck mainly deals damage with Lunar Blast or Radiate (the 1-big-turn strategy). High priority upgrade if it's doing something."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Particle Wall",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "The other excess-star dump (better than Stardust because block > damage most of the time and you control how much you spend). Really good when making lots of stars. GAMEBREAKING WITH TOUCH OF INSANITY (potion). PRIMARY SPECULATIVE PICK."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Quasar",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Colorless choose-1-of-3 — colorless card pool is insanely strong in Spire 2 and choose-1-of-3 means high hit rate. 2 stars = low commitment; with starter relic + 1 Venerate play you can fire Quasar AND a 3-star payoff like Astral Pulse same cycle. Extremely strong upgrade. Can be your single source of scaling. Blocks with Child + Pillar of Creation. PRIMARY FARM TARGET."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Royal Gamble",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "A",
+    "star_tier": "A",
+    "note": "0 energy net +4 stars — amazing value. 5-star cost makes it draw-order dependent before upgrade. Very very good after upgrade if deck can use the stars (Royal Gamble+ + Child of the Stars sometimes acts as a big retained 0-energy block)."
+  },
+  {
+    "character": "the regent",
+    "card_name": "CHARGE!!",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Transforms any 2 cards in draw pile — crazy strong concept. Transforming 2 Strikes is at least 1 energy 14+ delayed damage while improving the reshuffle. Transforms bad statuses and curses. Card-creation synergy. 'Just a very good card overall at every point in the run.' PRIMARY FARM TARGET."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Conqueror",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Forces Sovereign Blade play same turn for a small Forge. First-cycle play with Sovereign Blade is 3 energy for 26 damage without prior Forge — terrible. Funny screenshot numbers but UNPICKABLY BAD because draw-order dependent and doesn't work without setup. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Convergence",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "A",
+    "star_tier": "A",
+    "note": "Amazing star generator. Hand retain is ridiculously good utility for a draw-order-dependent character. 1 energy refunds itself; played on sight almost every cycle. PRIMARY SMOOTH GENERATOR — high upgrade priority."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Glimmer",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Spending 1 energy to draw is hard to justify early game even with star setup. Often pretty good lategame but XecnaR doesn't love carrying it early when the priority is hallway strength. Good synergy with Kingly cards."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Manifest Authority",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Balanced numberwise but card-creation synergy is strong. Indifferent — never really too bad or too good."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Reflect",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Overstatted block-with-spike-damage star-cost skill. XecnaR's view: 'Stupid broken overstatted garbage card why is this in the game. If you've played Reflect before you know how dumb it is.' ONE OF THE PRIMARY CARDS TO FARM FOR in 0.103 — autopick when offered. (0.104.0 will nerf -1 block which moves it to unpickable, but we are on 0.103.)"
+  },
+  {
+    "character": "the regent",
+    "card_name": "Resonance",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Same costs as Reflect, pretty funny joke. Almost never worth spending stars on. Even best fights (Entomancer, act 3 bosses) it's underwhelming. Maybe consider if heavy star gen + no boss damage + pre-upgraded."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Summon Forth",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Slightly below par Forge number. Utility very good if Sovereign Blade is your main damage (pulls from exhaust, lets you play sword in Doormaker). Don't pick before clear sword reliance. Performs when picked. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Terraforming",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Draw-order dependent with mediocre payoff. Like Conqueror, tricks you with big numbers when things line up. Just pick Patter if you have strong multihit."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Bulwark",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Overstatted. 'One of the absolute best early game cards' and stays relevant later. Confirmed S in this guide."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Prophesize",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Drawing lots without playing them is bad early. Becomes strong with energy generation (Void Form, Orbit, Automation, Alignment+ loops). Really good Touch of Insanity target. Speculative without enabler."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Black Hole",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Fairly consistent AOE damage; can be boss damage. Good vs Vantom. Astral Pulse usually obviates AOE need; block powers preferred over damage powers. Not XecnaR's preferred power early game."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Child of the Stars",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "ONE OF THE 2 PREMIUM BLOCK POWERS for Regent. Extremely high output in 1 card with many ways to proc. PRIMARY FARM TARGET — absolutely worth carrying speculatively in early game before it becomes broken. Was wrongly graded C in Forge tier."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Furnace",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Really bad in faster fights, mediocre in long boss fights numberwise. It IS scaling boss damage so you have to suck it up sometimes if the deck is terrible in bosses. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Pale Blue Dot",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Doesn't do anything early game. Effect can be strong upgraded lategame (proc → 2 extra draws → consistent re-procs). Other powers have better lategame payoffs while being better early. You can only carry so many powers."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Parry",
+    "star_role": "neutral",
+    "forge_role": "blade_synergy",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Uncommon 1-cost power: gain Block whenever you play Sovereign Blade. 2-3 copies CAN be your entire block plan but it's not consistent — requires playing a Sovereign Blade almost every turn. Not XecnaR's preferred block power and not worth carrying speculatively in early game. If there's no alternative for the lategame block engine it can do some heavy lifting with Heirloom Hammer / Summon Forth / Cosmic Indifference. Less valuable when the Blade is exhausted or fights end in 2-3 turns."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Pillar of Creation",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "THE OTHER PREMIUM BLOCK POWER. Like Child of the Stars: extremely high output, many ways to proc. PRIMARY FARM TARGET — absolutely worth carrying speculatively early game."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Orbit",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Very good power but not easy to play early without relic support and the 2-cost before upgrade. Don't love carrying super early over the broken powers."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Spectrum Shift",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "PREMIUM POWER. Colorless card pool is insanely strong in Spire 2 — this card almost singlehandedly solves every long fight in early game. Easiest way to consistently proc Pillar of Creation (colorless cards make other cards too). ABSOLUTELY WORTH PICKING EARLY. Note: random colorless doesn't reliably solve boss damage on its own — pair with Supermassive/Arsenal for boss output. PRIMARY FARM TARGET."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Comet",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Amazing effect but XecnaR doesn't like cards costing more than 3 stars (consistency reasons), especially when Know Thy Place / Gamma Blast cover debuffs. Very good with Void Form or excessive star gen (Genesis, Sealed Throne)."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Heavenly Drill",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Obviously very good with consistent double-effect proc, mediocre otherwise. Definition of a situational damage solution. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Make It So",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Letter Opener as 6-damage single-target. Pulls itself from anywhere — decent if consistently 3 skills/turn. XecnaR: 'doesn't show up early enough, when it does I'd prefer not to brick turn 1 draw because drawing powers is more important.' Was wrongly graded A in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Beat into Shape",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Barely better than Wrought in War in early game (don't want to spend all energy on attacks; multihits inconsistent). Higher topend potential. By the time you have resources to play lots of attacks or a big multihit before this, the card isn't needed. XecnaR: 'I almost never manually pick it. Quite good from Neow transforms though.' Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Crash Landing",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "1 energy 21(26) AOE. 'Pretty ridiculous numbers on a card.' AOE is much more important in Spire 2. Every Debris procs card-creation synergies individually (Pillar, Arsenal, Supermassive). Regularly played in boss fights even when AOE isn't needed. ABSOLUTELY AMAZING CARD. PRIMARY FARM TARGET."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Dying Star",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "A",
+    "star_tier": "A",
+    "note": "Crush Under cranked to 11. Amazing in AOE fights or bosses that multihit (notably Test Subject phase 2). Ethereal makes it a bit awkward but still really strong. One of the rares XecnaR would accept from Neow's curse-for-rare bonus."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Heirloom Hammer",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Effect works on Sovereign Blade and special ancients (Brightest Flame, Apparition). Good if relying on Parry as block engine OR have a strong duplicable ancient. Otherwise not really worth speculating. Was wrongly graded A in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Seven Stars",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "7 stars doesn't see the light unless free (Void Form, Brilliant Scarf). Extremely strong when playable but doesn't singlehandedly end boss fights. Don't pick speculatively."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Bombardment",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "A",
+    "note": "Fun and strong boss damage solution. Good enough to pick over skip most of the time if you still need damage. Strong synergy with Pael's Eye (free exhaust) and Music Box (will sometimes burn all energy in Doormaker — be careful). Stronger if exhausted for free (Tyranny, Purity) but 3 energy still good enough. One of the rares XecnaR accepts from Neow's curse-for-rare."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Big Bang",
+    "star_role": "provider",
+    "forge_role": "forge",
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Free output for 99% of run, very significant output. Overstatted — 'basically autopick over most things.' One of the rares XecnaR accepts from Neow's curse-for-rare. PRIMARY OVERSTATTED CARD."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Decisions, Decisions",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Same problem as Seven Stars. Worse payoff in early game, slightly better late. Inconsistent. When you have skills strong enough to want it lategame, usually not needed. Strong combos: Royal Gamble+ → Radiate/Stardust, Apparition. Don't love picking unless free-played consistently."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Bundle of Joy",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Colorless cards good, 3-4 procs of card-creation synergy good. 1 energy makes it playable in hallways. Don't blame it if it bricks once every 5 fights and your deck sucks. One of the rares XecnaR (questionably) accepts from Neow's curse-for-rare."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Foregone Conclusion",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Really bad early game. Effect potentially strong lategame but if deck is already strong + consistent you don't need it (especially energy-limited). Situational pick at end of act 2. Was wrongly graded A in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "I Am Invincible",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Doesn't block enough to be the main block engine and randomly messes up some relics like Pocketwatch. Cards like Glimmer / Cosmic Indifference aren't picked often enough for synergy. Was wrongly graded A in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "The Smith",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Devastate but better in boss fights (consistently lands Sovereign Blade with Vulnerable), worse in hallways. Like Devastate, XecnaR doesn't really like picking due to 4-star cost and replaceable effect. Picked slightly more often when boss damage is bad. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "GUARDS!!!",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Fiend Fire that blocks instead of damages — and somehow blocks MORE. Full blocks a turn, massively improves future reshuffles, every transform procs card creation individually. RIDICULOUSLY OVERSTATTED. One of the rares XecnaR accepts from Neow's curse-for-rare. PRIMARY FARM TARGET."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Arsenal",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Reliable boss damage engine with Innate upgrade and bosses not hitting hard turn 1. Pure colorless-generation isn't a fully consistent boss-damage plan, so this card has its place — most commonly end of act 2 when deck output is just Spectrum Shift."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Neutron Aegis",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "5 star cost (inconsistent), effect nowhere near as good as Royal Gamble or Comet, AND costs 1 energy. Pretty terrible card."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Royalties",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "A",
+    "star_tier": "A",
+    "note": "Metascaling and not insignificant. Be mindful if already carrying many powers — bleeding in hallways or no spare energy for it = quite bad."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Seeking Edge",
+    "star_role": "neutral",
+    "forge_role": "forge",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "End of act 1, you have ≥1 Forge card, deck doesn't have enough AOE → pick for Decimillipede. Not many other use cases. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Tyranny",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "The other consistency power (alongside Spectrum Shift) — makes reshuffles smaller (no card-creation synergy). Strong with overstatted plays each turn after exhausting down. Be mindful: if deck's boss damage is too low without card creation, Tyranny can exhaust your entire deck. Strong combo with Enthralled or Bombardment."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Genesis",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Star gen you don't redraw — supports decks with too many star payoffs without inconsistency. Great with Stardust + Particle Wall. XecnaR: 'I don't like picking this speculatively.' Bridge to start picking up stronger more expensive star payoffs (Comet) when boss output is lacking. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Sword Sage",
+    "star_role": "neutral",
+    "forge_role": "blade_buff",
+    "forge_tier": "C",
+    "star_tier": "C",
+    "note": "Fun, much better than Conqueror (low bar). Potentially lots of damage but block > damage most of the time, and Regent has easier-to-carry damage in early game than a 2-base-cost power requiring other Forge cards. Great when desperate for damage but usually not good enough to pick. Was wrongly graded S in prior tier list."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Monarch's Gaze",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "skip",
+    "star_tier": "skip",
+    "note": "Hard to get in play and doesn't block nearly as much as the good block powers. Pretty bad."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Void Form",
+    "star_role": "consumer",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Broken effect but only as good as deck's other cards — if you can't farm early, deck won't have the cards. XecnaR carries 'speculative' Void Form for same reason as Genesis except much stronger and opens output solves (Prophesize Kingly combo). Be careful: if Child of the Stars is your block, free star payoffs generate no block."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Meteor Shower",
+    "star_role": "neutral",
+    "forge_role": null,
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Ridiculous starter trade. Super strong at every point. 'Completely overstatted even for the cost of an Ancient relic. Also upgrades for +7 for some unknown reason.'"
+  },
+  {
+    "character": "the regent",
+    "card_name": "The Sealed Throne",
+    "star_role": "provider",
+    "forge_role": null,
+    "forge_tier": "B",
+    "star_tier": "B",
+    "note": "Innate Genesis+++ at 1 energy. Amazing if deck can immediately use the insane star generation (Particle Wall, Stardust). Speculative pick is similar to Genesis but more consistent first cycle. Opportunity cost is big — good Ancient card but not as good as you might think."
+  },
+  {
+    "character": "the regent",
+    "card_name": "Sovereign Blade",
+    "star_role": "neutral",
+    "forge_role": "blade_synergy",
+    "forge_tier": "S",
+    "star_tier": "S",
+    "note": "Token 2-cost colorless attack — base 10 damage. Cannot be drafted; only enters via Forge. Each Forge after the first stacks +damage on ALL copies (hand/draw/discard/exhaust). Exhausting/transforming the buffed Blade resets future Forges to a fresh 10-damage copy. CORE RULES: (1) play Forge cards BEFORE Sovereign Blade each turn, (2) NEVER exhaust/transform a buffed Blade, (3) blade-buff powers (Sword Sage, Seeking Edge) apply to newly-spawned Blades — re-forging after they're active is safe, even productive. Per XecnaR: don't play SB too early when fight isn't ending; conversely, don't float energy hoping it'll be 'bigger later' — spend the energy unless you have lethal soon or a special reason."
+  }
+]

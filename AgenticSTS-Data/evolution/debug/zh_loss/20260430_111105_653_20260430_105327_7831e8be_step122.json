@@ -1,0 +1,28 @@
+{
+  "ts": "20260430_111105_653",
+  "run_id": "20260430_105327_7831e8be",
+  "step": 122,
+  "floor": 14,
+  "trigger_kind": "fresh_round",
+  "plan": {
+    "actions": [
+      {
+        "type": "card",
+        "card": "Wrought in War",
+        "potion_index": null,
+        "target_index": 0
+      }
+    ],
+    "end_turn": true,
+    "reasoning": "We play Wrought in War on Corpse Slug 0, dealing 9 damage and summoning the Sovereign Blade with 17 damage. Playing the Sovereign Blade on Corpse Slug 0 deals exactly enough to kill it (26 total). When it dies, one of the other Corpse Slugs will eat it and become Stunned. Since the remaining incoming damage is at most 8 and we have 10 Block from Anchor, we take 0 damage. We use remaining energy to gain stars with Venerate and chip Corpse Slug 1.",
+    "reasoning_zh": "",
+    "note_to_future_self": ""
+  },
+  "diagnosis": {
+    "had_reasoning_zh_in_decision_input": false,
+    "decision_input_keys": [],
+    "trace_present": false
+  },
+  "decision_input": null,
+  "raw_text": ""
+}
