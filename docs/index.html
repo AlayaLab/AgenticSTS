@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AgenticSTS — A Bounded-Memory Testbed for Long-Horizon LLM Agents</title>
-<meta name="description" content="AgenticSTS makes the agent memory contract bounded, typed, and ablatable — and wins Slay the Spire 2 games other agents can't. Watch unedited agent gameplay.">
-<meta property="og:title" content="AgenticSTS — A Bounded-Memory Testbed for Long-Horizon LLM Agents">
-<meta property="og:description" content="Bounded, typed, ablatable agent memory. 298 released trajectories. Watch the agent play.">
+<title>AgenticSTS</title>
+<meta name="description" content="AgenticSTS project page — watch the agent play Slay the Spire 2.">
+<meta property="og:title" content="AgenticSTS">
+<meta property="og:description" content="Watch the agent play Slay the Spire 2.">
 <meta property="og:image" content="https://shandaai.github.io/AgenticSTS/wall_3x3.gif">
 <style>
   :root {
@@ -28,39 +28,26 @@
   a { color: #58a6ff; text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* ---------- hero ---------- */
+  /* ---------- header ---------- */
   .hero {
     text-align: center;
-    padding: 64px 16px 28px;
+    padding: 56px 16px 22px;
     max-width: 980px;
     margin: 0 auto;
   }
-  .hero img.logo { width: 110px; height: auto; border-radius: 22px; }
+  .hero img.logo { width: 104px; height: auto; border-radius: 22px; }
   .hero h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 800;
     margin-top: 14px;
     letter-spacing: -.01em;
   }
-  .hero h2 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--accent);
-    margin-top: 6px;
-  }
-  .hero p.tagline {
-    color: var(--muted);
-    margin: 18px auto 0;
-    max-width: 760px;
-    font-size: 1.02rem;
-  }
-  .hero p.tagline strong { color: var(--ink); }
   .btn-row {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    margin-top: 26px;
+    margin-top: 22px;
   }
   .btn {
     display: inline-flex;
@@ -79,34 +66,8 @@
   .btn.primary:hover { background: #2f81f7; }
   .btn.disabled { opacity: .55; cursor: default; pointer-events: none; }
 
-  /* ---------- stats ---------- */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    gap: 10px;
-    max-width: 980px;
-    margin: 40px auto 0;
-    padding: 0 16px;
-  }
-  .stat {
-    background: var(--panel);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 16px 14px;
-    text-align: center;
-  }
-  .stat .num { font-size: 1.55rem; font-weight: 800; color: var(--accent); }
-  .stat .num.dim { color: var(--muted); }
-  .stat .lbl { color: var(--muted); font-size: .8rem; margin-top: 4px; }
-
   /* ---------- wall ---------- */
-  .wall-header {
-    text-align: center;
-    padding: 56px 16px 10px;
-  }
-  .wall-header h3 { font-size: 1.5rem; font-weight: 700; }
-  .wall-header p { color: var(--muted); margin-top: 6px; font-size: .95rem; }
-  .wall-controls { text-align: center; padding: 10px 0 18px; }
+  .wall-controls { text-align: center; padding: 8px 0 18px; }
   .wall-controls button {
     background: var(--panel);
     color: var(--muted);
@@ -126,7 +87,6 @@
     margin: 0 auto;
   }
   .tile {
-    position: relative;
     border-radius: 8px;
     overflow: hidden;
     background: var(--panel);
@@ -138,44 +98,12 @@
     aspect-ratio: 16 / 9;
     object-fit: cover;
   }
-  .tile .caption {
-    position: absolute;
-    left: 0; right: 0; bottom: 0;
-    padding: 18px 10px 7px;
-    font-size: .74rem;
-    letter-spacing: .02em;
-    color: #d7e1ea;
-    background: linear-gradient(transparent, rgba(0,0,0,.78));
-    opacity: 0;
-    transition: opacity .25s;
-    pointer-events: none;
-  }
-  .tile:hover .caption { opacity: 1; }
-  @media (prefers-reduced-motion: reduce) {
-    .tile .caption { opacity: 1; }
-  }
 
-  /* ---------- about + footer ---------- */
-  .about {
-    max-width: 860px;
-    margin: 56px auto 0;
-    padding: 0 16px;
-    color: var(--muted);
-    font-size: .98rem;
-  }
-  .about h3 { color: var(--ink); font-size: 1.3rem; margin-bottom: 12px; }
-  .about code {
-    background: var(--panel);
-    border: 1px solid var(--line);
-    border-radius: 4px;
-    padding: 1px 6px;
-    font-size: .88em;
-    color: var(--ink);
-  }
+  /* ---------- footer ---------- */
   footer {
-    margin-top: 64px;
+    margin-top: 56px;
     border-top: 1px solid var(--line);
-    padding: 26px 16px 40px;
+    padding: 24px 16px 40px;
     text-align: center;
     color: var(--muted);
     font-size: .8rem;
@@ -188,80 +116,46 @@
 <header class="hero">
   <img class="logo" src="logo.png" alt="AgenticSTS logo">
   <h1>AgenticSTS</h1>
-  <h2>A Bounded-Memory Testbed for Long-Horizon LLM Agents</h2>
-  <p class="tagline">
-    Memory for a long-horizon agent is <strong>a contract about what each future
-    decision is allowed to see</strong>. AgenticSTS makes that contract bounded,
-    typed, and ablatable — and wins <em>Slay the Spire&nbsp;2</em> games other
-    agents can't.
-  </p>
   <div class="btn-row">
-    <a class="btn disabled" href="#" title="arXiv preprint coming soon">📄 Paper (soon)</a>
     <a class="btn primary" href="https://github.com/ShandaAI/AgenticSTS">💻 Code</a>
-    <a class="btn" href="https://github.com/ShandaAI/AgenticSTS/tree/main/AgenticSTS-Data">📦 298 Trajectories</a>
-    <a class="btn" href="#wall">🎬 Watch it play</a>
+    <a class="btn" href="https://github.com/ShandaAI/AgenticSTS/tree/main/AgenticSTS-Data">📦 Data</a>
+    <a class="btn disabled" href="#" title="arXiv preprint coming soon">📄 Paper (soon)</a>
   </div>
 </header>
-
-<section class="stats">
-  <div class="stat"><div class="num dim">0 wins</div><div class="lbl">frontier LLMs at A0<br>(AGI-Eval, 5 configs)</div></div>
-  <div class="stat"><div class="num dim">16%</div><div class="lbl">human A0 win rate<br>(240M community runs)</div></div>
-  <div class="stat"><div class="num">3/10 → 6/10</div><div class="lbl">AgenticSTS A0 wins,<br>adding triggered skills (L5)</div></div>
-  <div class="stat"><div class="num">A6–A8</div><div class="lbl">ascension reached with<br>self-evolving memory stores</div></div>
-</section>
-
-<div class="wall-header" id="wall">
-  <h3>Watch it play</h3>
-  <p>Unedited AgenticSTS gameplay — combat, bosses, map routing, shops, events, and real run outcomes. Hover a tile for context.</p>
-</div>
 
 <div class="wall-controls">
   <button id="wall-toggle" type="button">Pause all</button>
 </div>
 
 <section class="video-wall" id="video-wall">
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_architect.jpg" src="clips/boss_architect.mp4"></video><figcaption class="caption">Final boss — The Architect</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_spirit_stag.jpg" src="clips/elite_spirit_stag.mp4"></video><figcaption class="caption">Elite — spirit stag</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/map_act2_hive.jpg" src="clips/map_act2_hive.mp4"></video><figcaption class="caption">Map — route planning</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_poison_clouds.jpg" src="clips/combat_poison_clouds.mp4"></video><figcaption class="caption">Combat — poison clouds</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/event_whale_blessing.jpg" src="clips/event_whale_blessing.mp4"></video><figcaption class="caption">Event — whale blessing</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_moth_beam.jpg" src="clips/boss_moth_beam.mp4"></video><figcaption class="caption">Boss — moth serpent</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/shop_merchant_hand.jpg" src="clips/shop_merchant_hand.mp4"></video><figcaption class="caption">Shop — the merchant</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_blue_vortex.jpg" src="clips/combat_blue_vortex.mp4"></video><figcaption class="caption">Combat — vortex</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_marble_statue.jpg" src="clips/elite_marble_statue.mp4"></video><figcaption class="caption">Elite — marble reaper</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/end_victory_architect.jpg" src="clips/end_victory_architect.mp4"></video><figcaption class="caption">Run end — Victory…?</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_red_dragon.jpg" src="clips/combat_red_dragon.mp4"></video><figcaption class="caption">Combat — dragon</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/event_toad_trial.jpg" src="clips/event_toad_trial.mp4"></video><figcaption class="caption">Event — the trial</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_winged_beast.jpg" src="clips/boss_winged_beast.mp4"></video><figcaption class="caption">Boss — winged colossus</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/loot_chest_gold.jpg" src="clips/loot_chest_gold.mp4"></video><figcaption class="caption">Treasure</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_beam_bug.jpg" src="clips/combat_beam_bug.mp4"></video><figcaption class="caption">Combat — beam strike</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/map_act3_glory.jpg" src="clips/map_act3_glory.mp4"></video><figcaption class="caption">Map — choosing the path</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_owl_hawk.jpg" src="clips/elite_owl_hawk.mp4"></video><figcaption class="caption">Elite — owl hawk</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/rest_blue_campfire.jpg" src="clips/rest_blue_campfire.mp4"></video><figcaption class="caption">Rest site — campfire</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_poison_beam.jpg" src="clips/combat_poison_beam.mp4"></video><figcaption class="caption">Combat — toxic beam</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_totem_whips.jpg" src="clips/boss_totem_whips.mp4"></video><figcaption class="caption">Boss — serpent totem</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/reward_golden_card.jpg" src="clips/reward_golden_card.mp4"></video><figcaption class="caption">Card reward</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_claw_flank.jpg" src="clips/combat_claw_flank.mp4"></video><figcaption class="caption">Combat — flanked</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/event_scarecrow.jpg" src="clips/event_scarecrow.mp4"></video><figcaption class="caption">Event — scarecrow</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_scorpion.jpg" src="clips/elite_scorpion.mp4"></video><figcaption class="caption">Elite — chitin scorpion</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_centipede.jpg" src="clips/combat_centipede.mp4"></video><figcaption class="caption">Combat — centipede</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_antler_beamfan.jpg" src="clips/boss_antler_beamfan.mp4"></video><figcaption class="caption">Combat — beam barrage</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_trio_lineup.jpg" src="clips/combat_trio_lineup.mp4"></video><figcaption class="caption">Combat — enemy lineup</figcaption></figure>
-  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/end_defeat_slain.jpg" src="clips/end_defeat_slain.mp4"></video><figcaption class="caption">Run end — defeat</figcaption></figure>
-</section>
-
-<section class="about">
-  <h3>The bounded memory contract</h3>
-  <p>
-    Most long-horizon agents append everything — observations, tool calls,
-    reflections — to every prompt. AgenticSTS implements the opposite contract:
-    every decision is a fresh user message composed by typed retrieval from five
-    knowledge layers, <code>u_d = π(L1, L2(s), L3(s), L4(s), L5(s))</code>, and
-    no raw cross-decision transcript is ever appended. The prompt stays bounded
-    across runs of any length, and any single layer can be ablated in isolation.
-    Full details, reproduction scripts, and 298 condition-tagged trajectories in
-    the <a href="https://github.com/ShandaAI/AgenticSTS">repository</a>.
-  </p>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_architect.jpg" src="clips/boss_architect.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_spirit_stag.jpg" src="clips/elite_spirit_stag.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/map_act2_hive.jpg" src="clips/map_act2_hive.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_poison_clouds.jpg" src="clips/combat_poison_clouds.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/event_whale_blessing.jpg" src="clips/event_whale_blessing.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_moth_beam.jpg" src="clips/boss_moth_beam.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/shop_merchant_hand.jpg" src="clips/shop_merchant_hand.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_blue_vortex.jpg" src="clips/combat_blue_vortex.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_marble_statue.jpg" src="clips/elite_marble_statue.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/end_victory_architect.jpg" src="clips/end_victory_architect.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_red_dragon.jpg" src="clips/combat_red_dragon.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/event_toad_trial.jpg" src="clips/event_toad_trial.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_winged_beast.jpg" src="clips/boss_winged_beast.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/loot_chest_gold.jpg" src="clips/loot_chest_gold.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_beam_bug.jpg" src="clips/combat_beam_bug.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/map_act3_glory.jpg" src="clips/map_act3_glory.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_owl_hawk.jpg" src="clips/elite_owl_hawk.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/rest_blue_campfire.jpg" src="clips/rest_blue_campfire.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_poison_beam.jpg" src="clips/combat_poison_beam.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_totem_whips.jpg" src="clips/boss_totem_whips.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/reward_golden_card.jpg" src="clips/reward_golden_card.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_claw_flank.jpg" src="clips/combat_claw_flank.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/event_scarecrow.jpg" src="clips/event_scarecrow.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/elite_scorpion.jpg" src="clips/elite_scorpion.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_centipede.jpg" src="clips/combat_centipede.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/boss_antler_beamfan.jpg" src="clips/boss_antler_beamfan.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/combat_trio_lineup.jpg" src="clips/combat_trio_lineup.mp4"></video></figure>
+  <figure class="tile"><video muted loop playsinline preload="metadata" poster="clips/end_defeat_slain.jpg" src="clips/end_defeat_slain.mp4"></video></figure>
 </section>
 
 <footer>
