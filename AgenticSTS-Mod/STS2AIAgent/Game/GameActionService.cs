@@ -227,7 +227,7 @@ internal static class GameActionService
             return true;
         }
 
-        return !CombatManager.Instance.IsPlayPhase;
+        return !GameStateService.IsLocalPlayerInPlayPhase();
     }
 
     private static async Task<ActionResponsePayload> ExecutePlayCardAsync(ActionRequest request)
@@ -1073,7 +1073,7 @@ internal static class GameActionService
                 combatRoom.Mode == CombatRoomMode.ActiveCombat &&
                 CombatManager.Instance.IsInProgress &&
                 !CombatManager.Instance.IsOverOrEnding &&
-                CombatManager.Instance.IsPlayPhase &&
+                GameStateService.IsLocalPlayerInPlayPhase() &&
                 !CombatManager.Instance.PlayerActionsDisabled &&
                 CombatManager.Instance.DebugOnlyGetState() != null;
         }

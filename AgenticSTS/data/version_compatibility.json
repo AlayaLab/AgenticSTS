@@ -1,12 +1,26 @@
 {
   "current": {
-    "game_version": "v0.103.1",
-    "mod_version": "v0.5.4-xc",
-    "verified_date": "2026-04-17",
+    "game_version": "v0.107.1",
+    "mod_version": "v0.5.5-xc",
+    "verified_date": "2026-06-22",
     "snapshot_path": null,
     "retired_date": null
   },
   "history": [
+    {
+      "game_version": "v0.103.3",
+      "mod_version": "v0.5.4-xc",
+      "verified_date": "2026-06-12",
+      "snapshot_path": null,
+      "retired_date": "2026-06-22"
+    },
+    {
+      "game_version": "v0.103.1",
+      "mod_version": "v0.5.4-xc",
+      "verified_date": "2026-04-17",
+      "snapshot_path": null,
+      "retired_date": "2026-06-12"
+    },
     {
       "game_version": "v0.5.3",
       "mod_version": "v0.5.3-chartyr",

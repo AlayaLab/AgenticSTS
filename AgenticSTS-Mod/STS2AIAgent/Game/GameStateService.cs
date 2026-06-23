@@ -853,6 +853,18 @@ internal static class GameStateService
         return LocalContext.GetMe(runState);
     }
 
+    /// <summary>
+    /// True when the local player is in the card-play phase of their turn.
+    /// Replaces <c>CombatManager.IsPlayPhase</c>, which game v0.107.1 removed in
+    /// favor of the per-player <see cref="PlayerCombatState.Phase"/> enum
+    /// (<c>Start -&gt; AutoPrePlay -&gt; Play -&gt; AutoPostPlay -&gt; End</c>).
+    /// </summary>
+    public static bool IsLocalPlayerInPlayPhase()
+    {
+        var combatState = CombatManager.Instance.DebugOnlyGetState();
+        return GetLocalPlayer(combatState)?.PlayerCombatState?.Phase == PlayerTurnPhase.Play;
+    }
+
     public static bool CanChooseMapNode(IScreenContext? currentScreen, RunState? runState)
     {
         return GetAvailableMapNodes(currentScreen, runState).Count > 0;
@@ -3000,7 +3012,7 @@ internal static class GameStateService
 
         if (!CombatManager.Instance.IsInProgress ||
             CombatManager.Instance.IsOverOrEnding ||
-            !CombatManager.Instance.IsPlayPhase ||
+            !IsLocalPlayerInPlayPhase() ||
             CombatManager.Instance.PlayerActionsDisabled)
         {
             return false;
@@ -7527,7 +7539,12 @@ internal static class GameStateService
 
     public static NButton? GetModalConfirmButton(IScreenContext? currentScreen)
     {
-        return FindModalButton("VerticalPopup/YesButton", "ConfirmButton", "%ConfirmButton", "%Confirm", "%AcknowledgeButton");
+        // "%FtueConfirmButton": the NFtue first-time-tutorial popups (added game
+        // v0.107.1, e.g. NAscensionSingleplayerFtue / NAscensionMultiplayerFtue)
+        // wire this button's Released signal to CloseFtue. Treating it as a modal
+        // confirm lets the agent dismiss the one-time Ascension tutorial overlay
+        // instead of stalling on a modal with no actions.
+        return FindModalButton("VerticalPopup/YesButton", "ConfirmButton", "%ConfirmButton", "%Confirm", "%AcknowledgeButton", "%FtueConfirmButton");
     }
 
     public static NButton? GetModalCancelButton(IScreenContext? currentScreen)
