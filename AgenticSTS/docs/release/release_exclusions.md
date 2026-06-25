@@ -88,6 +88,25 @@ legal copy of `sts2.dll`. Public-release users **must own** Slay the
 Spire 2 to use this regeneration script; the extract is downstream of
 their own license to the game.
 
+### `data/knowledge/*.md` decompiled game-mechanic indexes (8 files)
+
+`cards.md`, `card-behaviors.md`, `characters.md`, `events.md`, `monsters.md`,
+`monster-behaviors.md`, `potions.md`, `potion-behaviors.md` are Markdown index
+tables auto-generated from the decompiled `sts2.dll` (their headers read
+"Auto-generated from extraction/decompiled"); they contain Mega Crit's internal
+command names and numeric values. Like the `*_dll.json` extracts, decompiled
+content of proprietary software cannot be redistributed without the vendor's
+permission.
+
+**Mitigation**: users regenerate locally from their own legal copy of the game —
+decompile `sts2.dll` into `extraction/decompiled/`, run
+`scripts/generate-sts2-knowledge.ps1` (writes `docs/game-knowledge/*.md`), then
+copy the results into `data/knowledge/` where the runtime parser reads them. The
+generator script IS in the release; only its decompiled output is excluded.
+
+The hand-authored `character_strategies.md` (compiled from public web research)
+and the directory's `README.md` are NOT decompiled and **do** ship.
+
 ### Affected `NOTICE` line
 
 The `NOTICE` file already documents that "This project does NOT include

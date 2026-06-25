@@ -15,6 +15,10 @@ grant:
 | `upstream/*_dll.json` (game-binary extracts) | derived from Mega Crit's proprietary `sts2.dll`; you must own the game | `python -m scripts.extract_mechanics_from_dll` |
 | `afflictions.json`, `powers.json` (upstream string tables) | verbatim CharTyr-derived AGPL-3.0 records | `python -m scripts.sync_upstream_data` |
 | `localization/{eng,zhs}/*.json` (game localization strings) | verbatim strings extracted from the proprietary `SlayTheSpire2.pck`; you must own the game | `python -m scripts.extract_pck_localization` |
+| `cards.md`, `card-behaviors.md`, `characters.md`, `events.md`, `monsters.md`, `monster-behaviors.md`, `potions.md`, `potion-behaviors.md` (decompiled game-mechanic index tables — internal command names + values) | auto-generated from the decompiled `sts2.dll`; you must own the game | decompile your own `sts2.dll` into `extraction/decompiled/`, run `scripts/generate-sts2-knowledge.ps1` (writes `docs/game-knowledge/*.md`), then copy those files into `data/knowledge/` where the runtime parser reads them |
+
+> The hand-authored `character_strategies.md` (compiled from public web research) and
+> this `README.md` are **not** decompiled and **do** ship with the repository.
 
 Each script writes its outputs into `data/knowledge/` on your machine; those
 outputs remain governed by the upstream licenses (AGPL-3.0 / your game license)

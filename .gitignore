@@ -13,6 +13,12 @@ AgenticSTS/data/knowledge/*_dll.json
 AgenticSTS/data/knowledge/afflictions.json
 AgenticSTS/data/knowledge/powers.json
 AgenticSTS/data/knowledge/localization/
+# Decompiled-derived game-mechanic index .md (internal command names + values from
+# sts2.dll). Regenerated locally — see AgenticSTS/data/knowledge/README.md. The two
+# hand-authored files (character_strategies.md, README.md) are kept and DO ship.
+AgenticSTS/data/knowledge/*.md
+!AgenticSTS/data/knowledge/character_strategies.md
+!AgenticSTS/data/knowledge/README.md
 
 # Dev-side staging area (pre-restructure metadata + machine identifiers).
 paper/data_package_2026-05-20/

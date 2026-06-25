@@ -92,6 +92,12 @@ data/knowledge/*_dll.json
 data/knowledge/afflictions.json
 data/knowledge/powers.json
 data/knowledge/localization/
+# Decompiled-derived game-mechanic index .md (internal command names + values from
+# sts2.dll). Regenerated locally — see data/knowledge/README.md. The two hand-authored
+# files (character_strategies.md, README.md) are kept and DO ship.
+data/knowledge/*.md
+!data/knowledge/character_strategies.md
+!data/knowledge/README.md
 
 # ───────── Runtime locks ─────────
 *.postrun.lock
