@@ -15,8 +15,8 @@
 [![Trajectories](https://img.shields.io/badge/Released%20Trajectories-298-success?style=flat-square)](AgenticSTS-Data)
 [![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-AgenticSTS--trajectories-ff9d00?style=flat-square)](https://huggingface.co/datasets/ShandaAI/AgenticSTS-trajectories)
 
-[![GitHub Stars](https://img.shields.io/github/stars/ShandaAI/AgenticSTS?style=flat-square)](https://github.com/ShandaAI/AgenticSTS/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/ShandaAI/AgenticSTS?style=flat-square)](https://github.com/ShandaAI/AgenticSTS/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/ShandaAI/AgenticSTS?style=flat-square)](https://github.com/AlayaLab/AgenticSTS/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/ShandaAI/AgenticSTS?style=flat-square)](https://github.com/AlayaLab/AgenticSTS/issues)
 [![Model Agnostic](https://img.shields.io/badge/LLM-Gemini%20%7C%20GPT%20%7C%20Qwen%20%7C%20Claude-8A2BE2?style=flat-square)](#%EF%B8%8F-configuration)
 
 <img src="assets/overview.png" alt="AgenticSTS overview: bounded typed memory contract" width="85%">
@@ -257,7 +257,7 @@ The paper is currently under review. If you use this testbed, the trajectories, 
 @article{agenticsts2026,
   title  = {AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents},
   year   = {2026},
-  note   = {Under review. Code and data: https://github.com/ShandaAI/AgenticSTS}
+  note   = {Under review. Code and data: https://github.com/AlayaLab/AgenticSTS}
 }
 ```
 

@@ -59,8 +59,8 @@ keywords:
   - slay-the-spire
   - reproducibility
 license: Apache-2.0
-url: "https://github.com/ShandaAI/AgenticSTS"
-repository-code: "https://github.com/ShandaAI/AgenticSTS"
+url: "https://github.com/AlayaLab/AgenticSTS"
+repository-code: "https://github.com/AlayaLab/AgenticSTS"
 preferred-citation:
   type: conference-paper
   title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
