@@ -4,8 +4,7 @@
 cff-version: 1.2.0
 message: >-
   If you use this software or the released trajectory archive, please cite
-  the accompanying paper. The arXiv version (deanonymized) will replace
-  this entry once posted.
+  the accompanying paper.
 
 title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
 abstract: >-
@@ -20,15 +19,37 @@ abstract: >-
   reported as operational comparisons, not matched ablations of the contract.
 type: software
 authors:
-  - name: "Anonymous (EMNLP 2026 ARR submission)"
-preferred-citation:
-  type: conference-paper
-  title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
-  collection-title: "EMNLP 2026 ARR (under review)"
-  year: 2026
-  month: 5
-  authors:
-    - name: "Anonymous (EMNLP 2026 ARR submission)"
+  - given-names: Xiangchen
+    family-names: Cheng
+    affiliation: "Alaya Studio, Shanda AI Research; Shanghai Jiao Tong University"
+  - given-names: Yunwei
+    family-names: Jiang
+    affiliation: "Shanghai Jiao Tong University; Shanghai Innovation Institute"
+  - given-names: Jianwen
+    family-names: Sun
+    affiliation: "Alaya Studio, Shanda AI Research; Shanghai Innovation Institute; Nankai University"
+  - given-names: Zizhen
+    family-names: Li
+    affiliation: "Alaya Studio, Shanda AI Research; Shanghai Innovation Institute; Nankai University"
+  - given-names: Chuanhao
+    family-names: Li
+    affiliation: "Alaya Studio, Shanda AI Research"
+  - given-names: Xiangcheng
+    family-names: Cao
+    affiliation: "Alaya Studio, Shanda AI Research"
+  - given-names: Yihao
+    family-names: Liu
+    affiliation: "Alaya Studio, Shanda AI Research"
+  - given-names: Fanrui
+    family-names: Zhang
+    affiliation: "Shanghai Innovation Institute; University of Science and Technology of China"
+  - given-names: Li
+    family-names: Jin
+    affiliation: "Shanghai Jiao Tong University"
+  - given-names: Kaipeng
+    family-names: Zhang
+    affiliation: "Alaya Studio, Shanda AI Research"
+    email: kaipeng.zhang@shanda.com
 keywords:
   - llm-agents
   - long-horizon-reasoning
@@ -40,7 +61,29 @@ keywords:
 license: Apache-2.0
 url: "https://github.com/ShandaAI/AgenticSTS"
 repository-code: "https://github.com/ShandaAI/AgenticSTS"
-identifiers:
-  - type: other
-    value: "EMNLP 2026 ARR submission, anonymized"
-    description: Conference submission status as of 2026-05-28
+preferred-citation:
+  type: conference-paper
+  title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
+  collection-title: "EMNLP 2026 ARR (under review)"
+  year: 2026
+  authors:
+    - given-names: Xiangchen
+      family-names: Cheng
+    - given-names: Yunwei
+      family-names: Jiang
+    - given-names: Jianwen
+      family-names: Sun
+    - given-names: Zizhen
+      family-names: Li
+    - given-names: Chuanhao
+      family-names: Li
+    - given-names: Xiangcheng
+      family-names: Cao
+    - given-names: Yihao
+      family-names: Liu
+    - given-names: Fanrui
+      family-names: Zhang
+    - given-names: Li
+      family-names: Jin
+    - given-names: Kaipeng
+      family-names: Zhang
