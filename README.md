@@ -8,6 +8,7 @@
 
 **Memory for a long-horizon agent is a contract about what each future decision is allowed to see.<br/>AgenticSTS makes that contract bounded, typed, and ablatable — and releases a reproducible Silent-A0 benchmark where this design wins games that tested public transcript agents did not.**
 
+[![Project Page](https://img.shields.io/badge/%F0%9F%8E%AE%20Project%20Page-live-2ea44f?style=flat-square)](https://alayalab.github.io/AgenticSTS/)
 [![License: Apache--2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg?style=flat-square)](AgenticSTS/LICENSE)
 [![Mod License: AGPL-3.0](https://img.shields.io/badge/Mod-AGPL--3.0-blue.svg?style=flat-square)](AgenticSTS-Mod/LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white)](AgenticSTS/pyproject.toml)
@@ -15,8 +16,8 @@
 [![Trajectories](https://img.shields.io/badge/Released%20Trajectories-298-success?style=flat-square)](AgenticSTS-Data)
 [![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-AgenticSTS--trajectories-ff9d00?style=flat-square)](https://huggingface.co/datasets/ShandaAI/AgenticSTS-trajectories)
 
-[![GitHub Stars](https://img.shields.io/github/stars/ShandaAI/AgenticSTS?style=flat-square)](https://github.com/AlayaLab/AgenticSTS/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/ShandaAI/AgenticSTS?style=flat-square)](https://github.com/AlayaLab/AgenticSTS/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/AlayaLab/AgenticSTS?style=flat-square)](https://github.com/AlayaLab/AgenticSTS/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/AlayaLab/AgenticSTS?style=flat-square)](https://github.com/AlayaLab/AgenticSTS/issues)
 [![Model Agnostic](https://img.shields.io/badge/LLM-Gemini%20%7C%20GPT%20%7C%20Qwen%20%7C%20Claude-8A2BE2?style=flat-square)](#%EF%B8%8F-configuration)
 
 <img src="assets/overview.png" alt="AgenticSTS overview: bounded typed memory contract" width="85%">
