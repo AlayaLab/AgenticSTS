@@ -61,10 +61,15 @@ keywords:
 license: Apache-2.0
 url: "https://github.com/AlayaLab/AgenticSTS"
 repository-code: "https://github.com/AlayaLab/AgenticSTS"
+identifiers:
+  - type: other
+    value: "arXiv:2607.02255"
+    description: "arXiv preprint"
 preferred-citation:
   type: conference-paper
   title: "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
   collection-title: "EMNLP 2026 ARR (under review)"
+  url: "https://arxiv.org/abs/2607.02255"
   year: 2026
   authors:
     - given-names: Xiangchen

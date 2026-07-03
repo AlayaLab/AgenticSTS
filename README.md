@@ -8,6 +8,8 @@
 
 **Memory for a long-horizon agent is a contract about what each future decision is allowed to see.<br/>AgenticSTS makes that contract bounded, typed, and ablatable — and releases a reproducible Silent-A0 benchmark where this design wins games that tested public transcript agents did not.**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.02255-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.02255)
+[![HF Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Paper-2607.02255-ff9d00?style=flat-square)](https://huggingface.co/papers/2607.02255)
 [![Project Page](https://img.shields.io/badge/%F0%9F%8E%AE%20Project%20Page-live-2ea44f?style=flat-square)](https://alayalab.github.io/AgenticSTS/)
 [![License: Apache--2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg?style=flat-square)](AgenticSTS/LICENSE)
 [![Mod License: AGPL-3.0](https://img.shields.io/badge/Mod-AGPL--3.0-blue.svg?style=flat-square)](AgenticSTS-Mod/LICENSE)
@@ -251,14 +253,16 @@ Orchestrator conditions map to the paper cells: `baseline-strict` → *no scaffo
 
 ## 📄 Citation
 
-The paper is currently under review. If you use this testbed, the trajectories, or the bounded-contract design, please cite:
+A preprint is on arXiv (arXiv:2607.02255) and Hugging Face Papers; the paper is also under EMNLP 2026 ARR review. If you use this testbed, the trajectories, or the bounded-contract design, please cite:
 
-<!-- TODO: replace `note` with the arXiv eprint id + DOI once the preprint is posted. -->
 ```bibtex
 @article{agenticsts2026,
-  title  = {AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents},
-  year   = {2026},
-  note   = {Under review. Code and data: https://github.com/AlayaLab/AgenticSTS}
+  title         = {AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents},
+  author        = {Cheng, Xiangchen and Jiang, Yunwei and Sun, Jianwen and Li, Zizhen and Li, Chuanhao and Cao, Xiangcheng and Liu, Yihao and Zhang, Fanrui and Jin, Li and Zhang, Kaipeng},
+  year          = {2026},
+  eprint        = {2607.02255},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2607.02255}
 }
 ```
 
